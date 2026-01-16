@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Primary */
+  --volentis-navy: #1B3A4B;
+  --volentis-cyan: #2AAAD9;
+  --volentis-cyan-hover: #30A9D6;
+  
+  /* Backgrounds */
+  --bg-white: #FFFFFF;
+  --bg-light: #F8F9FB;
+  --bg-light-blue: #F2F9FC;
+  
+  /* Text */
+  --text-dark: #222222;
+  --text-body: #666666;
+  --text-muted: #777777;
+  
+  /* Accents */
+  --accent-success: #4ECDC4;
+  --accent-light: #7DD3E8;
+  --navy-dark: #0F2A38;
+  --border-gray: #94A3B8;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-text-dark antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-volentis-navy font-semibold;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 
+           bg-volentis-cyan text-white font-medium rounded-lg
+           hover:bg-volentis-cyan-hover transition-colors duration-200
+           focus:outline-none focus:ring-2 focus:ring-volentis-cyan focus:ring-offset-2;
+  }
+  
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3
+           bg-transparent text-volentis-cyan font-medium rounded-lg
+           border-2 border-volentis-cyan
+           hover:bg-volentis-cyan hover:text-white transition-colors duration-200
+           focus:outline-none focus:ring-2 focus:ring-volentis-cyan focus:ring-offset-2;
+  }
+  
+  .card {
+    @apply bg-white rounded-card shadow-card p-6
+           transition-all duration-200
+           hover:shadow-card-hover hover:bg-bg-light-blue;
+  }
+  
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+}
+
+/* Chat demo animation styles */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.cursor-blink::after {
+  content: '|';
+  animation: blink 1s infinite;
+  @apply text-volentis-cyan;
+}
+
+/* Gradient backgrounds */
+.gradient-hero {
+  background: linear-gradient(135deg, #F8F9FB 0%, #F2F9FC 50%, #FFFFFF 100%);
+}
+
+.gradient-navy {
+  background: linear-gradient(135deg, #0F2A38 0%, #1B3A4B 100%);
+}
+
+/* Trust badge styling */
+.trust-badge {
+  @apply inline-flex items-center gap-2 px-4 py-2 
+         bg-bg-light rounded-full text-sm font-medium text-volentis-navy;
+}

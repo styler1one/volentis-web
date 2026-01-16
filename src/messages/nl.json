@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "title": "Volentis.ai - Europese AI met Vertrouwen als Kern",
+    "description": "Enterprise AI die je kunt vertrouwen — geen hallucinaties, geen datalekken, geen compliance-risico's. De enige AI-assistent gebouwd voor Europese ondernemingen."
+  },
+  "nav": {
+    "product": "Product",
+    "useCases": "Use Cases",
+    "pricing": "Prijzen",
+    "contact": "Contact",
+    "bookDemo": "Boek een Demo",
+    "features": "Functionaliteit",
+    "integrations": "Integraties",
+    "deployment": "Deployment",
+    "security": "Security",
+    "hr": "HR Beleid & Service",
+    "legal": "Juridisch & Contracten",
+    "compliance": "Compliance & Risk",
+    "it": "IT & Helpdesk",
+    "finance": "Finance & Inkoop",
+    "international": "Internationaal"
+  },
+  "hero": {
+    "title": "Volentis.ai",
+    "subtitle": "Je kent de vraag; Volentis.ai vindt het betrouwbare antwoord",
+    "description": "Neem je bedrijfskennis overal mee met 24/7 toegang tot betrouwbare antwoorden uit jouw eigen documenten — de enige AI-assistent gebouwd voor Europese ondernemingen.",
+    "cta": "Boek een Demo",
+    "secondaryCta": "Bekijk hoe het werkt",
+    "chatDemo": {
+      "userMessage": "Wat is ons ouderschapsverlofbeleid voor medewerkers in Duitsland?",
+      "aiResponse": "Op basis van je HR Beleidshandboek (Sectie 4.2) en de Duitse Arbeidsrichtlijnen hebben medewerkers in Duitsland recht op...",
+      "typing": "Volentis.ai is aan het typen..."
+    }
+  },
+  "useCases": {
+    "sectionTitle": "Welk probleem wil jij oplossen?",
+    "sectionSubtitle": "Kies je uitdaging en ontdek hoe Volentis.ai kan helpen",
+    "learnMore": "Ontdek meer",
+    "cards": {
+      "hr": {
+        "icon": "users",
+        "title": "HR Beleid & Service",
+        "description": "50-70% minder HR-tickets, 24/7 antwoorden"
+      },
+      "legal": {
+        "icon": "scale",
+        "title": "Juridisch & Contracten",
+        "description": "Contract review 70% sneller, geen clausules missen"
+      },
+      "compliance": {
+        "icon": "shield",
+        "title": "Compliance & Risk",
+        "description": "GDPR & EU AI Act audit-ready in uren"
+      },
+      "it": {
+        "icon": "laptop",
+        "title": "IT & Helpdesk",
+        "description": "Tier-1 deflection van 50-60%, lagere kosten"
+      },
+      "finance": {
+        "icon": "coins",
+        "title": "Finance & Inkoop",
+        "description": "60% minder procedurefouten, snellere facturen"
+      },
+      "international": {
+        "icon": "globe",
+        "title": "Internationaal",
+        "description": "Eén platform voor al je EU-jurisdicties"
+      }
+    }
+  },
+  "features": {
+    "sectionTitle": "Wat maakt Volentis.ai uniek?",
+    "tryIt": "Probeer het zelf →",
+    "items": {
+      "documents": {
+        "title": "Antwoorden uit jouw eigen documenten",
+        "description": "Volentis.ai werkt uitsluitend met jouw goedgekeurde bedrijfskennis. Geen externe bronnen, geen giswerk — alleen geverifieerde informatie uit je HR-handboeken, contracten en beleid."
+      },
+      "sources": {
+        "title": "Bronvermelding bij elk antwoord",
+        "description": "Elk antwoord bevat exacte verwijzingen naar de brondocumenten. Klik door naar de relevante passage en verifieer de informatie zelf. Volledige transparantie, altijd."
+      },
+      "search": {
+        "title": "Krachtig zoeken met AI",
+        "description": "Ga verder dan zoeken op trefwoorden. Onze AI begrijpt de betekenis van je vragen en vindt relevante informatie, zelfs als de exacte woorden niet overeenkomen."
+      },
+      "collaboration": {
+        "title": "Samenwerken en delen",
+        "description": "Deel gesprekken met collega's, werk samen aan complexe vragen en bouw een gedeelde kennisbank die meegroeit met je organisatie."
+      }
+    }
+  },
+  "value": {
+    "sectionTitle": "De waarde van Volentis.ai",
+    "videoTitle": "Zie Volentis.ai in actie",
+    "videoDescription": "Bekijk hoe onze AI-assistent transformeert hoe Europese ondernemingen omgaan met interne kennis.",
+    "props": {
+      "reliable": {
+        "title": "Betrouwbare Antwoorden",
+        "description": "Geen hallucinaties — alleen geverifieerde informatie uit je goedgekeurde documenten met confidence scoring."
+      },
+      "audit": {
+        "title": "Volledige Audit Trail",
+        "description": "Elke interactie wordt gelogd. Volledige traceerbaarheid voor compliance en kwaliteitsborging."
+      },
+      "compliance": {
+        "title": "Compliance by Design",
+        "description": "GDPR compliant, EU AI Act ready. Van de grond af aan gebouwd voor Europese ondernemingen."
+      }
+    }
+  },
+  "deployment": {
+    "sectionTitle": "Deployment opties die bij je passen",
+    "sectionSubtitle": "Kies het deployment model dat past bij jouw security-eisen",
+    "options": {
+      "multiTenant": {
+        "title": "SaaS Multi-Tenant",
+        "description": "Live in weken, EU-datacenters, kostenefficiënt",
+        "features": [
+          "Live in weken, niet maanden",
+          "EU-datacenters (DE/NL)",
+          "Logische tenant-isolatie",
+          "Automatische updates",
+          "Kostenefficiënt"
+        ]
+      },
+      "singleTenant": {
+        "title": "Single-Tenant SaaS",
+        "description": "Dedicated infrastructuur, BYOK, enhanced isolatie",
+        "features": [
+          "Dedicated infrastructuur",
+          "Eigen cluster en databases",
+          "BYOK (Bring Your Own Key)",
+          "Enhanced isolatie",
+          "Aangepaste configuratie"
+        ]
+      },
+      "customerManaged": {
+        "title": "Customer-Managed",
+        "description": "Volledige controle, air-gapped, on-premise",
+        "badge": "Binnenkort",
+        "features": [
+          "Volledige controle over deployment",
+          "Air-gapped opties",
+          "On-premise mogelijk",
+          "Maximale data-soevereiniteit"
+        ]
+      }
+    }
+  },
+  "trust": {
+    "sectionTitle": "Enterprise security die je kunt vertrouwen",
+    "badges": {
+      "euHosted": "EU-Gehost",
+      "gdpr": "GDPR Compliant",
+      "euAiAct": "EU AI Act Compliant",
+      "encryption": "TLS & AES-256"
+    },
+    "integrations": {
+      "title": "Integreert met je bestaande tools",
+      "description": "Verbind Volentis.ai met je HR-systemen, documentbronnen en samenwerkingstools"
+    }
+  },
+  "cta": {
+    "title": "Klaar om je bedrijfskennis te transformeren?",
+    "description": "Boek een demo en ontdek hoe Volentis.ai jouw organisatie kan helpen om sneller betrouwbare antwoorden te vinden.",
+    "button": "Boek een Demo",
+    "secondaryButton": "Neem Contact Op"
+  },
+  "footer": {
+    "tagline": "Europese AI met Vertrouwen als Kern",
+    "product": "Product",
+    "company": "Bedrijf",
+    "legal": "Juridisch",
+    "contact": "Contact",
+    "privacy": "Privacybeleid",
+    "terms": "Algemene Voorwaarden",
+    "cookies": "Cookiebeleid",
+    "copyright": "© 2026 Volentis B.V. Alle rechten voorbehouden.",
+    "location": "Nederland"
+  }
+}

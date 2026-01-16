@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "title": "Volentis.ai - European AI with Trust at the Core",
+    "description": "Enterprise AI you can trust — no hallucinations, no data leaks, no compliance risks. The only AI assistant built for European enterprises."
+  },
+  "nav": {
+    "product": "Product",
+    "useCases": "Use Cases",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "bookDemo": "Book a Demo",
+    "features": "Features",
+    "integrations": "Integrations",
+    "deployment": "Deployment",
+    "security": "Security",
+    "hr": "HR Policy & Service",
+    "legal": "Legal & Contracts",
+    "compliance": "Compliance & Risk",
+    "it": "IT & Helpdesk",
+    "finance": "Finance & Procurement",
+    "international": "International"
+  },
+  "hero": {
+    "title": "Volentis.ai",
+    "subtitle": "You know the question; Volentis.ai finds the reliable answer",
+    "description": "Take your company knowledge everywhere with 24/7 access to reliable answers from your own documents — the only AI assistant built for European enterprises.",
+    "cta": "Book a Demo",
+    "secondaryCta": "See how it works",
+    "chatDemo": {
+      "userMessage": "What is our parental leave policy for employees in Germany?",
+      "aiResponse": "Based on your HR Policy Handbook (Section 4.2) and the German Employment Guidelines, employees in Germany are entitled to...",
+      "typing": "Volentis.ai is typing..."
+    }
+  },
+  "useCases": {
+    "sectionTitle": "Which problem do you want to solve?",
+    "sectionSubtitle": "Choose your challenge and discover how Volentis.ai can help",
+    "learnMore": "Learn more",
+    "cards": {
+      "hr": {
+        "icon": "users",
+        "title": "HR Policy & Service",
+        "description": "50-70% fewer HR tickets, 24/7 answers"
+      },
+      "legal": {
+        "icon": "scale",
+        "title": "Legal & Contracts",
+        "description": "Contract review 70% faster, never miss a clause"
+      },
+      "compliance": {
+        "icon": "shield",
+        "title": "Compliance & Risk",
+        "description": "GDPR & EU AI Act audit-ready in hours"
+      },
+      "it": {
+        "icon": "laptop",
+        "title": "IT & Helpdesk",
+        "description": "Tier-1 deflection of 50-60%, lower costs"
+      },
+      "finance": {
+        "icon": "coins",
+        "title": "Finance & Procurement",
+        "description": "60% fewer procedure errors, faster invoices"
+      },
+      "international": {
+        "icon": "globe",
+        "title": "International",
+        "description": "One platform for all your EU jurisdictions"
+      }
+    }
+  },
+  "features": {
+    "sectionTitle": "What makes Volentis.ai unique?",
+    "tryIt": "Try it yourself →",
+    "items": {
+      "documents": {
+        "title": "Answers from your own documents",
+        "description": "Volentis.ai works exclusively with your approved company knowledge. No external sources, no guesswork — only verified information from your HR handbooks, contracts, and policies."
+      },
+      "sources": {
+        "title": "Source citation with every answer",
+        "description": "Every answer includes exact references to the source documents. Click through to the relevant passage and verify the information yourself. Complete transparency, always."
+      },
+      "search": {
+        "title": "Powerful search with AI",
+        "description": "Go beyond keyword search. Our AI understands the meaning of your questions and finds relevant information even when the exact words don't match."
+      },
+      "collaboration": {
+        "title": "Collaborate and share",
+        "description": "Share conversations with colleagues, collaborate on complex queries, and build a shared knowledge base that grows with your organization."
+      }
+    }
+  },
+  "value": {
+    "sectionTitle": "The value of Volentis.ai",
+    "videoTitle": "See Volentis.ai in action",
+    "videoDescription": "Watch how our AI assistant transforms the way European enterprises handle internal knowledge.",
+    "props": {
+      "reliable": {
+        "title": "Reliable Answers",
+        "description": "No hallucinations — only verified information from your approved documents with confidence scoring."
+      },
+      "audit": {
+        "title": "Complete Audit Trail",
+        "description": "Every interaction is logged. Full traceability for compliance and quality assurance."
+      },
+      "compliance": {
+        "title": "Compliance by Design",
+        "description": "GDPR compliant, EU AI Act ready. Built from the ground up for European enterprises."
+      }
+    }
+  },
+  "deployment": {
+    "sectionTitle": "Deployment options to suit you",
+    "sectionSubtitle": "Choose the deployment model that fits your security requirements",
+    "options": {
+      "multiTenant": {
+        "title": "SaaS Multi-Tenant",
+        "description": "Live in weeks, EU data centers, cost-efficient",
+        "features": [
+          "Live in weeks, not months",
+          "EU data centers (DE/NL)",
+          "Logical tenant isolation",
+          "Automatic updates",
+          "Cost-efficient"
+        ]
+      },
+      "singleTenant": {
+        "title": "Single-Tenant SaaS",
+        "description": "Dedicated infrastructure, BYOK, enhanced isolation",
+        "features": [
+          "Dedicated infrastructure",
+          "Own cluster and databases",
+          "BYOK (Bring Your Own Key)",
+          "Enhanced isolation",
+          "Custom configuration"
+        ]
+      },
+      "customerManaged": {
+        "title": "Customer-Managed",
+        "description": "Full control, air-gapped, on-premise",
+        "badge": "Coming Soon",
+        "features": [
+          "Full control over deployment",
+          "Air-gapped options",
+          "On-premise possible",
+          "Maximum data sovereignty"
+        ]
+      }
+    }
+  },
+  "trust": {
+    "sectionTitle": "Enterprise security you can trust",
+    "badges": {
+      "euHosted": "EU-Hosted",
+      "gdpr": "GDPR Compliant",
+      "euAiAct": "EU AI Act Compliant",
+      "encryption": "TLS & AES-256"
+    },
+    "integrations": {
+      "title": "Integrates with your existing tools",
+      "description": "Connect Volentis.ai to your HR systems, document sources, and collaboration tools"
+    }
+  },
+  "cta": {
+    "title": "Ready to transform your enterprise knowledge?",
+    "description": "Book a demo and see how Volentis.ai can help your organization find reliable answers, faster.",
+    "button": "Book a Demo",
+    "secondaryButton": "Contact Sales"
+  },
+  "footer": {
+    "tagline": "European AI with Trust at the Core",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "cookies": "Cookie Policy",
+    "copyright": "© 2026 Volentis B.V. All rights reserved.",
+    "location": "Netherlands"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "title": "Volentis.ai - Europäische KI mit Vertrauen im Kern",
+    "description": "Enterprise KI, der Sie vertrauen können — keine Halluzinationen, keine Datenlecks, keine Compliance-Risiken."
+  },
+  "nav": {
+    "product": "Produkt",
+    "useCases": "Anwendungsfälle",
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "bookDemo": "Demo buchen",
+    "features": "Funktionen",
+    "integrations": "Integrationen",
+    "deployment": "Deployment",
+    "security": "Sicherheit",
+    "hr": "HR-Richtlinien & Service",
+    "legal": "Recht & Verträge",
+    "compliance": "Compliance & Risiko",
+    "it": "IT & Helpdesk",
+    "finance": "Finanzen & Beschaffung",
+    "international": "International"
+  },
+  "hero": {
+    "title": "Volentis.ai",
+    "subtitle": "Sie kennen die Frage; Volentis.ai findet die zuverlässige Antwort",
+    "description": "Nehmen Sie Ihr Unternehmenswissen überall mit — 24/7 Zugang zu zuverlässigen Antworten aus Ihren eigenen Dokumenten.",
+    "cta": "Demo buchen",
+    "secondaryCta": "So funktioniert es",
+    "chatDemo": {
+      "userMessage": "Was ist unsere Elternzeitregelung für Mitarbeiter in Deutschland?",
+      "aiResponse": "Basierend auf Ihrem HR-Richtlinienhandbuch (Abschnitt 4.2) haben Mitarbeiter in Deutschland Anspruch auf...",
+      "typing": "Volentis.ai tippt..."
+    }
+  },
+  "useCases": {
+    "sectionTitle": "Welches Problem möchten Sie lösen?",
+    "sectionSubtitle": "Wählen Sie Ihre Herausforderung und entdecken Sie, wie Volentis.ai helfen kann",
+    "learnMore": "Mehr erfahren",
+    "cards": {
+      "hr": {
+        "icon": "users",
+        "title": "HR-Richtlinien & Service",
+        "description": "50-70% weniger HR-Tickets, 24/7 Antworten"
+      },
+      "legal": {
+        "icon": "scale",
+        "title": "Recht & Verträge",
+        "description": "Vertragsüberprüfung 70% schneller"
+      },
+      "compliance": {
+        "icon": "shield",
+        "title": "Compliance & Risiko",
+        "description": "DSGVO & EU AI Act audit-ready in Stunden"
+      },
+      "it": {
+        "icon": "laptop",
+        "title": "IT & Helpdesk",
+        "description": "Tier-1 Deflection von 50-60%"
+      },
+      "finance": {
+        "icon": "coins",
+        "title": "Finanzen & Beschaffung",
+        "description": "60% weniger Verfahrensfehler"
+      },
+      "international": {
+        "icon": "globe",
+        "title": "International",
+        "description": "Eine Plattform für alle EU-Jurisdiktionen"
+      }
+    }
+  },
+  "features": {
+    "sectionTitle": "Was macht Volentis.ai einzigartig?",
+    "tryIt": "Selbst ausprobieren →",
+    "items": {
+      "documents": {
+        "title": "Antworten aus Ihren eigenen Dokumenten",
+        "description": "Volentis.ai arbeitet ausschließlich mit Ihrem genehmigten Unternehmenswissen."
+      },
+      "sources": {
+        "title": "Quellenangabe bei jeder Antwort",
+        "description": "Jede Antwort enthält genaue Verweise auf die Quelldokumente."
+      },
+      "search": {
+        "title": "Leistungsstarke KI-Suche",
+        "description": "Unsere KI versteht die Bedeutung Ihrer Fragen."
+      },
+      "collaboration": {
+        "title": "Zusammenarbeiten und teilen",
+        "description": "Teilen Sie Gespräche mit Kollegen und arbeiten Sie an komplexen Anfragen zusammen."
+      }
+    }
+  },
+  "value": {
+    "sectionTitle": "Der Wert von Volentis.ai",
+    "videoTitle": "Volentis.ai in Aktion",
+    "videoDescription": "Sehen Sie, wie unser KI-Assistent die Art und Weise transformiert, wie Unternehmen mit internem Wissen umgehen.",
+    "props": {
+      "reliable": {
+        "title": "Zuverlässige Antworten",
+        "description": "Keine Halluzinationen — nur verifizierte Informationen."
+      },
+      "audit": {
+        "title": "Vollständiger Audit Trail",
+        "description": "Jede Interaktion wird protokolliert."
+      },
+      "compliance": {
+        "title": "Compliance by Design",
+        "description": "DSGVO-konform, EU AI Act ready."
+      }
+    }
+  },
+  "deployment": {
+    "sectionTitle": "Deployment-Optionen für Sie",
+    "sectionSubtitle": "Wählen Sie das Deployment-Modell, das zu Ihren Sicherheitsanforderungen passt",
+    "options": {
+      "multiTenant": {
+        "title": "SaaS Multi-Tenant",
+        "description": "Live in Wochen, EU-Rechenzentren, kosteneffizient",
+        "features": [
+          "Live in Wochen, nicht Monaten",
+          "EU-Rechenzentren (DE/NL)",
+          "Logische Mandantentrennung",
+          "Automatische Updates",
+          "Kosteneffizient"
+        ]
+      },
+      "singleTenant": {
+        "title": "Single-Tenant SaaS",
+        "description": "Dedizierte Infrastruktur, BYOK, erweiterte Isolation",
+        "features": [
+          "Dedizierte Infrastruktur",
+          "Eigener Cluster und Datenbanken",
+          "BYOK (Bring Your Own Key)",
+          "Erweiterte Isolation",
+          "Individuelle Konfiguration"
+        ]
+      },
+      "customerManaged": {
+        "title": "Customer-Managed",
+        "description": "Volle Kontrolle, air-gapped, on-premise",
+        "badge": "Demnächst",
+        "features": [
+          "Volle Kontrolle über Deployment",
+          "Air-gapped Optionen",
+          "On-premise möglich",
+          "Maximale Datensouveränität"
+        ]
+      }
+    }
+  },
+  "trust": {
+    "sectionTitle": "Enterprise-Sicherheit, der Sie vertrauen können",
+    "badges": {
+      "euHosted": "EU-gehostet",
+      "gdpr": "DSGVO-konform",
+      "euAiAct": "EU AI Act konform",
+      "encryption": "TLS & AES-256"
+    },
+    "integrations": {
+      "title": "Integriert sich mit Ihren bestehenden Tools",
+      "description": "Verbinden Sie Volentis.ai mit Ihren HR-Systemen und Dokumentenquellen"
+    }
+  },
+  "cta": {
+    "title": "Bereit, Ihr Unternehmenswissen zu transformieren?",
+    "description": "Buchen Sie eine Demo und erfahren Sie, wie Volentis.ai Ihrer Organisation helfen kann.",
+    "button": "Demo buchen",
+    "secondaryButton": "Vertrieb kontaktieren"
+  },
+  "footer": {
+    "tagline": "Europäische KI mit Vertrauen im Kern",
+    "product": "Produkt",
+    "company": "Unternehmen",
+    "legal": "Rechtliches",
+    "contact": "Kontakt",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "cookies": "Cookie-Richtlinie",
+    "copyright": "© 2026 Volentis B.V. Alle Rechte vorbehalten.",
+    "location": "Niederlande"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "title": "Volentis.ai - IA Européenne avec la Confiance au Cœur",
+    "description": "IA d'entreprise en laquelle vous pouvez avoir confiance — pas d'hallucinations, pas de fuites de données, pas de risques de conformité."
+  },
+  "nav": {
+    "product": "Produit",
+    "useCases": "Cas d'Usage",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "bookDemo": "Réserver une Démo",
+    "features": "Fonctionnalités",
+    "integrations": "Intégrations",
+    "deployment": "Déploiement",
+    "security": "Sécurité",
+    "hr": "Politique RH & Service",
+    "legal": "Juridique & Contrats",
+    "compliance": "Conformité & Risque",
+    "it": "IT & Helpdesk",
+    "finance": "Finance & Achats",
+    "international": "International"
+  },
+  "hero": {
+    "title": "Volentis.ai",
+    "subtitle": "Vous connaissez la question; Volentis.ai trouve la réponse fiable",
+    "description": "Emportez vos connaissances d'entreprise partout avec un accès 24/7 à des réponses fiables depuis vos propres documents.",
+    "cta": "Réserver une Démo",
+    "secondaryCta": "Voir comment ça marche",
+    "chatDemo": {
+      "userMessage": "Quelle est notre politique de congé parental pour les employés en Allemagne?",
+      "aiResponse": "Selon votre Manuel de Politique RH (Section 4.2), les employés en Allemagne ont droit à...",
+      "typing": "Volentis.ai écrit..."
+    }
+  },
+  "useCases": {
+    "sectionTitle": "Quel problème voulez-vous résoudre?",
+    "sectionSubtitle": "Choisissez votre défi et découvrez comment Volentis.ai peut aider",
+    "learnMore": "En savoir plus",
+    "cards": {
+      "hr": {
+        "icon": "users",
+        "title": "Politique RH & Service",
+        "description": "50-70% moins de tickets RH, réponses 24/7"
+      },
+      "legal": {
+        "icon": "scale",
+        "title": "Juridique & Contrats",
+        "description": "Révision de contrats 70% plus rapide"
+      },
+      "compliance": {
+        "icon": "shield",
+        "title": "Conformité & Risque",
+        "description": "RGPD & EU AI Act prêt pour l'audit en heures"
+      },
+      "it": {
+        "icon": "laptop",
+        "title": "IT & Helpdesk",
+        "description": "Déflection Tier-1 de 50-60%"
+      },
+      "finance": {
+        "icon": "coins",
+        "title": "Finance & Achats",
+        "description": "60% moins d'erreurs de procédure"
+      },
+      "international": {
+        "icon": "globe",
+        "title": "International",
+        "description": "Une plateforme pour toutes vos juridictions UE"
+      }
+    }
+  },
+  "features": {
+    "sectionTitle": "Qu'est-ce qui rend Volentis.ai unique?",
+    "tryIt": "Essayez vous-même →",
+    "items": {
+      "documents": {
+        "title": "Réponses depuis vos propres documents",
+        "description": "Volentis.ai travaille exclusivement avec vos connaissances d'entreprise approuvées."
+      },
+      "sources": {
+        "title": "Citation de source avec chaque réponse",
+        "description": "Chaque réponse inclut des références exactes aux documents sources."
+      },
+      "search": {
+        "title": "Recherche puissante avec IA",
+        "description": "Notre IA comprend le sens de vos questions."
+      },
+      "collaboration": {
+        "title": "Collaborer et partager",
+        "description": "Partagez des conversations avec vos collègues et collaborez sur des requêtes complexes."
+      }
+    }
+  },
+  "value": {
+    "sectionTitle": "La valeur de Volentis.ai",
+    "videoTitle": "Voir Volentis.ai en action",
+    "videoDescription": "Découvrez comment notre assistant IA transforme la façon dont les entreprises gèrent les connaissances internes.",
+    "props": {
+      "reliable": {
+        "title": "Réponses Fiables",
+        "description": "Pas d'hallucinations — uniquement des informations vérifiées."
+      },
+      "audit": {
+        "title": "Piste d'Audit Complète",
+        "description": "Chaque interaction est enregistrée."
+      },
+      "compliance": {
+        "title": "Conformité by Design",
+        "description": "Conforme RGPD, prêt pour EU AI Act."
+      }
+    }
+  },
+  "deployment": {
+    "sectionTitle": "Options de déploiement adaptées à vous",
+    "sectionSubtitle": "Choisissez le modèle de déploiement qui correspond à vos exigences de sécurité",
+    "options": {
+      "multiTenant": {
+        "title": "SaaS Multi-Tenant",
+        "description": "Opérationnel en semaines, centres de données UE, rentable",
+        "features": [
+          "Opérationnel en semaines, pas en mois",
+          "Centres de données UE (DE/NL)",
+          "Isolation logique des tenants",
+          "Mises à jour automatiques",
+          "Rentable"
+        ]
+      },
+      "singleTenant": {
+        "title": "Single-Tenant SaaS",
+        "description": "Infrastructure dédiée, BYOK, isolation renforcée",
+        "features": [
+          "Infrastructure dédiée",
+          "Cluster et bases de données propres",
+          "BYOK (Bring Your Own Key)",
+          "Isolation renforcée",
+          "Configuration personnalisée"
+        ]
+      },
+      "customerManaged": {
+        "title": "Customer-Managed",
+        "description": "Contrôle total, air-gapped, on-premise",
+        "badge": "Bientôt",
+        "features": [
+          "Contrôle total sur le déploiement",
+          "Options air-gapped",
+          "On-premise possible",
+          "Souveraineté maximale des données"
+        ]
+      }
+    }
+  },
+  "trust": {
+    "sectionTitle": "Sécurité d'entreprise en laquelle vous pouvez avoir confiance",
+    "badges": {
+      "euHosted": "Hébergé dans l'UE",
+      "gdpr": "Conforme RGPD",
+      "euAiAct": "Conforme EU AI Act",
+      "encryption": "TLS & AES-256"
+    },
+    "integrations": {
+      "title": "S'intègre avec vos outils existants",
+      "description": "Connectez Volentis.ai à vos systèmes RH et sources de documents"
+    }
+  },
+  "cta": {
+    "title": "Prêt à transformer vos connaissances d'entreprise?",
+    "description": "Réservez une démo et découvrez comment Volentis.ai peut aider votre organisation.",
+    "button": "Réserver une Démo",
+    "secondaryButton": "Contacter les Ventes"
+  },
+  "footer": {
+    "tagline": "IA Européenne avec la Confiance au Cœur",
+    "product": "Produit",
+    "company": "Entreprise",
+    "legal": "Juridique",
+    "contact": "Contact",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions Générales",
+    "cookies": "Politique de Cookies",
+    "copyright": "© 2026 Volentis B.V. Tous droits réservés.",
+    "location": "Pays-Bas"
+  }
+}
