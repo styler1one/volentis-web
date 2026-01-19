@@ -1,4 +1,4 @@
-<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <!-- Light gradient background - matching hero section -->
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -48,13 +48,7 @@
   <path fill="none" stroke="#2AAAD9" stroke-width="2" stroke-opacity="0.1" d="M-30,580 C280,520 480,640 780,560 C1080,480 1280,600 1580,520 C1830,450 1930,540 2030,500"/>
   
   <!-- Volentis Logo - top right -->
-  <g transform="translate(1680, 50)">
-    <!-- Logo mark - stylized V -->
-    <path d="M0,0 L30,60 L60,0 L45,0 L30,37.5 L15,0 Z" fill="#1B3A4B"/>
-    <!-- Text: VOLENTIS -->
-    <text x="70" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1B3A4B">VOLENTIS</text>
-    <text x="70" y="60" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#2AAAD9" letter-spacing="2">.ai</text>
-  </g>
+  <image x="1620" y="40" width="260" height="80" href="/volentis_logo.png" preserveAspectRatio="xMidYMid meet"/>
   
   <!-- EU Sovereign AI Badge - center -->
   <g transform="translate(120, 420)">
