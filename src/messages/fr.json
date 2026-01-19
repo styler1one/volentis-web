@@ -1863,7 +1863,8 @@
     },
     "talkToExpert": {
       "title": "Talk to an expert",
-      "description": "Prefer to have a conversation? Book a call with one of our specialists."
+      "description": "Prefer to have a conversation? Book a call with one of our specialists.",
+      "button": "Schedule a Call"
     },
     "whatToExpect": {
       "title": "How we can help",
@@ -1935,6 +1936,8 @@
     "booking": {
       "title": "Pick a time that works",
       "description": "Select a slot and we'll send you a calendar invite with a video call link.",
+      "instructions": "Click below to open our booking calendar and choose a time that suits you.",
+      "button": "Open Booking Calendar",
       "placeholder": "Loading booking calendar...",
       "fallback": {
         "title": "Can't see the calendar?",
