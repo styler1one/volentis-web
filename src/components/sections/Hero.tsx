@@ -17,12 +17,12 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-[85vh] flex items-start pt-8 md:pt-12 overflow-hidden pb-16">
+    <section className="relative min-h-screen flex flex-col pt-8 md:pt-12 overflow-hidden">
       {/* Animated wave background */}
       <AnimatedBackground variant="hero" />
 
-      <div className="section-container relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center py-6 md:py-8 lg:py-10">
+      <div className="section-container relative z-10 flex-1 flex items-center">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center py-6 md:py-8 lg:py-10 w-full">
           
           {/* Left Column - Text Content */}
           <div className="space-y-5 text-center lg:text-left">
@@ -174,9 +174,9 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator - positioned below the section */}
+      {/* Scroll indicator - at bottom of section */}
       <div 
-        className={`absolute -bottom-8 left-1/2 -translate-x-1/2 transition-all duration-700 delay-1000 ${
+        className={`relative z-10 pb-8 pt-4 transition-all duration-700 delay-1000 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
         }`}
       >
