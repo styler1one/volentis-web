@@ -8,6 +8,7 @@
     "useCases": "Agents IA",
     "pricing": "Tarifs",
     "contact": "Contact",
+    "login": "Connexion",
     "bookDemo": "Réserver une Démo",
     "features": "Fonctionnalités",
     "integrations": "Intégrations",
@@ -237,6 +238,63 @@
     "trust1": "Pas de carte de crédit requise",
     "trust2": "En ligne en quelques semaines",
     "trust3": "Résidence des données UE"
+  },
+  "useCases": {
+    "common": {
+      "bookDemo": "Réserver une Démo",
+      "seeHowItWorks": "Voir comment ça marche",
+      "contactSales": "Parler à un Expert",
+      "theProblem": "Le Problème",
+      "howItWorks": "Comment ça marche",
+      "employee": "Employé",
+      "highConfidence": "Haute Confiance",
+      "sourceVerified": "Source vérifiée",
+      "expectedResults": "Résultats Attendus",
+      "whyTrust": "Pourquoi faire confiance à Volentis.ai?",
+      "noHallucinations": "Pas d'Hallucinations",
+      "noHallucinationsDesc": "Les réponses proviennent exclusivement de vos documents approuvés.",
+      "sourceAttribution": "Citation des Sources",
+      "sourceAttributionDesc": "Chaque réponse inclut des références aux documents sources.",
+      "compliance": "Conforme RGPD & EU AI Act",
+      "complianceDesc": "Conçu pour les entreprises européennes. Les données ne quittent jamais l'UE.",
+      "liveInWeeks": "En production en semaines",
+      "euDataResidency": "Résidence des données UE",
+      "noTrainingOnData": "Pas d'entraînement sur vos données",
+      "noCreditCard": "Pas de carte de crédit requise",
+      "trustedBy": "Approuvé par les entreprises européennes",
+      "whatHappensNext": "Que se passe-t-il après la réservation?",
+      "demoStep1": "Appel de 30 minutes pour comprendre vos besoins",
+      "demoStep2": "Démo en direct avec vos types de documents",
+      "demoStep3": "Proposition de pilote sous 48 heures",
+      "integrationNote": "Votre système n'est pas listé? Nous intégrons toute plateforme API.",
+      "exploreOtherAgents": "Découvrir les Autres Agents IA",
+      "learnMore": "En savoir plus",
+      "agents": {
+        "hr": "Agent RH",
+        "legal": "Agent Juridique",
+        "compliance": "Agent Conformité",
+        "it": "Agent IT",
+        "finance": "Agent Finance",
+        "international": "International"
+      },
+      "agentDescriptions": {
+        "hr": "Réponses 24/7 aux questions RH. 50-70% moins de tickets.",
+        "legal": "Analyse de contrats et recherche de clauses. 70% plus rapide.",
+        "compliance": "Vérifications RGPD & EU AI Act.",
+        "it": "Dépannage IT en self-service. 50-60% de déflection.",
+        "finance": "Politiques d'achat et finance. 60% moins d'erreurs.",
+        "international": "Analyse transfrontalière pour toutes les juridictions UE."
+      }
+    },
+    "hr": {
+      "metaTitle": "Agent RH - Volentis.ai",
+      "metaDescription": "Réduisez les tickets RH de 50-70% avec l'Agent RH Volentis.",
+      "title": "Agent RH",
+      "badge": "Le Plus Populaire",
+      "headline": "Libérez votre équipe RH des questions répétitives",
+      "subheadline": "L'Agent RH Volentis répond aux questions 24/7.",
+      "problemStatement": "Les équipes RH passent 40% de leur temps sur des questions routinières"
+    }
   },
   "footer": {
     "tagline": "IA Européenne avec la Confiance au Cœur",
