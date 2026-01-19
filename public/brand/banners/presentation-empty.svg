@@ -1,52 +1,49 @@
 <svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Main gradient background - Volentis colors -->
+    <!-- Light gradient background - matching hero section -->
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F2A38"/>
-      <stop offset="50%" stop-color="#1B3A4B"/>
-      <stop offset="100%" stop-color="#0F2A38"/>
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#e8f4f8"/>
     </linearGradient>
     
-    <!-- Cyan orb gradient -->
-    <radialGradient id="cyanOrb" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#2AAAD9" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#2AAAD9" stop-opacity="0"/>
-    </radialGradient>
+    <!-- Wave fill colors -->
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2AAAD9" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#7DD3E8" stop-opacity="0.04"/>
+    </linearGradient>
     
-    <!-- Light cyan orb gradient -->
-    <radialGradient id="lightCyanOrb" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7DD3E8" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#7DD3E8" stop-opacity="0"/>
-    </radialGradient>
-    
-    <!-- Teal accent orb -->
-    <radialGradient id="tealOrb" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#4ECDC4" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#4ECDC4" stop-opacity="0"/>
-    </radialGradient>
-    
-    <!-- Blur filters -->
-    <filter id="blurLarge" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="80"/>
-    </filter>
-    
-    <filter id="blurMedium" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
-    </filter>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B3A4B" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#2AAAD9" stop-opacity="0.02"/>
+    </linearGradient>
   </defs>
   
   <!-- Background -->
   <rect width="1920" height="1080" fill="url(#bgGradient)"/>
   
-  <!-- Large cyan orb - top right -->
-  <ellipse cx="1700" cy="-100" rx="700" ry="600" fill="url(#cyanOrb)" filter="url(#blurLarge)"/>
+  <!-- Wave layer 1 - back -->
+  <path fill="url(#waveGrad1)" d="M0,400 C300,320 500,480 800,400 C1100,320 1300,440 1600,360 C1800,300 1880,360 1920,340 L1920,1080 L0,1080 Z"/>
   
-  <!-- Light cyan orb - bottom left -->
-  <ellipse cx="100" cy="1150" rx="600" ry="500" fill="url(#lightCyanOrb)" filter="url(#blurLarge)"/>
+  <!-- Wave layer 2 -->
+  <path fill="url(#waveGrad2)" d="M0,520 C250,460 450,580 750,500 C1050,420 1250,540 1550,460 C1750,400 1860,480 1920,440 L1920,1080 L0,1080 Z"/>
   
-  <!-- Medium orb - center top -->
-  <ellipse cx="960" cy="-200" rx="400" ry="350" fill="url(#tealOrb)" filter="url(#blurMedium)"/>
+  <!-- Wave layer 3 -->
+  <path fill="url(#waveGrad1)" d="M0,640 C280,560 480,680 780,600 C1080,520 1280,640 1580,560 C1780,500 1870,580 1920,540 L1920,1080 L0,1080 Z"/>
   
-  <!-- Small accent orb - right side -->
-  <ellipse cx="1600" cy="700" rx="300" ry="280" fill="url(#lightCyanOrb)" filter="url(#blurMedium)"/>
+  <!-- Wave layer 4 - front -->
+  <path fill="url(#waveGrad2)" d="M0,760 C320,680 520,800 820,720 C1120,640 1320,760 1620,680 C1800,620 1880,700 1920,660 L1920,1080 L0,1080 Z"/>
+  
+  <!-- Curved line accents -->
+  <path fill="none" stroke="#2AAAD9" stroke-width="2" stroke-opacity="0.1" d="M-50,450 C300,370 500,530 800,450 C1100,370 1300,490 1600,410 C1850,340 1950,420 2050,380"/>
+  <path fill="none" stroke="#2AAAD9" stroke-width="1.5" stroke-opacity="0.08" d="M-30,580 C280,520 480,640 780,560 C1080,480 1280,600 1580,520 C1830,450 1930,540 2030,500"/>
+  
+  <!-- Volentis Logo - top right -->
+  <g transform="translate(1680, 50)">
+    <!-- Logo mark - stylized V -->
+    <path d="M0,0 L30,60 L60,0 L45,0 L30,37.5 L15,0 Z" fill="#1B3A4B"/>
+    <!-- Text: VOLENTIS -->
+    <text x="70" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1B3A4B">VOLENTIS</text>
+    <text x="70" y="60" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#2AAAD9" letter-spacing="2">.ai</text>
+  </g>
 </svg>

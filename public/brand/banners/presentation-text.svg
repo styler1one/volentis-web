@@ -1,46 +1,25 @@
 <svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Main gradient background - Volentis colors -->
+    <!-- Light gradient background - matching hero section -->
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F2A38"/>
-      <stop offset="50%" stop-color="#1B3A4B"/>
-      <stop offset="100%" stop-color="#0F2A38"/>
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#e8f4f8"/>
     </linearGradient>
     
-    <!-- Cyan orb gradient -->
-    <radialGradient id="cyanOrb" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#2AAAD9" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#2AAAD9" stop-opacity="0"/>
-    </radialGradient>
-    
-    <!-- Light cyan orb gradient -->
-    <radialGradient id="lightCyanOrb" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7DD3E8" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#7DD3E8" stop-opacity="0"/>
-    </radialGradient>
-    
-    <!-- Teal accent orb -->
-    <radialGradient id="tealOrb" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#4ECDC4" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#4ECDC4" stop-opacity="0"/>
-    </radialGradient>
-    
-    <!-- Node/network gradients -->
-    <linearGradient id="nodeGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#7DD3E8"/>
-      <stop offset="100%" stop-color="#2AAAD9"/>
-    </linearGradient>
-    <linearGradient id="nodeGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#4ECDC4"/>
-      <stop offset="100%" stop-color="#2AAAD9"/>
+    <!-- Wave fill colors -->
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2AAAD9" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#7DD3E8" stop-opacity="0.05"/>
     </linearGradient>
     
-    <!-- Blur filters -->
-    <filter id="blurLarge" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="80"/>
-    </filter>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B3A4B" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#2AAAD9" stop-opacity="0.03"/>
+    </linearGradient>
     
-    <filter id="blurMedium" x="-50%" y="-50%" width="200%" height="200%">
+    <!-- Blur filter -->
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
     </filter>
   </defs>
@@ -48,45 +27,46 @@
   <!-- Background -->
   <rect width="1920" height="1080" fill="url(#bgGradient)"/>
   
-  <!-- Large cyan orb - top right -->
-  <ellipse cx="1700" cy="-100" rx="700" ry="600" fill="url(#cyanOrb)" filter="url(#blurLarge)"/>
+  <!-- Soft glow orbs -->
+  <ellipse cx="300" cy="900" rx="400" ry="350" fill="#2AAAD9" fill-opacity="0.04" filter="url(#softBlur)"/>
+  <ellipse cx="1700" cy="100" rx="350" ry="300" fill="#7DD3E8" fill-opacity="0.05" filter="url(#softBlur)"/>
   
-  <!-- Light cyan orb - bottom left -->
-  <ellipse cx="100" cy="1150" rx="600" ry="500" fill="url(#lightCyanOrb)" filter="url(#blurLarge)"/>
+  <!-- Wave layer 1 - back -->
+  <path fill="url(#waveGrad1)" d="M0,400 C300,320 500,480 800,400 C1100,320 1300,440 1600,360 C1800,300 1880,360 1920,340 L1920,1080 L0,1080 Z"/>
   
-  <!-- Medium orb - center top -->
-  <ellipse cx="960" cy="-200" rx="400" ry="350" fill="url(#tealOrb)" filter="url(#blurMedium)"/>
+  <!-- Wave layer 2 -->
+  <path fill="url(#waveGrad2)" d="M0,520 C250,460 450,580 750,500 C1050,420 1250,540 1550,460 C1750,400 1860,480 1920,440 L1920,1080 L0,1080 Z"/>
   
-  <!-- Small accent orb - right side -->
-  <ellipse cx="1600" cy="700" rx="300" ry="280" fill="url(#lightCyanOrb)" filter="url(#blurMedium)"/>
+  <!-- Wave layer 3 -->
+  <path fill="url(#waveGrad1)" d="M0,640 C280,560 480,680 780,600 C1080,520 1280,640 1580,560 C1780,500 1870,580 1920,540 L1920,1080 L0,1080 Z"/>
   
-  <!-- Network nodes - AI theme (right side) -->
-  <circle cx="1680" cy="180" r="7" fill="url(#nodeGrad1)" opacity="0.5"/>
-  <circle cx="1750" cy="280" r="4" fill="#7DD3E8" opacity="0.35"/>
-  <circle cx="1820" cy="200" r="5" fill="url(#nodeGrad2)" opacity="0.4"/>
-  <circle cx="1620" cy="320" r="3" fill="#4ECDC4" opacity="0.3"/>
+  <!-- Wave layer 4 - front -->
+  <path fill="url(#waveGrad2)" d="M0,760 C320,680 520,800 820,720 C1120,640 1320,760 1620,680 C1800,620 1880,700 1920,660 L1920,1080 L0,1080 Z"/>
   
-  <!-- Connecting lines -->
-  <line x1="1680" y1="180" x2="1750" y2="280" stroke="#2AAAD9" stroke-width="1" stroke-opacity="0.2"/>
-  <line x1="1680" y1="180" x2="1820" y2="200" stroke="#7DD3E8" stroke-width="1" stroke-opacity="0.15"/>
-  <line x1="1750" y1="280" x2="1620" y2="320" stroke="#4ECDC4" stroke-width="1" stroke-opacity="0.15"/>
+  <!-- Curved line accents -->
+  <path fill="none" stroke="#2AAAD9" stroke-width="2.5" stroke-opacity="0.12" d="M-50,450 C300,370 500,530 800,450 C1100,370 1300,490 1600,410 C1850,340 1950,420 2050,380"/>
+  <path fill="none" stroke="#2AAAD9" stroke-width="2" stroke-opacity="0.1" d="M-30,580 C280,520 480,640 780,560 C1080,480 1280,600 1580,520 C1830,450 1930,540 2030,500"/>
   
-  <!-- Overlapping circles - right side -->
-  <circle cx="1750" cy="560" r="140" fill="none" stroke="#2AAAD9" stroke-width="1" stroke-opacity="0.15"/>
-  <circle cx="1680" cy="630" r="100" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.08"/>
+  <!-- Volentis Logo - top right -->
+  <g transform="translate(1680, 50)">
+    <!-- Logo mark - stylized V -->
+    <path d="M0,0 L30,60 L60,0 L45,0 L30,37.5 L15,0 Z" fill="#1B3A4B"/>
+    <!-- Text: VOLENTIS -->
+    <text x="70" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1B3A4B">VOLENTIS</text>
+    <text x="70" y="60" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#2AAAD9" letter-spacing="2">.ai</text>
+  </g>
   
-  <!-- Main Title: Enterprise AI -->
-  <text x="160" y="450" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="120" font-weight="700" fill="white" letter-spacing="-0.03em">
-    Enterprise AI
-  </text>
+  <!-- EU Sovereign AI Badge - center -->
+  <g transform="translate(120, 420)">
+    <rect x="0" y="0" width="280" height="56" rx="28" fill="white" fill-opacity="0.9" stroke="#2AAAD9" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="28" y="37" font-family="Arial, sans-serif" font-size="22">🇪🇺</text>
+    <text x="60" y="38" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#1B3A4B">Sovereign AI Platform</text>
+  </g>
   
-  <!-- Subtitle: you can trust. -->
-  <text x="160" y="580" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="80" font-weight="600" fill="#2AAAD9" letter-spacing="-0.02em">
-    you can trust.
-  </text>
+  <!-- Main tagline -->
+  <text x="120" y="560" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#1B3A4B">Enterprise AI</text>
+  <text x="120" y="650" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#1B3A4B">you can trust.</text>
   
-  <!-- Website URL -->
-  <text x="160" y="980" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="28" font-weight="500" fill="white" fill-opacity="0.5">
-    volentis.ai
-  </text>
+  <!-- Website -->
+  <text x="120" y="740" font-family="Arial, sans-serif" font-size="24" fill="#2AAAD9">volentis.ai</text>
 </svg>
