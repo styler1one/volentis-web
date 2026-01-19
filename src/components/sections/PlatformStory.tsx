@@ -80,8 +80,8 @@ export default function PlatformStory() {
             <div className="bg-gradient-to-br from-volentis-navy to-navy-dark rounded-2xl p-8 text-white">
               {/* Platform diagram */}
               <div className="text-center mb-8">
-                <h3 className="text-xl font-bold mb-2">{t('diagram.title')}</h3>
-                <p className="text-white/70 text-sm">{t('diagram.subtitle')}</p>
+                <h3 className="text-xl font-bold mb-2 text-white drop-shadow-lg">{t('diagram.title')}</h3>
+                <p className="text-white/80 text-sm">{t('diagram.subtitle')}</p>
               </div>
 
               {/* Documents layer */}

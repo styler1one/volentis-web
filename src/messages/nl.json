@@ -1863,7 +1863,8 @@
     },
     "talkToExpert": {
       "title": "Praat met een expert",
-      "description": "Liever een gesprek? Boek een call met een van onze specialisten."
+      "description": "Liever een gesprek? Boek een call met een van onze specialisten.",
+      "button": "Plan een Gesprek"
     },
     "whatToExpect": {
       "title": "Hoe we kunnen helpen",
@@ -1935,6 +1936,8 @@
     "booking": {
       "title": "Kies een moment dat past",
       "description": "Selecteer een slot en we sturen je een agenda-uitnodiging met een videocall link.",
+      "instructions": "Klik hieronder om onze boekingskalender te openen en kies een moment dat jou uitkomt.",
+      "button": "Open Boekingskalender",
       "placeholder": "Boekingskalender laden...",
       "fallback": {
         "title": "Kalender niet zichtbaar?",

@@ -732,18 +732,30 @@ export default function HRAgentLandingPage() {
                 </p>
               </div>
 
-              {/* Microsoft Bookings Embed */}
-              <div className="p-2">
-                <iframe 
-                  src="https://outlook.office.com/bookwithme/user/e24fb78dcb5249b0ad5bdb243afdf606@bestpractice.consulting/meetingtype/zZR0QjjmwEKPKHbKSh0MdA2?anonymous&ep=mlink"
-                  width="100%" 
-                  height="450" 
-                  scrolling="yes" 
-                  style={{ border: 0 }}
-                  className="rounded-lg"
-                  title="Book a Demo"
-                />
-                <p className="text-xs text-text-muted mt-3 text-center">
+              {/* Microsoft Bookings Link */}
+              <div className="p-6 text-center">
+                <div className="bg-bg-light rounded-xl p-8 mb-4">
+                  <div className="w-16 h-16 bg-volentis-cyan/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-8 h-8 text-volentis-cyan" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <a 
+                    href="https://outlook.office.com/bookwithme/user/e24fb78dcb5249b0ad5bdb243afdf606@bestpractice.consulting/meetingtype/zZR0QjjmwEKPKHbKSh0MdA2?anonymous&ep=mlink"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-volentis-cyan text-white text-lg font-semibold rounded-xl shadow-lg shadow-volentis-cyan/25 hover:shadow-xl hover:shadow-volentis-cyan/30 hover:bg-volentis-cyan-hover hover:-translate-y-0.5 transition-all duration-300"
+                  >
+                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    {t('cta.booking.button')}
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+                <p className="text-xs text-text-muted">
                   {t('cta.booking.fallback')}{' '}
                   <a href="mailto:info@volentis.ai" className="text-volentis-cyan hover:underline">
                     info@volentis.ai

@@ -174,14 +174,14 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
+      {/* Scroll indicator - positioned below the section */}
       <div 
-        className={`absolute bottom-4 left-1/2 -translate-x-1/2 transition-all duration-700 delay-1000 ${
+        className={`absolute -bottom-8 left-1/2 -translate-x-1/2 transition-all duration-700 delay-1000 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
         }`}
       >
         <div className="flex flex-col items-center gap-1.5 text-text-muted">
-          <span className="text-[10px] font-medium uppercase tracking-widest">{t('scrollHint')}</span>
+          <span className="text-[10px] font-medium uppercase tracking-widest whitespace-nowrap">{t('scrollHint')}</span>
           <div className="w-4 h-7 border-2 border-text-muted/30 rounded-full flex justify-center pt-1">
             <div className="w-1 h-1.5 bg-volentis-cyan rounded-full animate-bounce" />
           </div>

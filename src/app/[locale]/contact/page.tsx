@@ -250,20 +250,23 @@ export default function ContactPage() {
             <div className="space-y-8">
               {/* Talk to Expert - Booking */}
               <div className="bg-bg-light rounded-2xl overflow-hidden">
-                <div className="p-6 border-b border-border-gray/20">
+                <div className="p-6">
                   <h3 className="text-xl font-bold text-volentis-navy mb-2">{t('talkToExpert.title')}</h3>
-                  <p className="text-sm text-text-body">{t('talkToExpert.description')}</p>
-                </div>
-                <div className="p-2">
-                  <iframe 
-                    src="https://outlook.office.com/bookwithme/user/e24fb78dcb5249b0ad5bdb243afdf606@bestpractice.consulting/meetingtype/RSrsgKRz4Euy0892PXPZ5A2?anonymous&ep=mlink"
-                    width="100%" 
-                    height="400" 
-                    scrolling="yes" 
-                    style={{ border: 0 }}
-                    className="rounded-lg"
-                    title="Talk to an Expert"
-                  />
+                  <p className="text-sm text-text-body mb-6">{t('talkToExpert.description')}</p>
+                  <a 
+                    href="https://outlook.office.com/bookwithme/user/e24fb78dcb5249b0ad5bdb243afdf606@bestpractice.consulting/meetingtype/RSrsgKRz4Euy0892PXPZ5A2?anonymous&ep=mlink"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2 w-full px-6 py-4 bg-volentis-cyan text-white font-semibold rounded-xl shadow-lg shadow-volentis-cyan/25 hover:shadow-xl hover:shadow-volentis-cyan/30 hover:bg-volentis-cyan-hover hover:-translate-y-0.5 transition-all duration-300"
+                  >
+                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    {t('talkToExpert.button')}
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
                 </div>
               </div>
 
