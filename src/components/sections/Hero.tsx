@@ -17,7 +17,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-[75vh] flex items-start pt-8 md:pt-12 overflow-hidden">
+    <section className="relative min-h-[85vh] flex items-start pt-8 md:pt-12 overflow-hidden pb-16">
       {/* Animated wave background */}
       <AnimatedBackground variant="hero" />
 
