@@ -176,7 +176,7 @@ export default function Hero() {
 
       {/* Scroll indicator - at bottom of section */}
       <div 
-        className={`relative z-10 pb-8 pt-4 transition-all duration-700 delay-1000 ${
+        className={`relative z-10 pb-16 pt-4 transition-all duration-700 delay-1000 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
         }`}
       >
