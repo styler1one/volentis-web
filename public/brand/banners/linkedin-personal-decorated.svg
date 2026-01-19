@@ -1,0 +1,82 @@
+<svg width="1584" height="396" viewBox="0 0 1584 396" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Main gradient background - Volentis colors -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2A38"/>
+      <stop offset="50%" stop-color="#1B3A4B"/>
+      <stop offset="100%" stop-color="#0F2A38"/>
+    </linearGradient>
+    
+    <!-- Cyan orb gradient -->
+    <radialGradient id="cyanOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2AAAD9" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2AAAD9" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Light cyan orb gradient -->
+    <radialGradient id="lightCyanOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7DD3E8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#7DD3E8" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Additional accent orb -->
+    <radialGradient id="accentOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4ECDC4" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#4ECDC4" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Node/network gradients -->
+    <linearGradient id="nodeGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7DD3E8"/>
+      <stop offset="100%" stop-color="#2AAAD9"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4ECDC4"/>
+      <stop offset="100%" stop-color="#2AAAD9"/>
+    </linearGradient>
+    
+    <!-- Blur filter -->
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="35"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1584" height="396" fill="url(#bgGradient)"/>
+  
+  <!-- Cyan orb - top right -->
+  <ellipse cx="1350" cy="-80" rx="450" ry="380" fill="url(#cyanOrb)" filter="url(#blur)"/>
+  
+  <!-- Light cyan orb - bottom left -->
+  <ellipse cx="150" cy="480" rx="380" ry="320" fill="url(#lightCyanOrb)" filter="url(#blur)"/>
+  
+  <!-- Small accent orb - center right -->
+  <ellipse cx="1100" cy="350" rx="200" ry="180" fill="url(#accentOrb)" filter="url(#blur)"/>
+  
+  <!-- Network nodes - AI theme -->
+  <circle cx="1320" cy="50" r="6" fill="url(#nodeGrad1)" opacity="0.6"/>
+  <circle cx="1380" cy="120" r="4" fill="#7DD3E8" opacity="0.4"/>
+  <circle cx="1440" cy="80" r="5" fill="url(#nodeGrad2)" opacity="0.5"/>
+  <circle cx="1280" cy="160" r="3" fill="#4ECDC4" opacity="0.3"/>
+  <circle cx="1400" cy="180" r="4" fill="#7DD3E8" opacity="0.35"/>
+  <circle cx="700" cy="30" r="3" fill="#2AAAD9" opacity="0.25"/>
+  
+  <!-- Connecting lines -->
+  <line x1="1320" y1="50" x2="1380" y2="120" stroke="#2AAAD9" stroke-width="1" stroke-opacity="0.2"/>
+  <line x1="1320" y1="50" x2="1440" y2="80" stroke="#7DD3E8" stroke-width="1" stroke-opacity="0.15"/>
+  <line x1="1380" y1="120" x2="1280" y2="160" stroke="#4ECDC4" stroke-width="1" stroke-opacity="0.2"/>
+  <line x1="1380" y1="120" x2="1400" y2="180" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
+  <line x1="1440" y1="80" x2="1400" y2="180" stroke="#2AAAD9" stroke-width="1" stroke-opacity="0.15"/>
+  
+  <!-- Overlapping circles - brand element -->
+  <circle cx="1420" cy="260" r="110" fill="none" stroke="#2AAAD9" stroke-width="1" stroke-opacity="0.2"/>
+  <circle cx="1350" cy="310" r="85" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
+  
+  <!-- Gradient accent lines -->
+  <line x1="1050" y1="0" x2="1050" y2="90" stroke="url(#nodeGrad1)" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="950" y1="396" x2="950" y2="320" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
+  
+  <!-- Small accent dots - left side (subtle, photo will overlap here) -->
+  <circle cx="100" cy="160" r="2" fill="#7DD3E8" opacity="0.15"/>
+  <circle cx="160" cy="220" r="1.5" fill="#4ECDC4" opacity="0.12"/>
+</svg>

@@ -5,7 +5,7 @@
   },
   "nav": {
     "product": "Produkt",
-    "useCases": "Anwendungsfälle",
+    "useCases": "KI Agents",
     "pricing": "Preise",
     "contact": "Kontakt",
     "bookDemo": "Demo buchen",
@@ -13,60 +13,127 @@
     "integrations": "Integrationen",
     "deployment": "Deployment",
     "security": "Sicherheit",
-    "hr": "HR-Richtlinien & Service",
-    "legal": "Recht & Verträge",
-    "compliance": "Compliance & Risiko",
-    "it": "IT & Helpdesk",
-    "finance": "Finanzen & Beschaffung",
-    "international": "International"
+    "hr": "HR Agent",
+    "legal": "Legal Agent",
+    "compliance": "Compliance Agent",
+    "it": "IT Agent",
+    "finance": "Finance Agent",
+    "international": "International",
+    "language": "Sprache"
   },
   "hero": {
-    "title": "Volentis.ai",
-    "subtitle": "Sie kennen die Frage; Volentis.ai findet die zuverlässige Antwort",
-    "description": "Nehmen Sie Ihr Unternehmenswissen überall mit — 24/7 Zugang zu zuverlässigen Antworten aus Ihren eigenen Dokumenten.",
-    "cta": "Demo buchen",
-    "secondaryCta": "So funktioniert es",
+    "badge": "EU-souveräne KI-Plattform",
+    "headline": "Ertrinkt Ihr Team in repetitiven Fragen?",
+    "subheadline": "Der Volentis HR Agent beantwortet 50-70% Ihrer HR-Tickets — 24/7, aus Ihren eigenen Dokumenten, 100% compliant.",
+    "description": "73% der Mitarbeiter nutzen bereits KI-Tools — oft ohne Wissen von IT oder Compliance. Volentis.ai gibt Ihnen die Kontrolle: eine Plattform für zuverlässige Antworten aus Ihren genehmigten Dokumenten.",
+    "cta": "HR Agent ansehen",
+    "secondaryCta": "Alle Agents ansehen",
+    "metrics": {
+      "tickets": "weniger Tickets",
+      "availability": "Verfügbarkeit",
+      "compliant": "DSGVO-konform"
+    },
     "chatDemo": {
-      "userMessage": "Was ist unsere Elternzeitregelung für Mitarbeiter in Deutschland?",
-      "aiResponse": "Basierend auf Ihrem HR-Richtlinienhandbuch (Abschnitt 4.2) haben Mitarbeiter in Deutschland Anspruch auf...",
-      "typing": "Volentis.ai tippt..."
+      "message1": {
+        "user": "Hallo! Ich werde nächsten Monat Vater 🎉 Wie viel Elternzeit steht mir zu?",
+        "ai": "Herzlichen Glückwunsch! Als Vater haben Sie Anspruch auf 6 Wochen bezahlte Elternzeit (70% Gehalt). Diese können Sie innerhalb der ersten 6 Monate nach der Geburt nehmen. Sie können sie auch aufteilen.",
+        "source": "Mitarbeiterhandbuch v3.1, Kapitel 5.2"
+      },
+      "message2": {
+        "user": "Super! Wie beantrage ich das?",
+        "ai": "Gehen Sie zum HR-Portal → 'Urlaubsanträge' → 'Elternzeit'. Geben Sie den erwarteten Geburtstermin und Ihren gewünschten Zeitraum ein. Ihr Manager wird automatisch benachrichtigt. Tipp: Beantragen Sie mindestens 4 Wochen im Voraus.",
+        "source": "HR-Portal Handbuch, Abschnitt 3.4"
+      },
+      "message3": {
+        "user": "Perfekt. Muss ich meine Vertretung selbst organisieren?",
+        "ai": "Nein, das müssen Sie nicht. Bei Elternzeit organisiert Ihr Manager die Vertretung. Es ist jedoch hilfreich, eine Übergabe Ihrer laufenden Projekte zu erstellen. Möchten Sie die Übergabe-Checkliste sehen?",
+        "source": "Urlaubsrichtlinie 2024, Artikel 12"
+      },
+      "inputPlaceholder": "Stellen Sie Ihre HR-Frage... Urlaub, Spesen, Richtlinien und mehr"
     }
   },
-  "useCases": {
-    "sectionTitle": "Welches Problem möchten Sie lösen?",
-    "sectionSubtitle": "Wählen Sie Ihre Herausforderung und entdecken Sie, wie Volentis.ai helfen kann",
+  "agents": {
+    "label": "KI Agents",
+    "sectionTitle": "Lernen Sie unsere KI Agents kennen",
+    "sectionSubtitle": "Spezialisierte KI-Assistenten für jede Abteilung. Starten Sie mit einem, skalieren Sie auf alle.",
+    "popular": "Am Beliebtesten",
     "learnMore": "Mehr erfahren",
     "cards": {
       "hr": {
-        "icon": "users",
-        "title": "HR-Richtlinien & Service",
-        "description": "50-70% weniger HR-Tickets, 24/7 Antworten"
+        "title": "HR Agent",
+        "metric": "50-70% weniger Tickets",
+        "description": "24/7 Antworten auf HR-Richtlinienfragen aus Handbüchern und internen Richtlinien."
       },
       "legal": {
-        "icon": "scale",
-        "title": "Recht & Verträge",
-        "description": "Vertragsüberprüfung 70% schneller"
+        "title": "Legal Agent",
+        "metric": "70% schnellere Prüfung",
+        "description": "Finden Sie Klauseln in Sekunden, vergleichen Sie Verträge, identifizieren Sie Abweichungen."
       },
       "compliance": {
-        "icon": "shield",
-        "title": "Compliance & Risiko",
-        "description": "DSGVO & EU AI Act audit-ready in Stunden"
+        "title": "Compliance Agent",
+        "metric": "Audit-ready in Stunden",
+        "description": "DSGVO & EU AI Act Compliance-Checks mit vollständiger Dokumentation."
       },
       "it": {
-        "icon": "laptop",
-        "title": "IT & Helpdesk",
-        "description": "Tier-1 Deflection von 50-60%"
+        "title": "IT Agent",
+        "metric": "50-60% Deflection",
+        "description": "Tier-1 Ticket-Deflection mit Self-Service-Fehlerbehebung."
       },
       "finance": {
-        "icon": "coins",
-        "title": "Finanzen & Beschaffung",
-        "description": "60% weniger Verfahrensfehler"
+        "title": "Finance Agent",
+        "metric": "60% weniger Fehler",
+        "description": "Beschaffungsrichtlinien, die jeder versteht. Schnellere Rechnungsverarbeitung."
       },
       "international": {
-        "icon": "globe",
         "title": "International",
-        "description": "Eine Plattform für alle EU-Jurisdiktionen"
+        "metric": "15 Richtlinien → 1",
+        "description": "Grenzüberschreitende Analyse für Multinationals. Eine Plattform für alle EU-Jurisdiktionen."
       }
+    }
+  },
+  "socialProof": {
+    "title": "Bewährte Ergebnisse bei europäischen Unternehmen",
+    "subtitle": "Echte Wirkung, messbare Ergebnisse",
+    "metrics": {
+      "hrTickets": "HR-Ticket-Reduktion",
+      "contractReview": "schnellere Vertragsprüfung",
+      "availability": "Self-Service-Verfügbarkeit",
+      "compliance": "DSGVO-konform"
+    },
+    "badges": {
+      "euHosted": "EU-gehostet",
+      "gdpr": "DSGVO-konform",
+      "euAiAct": "EU AI Act Ready",
+      "security": "Enterprise-Sicherheit"
+    },
+    "trustedBy": "Vertraut von"
+  },
+  "platform": {
+    "label": "Die Plattform",
+    "title": "Warum eine Plattform für alle Abteilungen?",
+    "description": "Volentis.ai ist nicht nur ein Chatbot — es ist eine EU-souveräne Enterprise-KI-Plattform, die Ihr internes Wissen in eine vertrauenswürdige, auditierbare Entscheidungsmaschine verwandelt.",
+    "benefits": {
+      "knowledgeBase": {
+        "title": "Eine Wissensbasis",
+        "description": "Alle Ihre Dokumente an einem Ort. HR-Richtlinien, Verträge, Verfahren — indiziert und bereit für KI-Abruf."
+      },
+      "auditTrail": {
+        "title": "Ein Audit Trail",
+        "description": "Jede Frage, jede Antwort, vollständig nachvollziehbar. Vollständige Protokollierung für Compliance."
+      },
+      "compliance": {
+        "title": "Eine Compliance-Schicht",
+        "description": "DSGVO + EU AI Act Compliance eingebaut. Keine Shadow-AI-Risiken. Daten verlassen niemals die EU."
+      }
+    },
+    "scaleMessage": "Starten Sie mit HR. Skalieren Sie zu Legal. Wachsen Sie unternehmensweit. Eine Plattform, alle Abteilungen.",
+    "diagram": {
+      "title": "Volentis.ai Plattform",
+      "subtitle": "So funktioniert es",
+      "documents": "Ihre Dokumente",
+      "engine": "KI-Engine",
+      "engineDesc": "RAG-basiert, EU-deployed, kein Training mit Ihren Daten",
+      "agents": "Spezialisierte Agents"
     }
   },
   "features": {
@@ -75,15 +142,15 @@
     "items": {
       "documents": {
         "title": "Antworten aus Ihren eigenen Dokumenten",
-        "description": "Volentis.ai arbeitet ausschließlich mit Ihrem genehmigten Unternehmenswissen."
+        "description": "Volentis.ai arbeitet ausschließlich mit Ihrem genehmigten Unternehmenswissen. Keine externen Quellen, kein Raten."
       },
       "sources": {
         "title": "Quellenangabe bei jeder Antwort",
-        "description": "Jede Antwort enthält genaue Verweise auf die Quelldokumente."
+        "description": "Jede Antwort enthält genaue Verweise auf die Quelldokumente. Vollständige Transparenz, immer."
       },
       "search": {
         "title": "Leistungsstarke KI-Suche",
-        "description": "Unsere KI versteht die Bedeutung Ihrer Fragen."
+        "description": "Unsere KI versteht die Bedeutung Ihrer Fragen und findet relevante Informationen."
       },
       "collaboration": {
         "title": "Zusammenarbeiten und teilen",
@@ -94,7 +161,7 @@
   "value": {
     "sectionTitle": "Der Wert von Volentis.ai",
     "videoTitle": "Volentis.ai in Aktion",
-    "videoDescription": "Sehen Sie, wie unser KI-Assistent die Art und Weise transformiert, wie Unternehmen mit internem Wissen umgehen.",
+    "videoDescription": "Sehen Sie, wie unser KI-Assistent die Handhabung von internem Wissen transformiert.",
     "props": {
       "reliable": {
         "title": "Zuverlässige Antworten",
@@ -163,10 +230,13 @@
     }
   },
   "cta": {
-    "title": "Bereit, Ihr Unternehmenswissen zu transformieren?",
-    "description": "Buchen Sie eine Demo und erfahren Sie, wie Volentis.ai Ihrer Organisation helfen kann.",
+    "title": "Bereit, Shadow-AI-Risiken zu eliminieren?",
+    "description": "Buchen Sie eine Demo und sehen Sie, wie der Volentis HR Agent Ihre Tickets um 50-70% reduzieren kann — bei 100% Compliance.",
     "button": "Demo buchen",
-    "secondaryButton": "Vertrieb kontaktieren"
+    "secondaryButton": "Vertrieb kontaktieren",
+    "trust1": "Keine Kreditkarte erforderlich",
+    "trust2": "Live in Wochen",
+    "trust3": "EU-Datenresidenz"
   },
   "footer": {
     "tagline": "Europäische KI mit Vertrauen im Kern",
@@ -178,6 +248,6 @@
     "terms": "AGB",
     "cookies": "Cookie-Richtlinie",
     "copyright": "© 2026 Volentis B.V. Alle Rechte vorbehalten.",
-    "location": "Niederlande"
+    "country": "Niederlande"
   }
 }

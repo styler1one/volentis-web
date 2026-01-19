@@ -1,16 +1,34 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
+import { Link, usePathname, useRouter } from '@/i18n/navigation';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import Button from '@/components/ui/Button';
+
+const languages = [
+  { code: 'nl', label: 'Nederlands', flag: '🇳🇱' },
+  { code: 'en', label: 'English', flag: '🇬🇧' },
+  { code: 'de', label: 'Deutsch', flag: '🇩🇪' },
+  { code: 'fr', label: 'Français', flag: '🇫🇷' },
+] as const;
 
 export default function Header() {
   const t = useTranslations('nav');
+  const locale = useLocale();
+  const pathname = usePathname();
+  const router = useRouter();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [productDropdownOpen, setProductDropdownOpen] = useState(false);
   const [useCasesDropdownOpen, setUseCasesDropdownOpen] = useState(false);
+  const [langDropdownOpen, setLangDropdownOpen] = useState(false);
+
+  const currentLang = languages.find(l => l.code === locale) || languages[0];
+
+  const switchLanguage = (newLocale: string) => {
+    router.replace(pathname, { locale: newLocale });
+    setLangDropdownOpen(false);
+  };
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border-gray/20">
@@ -36,26 +54,28 @@ export default function Header() {
               onMouseEnter={() => setProductDropdownOpen(true)}
               onMouseLeave={() => setProductDropdownOpen(false)}
             >
-              <button className="flex items-center gap-1 text-text-body hover:text-volentis-navy transition-colors">
+              <button className="flex items-center gap-1 py-2 text-text-body hover:text-volentis-navy transition-colors">
                 {t('product')}
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className={`w-4 h-4 transition-transform ${productDropdownOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
               {productDropdownOpen && (
-                <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-card-hover border border-border-gray/20 py-2">
-                  <Link href="/product/features" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
-                    {t('features')}
-                  </Link>
-                  <Link href="/product/integrations" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
-                    {t('integrations')}
-                  </Link>
-                  <Link href="/product/deployment" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
-                    {t('deployment')}
-                  </Link>
-                  <Link href="/product/security" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
-                    {t('security')}
-                  </Link>
+                <div className="absolute top-full left-0 pt-2 -ml-4">
+                  <div className="w-48 bg-white rounded-lg shadow-card-hover border border-border-gray/20 py-2">
+                    <Link href="/product/features" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
+                      {t('features')}
+                    </Link>
+                    <Link href="/product/integrations" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
+                      {t('integrations')}
+                    </Link>
+                    <Link href="/product/deployment" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
+                      {t('deployment')}
+                    </Link>
+                    <Link href="/product/security" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
+                      {t('security')}
+                    </Link>
+                  </div>
                 </div>
               )}
             </div>
@@ -66,32 +86,34 @@ export default function Header() {
               onMouseEnter={() => setUseCasesDropdownOpen(true)}
               onMouseLeave={() => setUseCasesDropdownOpen(false)}
             >
-              <button className="flex items-center gap-1 text-text-body hover:text-volentis-navy transition-colors">
+              <button className="flex items-center gap-1 py-2 text-text-body hover:text-volentis-navy transition-colors">
                 {t('useCases')}
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className={`w-4 h-4 transition-transform ${useCasesDropdownOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
               {useCasesDropdownOpen && (
-                <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-lg shadow-card-hover border border-border-gray/20 py-2">
-                  <Link href="/use-cases/hr" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
-                    {t('hr')}
-                  </Link>
-                  <Link href="/use-cases/legal" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
-                    {t('legal')}
-                  </Link>
-                  <Link href="/use-cases/compliance" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
-                    {t('compliance')}
-                  </Link>
-                  <Link href="/use-cases/it" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
-                    {t('it')}
-                  </Link>
-                  <Link href="/use-cases/finance" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
-                    {t('finance')}
-                  </Link>
-                  <Link href="/use-cases/international" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
-                    {t('international')}
-                  </Link>
+                <div className="absolute top-full left-0 pt-2 -ml-4">
+                  <div className="w-56 bg-white rounded-lg shadow-card-hover border border-border-gray/20 py-2">
+                    <Link href="/use-cases/hr" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
+                      {t('hr')}
+                    </Link>
+                    <Link href="/use-cases/legal" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
+                      {t('legal')}
+                    </Link>
+                    <Link href="/use-cases/compliance" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
+                      {t('compliance')}
+                    </Link>
+                    <Link href="/use-cases/it" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
+                      {t('it')}
+                    </Link>
+                    <Link href="/use-cases/finance" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
+                      {t('finance')}
+                    </Link>
+                    <Link href="/use-cases/international" className="block px-4 py-2 text-text-body hover:bg-bg-light-blue hover:text-volentis-navy transition-colors">
+                      {t('international')}
+                    </Link>
+                  </div>
                 </div>
               )}
             </div>
@@ -105,9 +127,61 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* CTA Button */}
+          {/* Language Switcher & CTA Button */}
           <div className="hidden lg:flex lg:items-center lg:gap-4">
-            <Button href="/contact">{t('bookDemo')}</Button>
+            {/* Language Dropdown */}
+            <div 
+              className="relative"
+              onMouseEnter={() => setLangDropdownOpen(true)}
+              onMouseLeave={() => setLangDropdownOpen(false)}
+            >
+              <button className="flex items-center gap-1 px-2 py-2 text-text-body hover:text-volentis-navy transition-colors rounded-lg hover:bg-bg-light">
+                <span className="text-xl">{currentLang.flag}</span>
+                <svg className={`w-3 h-3 transition-transform ${langDropdownOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {langDropdownOpen && (
+                <div className="absolute top-full right-0 pt-2">
+                  <div className="w-40 bg-white rounded-lg shadow-card-hover border border-border-gray/20 py-2">
+                    {languages.map((lang) => (
+                      <button
+                        key={lang.code}
+                        onClick={() => switchLanguage(lang.code)}
+                        className={`w-full flex items-center gap-3 px-4 py-2 text-left transition-colors ${
+                          locale === lang.code 
+                            ? 'bg-bg-light-blue text-volentis-navy font-medium' 
+                            : 'text-text-body hover:bg-bg-light-blue hover:text-volentis-navy'
+                        }`}
+                      >
+                        <span className="text-lg">{lang.flag}</span>
+                        <span className="text-sm">{lang.label}</span>
+                        {locale === lang.code && (
+                          <svg className="w-4 h-4 ml-auto text-volentis-cyan" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                          </svg>
+                        )}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Login Button - for existing customers */}
+            <a 
+              href="https://app.volentis.ai/" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-text-body hover:text-volentis-navy transition-colors"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+              </svg>
+              {t('login')}
+            </a>
+
+            <Button href="/demo">{t('bookDemo')}</Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -176,8 +250,45 @@ export default function Header() {
               <Link href="/contact" className="text-text-body hover:text-volentis-cyan">
                 {t('contact')}
               </Link>
+
+              {/* Mobile Language Switcher */}
+              <div className="pt-4 border-t border-border-gray/20">
+                <p className="text-sm font-semibold text-volentis-navy mb-2">{t('language')}</p>
+                <div className="flex flex-wrap gap-2">
+                  {languages.map((lang) => (
+                    <button
+                      key={lang.code}
+                      onClick={() => {
+                        switchLanguage(lang.code);
+                        setMobileMenuOpen(false);
+                      }}
+                      className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors ${
+                        locale === lang.code 
+                          ? 'bg-volentis-cyan text-white' 
+                          : 'bg-bg-light text-text-body hover:bg-bg-light-blue'
+                      }`}
+                    >
+                      <span>{lang.flag}</span>
+                      <span>{lang.code.toUpperCase()}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
               
-              <Button href="/contact" className="mt-4 w-full justify-center">
+              {/* Mobile Login & CTA */}
+              <a 
+                href="https://app.volentis.ai/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 w-full inline-flex items-center justify-center gap-2 px-4 py-3 text-sm font-medium text-text-body border border-border-gray/30 rounded-xl hover:bg-bg-light transition-colors"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+                </svg>
+                {t('login')}
+              </a>
+              
+              <Button href="/demo" className="mt-2 w-full justify-center">
                 {t('bookDemo')}
               </Button>
             </div>

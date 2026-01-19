@@ -1,0 +1,36 @@
+<svg width="1584" height="396" viewBox="0 0 1584 396" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Main gradient background - Volentis colors -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2A38"/>
+      <stop offset="50%" stop-color="#1B3A4B"/>
+      <stop offset="100%" stop-color="#0F2A38"/>
+    </linearGradient>
+    
+    <!-- Cyan orb gradient -->
+    <radialGradient id="cyanOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2AAAD9" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#2AAAD9" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Light cyan orb gradient -->
+    <radialGradient id="lightCyanOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7DD3E8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#7DD3E8" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Blur filter -->
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="40"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1584" height="396" fill="url(#bgGradient)"/>
+  
+  <!-- Cyan orb - top right -->
+  <ellipse cx="1400" cy="-50" rx="400" ry="350" fill="url(#cyanOrb)" filter="url(#blur)"/>
+  
+  <!-- Light cyan orb - bottom left -->
+  <ellipse cx="200" cy="450" rx="350" ry="300" fill="url(#lightCyanOrb)" filter="url(#blur)"/>
+</svg>

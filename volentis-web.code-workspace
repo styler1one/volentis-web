@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../bpc-web"
 		}
 	],
 	"settings": {}

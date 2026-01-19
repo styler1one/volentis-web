@@ -1,12 +1,15 @@
 import createMiddleware from 'next-intl/middleware';
-import { locales, defaultLocale } from './i18n/config';
+import { routing } from './i18n/navigation';
 
-export default createMiddleware({
-  locales,
-  defaultLocale,
-  localePrefix: 'as-needed',
-});
+export default createMiddleware(routing);
 
 export const config = {
-  matcher: ['/', '/(nl|en|de|fr)/:path*'],
+  // Match all pathnames except for:
+  // - API routes (/api/...)
+  // - Static files (/_next/..., /favicon.ico, etc.)
+  matcher: [
+    '/',
+    '/(nl|en|de|fr)/:path*',
+    '/((?!api|_next|_vercel|.*\\..*).*)',
+  ],
 };

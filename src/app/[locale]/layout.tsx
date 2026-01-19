@@ -5,6 +5,7 @@ import { Outfit } from 'next/font/google';
 import { locales } from '@/i18n/config';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import StructuredData from '@/components/seo/StructuredData';
 import '@/styles/globals.css';
 
 const outfit = Outfit({
@@ -16,12 +17,85 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
+const baseUrl = 'https://www.volentis.ai';
+
 export const metadata: Metadata = {
-  title: 'Volentis.ai - European AI with Trust at the Core',
-  description: 'Enterprise AI you can trust — no hallucinations, no data leaks, no compliance risks.',
-  icons: {
-    icon: '/favicon.ico',
+  metadataBase: new URL(baseUrl),
+  title: {
+    default: 'Volentis.ai - European AI with Trust at the Core',
+    template: '%s | Volentis.ai',
   },
+  description: 'Enterprise AI you can trust — no hallucinations, no data leaks, no compliance risks. GDPR compliant, EU AI Act ready. Specialized AI agents for HR, Legal, Compliance, IT, and Finance.',
+  keywords: [
+    'enterprise AI',
+    'AI assistant',
+    'HR AI',
+    'legal AI',
+    'compliance AI',
+    'GDPR compliant AI',
+    'EU AI Act',
+    'European AI',
+    'RAG',
+    'knowledge management',
+    'document AI',
+    'no hallucinations',
+    'Volentis',
+  ],
+  authors: [{ name: 'Volentis B.V.' }],
+  creator: 'Volentis B.V.',
+  publisher: 'Volentis B.V.',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  icons: {
+    icon: '/volentis_logo.png',
+    apple: '/volentis_logo.png',
+  },
+  manifest: '/manifest.json',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    alternateLocale: ['nl_NL', 'de_DE', 'fr_FR'],
+    url: baseUrl,
+    siteName: 'Volentis.ai',
+    title: 'Volentis.ai - European AI with Trust at the Core',
+    description: 'Enterprise AI you can trust — no hallucinations, no data leaks, no compliance risks. GDPR compliant, EU AI Act ready.',
+    images: [
+      {
+        url: '/volentis_logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Volentis.ai - European AI with Trust at the Core',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Volentis.ai - European AI with Trust at the Core',
+    description: 'Enterprise AI you can trust — no hallucinations, no data leaks, no compliance risks. GDPR compliant, EU AI Act ready.',
+    images: ['/volentis_logo.png'],
+    creator: '@volentis_ai',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    // Add these when you have them:
+    // google: 'your-google-verification-code',
+    // yandex: 'your-yandex-verification-code',
+    // bing: 'your-bing-verification-code',
+  },
+  category: 'technology',
 };
 
 export default async function LocaleLayout({
@@ -37,6 +111,9 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={outfit.variable}>
+      <head>
+        <StructuredData />
+      </head>
       <body className="font-sans">
         <NextIntlClientProvider messages={messages}>
           <div className="flex min-h-screen flex-col">

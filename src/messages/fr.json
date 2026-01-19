@@ -5,7 +5,7 @@
   },
   "nav": {
     "product": "Produit",
-    "useCases": "Cas d'Usage",
+    "useCases": "Agents IA",
     "pricing": "Tarifs",
     "contact": "Contact",
     "bookDemo": "Réserver une Démo",
@@ -13,77 +13,144 @@
     "integrations": "Intégrations",
     "deployment": "Déploiement",
     "security": "Sécurité",
-    "hr": "Politique RH & Service",
-    "legal": "Juridique & Contrats",
-    "compliance": "Conformité & Risque",
-    "it": "IT & Helpdesk",
-    "finance": "Finance & Achats",
-    "international": "International"
+    "hr": "Agent RH",
+    "legal": "Agent Juridique",
+    "compliance": "Agent Conformité",
+    "it": "Agent IT",
+    "finance": "Agent Finance",
+    "international": "International",
+    "language": "Langue"
   },
   "hero": {
-    "title": "Volentis.ai",
-    "subtitle": "Vous connaissez la question; Volentis.ai trouve la réponse fiable",
-    "description": "Emportez vos connaissances d'entreprise partout avec un accès 24/7 à des réponses fiables depuis vos propres documents.",
-    "cta": "Réserver une Démo",
-    "secondaryCta": "Voir comment ça marche",
+    "badge": "Plateforme IA Souveraine UE",
+    "headline": "Votre équipe croule sous les questions répétitives ?",
+    "subheadline": "L'Agent RH Volentis répond à 50-70% de vos tickets RH — 24/7, depuis vos propres documents, 100% conforme.",
+    "description": "73% des employés utilisent déjà des outils IA — souvent sans que l'IT ou la Conformité le sache. Volentis.ai vous donne le contrôle : une plateforme pour des réponses fiables depuis vos documents approuvés.",
+    "cta": "Voir l'Agent RH",
+    "secondaryCta": "Voir tous les Agents",
+    "metrics": {
+      "tickets": "moins de tickets",
+      "availability": "disponibilité",
+      "compliant": "conforme RGPD"
+    },
     "chatDemo": {
-      "userMessage": "Quelle est notre politique de congé parental pour les employés en Allemagne?",
-      "aiResponse": "Selon votre Manuel de Politique RH (Section 4.2), les employés en Allemagne ont droit à...",
-      "typing": "Volentis.ai écrit..."
+      "message1": {
+        "user": "Bonjour ! Je vais devenir père le mois prochain 🎉 À combien de congé parental ai-je droit ?",
+        "ai": "Félicitations ! En tant que père, vous avez droit à 6 semaines de congé parental payé (70% du salaire). Vous pouvez le prendre dans les 6 premiers mois après la naissance. Vous pouvez également le fractionner.",
+        "source": "Manuel de l'Employé v3.1, Chapitre 5.2"
+      },
+      "message2": {
+        "user": "Super ! Comment faire la demande ?",
+        "ai": "Allez sur le portail RH → 'Demandes de congé' → 'Congé parental'. Entrez la date prévue de naissance et la période souhaitée. Votre manager sera notifié automatiquement. Conseil : faites la demande au moins 4 semaines à l'avance.",
+        "source": "Guide du Portail RH, Section 3.4"
+      },
+      "message3": {
+        "user": "Parfait. Dois-je organiser mon remplacement moi-même ?",
+        "ai": "Non, ce n'est pas nécessaire. Pour le congé parental, votre manager organise le remplacement. Cependant, il est utile de préparer un document de passation pour vos projets en cours. Voulez-vous voir la checklist de passation ?",
+        "source": "Politique de Congés 2024, Article 12"
+      },
+      "inputPlaceholder": "Posez votre question RH... congés, notes de frais, règlements et plus"
     }
   },
-  "useCases": {
-    "sectionTitle": "Quel problème voulez-vous résoudre?",
-    "sectionSubtitle": "Choisissez votre défi et découvrez comment Volentis.ai peut aider",
+  "agents": {
+    "label": "Agents IA",
+    "sectionTitle": "Découvrez nos Agents IA",
+    "sectionSubtitle": "Assistants IA spécialisés pour chaque département. Commencez par un, évoluez vers tous.",
+    "popular": "Le Plus Populaire",
     "learnMore": "En savoir plus",
     "cards": {
       "hr": {
-        "icon": "users",
-        "title": "Politique RH & Service",
-        "description": "50-70% moins de tickets RH, réponses 24/7"
+        "title": "Agent RH",
+        "metric": "50-70% moins de tickets",
+        "description": "Réponses 24/7 aux questions de politique RH depuis manuels et directives internes."
       },
       "legal": {
-        "icon": "scale",
-        "title": "Juridique & Contrats",
-        "description": "Révision de contrats 70% plus rapide"
+        "title": "Agent Juridique",
+        "metric": "70% plus rapide",
+        "description": "Trouvez des clauses en secondes, comparez les contrats, identifiez les écarts."
       },
       "compliance": {
-        "icon": "shield",
-        "title": "Conformité & Risque",
-        "description": "RGPD & EU AI Act prêt pour l'audit en heures"
+        "title": "Agent Conformité",
+        "metric": "Prêt pour l'audit en heures",
+        "description": "Vérifications de conformité RGPD et EU AI Act avec documentation complète."
       },
       "it": {
-        "icon": "laptop",
-        "title": "IT & Helpdesk",
-        "description": "Déflection Tier-1 de 50-60%"
+        "title": "Agent IT",
+        "metric": "50-60% déflection",
+        "description": "Déflection de tickets Tier-1 avec auto-dépannage depuis votre documentation."
       },
       "finance": {
-        "icon": "coins",
-        "title": "Finance & Achats",
-        "description": "60% moins d'erreurs de procédure"
+        "title": "Agent Finance",
+        "metric": "60% moins d'erreurs",
+        "description": "Politiques d'achat que tout le monde comprend. Traitement des factures plus rapide."
       },
       "international": {
-        "icon": "globe",
         "title": "International",
-        "description": "Une plateforme pour toutes vos juridictions UE"
+        "metric": "15 politiques → 1",
+        "description": "Analyse transfrontalière pour multinationales. Une plateforme pour toutes les juridictions UE."
       }
     }
   },
+  "socialProof": {
+    "title": "Résultats prouvés chez les entreprises européennes",
+    "subtitle": "Impact réel, résultats mesurables",
+    "metrics": {
+      "hrTickets": "réduction tickets RH",
+      "contractReview": "révision contrats plus rapide",
+      "availability": "disponibilité self-service",
+      "compliance": "conforme RGPD"
+    },
+    "badges": {
+      "euHosted": "Hébergé dans l'UE",
+      "gdpr": "Conforme RGPD",
+      "euAiAct": "EU AI Act Ready",
+      "security": "Sécurité Enterprise"
+    },
+    "trustedBy": "Fait confiance par"
+  },
+  "platform": {
+    "label": "La Plateforme",
+    "title": "Pourquoi une plateforme pour tous les départements ?",
+    "description": "Volentis.ai n'est pas qu'un chatbot — c'est une plateforme IA d'entreprise souveraine UE qui transforme vos connaissances internes en moteur de décision fiable et auditable.",
+    "benefits": {
+      "knowledgeBase": {
+        "title": "Une Base de Connaissances",
+        "description": "Tous vos documents en un seul endroit. Politiques RH, contrats, procédures — indexés et prêts pour l'IA."
+      },
+      "auditTrail": {
+        "title": "Une Piste d'Audit",
+        "description": "Chaque question, chaque réponse, entièrement traçable. Journalisation complète pour la conformité."
+      },
+      "compliance": {
+        "title": "Une Couche de Conformité",
+        "description": "Conformité RGPD + EU AI Act intégrée. Pas de risques Shadow AI. Les données ne quittent jamais l'UE."
+      }
+    },
+    "scaleMessage": "Commencez par RH. Évoluez vers Juridique. Croissez à l'échelle de l'entreprise. Une plateforme, tous les départements.",
+    "diagram": {
+      "title": "Plateforme Volentis.ai",
+      "subtitle": "Comment ça marche",
+      "documents": "Vos Documents",
+      "engine": "Moteur IA",
+      "engineDesc": "Basé sur RAG, déployé en UE, pas d'entraînement sur vos données",
+      "agents": "Agents Spécialisés"
+    }
+  },
   "features": {
-    "sectionTitle": "Qu'est-ce qui rend Volentis.ai unique?",
+    "sectionTitle": "Qu'est-ce qui rend Volentis.ai unique ?",
     "tryIt": "Essayez vous-même →",
     "items": {
       "documents": {
         "title": "Réponses depuis vos propres documents",
-        "description": "Volentis.ai travaille exclusivement avec vos connaissances d'entreprise approuvées."
+        "description": "Volentis.ai travaille exclusivement avec vos connaissances d'entreprise approuvées. Pas de sources externes, pas de suppositions."
       },
       "sources": {
         "title": "Citation de source avec chaque réponse",
-        "description": "Chaque réponse inclut des références exactes aux documents sources."
+        "description": "Chaque réponse inclut des références exactes aux documents sources. Transparence complète, toujours."
       },
       "search": {
         "title": "Recherche puissante avec IA",
-        "description": "Notre IA comprend le sens de vos questions."
+        "description": "Notre IA comprend le sens de vos questions et trouve les informations pertinentes."
       },
       "collaboration": {
         "title": "Collaborer et partager",
@@ -94,7 +161,7 @@
   "value": {
     "sectionTitle": "La valeur de Volentis.ai",
     "videoTitle": "Voir Volentis.ai en action",
-    "videoDescription": "Découvrez comment notre assistant IA transforme la façon dont les entreprises gèrent les connaissances internes.",
+    "videoDescription": "Découvrez comment notre assistant IA transforme la gestion des connaissances internes.",
     "props": {
       "reliable": {
         "title": "Réponses Fiables",
@@ -163,10 +230,13 @@
     }
   },
   "cta": {
-    "title": "Prêt à transformer vos connaissances d'entreprise?",
-    "description": "Réservez une démo et découvrez comment Volentis.ai peut aider votre organisation.",
+    "title": "Prêt à éliminer les risques Shadow AI ?",
+    "description": "Réservez une démo et voyez comment l'Agent RH Volentis peut réduire vos tickets de 50-70% — tout en restant 100% conforme.",
     "button": "Réserver une Démo",
-    "secondaryButton": "Contacter les Ventes"
+    "secondaryButton": "Contacter les Ventes",
+    "trust1": "Pas de carte de crédit requise",
+    "trust2": "En ligne en quelques semaines",
+    "trust3": "Résidence des données UE"
   },
   "footer": {
     "tagline": "IA Européenne avec la Confiance au Cœur",
@@ -178,6 +248,6 @@
     "terms": "Conditions Générales",
     "cookies": "Politique de Cookies",
     "copyright": "© 2026 Volentis B.V. Tous droits réservés.",
-    "location": "Pays-Bas"
+    "country": "Pays-Bas"
   }
 }

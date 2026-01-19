@@ -1,0 +1,84 @@
+<svg width="1584" height="396" viewBox="0 0 1584 396" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Main gradient background - Volentis colors -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2A38"/>
+      <stop offset="50%" stop-color="#1B3A4B"/>
+      <stop offset="100%" stop-color="#0F2A38"/>
+    </linearGradient>
+    
+    <!-- Cyan orb gradient -->
+    <radialGradient id="cyanOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2AAAD9" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2AAAD9" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Light cyan orb gradient -->
+    <radialGradient id="lightCyanOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7DD3E8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#7DD3E8" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Additional accent orb -->
+    <radialGradient id="accentOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4ECDC4" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#4ECDC4" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Node/network gradients -->
+    <linearGradient id="nodeGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7DD3E8"/>
+      <stop offset="100%" stop-color="#2AAAD9"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4ECDC4"/>
+      <stop offset="100%" stop-color="#2AAAD9"/>
+    </linearGradient>
+    
+    <!-- Blur filter -->
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="35"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1584" height="396" fill="url(#bgGradient)"/>
+  
+  <!-- Cyan orb - top right -->
+  <ellipse cx="1350" cy="-80" rx="450" ry="380" fill="url(#cyanOrb)" filter="url(#blur)"/>
+  
+  <!-- Light cyan orb - bottom left -->
+  <ellipse cx="150" cy="480" rx="380" ry="320" fill="url(#lightCyanOrb)" filter="url(#blur)"/>
+  
+  <!-- Small accent orb - center right -->
+  <ellipse cx="1100" cy="350" rx="200" ry="180" fill="url(#accentOrb)" filter="url(#blur)"/>
+  
+  <!-- Network nodes - AI theme -->
+  <circle cx="1320" cy="50" r="5" fill="url(#nodeGrad1)" opacity="0.5"/>
+  <circle cx="1380" cy="110" r="3" fill="#7DD3E8" opacity="0.35"/>
+  <circle cx="1440" cy="70" r="4" fill="url(#nodeGrad2)" opacity="0.4"/>
+  
+  <!-- Connecting lines -->
+  <line x1="1320" y1="50" x2="1380" y2="110" stroke="#2AAAD9" stroke-width="1" stroke-opacity="0.2"/>
+  <line x1="1320" y1="50" x2="1440" y2="70" stroke="#7DD3E8" stroke-width="1" stroke-opacity="0.15"/>
+  
+  <!-- Overlapping circles - brand element -->
+  <circle cx="1420" cy="280" r="90" fill="none" stroke="#2AAAD9" stroke-width="1" stroke-opacity="0.2"/>
+  <circle cx="1360" cy="320" r="70" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
+  
+  <!-- Gradient accent line -->
+  <line x1="1050" y1="0" x2="1050" y2="80" stroke="url(#nodeGrad1)" stroke-width="1" stroke-opacity="0.25"/>
+  
+  <!-- TEXT OVERLAY - Right aligned for LinkedIn (photo overlaps left) -->
+  <text x="1464" y="155" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="56" font-weight="700" fill="white" letter-spacing="-0.02em" text-anchor="end">
+    Enterprise AI
+  </text>
+  
+  <text x="1464" y="225" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="40" font-weight="600" fill="#2AAAD9" letter-spacing="-0.01em" text-anchor="end">
+    you can trust.
+  </text>
+  
+  <text x="1464" y="280" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="500" fill="white" fill-opacity="0.5" text-anchor="end">
+    volentis.ai
+  </text>
+</svg>

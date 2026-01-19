@@ -1,5 +1,7 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
 
 const featureImages = {
   documents: (
@@ -139,6 +141,12 @@ export default function Features() {
                 <p className="text-lg text-text-body">
                   {t(`items.${feature}.description`)}
                 </p>
+                {/* Benefit callout */}
+                <div className="p-4 bg-bg-light-blue rounded-xl border-l-4 border-volentis-cyan">
+                  <p className="text-sm text-volentis-navy font-medium">
+                    {t(`items.${feature}.benefit`)}
+                  </p>
+                </div>
                 <Link 
                   href="/contact"
                   className="inline-flex items-center gap-2 text-volentis-cyan font-medium hover:gap-3 transition-all duration-200"
