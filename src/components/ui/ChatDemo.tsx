@@ -94,22 +94,21 @@ export default function ChatDemo() {
         <div className="flex items-center justify-between">
           {/* Left side - Logo & Status */}
           <div className="flex items-center gap-3">
-            <div className="relative">
-              <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center">
-                <Image
-                  src="/volentis_logo.png"
-                  alt="Volentis"
-                  width={24}
-                  height={24}
-                  className="w-6 h-6"
-                />
-              </div>
-              {/* Online indicator */}
-              <div className="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-accent-success rounded-full border-2 border-volentis-navy" />
+            <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center">
+              <Image
+                src="/volentis_logo.png"
+                alt="Volentis"
+                width={24}
+                height={24}
+                className="w-6 h-6"
+              />
             </div>
             <div>
               <h3 className="text-white font-semibold text-sm">Volentis AI</h3>
-              <span className="text-white/60 text-xs">{t('status') || 'Online'}</span>
+              <div className="flex items-center gap-1.5">
+                <span className="w-1.5 h-1.5 bg-accent-success rounded-full animate-pulse" />
+                <span className="text-white/60 text-xs">{t('status') || 'Online'}</span>
+              </div>
             </div>
           </div>
           
