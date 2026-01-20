@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
 
 interface Message {
   type: 'user' | 'ai';
@@ -94,14 +93,25 @@ export default function ChatDemo() {
         <div className="flex items-center justify-between">
           {/* Left side - Logo & Status */}
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center">
-              <Image
-                src="/volentis_logo.png"
-                alt="Volentis"
-                width={24}
-                height={24}
-                className="w-6 h-6"
-              />
+            {/* Friendly human avatar */}
+            <div className="w-10 h-10 bg-gradient-to-br from-amber-100 to-amber-200 rounded-xl flex items-center justify-center shadow-inner">
+              <svg viewBox="0 0 36 36" className="w-7 h-7">
+                {/* Hair */}
+                <path fill="#5C4033" d="M5 18c0-7.18 5.82-13 13-13s13 5.82 13 13c0 2-.5 4-1.5 5.5 0 0-2-1.5-5.5-1.5h-12c-3.5 0-5.5 1.5-5.5 1.5-1-1.5-1.5-3.5-1.5-5.5z"/>
+                {/* Face */}
+                <circle fill="#FFDAB9" cx="18" cy="19" r="10"/>
+                {/* Cheeks - warm blush */}
+                <circle fill="#FFB6A3" cx="12" cy="21" r="2" opacity="0.5"/>
+                <circle fill="#FFB6A3" cx="24" cy="21" r="2" opacity="0.5"/>
+                {/* Eyes - friendly */}
+                <ellipse fill="#5C4033" cx="14" cy="18" rx="1.5" ry="2"/>
+                <ellipse fill="#5C4033" cx="22" cy="18" rx="1.5" ry="2"/>
+                {/* Eye shine */}
+                <circle fill="#FFF" cx="14.5" cy="17.5" r="0.5"/>
+                <circle fill="#FFF" cx="22.5" cy="17.5" r="0.5"/>
+                {/* Gentle smile */}
+                <path fill="none" stroke="#B87A5A" strokeWidth="1.5" strokeLinecap="round" d="M14 23c1.5 2 6.5 2 8 0"/>
+              </svg>
             </div>
             <div>
               <h3 className="text-white font-semibold text-sm">Volentis AI</h3>
@@ -161,14 +171,18 @@ export default function ChatDemo() {
               return (
                 <div key={index} className="flex justify-start">
                   <div className="flex items-end gap-2">
-                    <div className="w-8 h-8 bg-volentis-navy/5 rounded-full flex items-center justify-center flex-shrink-0">
-                      <Image
-                        src="/volentis_logo.png"
-                        alt=""
-                        width={16}
-                        height={16}
-                        className="w-4 h-4 opacity-60"
-                      />
+                    <div className="w-8 h-8 bg-gradient-to-br from-amber-100 to-amber-200 rounded-full flex items-center justify-center flex-shrink-0 shadow-sm">
+                      <svg viewBox="0 0 36 36" className="w-5 h-5">
+                        <path fill="#5C4033" d="M5 18c0-7.18 5.82-13 13-13s13 5.82 13 13c0 2-.5 4-1.5 5.5 0 0-2-1.5-5.5-1.5h-12c-3.5 0-5.5 1.5-5.5 1.5-1-1.5-1.5-3.5-1.5-5.5z"/>
+                        <circle fill="#FFDAB9" cx="18" cy="19" r="10"/>
+                        <circle fill="#FFB6A3" cx="12" cy="21" r="2" opacity="0.5"/>
+                        <circle fill="#FFB6A3" cx="24" cy="21" r="2" opacity="0.5"/>
+                        <ellipse fill="#5C4033" cx="14" cy="18" rx="1.5" ry="2"/>
+                        <ellipse fill="#5C4033" cx="22" cy="18" rx="1.5" ry="2"/>
+                        <circle fill="#FFF" cx="14.5" cy="17.5" r="0.5"/>
+                        <circle fill="#FFF" cx="22.5" cy="17.5" r="0.5"/>
+                        <path fill="none" stroke="#B87A5A" strokeWidth="1.5" strokeLinecap="round" d="M14 23c1.5 2 6.5 2 8 0"/>
+                      </svg>
                     </div>
                     <div className="bg-white rounded-2xl rounded-bl-md px-4 py-3 shadow-md border border-border-gray/10">
                       <div className="flex gap-1.5">
@@ -189,14 +203,18 @@ export default function ChatDemo() {
               return (
                 <div key={index} className="flex justify-start animate-fade-in">
                   <div className="flex items-end gap-2 max-w-[85%]">
-                    <div className="w-8 h-8 bg-volentis-navy/5 rounded-full flex items-center justify-center flex-shrink-0">
-                      <Image
-                        src="/volentis_logo.png"
-                        alt=""
-                        width={16}
-                        height={16}
-                        className="w-4 h-4 opacity-60"
-                      />
+                    <div className="w-8 h-8 bg-gradient-to-br from-amber-100 to-amber-200 rounded-full flex items-center justify-center flex-shrink-0 shadow-sm">
+                      <svg viewBox="0 0 36 36" className="w-5 h-5">
+                        <path fill="#5C4033" d="M5 18c0-7.18 5.82-13 13-13s13 5.82 13 13c0 2-.5 4-1.5 5.5 0 0-2-1.5-5.5-1.5h-12c-3.5 0-5.5 1.5-5.5 1.5-1-1.5-1.5-3.5-1.5-5.5z"/>
+                        <circle fill="#FFDAB9" cx="18" cy="19" r="10"/>
+                        <circle fill="#FFB6A3" cx="12" cy="21" r="2" opacity="0.5"/>
+                        <circle fill="#FFB6A3" cx="24" cy="21" r="2" opacity="0.5"/>
+                        <ellipse fill="#5C4033" cx="14" cy="18" rx="1.5" ry="2"/>
+                        <ellipse fill="#5C4033" cx="22" cy="18" rx="1.5" ry="2"/>
+                        <circle fill="#FFF" cx="14.5" cy="17.5" r="0.5"/>
+                        <circle fill="#FFF" cx="22.5" cy="17.5" r="0.5"/>
+                        <path fill="none" stroke="#B87A5A" strokeWidth="1.5" strokeLinecap="round" d="M14 23c1.5 2 6.5 2 8 0"/>
+                      </svg>
                     </div>
                     <div className="bg-white rounded-2xl rounded-bl-md px-4 py-3 shadow-md border border-border-gray/10">
                       <p className="text-sm text-text-dark leading-relaxed">
