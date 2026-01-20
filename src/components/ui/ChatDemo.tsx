@@ -109,10 +109,7 @@ export default function ChatDemo() {
             </div>
             <div>
               <h3 className="text-white font-semibold text-sm">Volentis AI</h3>
-              <div className="flex items-center gap-1.5">
-                <span className="w-1.5 h-1.5 bg-accent-success rounded-full animate-pulse" />
-                <span className="text-white/60 text-xs">{t('status') || 'Online'}</span>
-              </div>
+              <span className="text-white/60 text-xs">{t('status') || 'Online'}</span>
             </div>
           </div>
           
