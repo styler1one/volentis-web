@@ -186,53 +186,43 @@ Meer weten? Link in bio.
 
 ## 🛠️ LinkedIn Services (max 10, elk max 500 tekens)
 
-### 1. HR Agent Implementation
-```
-AI-assistent die 50-70% van je HR-vragen automatisch beantwoordt. Medewerkers krijgen direct antwoord over verlof, benefits en beleid uit je eigen documenten. 24/7 beschikbaar, 100% GDPR compliant. Operationeel binnen 2 weken.
-```
-*221 tekens*
+*Gebaseerd op de AI Agents zoals benoemd op volentis.ai*
 
-### 2. Legal Document AI
+### 1. HR Agent
 ```
-Vind clausules in seconden, niet uren. Onze Legal Agent doorzoekt contracten, vergelijkt templates en signaleert risico's. Altijd compliant, met volledige audit trail. Ideaal voor juridische afdelingen die sneller willen werken.
+50-70% minder tickets. Je HR-team krijgt tijd terug. Medewerkers krijgen direct antwoord over verlof, benefits en beleid zonder te wachten op email. Stop met steeds dezelfde vragen beantwoorden.
 ```
-*224 tekens*
+*194 tekens*
 
-### 3. Compliance Automation
+### 2. Legal Agent
 ```
-Audit-ready in uren, niet weken. De Compliance Agent houdt je GDPR en EU AI Act documentatie bij, beantwoordt compliance-vragen en genereert rapporten. Complete traceerbaarheid voor elke vraag en elk antwoord.
+70% snellere review. Vind die clausule die je zoekt in seconden, niet uren. Vergelijk contracten direct en spot afwijkingen van je templates. Mis nooit meer een risicovolle clausule.
 ```
-*205 tekens*
+*182 tekens*
 
-### 4. IT Support Automation
+### 3. Compliance Agent
 ```
-50-60% minder IT-tickets. Medewerkers lossen veelvoorkomende problemen zelf op met onze IT Agent. Van wachtwoord resets tot VPN-problemen. Je IT-team focust op echte uitdagingen in plaats van repetitieve vragen.
+Audit-ready in uren. Als de auditor belt, ben je klaar. Complete documentatie trail voor GDPR en EU AI Act compliance. Geen paniek, geen gehaast. Slaap beter voor audits.
 ```
-*209 tekens*
+*169 tekens*
 
-### 5. Enterprise AI Consulting
+### 4. IT Agent
 ```
-Strategisch advies voor AI-implementatie in je organisatie. We helpen bij use case selectie, change management en uitrol. Van pilot tot volledige implementatie, met aandacht voor compliance en adoptie.
+50-60% minder tickets. Medewerkers lossen veelvoorkomende IT-problemen zelf op. Je IT-team focust op echte problemen in plaats van wachtwoord resets. Minder 'heb je al herstart?' tickets.
+```
+*187 tekens*
+
+### 5. Finance Agent
+```
+60% minder fouten. Geen afgekeurde declaraties meer. Medewerkers begrijpen inkoopbeleid voordat ze indienen, niet na afwijzing. Stop met achter foute facturen aanjagen.
+```
+*168 tekens*
+
+### 6. International / Multi-Country Support
+```
+15 beleidssets → 1. Eén antwoord, alle landen. Stop met aparte beleidsdocumenten per EU-land. Vraag één keer, krijg het juiste antwoord voor elke jurisdictie. Vereenvoudig cross-border complexiteit.
 ```
 *198 tekens*
-
-### 6. Document Knowledge Base Setup
-```
-We zetten je kennisbank op: van documenten verzamelen tot structureren en koppelen aan de AI. Je bestaande content wordt doorzoekbaar en bruikbaar. Inclusief training voor contentbeheerders.
-```
-*189 tekens*
-
-### 7. AI Agent Training & Customization
-```
-Elke organisatie is uniek. We trainen en configureren de AI Agents voor jouw specifieke processen, terminologie en beleid. Inclusief fine-tuning op basis van gebruikersfeedback na go-live.
-```
-*189 tekens*
-
-### 8. GDPR & EU AI Act Compliance Review
-```
-Audit van je huidige AI-gebruik op compliance. We identificeren risico's, adviseren over oplossingen en helpen bij implementatie. Inclusief documentatie die je aan auditors kunt tonen.
-```
-*183 tekens*
 
 ---
 
