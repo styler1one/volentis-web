@@ -184,45 +184,21 @@ Meer weten? Link in bio.
 
 ---
 
-## 🛠️ LinkedIn Services (max 10, elk max 500 tekens)
+## 🛠️ LinkedIn Services - About beschrijving (max 500 tekens)
 
-*Gebaseerd op de AI Agents zoals benoemd op volentis.ai*
+```
+AI Agents die medewerkervragen beantwoorden uit je eigen documenten. 24/7, 100% GDPR compliant.
 
-### 1. HR Agent
-```
-50-70% minder tickets. Je HR-team krijgt tijd terug. Medewerkers krijgen direct antwoord over verlof, benefits en beleid zonder te wachten op email. Stop met steeds dezelfde vragen beantwoorden.
-```
-*194 tekens*
+• HR Agent: 50-70% minder tickets
+• Legal Agent: 70% snellere contract review
+• Compliance Agent: Audit-ready in uren
+• IT Agent: 50-60% minder support tickets
+• Finance Agent: 60% minder declaratiefouten
+• International: Eén antwoord, alle EU-landen
 
-### 2. Legal Agent
+Start met één agent, schaal naar allemaal. Data blijft in de EU.
 ```
-70% snellere review. Vind die clausule die je zoekt in seconden, niet uren. Vergelijk contracten direct en spot afwijkingen van je templates. Mis nooit meer een risicovolle clausule.
-```
-*182 tekens*
-
-### 3. Compliance Agent
-```
-Audit-ready in uren. Als de auditor belt, ben je klaar. Complete documentatie trail voor GDPR en EU AI Act compliance. Geen paniek, geen gehaast. Slaap beter voor audits.
-```
-*169 tekens*
-
-### 4. IT Agent
-```
-50-60% minder tickets. Medewerkers lossen veelvoorkomende IT-problemen zelf op. Je IT-team focust op echte problemen in plaats van wachtwoord resets. Minder 'heb je al herstart?' tickets.
-```
-*187 tekens*
-
-### 5. Finance Agent
-```
-60% minder fouten. Geen afgekeurde declaraties meer. Medewerkers begrijpen inkoopbeleid voordat ze indienen, niet na afwijzing. Stop met achter foute facturen aanjagen.
-```
-*168 tekens*
-
-### 6. International / Multi-Country Support
-```
-15 beleidssets → 1. Eén antwoord, alle landen. Stop met aparte beleidsdocumenten per EU-land. Vraag één keer, krijg het juiste antwoord voor elke jurisdictie. Vereenvoudig cross-border complexiteit.
-```
-*198 tekens*
+*434 tekens*
 
 ---
 
