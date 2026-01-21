@@ -498,89 +498,89 @@
         },
         "disclaimer": "Der HR Agent ist kein Ersatz für professionelle HR- oder Rechtsberatung. Bei komplexen arbeitsrechtlichen Angelegenheiten wenden Sie sich immer an Ihr HR-Team oder Ihre Rechtsabteilung."
       },
-      "capabilitiesTitle": "What can the HR Agent do?",
-      "capabilitiesDescription": "Your always-on HR assistant that knows your policies inside and out.",
+      "capabilitiesTitle": "Was kann der HR Agent?",
+      "capabilitiesDescription": "Ihr rund um die Uhr verfügbarer HR-Assistent, der Ihre Richtlinien in- und auswendig kennt.",
       "capabilities": {
-        "1": "Answer policy questions from handbooks, CAOs, and internal guidelines",
-        "2": "Guide employees through HR processes (leave requests, expenses, onboarding)",
-        "3": "Explain benefits and compensation structures",
-        "4": "Provide role-specific and location-specific information",
-        "5": "Draft job descriptions (with human review required)",
-        "6": "Support performance management inquiries",
-        "7": "Answer questions in all EU languages",
-        "8": "Maintain complete audit trail for compliance"
+        "1": "Richtlinienfragen aus Handbüchern, Tarifverträgen und internen Guidelines beantworten",
+        "2": "Mitarbeiter durch HR-Prozesse führen (Urlaubsanträge, Spesen, Onboarding)",
+        "3": "Benefits und Vergütungsstrukturen erklären",
+        "4": "Rollen- und standortspezifische Informationen bereitstellen",
+        "5": "Stellenbeschreibungen entwerfen (menschliche Prüfung erforderlich)",
+        "6": "Performance-Management-Anfragen unterstützen",
+        "7": "Fragen in allen EU-Sprachen beantworten",
+        "8": "Vollständigen Audit Trail für Compliance führen"
       },
-      "ctaTitle": "Ready to reduce your HR tickets by 50-70%?",
-      "ctaDescription": "See how the Volentis HR Agent can transform your HR service delivery while staying 100% GDPR compliant.",
-      "ctaTimeline": "Live in 2-4 weeks",
-      "ctaWhyVolentis": "Unlike generic AI, Volentis only answers from your approved documents. No hallucinations, full audit trail."
+      "ctaTitle": "Bereit, Ihre HR-Tickets um 50-70% zu reduzieren?",
+      "ctaDescription": "Sehen Sie, wie der Volentis HR Agent Ihren HR-Service transformieren kann, bei 100% DSGVO-Konformität.",
+      "ctaTimeline": "Live in 2-4 Wochen",
+      "ctaWhyVolentis": "Anders als generische AI antwortet Volentis nur aus Ihren freigegebenen Dokumenten. Keine Halluzinationen, vollständiger Audit Trail."
     },
     "legal": {
-      "metaTitle": "Legal Agent - Volentis.ai | Contract Analysis & Clause Lookup",
-      "metaDescription": "Speed up contract review by 70% with the Volentis Legal Agent. Find clauses in seconds, compare contracts, identify deviations.",
+      "metaTitle": "Legal Agent - Volentis.ai | Vertragsanalyse & Klauselsuche",
+      "metaDescription": "Beschleunigen Sie die Vertragsprüfung um 70% mit dem Volentis Legal Agent. Finden Sie Klauseln in Sekunden, vergleichen Sie Verträge, identifizieren Sie Abweichungen.",
       "title": "Legal Agent",
-      "badge": "For Legal Teams",
-      "headline": "Contract review in hours, not days",
-      "subheadline": "The Volentis Legal Agent finds clauses in seconds, compares contracts against templates, and identifies deviations. With full source attribution.",
-      "problemStatement": "Lawyers spend 60% of their time on document review",
+      "badge": "Für Legal Teams",
+      "headline": "Vertragsprüfung in Stunden, nicht Tagen",
+      "subheadline": "Der Volentis Legal Agent findet Klauseln in Sekunden, vergleicht Verträge mit Vorlagen und identifiziert Abweichungen. Mit vollständiger Quellenangabe.",
+      "problemStatement": "Juristen verbringen 60% ihrer Zeit mit Dokumentenprüfung",
       "painPoints": {
-        "1": "Contract clauses are scattered across hundreds of documents",
-        "2": "Due diligence takes weeks instead of days",
-        "3": "Missed clauses create compliance and financial risks"
+        "1": "Vertragsklauseln sind über Hunderte von Dokumenten verstreut",
+        "2": "Due Diligence dauert Wochen statt Tage",
+        "3": "Übersehene Klauseln schaffen Compliance- und finanzielle Risiken"
       },
-      "solutionTeaser": "The Volentis Legal Agent: Find any clause in seconds",
+      "solutionTeaser": "Der Volentis Legal Agent: Jede Klausel in Sekunden finden",
       "metrics": {
-        "fasterReview": "faster contract review",
-        "dueDiligence": "shorter due diligence",
-        "clauseAccuracy": "fewer missed clauses",
-        "legalCosts": "lower legal costs"
+        "fasterReview": "schnellere Vertragsprüfung",
+        "dueDiligence": "kürzere Due Diligence",
+        "clauseAccuracy": "weniger übersehene Klauseln",
+        "legalCosts": "niedrigere Rechtskosten"
       },
-      "howItWorksDescription": "Ask questions about your contracts and legal documents. Get precise answers with exact references to clauses and sections.",
+      "howItWorksDescription": "Stellen Sie Fragen zu Ihren Verträgen und Rechtsdokumenten. Erhalten Sie präzise Antworten mit exakten Verweisen auf Klauseln und Abschnitte.",
       "examples": {
         "1": {
-          "question": "What are the data protection clauses in our supplier contracts?",
-          "answer": "Analysis of 47 active supplier contracts shows: 43 contracts contain GDPR-compliant DPA clauses (Article 28 compliant), 3 contracts have outdated pre-GDPR language (Supplier A, B, C), 1 contract is missing a DPA entirely (Supplier D). Recommendation: Priority review needed for 4 contracts. Full clause comparison available."
+          "question": "Welche Datenschutzklauseln sind in unseren Lieferantenverträgen?",
+          "answer": "Analyse von 47 aktiven Lieferantenverträgen zeigt: 43 Verträge enthalten DSGVO-konforme AVV-Klauseln (Artikel 28 konform), 3 Verträge haben veraltete Pre-DSGVO-Formulierungen (Lieferant A, B, C), 1 Vertrag fehlt eine AVV vollständig (Lieferant D). Empfehlung: Prioritätsprüfung für 4 Verträge erforderlich. Vollständiger Klauselvergleich verfügbar."
         },
         "2": {
-          "question": "Which contracts have a change of control clause?",
-          "answer": "Found change of control provisions in 23 of 156 contracts: 15 require written notice within 30 days, 5 allow termination without cause, 3 require consent from counterparty. High-risk contracts flagged: [Contract X] with Major Client contains termination right upon >50% ownership change."
+          "question": "Welche Verträge haben eine Change-of-Control-Klausel?",
+          "answer": "Change-of-Control-Bestimmungen in 23 von 156 Verträgen gefunden: 15 erfordern schriftliche Benachrichtigung innerhalb von 30 Tagen, 5 erlauben Kündigung ohne Grund, 3 erfordern Zustimmung der Gegenpartei. Hochrisiko-Verträge markiert: [Vertrag X] mit Großkunde enthält Kündigungsrecht bei >50% Eigentümerwechsel."
         },
         "3": {
-          "question": "Compare the liability clause with our standard template",
-          "answer": "Gap analysis vs. Standard Template v4.2: Deviation 1: Liability cap is €500K vs. template €1M (lower protection), Deviation 2: Missing cyber incident exclusion, Deviation 3: Indemnification scope broader than template. Risk assessment: Medium-High. Recommend legal review before signing."
+          "question": "Vergleiche die Haftungsklausel mit unserer Standardvorlage",
+          "answer": "Gap-Analyse vs. Standardvorlage v4.2: Abweichung 1: Haftungsobergrenze ist 500K € vs. Vorlage 1M € (geringerer Schutz), Abweichung 2: Fehlende Cyber-Incident-Ausnahme, Abweichung 3: Freistellungsumfang breiter als Vorlage. Risikobewertung: Mittel-Hoch. Juristische Prüfung vor Unterzeichnung empfohlen."
         },
         "4": {
-          "question": "What are the termination notice periods for our SaaS contracts?",
-          "answer": "SaaS Contract Analysis (34 active agreements): 12 contracts: 90 days written notice, 15 contracts: 60 days written notice, 5 contracts: 30 days written notice, 2 contracts: auto-renewal with 180-day notice. Upcoming renewal dates flagged for next 90 days: [Contract A] Feb 15, [Contract B] Mar 1."
+          "question": "Welche Kündigungsfristen gelten für unsere SaaS-Verträge?",
+          "answer": "SaaS-Vertragsanalyse (34 aktive Vereinbarungen): 12 Verträge: 90 Tage schriftliche Kündigung, 15 Verträge: 60 Tage schriftliche Kündigung, 5 Verträge: 30 Tage schriftliche Kündigung, 2 Verträge: automatische Verlängerung mit 180-Tage-Frist. Anstehende Verlängerungstermine für die nächsten 90 Tage markiert: [Vertrag A] 15. Feb, [Vertrag B] 1. März."
         }
       },
       "targetAudience": {
-        "title": "Is the Legal Agent right for you?",
-        "description": "The Legal Agent delivers the most value for legal teams that match this profile:",
+        "title": "Ist der Legal Agent richtig für Sie?",
+        "description": "Der Legal Agent liefert den größten Mehrwert für Legal Teams mit diesem Profil:",
         "items": {
           "volume": {
-            "label": "Contract volume",
-            "value": "High number of active contracts",
-            "description": "Enough contracts to benefit from faster search and analysis"
+            "label": "Vertragsvolumen",
+            "value": "Hohe Anzahl aktiver Verträge",
+            "description": "Ausreichend Verträge, um von schnellerer Suche und Analyse zu profitieren"
           },
           "complexity": {
-            "label": "Complexity",
-            "value": "Multi-party or cross-border agreements",
-            "description": "Complex contracts with many clause variations"
+            "label": "Komplexität",
+            "value": "Mehrparteien- oder grenzüberschreitende Vereinbarungen",
+            "description": "Komplexe Verträge mit vielen Klauselvariationen"
           },
           "frequency": {
-            "label": "Review frequency",
-            "value": "Regular due diligence or audits",
-            "description": "Periodic need to review contract portfolios"
+            "label": "Prüfungshäufigkeit",
+            "value": "Regelmäßige Due Diligence oder Audits",
+            "description": "Periodischer Bedarf zur Überprüfung von Vertragsportfolios"
           },
           "challenge": {
-            "label": "Current challenge",
-            "value": "Time spent on document review",
-            "description": "Lawyers spending too much time finding and comparing clauses"
+            "label": "Aktuelle Herausforderung",
+            "value": "Zeitaufwand für Dokumentenprüfung",
+            "description": "Juristen verbringen zu viel Zeit mit dem Finden und Vergleichen von Klauseln"
           }
         },
         "roles": {
-          "title": "Key stakeholders",
+          "title": "Wichtige Stakeholder",
           "items": ["General Counsel", "Legal Director", "Contract Manager", "Paralegal"]
         }
       },
