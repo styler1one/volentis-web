@@ -281,34 +281,34 @@
   },
   "useCases": {
     "common": {
-      "bookDemo": "Book a Demo",
-      "seeHowItWorks": "See how it works",
-      "contactSales": "Talk to an Expert",
-      "theProblem": "The Problem",
-      "howItWorks": "How It Works",
-      "employee": "Employee",
-      "highConfidence": "High Confidence",
-      "sourceVerified": "Source verified",
-      "expectedResults": "Expected Results",
-      "whyTrust": "Why trust Volentis.ai?",
-      "noHallucinations": "No Hallucinations",
-      "noHallucinationsDesc": "Answers come exclusively from your approved documents. If information isn't available, the system tells you. No guessing, no fabrication.",
-      "sourceAttribution": "Source Citation",
-      "sourceAttributionDesc": "Every answer includes exact references to source documents. Click through to verify the information yourself.",
-      "compliance": "GDPR & EU AI Act Compliant",
-      "complianceDesc": "Built for European enterprises. Data never leaves the EU. Full audit trail for every interaction.",
-      "liveInWeeks": "Live in weeks",
-      "euDataResidency": "EU data residency",
-      "noTrainingOnData": "No training on your data",
-      "noCreditCard": "No credit card required",
-      "trustedBy": "Trusted by European enterprises",
-      "whatHappensNext": "What happens after you book a demo?",
-      "demoStep1": "30-minute call to understand your needs",
-      "demoStep2": "Live demo with your document types",
-      "demoStep3": "Pilot proposal within 48 hours",
-      "integrationNote": "Don't see your system? We integrate with any API-enabled platform.",
-      "exploreOtherAgents": "Explore Other AI Agents",
-      "learnMore": "Learn more",
+      "bookDemo": "Réserver une démo",
+      "seeHowItWorks": "Voir comment ça marche",
+      "contactSales": "Parler à un expert",
+      "theProblem": "Le Problème",
+      "howItWorks": "Comment ça marche",
+      "employee": "Employé",
+      "highConfidence": "Confiance élevée",
+      "sourceVerified": "Source vérifiée",
+      "expectedResults": "Résultats attendus",
+      "whyTrust": "Pourquoi faire confiance à Volentis.ai ?",
+      "noHallucinations": "Pas d'hallucinations",
+      "noHallucinationsDesc": "Les réponses proviennent exclusivement de vos documents approuvés. Si l'information n'est pas disponible, le système vous le dit. Pas de devinettes, pas de fabrications.",
+      "sourceAttribution": "Citation des sources",
+      "sourceAttributionDesc": "Chaque réponse inclut des références exactes aux documents sources. Cliquez pour vérifier l'information vous-même.",
+      "compliance": "Conforme RGPD & EU AI Act",
+      "complianceDesc": "Conçu pour les entreprises européennes. Les données ne quittent jamais l'UE. Audit trail complet pour chaque interaction.",
+      "liveInWeeks": "En production en quelques semaines",
+      "euDataResidency": "Résidence des données en UE",
+      "noTrainingOnData": "Pas d'entraînement sur vos données",
+      "noCreditCard": "Pas de carte de crédit requise",
+      "trustedBy": "Approuvé par les entreprises européennes",
+      "whatHappensNext": "Que se passe-t-il après avoir réservé une démo ?",
+      "demoStep1": "Appel de 30 minutes pour comprendre vos besoins",
+      "demoStep2": "Démo en direct avec vos types de documents",
+      "demoStep3": "Proposition de pilote sous 48 heures",
+      "integrationNote": "Vous ne voyez pas votre système ? Nous nous intégrons à toute plateforme compatible API.",
+      "exploreOtherAgents": "Explorer les autres AI Agents",
+      "learnMore": "En savoir plus",
       "agents": {
         "hr": "HR Agent",
         "legal": "Legal Agent",
@@ -318,81 +318,81 @@
         "international": "International"
       },
       "agentDescriptions": {
-        "hr": "24/7 answers to HR policy questions. 50-70% fewer tickets.",
-        "legal": "Contract analysis and clause lookup. 70% faster review.",
-        "compliance": "GDPR & EU AI Act compliance checks. Audit-ready in hours.",
-        "it": "Self-service IT troubleshooting. 50-60% ticket deflection.",
-        "finance": "Procurement and finance policy guidance. 60% fewer errors.",
-        "international": "Cross-border policy analysis. One platform for all EU jurisdictions."
+        "hr": "Réponses 24h/24 aux questions sur les politiques RH. 50-70% de tickets en moins.",
+        "legal": "Analyse de contrats et recherche de clauses. Révision 70% plus rapide.",
+        "compliance": "Vérifications de conformité RGPD & EU AI Act. Prêt pour l'audit en heures.",
+        "it": "Dépannage IT en self-service. 50-60% de déflection de tickets.",
+        "finance": "Conseils sur les politiques d'achat et finance. 60% d'erreurs en moins.",
+        "international": "Analyse de politiques transfrontalières. Une plateforme pour toutes les juridictions UE."
       }
     },
     "hr": {
-      "metaTitle": "HR Agent - Volentis.ai | 24/7 HR Policy Assistant",
-      "metaDescription": "Reduce HR tickets by 50-70% with the Volentis HR Agent. 24/7 answers from your handbooks, CAOs, and policies. GDPR compliant.",
+      "metaTitle": "HR Agent - Volentis.ai | Assistant RH 24h/24",
+      "metaDescription": "Réduisez les tickets RH de 50-70% avec le Volentis HR Agent. Réponses 24h/24 depuis vos manuels, conventions et politiques. Conforme RGPD.",
       "title": "HR Agent",
-      "badge": "Most Popular",
-      "headline": "Free your HR team from repetitive questions",
-      "subheadline": "The Volentis HR Agent answers employee questions 24/7, directly from your handbooks, CAOs, and internal policies. With source citations and full compliance.",
-      "problemStatement": "HR teams spend 40% of their time answering routine questions",
+      "badge": "Le plus populaire",
+      "headline": "Libérez votre équipe RH des questions répétitives",
+      "subheadline": "Le Volentis HR Agent répond aux questions des employés 24h/24, directement depuis vos manuels, conventions collectives et politiques internes. Avec citations des sources et conformité totale.",
+      "problemStatement": "Les équipes RH passent 40% de leur temps à répondre aux questions de routine",
       "painPoints": {
-        "1": "Employees can't find answers in the 200+ page handbook",
-        "2": "Same questions asked repeatedly: leave, benefits, procedures",
-        "3": "Inconsistent answers lead to dissatisfaction and compliance risks"
+        "1": "Les employés ne trouvent pas de réponses dans le manuel de 200+ pages",
+        "2": "Les mêmes questions reviennent sans cesse : congés, avantages, procédures",
+        "3": "Des réponses incohérentes mènent à l'insatisfaction et aux risques de conformité"
       },
-      "solutionTeaser": "The Volentis HR Agent: 24/7 answers with source citations",
+      "solutionTeaser": "Le Volentis HR Agent : réponses 24h/24 avec citations des sources",
       "metrics": {
-        "ticketReduction": "HR ticket reduction",
-        "availability": "self-service availability",
-        "satisfaction": "employee satisfaction",
-        "onboarding": "faster onboarding"
+        "ticketReduction": "réduction des tickets RH",
+        "availability": "disponibilité en self-service",
+        "satisfaction": "satisfaction des employés",
+        "onboarding": "intégration plus rapide"
       },
-      "howItWorksDescription": "Ask questions in natural language. Get answers from your own HR documents with exact source references.",
+      "howItWorksDescription": "Posez des questions en langage naturel. Obtenez des réponses depuis vos documents RH avec des références sources exactes.",
       "examples": {
         "1": {
-          "question": "How many vacation days do I have as a part-time employee?",
-          "answer": "Based on Article 7.2 of your Employment Contract and the CAO Section 4.1: Part-time employees receive vacation days pro-rata based on their contract hours. With a 0.8 FTE contract, you are entitled to 20 vacation days per year (25 days × 0.8)."
+          "question": "Combien de jours de congés ai-je en tant qu'employé à temps partiel ?",
+          "answer": "Selon l'Article 7.2 de votre Contrat de travail et la Section 4.1 de la convention : Les employés à temps partiel reçoivent des jours de congés au prorata de leurs heures contractuelles. Avec un contrat de 0,8 ETP, vous avez droit à 20 jours de congés par an (25 jours × 0,8)."
         },
         "2": {
-          "question": "How do I request parental leave?",
-          "answer": "According to the HR Policy Handbook (Section 8.3) and the Parental Leave Act: Submit your request at least 2 months before the desired start date via the HR portal. Include: desired start date, duration (up to 26 weeks), and work schedule proposal. Your manager and HR will confirm within 4 weeks."
+          "question": "Comment puis-je demander un congé parental ?",
+          "answer": "Selon le Manuel de politique RH (Section 8.3) et la Loi sur le congé parental : Soumettez votre demande au moins 2 mois avant la date de début souhaitée via le portail RH. Incluez : date de début souhaitée, durée (jusqu'à 26 semaines) et proposition d'horaire de travail. Votre manager et les RH confirmeront sous 4 semaines."
         },
         "3": {
-          "question": "What is our remote work policy?",
-          "answer": "Per the Remote Work Policy (v2.3, effective January 2025): Employees may work from home up to 3 days per week, subject to manager approval. Core office days are Tuesday and Thursday. Equipment allowance: €500 one-time for home office setup. Full details in the Remote Work Guidelines document."
+          "question": "Quelle est notre politique de télétravail ?",
+          "answer": "Selon la Politique de télétravail (v2.3, en vigueur depuis janvier 2025) : Les employés peuvent travailler depuis chez eux jusqu'à 3 jours par semaine, sous réserve de l'approbation du manager. Les jours de présence obligatoire sont le mardi et le jeudi. Allocation équipement : 500€ unique pour l'installation du bureau à domicile. Détails complets dans le document Directives de télétravail."
         },
         "4": {
-          "question": "When do I receive my end-of-year bonus?",
-          "answer": "According to the Compensation Policy (Section 5.2) and your Employment Contract: The annual bonus is paid in January with the December salary. Eligibility requires minimum 6 months employment. The bonus calculation is based on company performance (60%) and individual targets (40%)."
+          "question": "Quand est-ce que je reçois ma prime de fin d'année ?",
+          "answer": "Selon la Politique de rémunération (Section 5.2) et votre Contrat de travail : La prime annuelle est versée en janvier avec le salaire de décembre. L'éligibilité requiert un minimum de 6 mois d'emploi. Le calcul de la prime est basé sur la performance de l'entreprise (60%) et les objectifs individuels (40%)."
         }
       },
       "targetAudience": {
-        "title": "Is the HR Agent right for you?",
-        "description": "The HR Agent delivers the most value for organizations that match this profile:",
+        "title": "Le HR Agent est-il fait pour vous ?",
+        "description": "Le HR Agent apporte le plus de valeur aux organisations qui correspondent à ce profil :",
         "items": {
           "size": {
-            "label": "Organization size",
-            "value": "200+ employees",
-            "description": "Enough volume for meaningful ticket reduction"
+            "label": "Taille de l'organisation",
+            "value": "200+ employés",
+            "description": "Volume suffisant pour une réduction significative des tickets"
           },
           "structure": {
             "label": "Structure",
-            "value": "Multi-site or multi-department",
-            "description": "Consistent answers across all locations"
+            "value": "Multi-sites ou multi-départements",
+            "description": "Réponses cohérentes sur tous les sites"
           },
           "documents": {
             "label": "Documentation",
-            "value": "Employee handbooks, CAOs, HR policies",
-            "description": "Existing knowledge base to draw from"
+            "value": "Manuels employés, conventions, politiques RH",
+            "description": "Base de connaissances existante"
           },
           "challenge": {
-            "label": "Current challenge",
-            "value": "High volume of repetitive HR questions",
-            "description": "Same questions asked by different employees"
+            "label": "Défi actuel",
+            "value": "Volume élevé de questions RH répétitives",
+            "description": "Mêmes questions posées par différents employés"
           }
         },
         "roles": {
-          "title": "Key stakeholders",
-          "items": ["CHRO / HR Director", "HR Manager", "HR Business Partner", "HR Service Desk"]
+          "title": "Parties prenantes clés",
+          "items": ["DRH / Directeur RH", "Responsable RH", "HR Business Partner", "Service Desk RH"]
         }
       },
       "categories": {
