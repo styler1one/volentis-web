@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Volentis.ai - European AI with Trust at the Core",
-    "description": "Enterprise AI you can trust: no hallucinations, no data leaks, no compliance risks. The only AI assistant built for European enterprises."
+    "title": "Volentis.ai - L'IA européenne avec la confiance au cœur",
+    "description": "Une IA d'entreprise de confiance : pas d'hallucinations, pas de fuites de données, pas de risques de conformité. Le seul assistant IA conçu pour les entreprises européennes."
   },
   "cookieConsent": {
     "message": "Nous utilisons des cookies pour améliorer votre expérience et analyser l'utilisation du site.",
@@ -10,274 +10,274 @@
     "learnMore": "En savoir plus"
   },
   "nav": {
-    "product": "Product",
+    "product": "Produit",
     "useCases": "AI Agents",
-    "pricing": "Pricing",
+    "pricing": "Tarifs",
     "contact": "Contact",
-    "login": "Login",
-    "bookDemo": "Book a Demo",
-    "features": "Features",
-    "integrations": "Integrations",
-    "deployment": "Deployment",
-    "security": "Security",
+    "login": "Connexion",
+    "bookDemo": "Réserver une démo",
+    "features": "Fonctionnalités",
+    "integrations": "Intégrations",
+    "deployment": "Déploiement",
+    "security": "Sécurité",
     "hr": "HR Agent",
     "legal": "Legal Agent",
     "compliance": "Compliance Agent",
     "it": "IT Agent",
     "finance": "Finance Agent",
     "international": "International",
-    "language": "Language"
+    "language": "Langue"
   },
   "hero": {
-    "badge": "Sovereign AI Platform",
-    "headline": "Is your team drowning in repetitive questions?",
-    "subheadline": "The Volentis HR Agent answers 50-70% of your HR tickets. 24/7, from your own documents, 100% compliant.",
-    "description": "73% of employees already use AI tools, often without IT or Compliance knowing. Volentis.ai gives you control: one platform for reliable answers from your approved documents.",
-    "cta": "See the HR Agent",
-    "secondaryCta": "View all Agents",
+    "badge": "Plateforme IA Souveraine",
+    "headline": "Votre équipe est-elle submergée par les questions répétitives ?",
+    "subheadline": "Le Volentis HR Agent répond à 50-70% de vos tickets RH. 24h/24, depuis vos propres documents, 100% conforme.",
+    "description": "73% des employés utilisent déjà des outils IA, souvent sans que l'IT ou la Conformité le sache. Volentis.ai vous donne le contrôle : une plateforme pour des réponses fiables à partir de vos documents approuvés.",
+    "cta": "Voir le HR Agent",
+    "secondaryCta": "Voir tous les Agents",
     "metrics": {
-      "tickets": "fewer tickets",
-      "availability": "availability",
-      "compliant": "GDPR compliant"
+      "tickets": "moins de tickets",
+      "availability": "disponibilité",
+      "compliant": "conforme RGPD"
     },
     "chatDemo": {
-      "status": "Online",
-      "welcome": "Conversation started",
+      "status": "En ligne",
+      "welcome": "Conversation commencée",
       "message1": {
-        "user": "Hi! I'm becoming a father next month 🎉 How much parental leave do I get?",
-        "ai": "Congratulations! As a father, you're entitled to 6 weeks of paid parental leave (70% salary). You can take this within the first 6 months after birth. You can also split it into separate periods.",
-        "source": "Employee Handbook v3.1, Chapter 5.2"
+        "user": "Bonjour ! Je deviens père le mois prochain 🎉 À combien de congé parental ai-je droit ?",
+        "ai": "Félicitations ! En tant que père, vous avez droit à 6 semaines de congé parental payé (70% du salaire). Vous pouvez le prendre dans les 6 premiers mois après la naissance. Vous pouvez également le fractionner.",
+        "source": "Manuel de l'employé v3.1, Chapitre 5.2"
       },
       "message2": {
-        "user": "Great! How do I apply for it?",
-        "ai": "Go to the HR portal → 'Leave Requests' → 'Parental Leave'. Enter the expected birth date and your preferred leave period. Your manager will be notified automatically. Tip: apply at least 4 weeks in advance.",
-        "source": "HR Portal Guide, Section 3.4"
+        "user": "Super ! Comment puis-je en faire la demande ?",
+        "ai": "Rendez-vous sur le portail RH → 'Demandes de congé' → 'Congé parental'. Entrez la date de naissance prévue et votre période de congé souhaitée. Votre manager sera notifié automatiquement. Conseil : faites la demande au moins 4 semaines à l'avance.",
+        "source": "Guide du portail RH, Section 3.4"
       },
       "message3": {
-        "user": "Perfect. Do I need to arrange my own replacement?",
-        "ai": "No, you don't. For parental leave, your manager arranges coverage. However, it's helpful to create a handover document for your ongoing projects. Would you like to see the handover checklist?",
-        "source": "Leave Policy 2024, Article 12"
+        "user": "Parfait. Dois-je trouver moi-même un remplaçant ?",
+        "ai": "Non. Pour le congé parental, votre manager organise le remplacement. Cependant, il est utile de créer un document de passation pour vos projets en cours. Souhaitez-vous voir la checklist de passation ?",
+        "source": "Politique de congés 2024, Article 12"
       },
-      "inputPlaceholder": "Ask your HR question...",
-      "hint": "AI answers from your own documents"
+      "inputPlaceholder": "Posez votre question RH...",
+      "hint": "Réponses IA basées sur vos documents"
     },
-    "scrollHint": "Scroll to explore"
+    "scrollHint": "Défiler pour explorer"
   },
   "agents": {
     "label": "AI Agents",
-    "sectionTitle": "Meet our AI Agents",
-    "sectionSubtitle": "Specialized AI assistants for every department. Start with one, scale to all.",
-    "popular": "Most Popular",
-    "learnMore": "Learn more",
+    "sectionTitle": "Découvrez nos AI Agents",
+    "sectionSubtitle": "Des assistants IA spécialisés pour chaque département. Commencez par un, déployez-les tous.",
+    "popular": "Le plus populaire",
+    "learnMore": "En savoir plus",
     "cards": {
       "hr": {
         "title": "HR Agent",
-        "metric": "50-70% fewer tickets",
-        "description": "Your HR team gets their time back. Employees get instant answers about leave, benefits, and policies without waiting for email replies.",
-        "benefit": "Stop answering the same questions over and over"
+        "metric": "50-70% moins de tickets",
+        "description": "Votre équipe RH retrouve du temps. Les employés obtiennent des réponses instantanées sur les congés, avantages et politiques sans attendre les e-mails.",
+        "benefit": "Arrêtez de répondre aux mêmes questions"
       },
       "legal": {
         "title": "Legal Agent",
-        "metric": "70% faster review",
-        "description": "Find that clause you're looking for in seconds, not hours. Compare contracts instantly and spot deviations from your templates.",
-        "benefit": "Never miss a risky clause again"
+        "metric": "70% plus rapide",
+        "description": "Trouvez la clause recherchée en secondes, pas en heures. Comparez les contrats instantanément et repérez les écarts par rapport à vos modèles.",
+        "benefit": "Ne manquez plus jamais une clause à risque"
       },
       "compliance": {
         "title": "Compliance Agent",
-        "metric": "Audit-ready in hours",
-        "description": "When the auditor calls, you're ready. Complete documentation trail for GDPR and EU AI Act compliance. No panic, no scrambling.",
-        "benefit": "Sleep better before audits"
+        "metric": "Prêt pour l'audit en heures",
+        "description": "Quand l'auditeur appelle, vous êtes prêt. Documentation complète pour la conformité RGPD et EU AI Act. Pas de panique, pas de stress.",
+        "benefit": "Dormez mieux avant les audits"
       },
       "it": {
         "title": "IT Agent",
-        "metric": "50-60% fewer tickets",
-        "description": "Employees solve common IT issues themselves. Your IT team focuses on real problems instead of password resets and VPN questions.",
-        "benefit": "Fewer 'have you tried restarting?' tickets"
+        "metric": "50-60% moins de tickets",
+        "description": "Les employés résolvent eux-mêmes les problèmes IT courants. Votre équipe IT se concentre sur les vrais problèmes plutôt que les réinitialisations de mots de passe.",
+        "benefit": "Moins de tickets \"avez-vous essayé de redémarrer ?\""
       },
       "finance": {
         "title": "Finance Agent",
-        "metric": "60% fewer errors",
-        "description": "No more rejected expense reports. Employees understand procurement policies before they submit, not after rejection.",
-        "benefit": "Stop chasing incorrect invoices"
+        "metric": "60% moins d'erreurs",
+        "description": "Plus de notes de frais rejetées. Les employés comprennent les politiques d'achat avant de soumettre, pas après le rejet.",
+        "benefit": "Arrêtez de courir après les factures incorrectes"
       },
       "international": {
         "title": "International",
-        "metric": "15 policy sets → 1",
-        "description": "One answer, all countries. Stop managing separate policy documents for each EU country. Ask once, get the right answer for any jurisdiction.",
-        "benefit": "Simplify cross-border complexity"
+        "metric": "15 jeux de politiques → 1",
+        "description": "Une réponse, tous les pays. Arrêtez de gérer des documents distincts pour chaque pays UE. Demandez une fois, obtenez la bonne réponse pour toute juridiction.",
+        "benefit": "Simplifiez la complexité transfrontalière"
       }
     }
   },
   "socialProof": {
-    "title": "Proven results from European enterprises",
-    "subtitle": "Real impact, measurable outcomes",
+    "title": "Résultats prouvés par les entreprises européennes",
+    "subtitle": "Impact réel, résultats mesurables",
     "metrics": {
-      "hrTickets": "HR ticket reduction",
-      "contractReview": "faster contract review",
-      "availability": "self-service availability",
-      "compliance": "GDPR compliant"
+      "hrTickets": "réduction des tickets RH",
+      "contractReview": "révision de contrats plus rapide",
+      "availability": "disponibilité en self-service",
+      "compliance": "conforme RGPD"
     },
     "badges": {
-      "euHosted": "EU-Hosted",
-      "gdpr": "GDPR Compliant",
+      "euHosted": "Hébergé en UE",
+      "gdpr": "Conforme RGPD",
       "euAiAct": "EU AI Act Ready",
-      "security": "Enterprise Security"
+      "security": "Sécurité Enterprise"
     },
-    "trustedBy": "Trusted by",
+    "trustedBy": "Ils nous font confiance",
     "whyNotChatGPT": {
-      "title": "Why enterprises choose Volentis over generic AI",
+      "title": "Pourquoi les entreprises choisissent Volentis plutôt que l'IA générique",
       "points": {
-        "noTraining": "Your data is never used for training, contractually guaranteed",
-        "euOnly": "100% EU data residency, no US CLOUD Act exposure",
-        "sourceCitations": "Every answer includes source citations. Verify any claim instantly"
+        "noTraining": "Vos données ne sont jamais utilisées pour l'entraînement, garanti contractuellement",
+        "euOnly": "100% résidence des données en UE, pas d'exposition au CLOUD Act américain",
+        "sourceCitations": "Chaque réponse inclut les citations sources. Vérifiez toute affirmation instantanément"
       }
     }
   },
   "platform": {
-    "label": "The Platform",
-    "title": "Why one platform for all departments?",
-    "description": "Volentis.ai is more than a chatbot. It's an EU-sovereign enterprise AI platform that turns your internal knowledge into a trusted, auditable decision engine.",
+    "label": "La Plateforme",
+    "title": "Pourquoi une plateforme pour tous les départements ?",
+    "description": "Volentis.ai est plus qu'un chatbot. C'est une plateforme IA d'entreprise souveraine européenne qui transforme vos connaissances internes en un moteur de décision fiable et auditable.",
     "benefits": {
       "knowledgeBase": {
-        "title": "Stop searching in 5 different places",
-        "description": "All your company knowledge (HR policies, contracts, procedures, IT guides) searchable from one interface. Employees find answers in seconds, not hours."
+        "title": "Arrêtez de chercher dans 5 endroits différents",
+        "description": "Toutes les connaissances de votre entreprise (politiques RH, contrats, procédures, guides IT) accessibles depuis une seule interface. Les employés trouvent des réponses en secondes, pas en heures."
       },
       "auditTrail": {
-        "title": "When the auditor calls, you're ready",
-        "description": "Every question asked, every answer given: fully logged and exportable. One click to show exactly what information was shared and when."
+        "title": "Quand l'auditeur appelle, vous êtes prêt",
+        "description": "Chaque question posée, chaque réponse donnée : entièrement enregistrée et exportable. Un clic pour montrer exactement quelles informations ont été partagées et quand."
       },
       "compliance": {
-        "title": "No more shadow AI worries",
-        "description": "Employees using ChatGPT with company data? Not anymore. Volentis.ai gives them a better alternative that keeps your data safe in the EU."
+        "title": "Plus d'inquiétudes sur l'IA fantôme",
+        "description": "Des employés utilisent ChatGPT avec des données d'entreprise ? Plus maintenant. Volentis.ai leur offre une meilleure alternative qui garde vos données en sécurité dans l'UE."
       }
     },
-    "scaleMessage": "Start small, grow fast. Deploy HR today, add Legal next month, scale to the whole company when ready.",
+    "scaleMessage": "Commencez petit, grandissez vite. Déployez RH aujourd'hui, ajoutez Legal le mois prochain, étendez à toute l'entreprise quand vous êtes prêt.",
     "diagram": {
-      "title": "Volentis.ai Platform",
-      "subtitle": "How it works",
-      "documents": "Your Documents",
-      "engine": "AI Engine",
-      "engineDesc": "EU-deployed, no training on your data",
-      "agents": "Specialized Agents"
+      "title": "Plateforme Volentis.ai",
+      "subtitle": "Comment ça marche",
+      "documents": "Vos Documents",
+      "engine": "Moteur IA",
+      "engineDesc": "Déployé en UE, pas d'entraînement sur vos données",
+      "agents": "Agents Spécialisés"
     }
   },
   "features": {
-    "sectionTitle": "What makes Volentis.ai unique?",
-    "tryIt": "Try it yourself →",
+    "sectionTitle": "Qu'est-ce qui rend Volentis.ai unique ?",
+    "tryIt": "Essayez vous-même →",
     "items": {
       "documents": {
-        "title": "No hallucinations. Ever.",
-        "description": "Unlike ChatGPT, Volentis.ai only answers from your approved documents. If the answer isn't in your knowledge base, it says 'I don't know'. No made-up information that could get you in trouble.",
-        "benefit": "Employees can trust the answers. Managers can trust employees using it."
+        "title": "Pas d'hallucinations. Jamais.",
+        "description": "Contrairement à ChatGPT, Volentis.ai ne répond qu'à partir de vos documents approuvés. Si la réponse n'est pas dans votre base de connaissances, il dit 'Je ne sais pas'. Pas d'informations inventées qui pourraient vous causer des problèmes.",
+        "benefit": "Les employés peuvent faire confiance aux réponses. Les managers peuvent faire confiance aux employés qui l'utilisent."
       },
       "sources": {
-        "title": "Every answer is verifiable",
-        "description": "Each response includes the exact source document and page number. Click to see the original text. Perfect for when you need to double-check or show your manager where you got the information.",
-        "benefit": "No more 'where did you hear that?' conversations."
+        "title": "Chaque réponse est vérifiable",
+        "description": "Chaque réponse inclut le document source exact et le numéro de page. Cliquez pour voir le texte original. Parfait pour vérifier ou montrer à votre manager d'où vient l'information.",
+        "benefit": "Plus de conversations 'où as-tu entendu ça ?'"
       },
       "search": {
-        "title": "Find answers even when you don't know the right words",
-        "description": "Ask 'Can I work from home on Fridays?' even if your policy document says 'remote work arrangements'. The AI understands what you mean, not just what you type.",
-        "benefit": "No more digging through 200-page handbooks to find one paragraph."
+        "title": "Trouvez des réponses même sans connaître les bons mots",
+        "description": "Demandez 'Puis-je travailler de chez moi le vendredi ?' même si votre document de politique dit 'arrangements de travail à distance'. L'IA comprend ce que vous voulez dire, pas seulement ce que vous tapez.",
+        "benefit": "Plus besoin de fouiller des manuels de 200 pages pour trouver un paragraphe."
       },
       "collaboration": {
-        "title": "Share what you learn",
-        "description": "Found a helpful answer? Share the conversation with your team. Working on a complex question? Collaborate with colleagues. Build institutional knowledge that doesn't disappear when people leave.",
-        "benefit": "Stop answering the same question for different team members."
+        "title": "Partagez ce que vous apprenez",
+        "description": "Trouvé une réponse utile ? Partagez la conversation avec votre équipe. Travaillez sur une question complexe ? Collaborez avec vos collègues. Construisez des connaissances institutionnelles qui ne disparaissent pas quand les gens partent.",
+        "benefit": "Arrêtez de répondre à la même question pour différents membres de l'équipe."
       }
     }
   },
   "value": {
-    "sectionTitle": "The value of Volentis.ai",
-    "videoTitle": "See Volentis.ai in action",
-    "videoDescription": "Watch how our AI assistant transforms the way European enterprises handle internal knowledge.",
+    "sectionTitle": "La valeur de Volentis.ai",
+    "videoTitle": "Voir Volentis.ai en action",
+    "videoDescription": "Découvrez comment notre assistant IA transforme la façon dont les entreprises européennes gèrent leurs connaissances internes.",
     "props": {
       "reliable": {
-        "title": "Reliable Answers",
-        "description": "No hallucinations. Only verified information from your approved documents with confidence scoring."
+        "title": "Réponses Fiables",
+        "description": "Pas d'hallucinations. Uniquement des informations vérifiées de vos documents approuvés avec scoring de confiance."
       },
       "audit": {
-        "title": "Complete Audit Trail",
-        "description": "Every interaction is logged. Full traceability for compliance and quality assurance."
+        "title": "Audit Trail Complet",
+        "description": "Chaque interaction est enregistrée. Traçabilité complète pour la conformité et l'assurance qualité."
       },
       "compliance": {
-        "title": "Compliance by Design",
-        "description": "GDPR compliant, EU AI Act ready. Built from the ground up for European enterprises."
+        "title": "Conformité par Conception",
+        "description": "Conforme RGPD, prêt pour l'EU AI Act. Conçu de A à Z pour les entreprises européennes."
       }
     }
   },
   "deployment": {
-    "sectionTitle": "Deployment options to suit you",
-    "sectionSubtitle": "Choose the deployment model that fits your security requirements",
+    "sectionTitle": "Options de déploiement adaptées à vos besoins",
+    "sectionSubtitle": "Choisissez le modèle de déploiement qui correspond à vos exigences de sécurité",
     "options": {
       "multiTenant": {
         "title": "SaaS Multi-Tenant",
-        "description": "Live in 2-4 weeks, EU data centers, we handle everything",
+        "description": "En production en 2-4 semaines, centres de données UE, nous gérons tout",
         "features": [
-          "Up and running in weeks",
-          "Data stays in Germany & Netherlands",
-          "Your data is separate from other customers",
-          "Always up-to-date, updates happen automatically",
-          "Predictable monthly cost"
+          "Opérationnel en quelques semaines",
+          "Données en Allemagne & Pays-Bas",
+          "Vos données séparées des autres clients",
+          "Toujours à jour, mises à jour automatiques",
+          "Coût mensuel prévisible"
         ]
       },
       "singleTenant": {
         "title": "Single-Tenant SaaS",
-        "description": "Your own servers, maximum isolation, you hold the encryption keys",
+        "description": "Vos propres serveurs, isolation maximale, vous détenez les clés de chiffrement",
         "features": [
-          "Your own dedicated servers",
-          "Encryption with keys only you control",
-          "Complete infrastructure isolation",
-          "Custom configuration options",
-          "Easier compliance certification"
+          "Vos propres serveurs dédiés",
+          "Chiffrement avec des clés que vous seul contrôlez",
+          "Isolation complète de l'infrastructure",
+          "Options de configuration personnalisées",
+          "Certification de conformité facilitée"
         ]
       },
       "customerManaged": {
         "title": "Customer-Managed",
-        "description": "Run it yourself, air-gapped if needed, maximum control",
-        "badge": "Coming Soon",
+        "description": "Exécutez-le vous-même, air-gapped si nécessaire, contrôle maximum",
+        "badge": "Bientôt disponible",
         "features": [
-          "Runs in your own data center",
-          "Can work without internet",
-          "Maximum data sovereignty",
-          "You control everything"
+          "Fonctionne dans votre propre centre de données",
+          "Peut fonctionner sans internet",
+          "Souveraineté maximale des données",
+          "Vous contrôlez tout"
         ]
       }
     }
   },
   "trust": {
-    "sectionTitle": "Enterprise security you can trust",
+    "sectionTitle": "Sécurité d'entreprise de confiance",
     "badges": {
-      "euHosted": "EU-Hosted",
-      "gdpr": "GDPR Compliant",
-      "euAiAct": "EU AI Act Compliant",
+      "euHosted": "Hébergé en UE",
+      "gdpr": "Conforme RGPD",
+      "euAiAct": "Conforme EU AI Act",
       "encryption": "TLS & AES-256"
     },
     "integrations": {
-      "title": "Integrates with your existing tools",
-      "description": "Connect Volentis.ai to your HR systems, document sources, and collaboration tools"
+      "title": "S'intègre à vos outils existants",
+      "description": "Connectez Volentis.ai à vos systèmes RH, sources documentaires et outils de collaboration"
     }
   },
   "cta": {
-    "title": "Ready to eliminate shadow AI risks?",
-    "description": "Book a demo and see how the Volentis HR Agent can reduce your tickets by 50-70% while staying 100% compliant.",
-    "button": "Book a Demo",
-    "secondaryButton": "Talk to an Expert",
-    "trust1": "No credit card required",
-    "trust2": "Live in weeks",
-    "trust3": "EU data residency"
+    "title": "Prêt à éliminer les risques de l'IA fantôme ?",
+    "description": "Réservez une démo et voyez comment le Volentis HR Agent peut réduire vos tickets de 50-70% tout en restant 100% conforme.",
+    "button": "Réserver une démo",
+    "secondaryButton": "Parler à un expert",
+    "trust1": "Pas de carte de crédit requise",
+    "trust2": "En production en quelques semaines",
+    "trust3": "Résidence des données en UE"
   },
   "footer": {
-    "tagline": "European AI with Trust at the Core",
-    "product": "Product",
-    "company": "Company",
-    "legal": "Legal",
+    "tagline": "L'IA européenne avec la confiance au cœur",
+    "product": "Produit",
+    "company": "Entreprise",
+    "legal": "Mentions légales",
     "contact": "Contact",
-    "privacy": "Privacy Policy",
-    "terms": "Terms & Conditions",
-    "cookies": "Cookie Policy",
-    "copyright": "© 2026 Volentis B.V. All rights reserved.",
-    "country": "The Netherlands"
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales",
+    "cookies": "Politique des cookies",
+    "copyright": "© 2026 Volentis B.V. Tous droits réservés.",
+    "country": "Pays-Bas"
   },
   "useCases": {
     "common": {
