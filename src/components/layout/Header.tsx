@@ -208,46 +208,46 @@ export default function Header() {
             <div className="flex flex-col gap-4">
               <div className="space-y-2">
                 <p className="text-sm font-semibold text-volentis-navy">{t('product')}</p>
-                <Link href="/product/features" className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
+                <Link href="/product/features" onClick={() => setMobileMenuOpen(false)} className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
                   {t('features')}
                 </Link>
-                <Link href="/product/integrations" className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
+                <Link href="/product/integrations" onClick={() => setMobileMenuOpen(false)} className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
                   {t('integrations')}
                 </Link>
-                <Link href="/product/deployment" className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
+                <Link href="/product/deployment" onClick={() => setMobileMenuOpen(false)} className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
                   {t('deployment')}
                 </Link>
-                <Link href="/product/security" className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
+                <Link href="/product/security" onClick={() => setMobileMenuOpen(false)} className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
                   {t('security')}
                 </Link>
               </div>
               
               <div className="space-y-2">
                 <p className="text-sm font-semibold text-volentis-navy">{t('useCases')}</p>
-                <Link href="/use-cases/hr" className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
+                <Link href="/use-cases/hr" onClick={() => setMobileMenuOpen(false)} className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
                   {t('hr')}
                 </Link>
-                <Link href="/use-cases/legal" className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
+                <Link href="/use-cases/legal" onClick={() => setMobileMenuOpen(false)} className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
                   {t('legal')}
                 </Link>
-                <Link href="/use-cases/compliance" className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
+                <Link href="/use-cases/compliance" onClick={() => setMobileMenuOpen(false)} className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
                   {t('compliance')}
                 </Link>
-                <Link href="/use-cases/it" className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
+                <Link href="/use-cases/it" onClick={() => setMobileMenuOpen(false)} className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
                   {t('it')}
                 </Link>
-                <Link href="/use-cases/finance" className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
+                <Link href="/use-cases/finance" onClick={() => setMobileMenuOpen(false)} className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
                   {t('finance')}
                 </Link>
-                <Link href="/use-cases/international" className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
+                <Link href="/use-cases/international" onClick={() => setMobileMenuOpen(false)} className="block pl-4 py-1 text-text-body hover:text-volentis-cyan">
                   {t('international')}
                 </Link>
               </div>
 
-              <Link href="/pricing" className="text-text-body hover:text-volentis-cyan">
+              <Link href="/pricing" onClick={() => setMobileMenuOpen(false)} className="text-text-body hover:text-volentis-cyan">
                 {t('pricing')}
               </Link>
-              <Link href="/contact" className="text-text-body hover:text-volentis-cyan">
+              <Link href="/contact" onClick={() => setMobileMenuOpen(false)} className="text-text-body hover:text-volentis-cyan">
                 {t('contact')}
               </Link>
 
@@ -280,6 +280,7 @@ export default function Header() {
                 href="https://app.volentis.ai/" 
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => setMobileMenuOpen(false)}
                 className="mt-4 w-full inline-flex items-center justify-center gap-2 px-4 py-3 text-sm font-medium text-text-body border border-border-gray/30 rounded-xl hover:bg-bg-light transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -288,7 +289,7 @@ export default function Header() {
                 {t('login')}
               </a>
               
-              <Button href="/demo" className="mt-2 w-full justify-center">
+              <Button href="/demo" onClick={() => setMobileMenuOpen(false)} className="mt-2 w-full justify-center">
                 {t('bookDemo')}
               </Button>
             </div>
