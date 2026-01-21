@@ -1993,313 +1993,313 @@
     }
   },
   "tryAgent": {
-    "metaTitle": "{agent} Demo - Volentis.ai | Try It Yourself",
-    "metaDescription": "Experience the Volentis.ai {agent} in action. Watch the video, try the interactive demo, and see how it can transform your {department}.",
-    "badge": "Interactive Demo",
-    "headline": "Experience the {agent}",
-    "subheadline": "Watch how it works, then try it yourself with sample data.",
+    "metaTitle": "{agent} Demo - Volentis.ai | Selbst ausprobieren",
+    "metaDescription": "Erleben Sie den Volentis.ai {agent} in Aktion. Schauen Sie das Video, testen Sie die interaktive Demo und sehen Sie, wie er Ihre {department} transformieren kann.",
+    "badge": "Interaktive Demo",
+    "headline": "Erleben Sie den {agent}",
+    "subheadline": "Schauen Sie, wie es funktioniert, dann probieren Sie es selbst mit Beispieldaten.",
     "video": {
-      "title": "See it in action",
-      "description": "Watch how the {agent} answers questions using your company's own documents.",
+      "title": "In Aktion sehen",
+      "description": "Sehen Sie, wie der {agent} Fragen beantwortet, basierend auf den Dokumenten Ihres Unternehmens.",
       "duration": "2:30",
-      "comingSoon": "Video coming soon",
-      "comingSoonDescription": "We're preparing a walkthrough video. In the meantime, try the interactive demo below."
+      "comingSoon": "Video kommt bald",
+      "comingSoonDescription": "Wir bereiten ein Walkthrough-Video vor. In der Zwischenzeit testen Sie die interaktive Demo unten."
     },
     "interactiveDemo": {
-      "title": "Try it yourself",
-      "description": "This demo uses sample {department} policies. Ask questions and see how the AI responds with source citations.",
-      "disclaimer": "This is a demonstration with sample data. Book a demo to see it work with your actual documents.",
+      "title": "Selbst ausprobieren",
+      "description": "Diese Demo verwendet Beispiel-{department}-Richtlinien. Stellen Sie Fragen und sehen Sie, wie die AI mit Quellenangaben antwortet.",
+      "disclaimer": "Dies ist eine Demonstration mit Beispieldaten. Buchen Sie eine Demo, um es mit Ihren echten Dokumenten zu sehen.",
       "suggestions": {
-        "title": "Try asking:",
+        "title": "Fragen Sie zum Beispiel:",
         "hr": [
-          "How many vacation days do I have?",
-          "What's the remote work policy?",
-          "How do I apply for parental leave?",
-          "What's the process for expense reimbursement?"
+          "Wie viele Urlaubstage habe ich?",
+          "Was ist die Remote-Work-Policy?",
+          "Wie beantrage ich Elternzeit?",
+          "Wie funktioniert die Spesenabrechnung?"
         ],
         "legal": [
-          "What's our standard payment term?",
-          "Is there a limitation of liability clause?",
-          "What's the notice period for termination?",
-          "Are there any non-compete restrictions?"
+          "Was ist unsere Standard-Zahlungsfrist?",
+          "Gibt es eine Haftungsbeschränkungsklausel?",
+          "Welche Kündigungsfrist gilt?",
+          "Gibt es Wettbewerbsverbote?"
         ],
         "compliance": [
-          "What are our GDPR obligations?",
-          "How do we handle data subject requests?",
-          "What's the data retention policy?",
-          "Who is our Data Protection Officer?"
+          "Was sind unsere DSGVO-Pflichten?",
+          "Wie behandeln wir Betroffenenanfragen?",
+          "Was ist die Datenaufbewahrungsrichtlinie?",
+          "Wer ist unser Datenschutzbeauftragter?"
         ],
         "it": [
-          "How do I reset my password?",
-          "What's the VPN setup process?",
-          "How do I request new software?",
-          "What's the policy on personal devices?"
+          "Wie setze ich mein Passwort zurück?",
+          "Wie richte ich das VPN ein?",
+          "Wie beantrage ich neue Software?",
+          "Was ist die Richtlinie für private Geräte?"
         ],
         "finance": [
-          "What's the approval limit for expenses?",
-          "How do I submit an invoice?",
-          "What's the procurement process?",
-          "When is the budget deadline?"
+          "Was ist die Genehmigungsgrenze für Ausgaben?",
+          "Wie reiche ich eine Rechnung ein?",
+          "Wie funktioniert der Beschaffungsprozess?",
+          "Wann ist die Budget-Deadline?"
         ],
         "international": [
-          "What's the parental leave policy in Germany?",
-          "How do vacation days work in France?",
-          "What are the notice periods in the Netherlands?",
-          "What's the minimum wage in Spain?"
+          "Wie ist die Elternzeit-Policy in Deutschland?",
+          "Wie funktionieren Urlaubstage in Frankreich?",
+          "Welche Kündigungsfristen gelten in den Niederlanden?",
+          "Was ist der Mindestlohn in Spanien?"
         ]
       }
     },
     "results": {
-      "title": "What enterprises achieve",
+      "title": "Was Unternehmen erreichen",
       "hr": {
-        "metric1": { "value": "50-70%", "label": "fewer HR tickets" },
-        "metric2": { "value": "24/7", "label": "employee self-service" },
-        "metric3": { "value": "< 30 sec", "label": "average response time" }
+        "metric1": { "value": "50-70%", "label": "weniger HR-Tickets" },
+        "metric2": { "value": "24/7", "label": "Mitarbeiter-Self-Service" },
+        "metric3": { "value": "< 30 Sek", "label": "durchschnittliche Antwortzeit" }
       },
       "legal": {
-        "metric1": { "value": "70%", "label": "faster contract review" },
-        "metric2": { "value": "100%", "label": "clause coverage" },
-        "metric3": { "value": "< 10 sec", "label": "clause lookup time" }
+        "metric1": { "value": "70%", "label": "schnellere Vertragsprüfung" },
+        "metric2": { "value": "100%", "label": "Klauselabdeckung" },
+        "metric3": { "value": "< 10 Sek", "label": "Klausel-Suchzeit" }
       },
       "compliance": {
-        "metric1": { "value": "Hours", "label": "to audit-ready (not days)" },
-        "metric2": { "value": "100%", "label": "audit trail coverage" },
-        "metric3": { "value": "Real-time", "label": "compliance monitoring" }
+        "metric1": { "value": "Stunden", "label": "bis audit-ready (nicht Tage)" },
+        "metric2": { "value": "100%", "label": "Audit-Trail-Abdeckung" },
+        "metric3": { "value": "Echtzeit", "label": "Compliance-Monitoring" }
       },
       "it": {
-        "metric1": { "value": "50-60%", "label": "ticket deflection" },
-        "metric2": { "value": "24/7", "label": "IT self-service" },
-        "metric3": { "value": "< 1 min", "label": "to resolution" }
+        "metric1": { "value": "50-60%", "label": "Ticket-Deflection" },
+        "metric2": { "value": "24/7", "label": "IT-Self-Service" },
+        "metric3": { "value": "< 1 Min", "label": "bis Lösung" }
       },
       "finance": {
-        "metric1": { "value": "60%", "label": "fewer policy errors" },
-        "metric2": { "value": "40%", "label": "faster approvals" },
-        "metric3": { "value": "100%", "label": "policy compliance" }
+        "metric1": { "value": "60%", "label": "weniger Richtlinienfehler" },
+        "metric2": { "value": "40%", "label": "schnellere Genehmigungen" },
+        "metric3": { "value": "100%", "label": "Richtlinien-Compliance" }
       },
       "international": {
-        "metric1": { "value": "27", "label": "EU countries supported" },
-        "metric2": { "value": "24", "label": "languages" },
-        "metric3": { "value": "1", "label": "unified platform" }
+        "metric1": { "value": "27", "label": "EU-Länder unterstützt" },
+        "metric2": { "value": "24", "label": "Sprachen" },
+        "metric3": { "value": "1", "label": "einheitliche Plattform" }
       }
     },
     "cta": {
-      "title": "Ready to see it with your documents?",
-      "description": "This demo uses sample data. The real magic happens when we connect your actual policies and procedures.",
-      "primary": "Book a Demo",
-      "secondary": "Talk to an Expert"
+      "title": "Bereit, es mit Ihren Dokumenten zu sehen?",
+      "description": "Diese Demo verwendet Beispieldaten. Die echte Magie passiert, wenn wir Ihre tatsächlichen Richtlinien und Verfahren verbinden.",
+      "primary": "Demo buchen",
+      "secondary": "Mit einem Experten sprechen"
     },
     "otherAgents": {
-      "title": "Explore other AI Agents",
-      "description": "Volentis.ai offers specialized agents for every department."
+      "title": "Weitere AI Agents erkunden",
+      "description": "Volentis.ai bietet spezialisierte Agents für jede Abteilung."
     }
   },
   "productPages": {
     "features": {
-      "metaTitle": "Features - Volentis.ai | Enterprise AI Platform Capabilities",
-      "metaDescription": "Discover Volentis.ai features: RAG-based AI, source attribution, confidence scoring, multi-language support, and complete audit trails.",
-      "badge": "Platform Features",
-      "headline": "Enterprise AI capabilities built for trust",
-      "subheadline": "Every feature designed with compliance, transparency, and accuracy at its core.",
+      "metaTitle": "Features - Volentis.ai | Enterprise AI Plattform-Funktionen",
+      "metaDescription": "Entdecken Sie Volentis.ai Features: RAG-basierte AI, Quellenattribution, Confidence Scoring, Mehrsprachigkeit und vollständige Audit Trails.",
+      "badge": "Plattform-Features",
+      "headline": "Enterprise AI-Funktionen für Vertrauen konzipiert",
+      "subheadline": "Jedes Feature entwickelt mit Compliance, Transparenz und Genauigkeit im Kern.",
       "coreCapabilities": {
-        "title": "Core Capabilities",
+        "title": "Kernfunktionen",
         "conversational": {
           "title": "Conversational AI",
-          "description": "Ask questions like you would ask a colleague. No training needed, no special syntax.",
-          "benefit": "Your employees get answers in seconds, not hours waiting for email replies."
+          "description": "Stellen Sie Fragen, wie Sie einen Kollegen fragen würden. Kein Training nötig, keine spezielle Syntax.",
+          "benefit": "Ihre Mitarbeiter erhalten Antworten in Sekunden, nicht nach stundenlangem Warten auf E-Mail-Antworten."
         },
         "rag": {
-          "title": "RAG Architecture",
-          "description": "Retrieval-Augmented Generation (RAG) ensures answers come exclusively from your approved documents.",
-          "benefit": "The AI never makes things up. No answer in your documents? You'll get an honest 'I don't know' instead of a fabricated response."
+          "title": "RAG-Architektur",
+          "description": "Retrieval-Augmented Generation (RAG) stellt sicher, dass Antworten ausschließlich aus Ihren genehmigten Dokumenten kommen.",
+          "benefit": "Die AI erfindet niemals etwas. Keine Antwort in Ihren Dokumenten? Sie erhalten ein ehrliches 'Ich weiß nicht' statt einer fabrizierten Antwort."
         },
         "sources": {
-          "title": "Source Attribution",
-          "description": "Every answer includes exact references to source documents with clickable links.",
-          "benefit": "Employees can verify any answer themselves. Managers can trust the information being shared."
+          "title": "Quellenattribution",
+          "description": "Jede Antwort enthält exakte Referenzen zu Quelldokumenten mit klickbaren Links.",
+          "benefit": "Mitarbeiter können jede Antwort selbst verifizieren. Manager können den geteilten Informationen vertrauen."
         },
         "confidence": {
           "title": "Confidence Scoring",
-          "description": "Visual indicators show answer reliability: green for high confidence, yellow for medium, red for low.",
-          "benefit": "Green means 'go ahead'. Yellow means 'double-check'. No more uncertainty about whether to trust the answer."
+          "description": "Visuelle Indikatoren zeigen die Antwortzuverlässigkeit: grün für hohe Konfidenz, gelb für mittel, rot für niedrig.",
+          "benefit": "Grün bedeutet 'los'. Gelb bedeutet 'noch mal prüfen'. Keine Unsicherheit mehr, ob man der Antwort vertrauen kann."
         },
         "multilanguage": {
-          "title": "All EU Languages",
-          "description": "Full support for all 24 EU languages. Ask in Dutch, get answers in Dutch, even from English documents.",
-          "benefit": "International teams work in their preferred language. No translation delays, no misunderstandings."
+          "title": "Alle EU-Sprachen",
+          "description": "Volle Unterstützung für alle 24 EU-Sprachen. Fragen Sie auf Deutsch, erhalten Sie Antworten auf Deutsch, selbst aus englischen Dokumenten.",
+          "benefit": "Internationale Teams arbeiten in ihrer bevorzugten Sprache. Keine Übersetzungsverzögerungen, keine Missverständnisse."
         },
         "audit": {
-          "title": "Complete Audit Trail",
-          "description": "Every question, answer, and source is logged with timestamps and user information.",
-          "benefit": "When the auditor comes, you're ready. Export everything with one click for compliance reviews."
+          "title": "Vollständiger Audit Trail",
+          "description": "Jede Frage, Antwort und Quelle wird mit Zeitstempeln und Benutzerinformationen protokolliert.",
+          "benefit": "Wenn der Auditor kommt, sind Sie bereit. Exportieren Sie alles mit einem Klick für Compliance-Reviews."
         }
       },
       "beyondChat": {
-        "title": "More than a chatbot: a decision support engine",
-        "description": "Volentis.ai goes beyond simple Q&A. It's designed to support complex workflows and decision-making processes.",
+        "title": "Mehr als ein Chatbot: eine Decision-Support-Engine",
+        "description": "Volentis.ai geht über einfaches Q&A hinaus. Es ist darauf ausgelegt, komplexe Workflows und Entscheidungsprozesse zu unterstützen.",
         "agenticWorkflows": {
           "title": "Agentic Workflows",
-          "description": "Automated workflows with human approval gates. The system can execute multi-step tasks while keeping humans in control of consequential decisions.",
-          "benefit": "Example: An employee asks 'I want to apply for parental leave'. The AI guides them through the form, checks eligibility, and routes the request to the right manager, all in one conversation.",
-          "learnMore": "What are agentic workflows?"
+          "description": "Automatisierte Workflows mit menschlichen Genehmigungsstufen. Das System kann mehrstufige Aufgaben ausführen, während Menschen die Kontrolle über wichtige Entscheidungen behalten.",
+          "benefit": "Beispiel: Ein Mitarbeiter fragt 'Ich möchte Elternzeit beantragen'. Die AI führt durch das Formular, prüft die Berechtigung und leitet die Anfrage an den richtigen Manager, alles in einer Konversation.",
+          "learnMore": "Was sind Agentic Workflows?"
         },
         "decisionSupport": {
           "title": "Decision Support",
-          "description": "Get substantiated advice with source citations for better decision-making. The system presents relevant information from multiple documents to help you make informed choices.",
-          "benefit": "Stop searching through 5 different PDFs. Ask 'What are our options for this situation?' and get a structured overview with pros, cons, and policy references."
+          "description": "Erhalten Sie fundierte Empfehlungen mit Quellenangaben für bessere Entscheidungsfindung. Das System präsentiert relevante Informationen aus mehreren Dokumenten, um informierte Entscheidungen zu treffen.",
+          "benefit": "Hören Sie auf, durch 5 verschiedene PDFs zu suchen. Fragen Sie 'Was sind unsere Optionen in dieser Situation?' und erhalten Sie einen strukturierten Überblick mit Vor- und Nachteilen sowie Richtlinienreferenzen."
         },
         "draftGeneration": {
           "title": "Draft Generation",
-          "description": "Generate draft documents like job descriptions, policy summaries, and contract clauses, always with mandatory human review before use.",
-          "benefit": "First draft in 30 seconds instead of 30 minutes. You review and refine, the AI does the heavy lifting."
+          "description": "Generieren Sie Entwürfe wie Stellenbeschreibungen, Richtlinienzusammenfassungen und Vertragsklauseln, immer mit obligatorischer menschlicher Prüfung vor der Verwendung.",
+          "benefit": "Erster Entwurf in 30 Sekunden statt 30 Minuten. Sie prüfen und verfeinern, die AI erledigt die schwere Arbeit."
         }
       },
       "midPageCta": {
-        "title": "Want to see this in action?",
-        "description": "Most customers start with the HR Agent: the quickest path to reducing repetitive questions.",
-        "button": "See the HR Agent",
-        "secondary": "Or explore all agents"
+        "title": "Möchten Sie das in Aktion sehen?",
+        "description": "Die meisten Kunden starten mit dem HR Agent: der schnellste Weg, repetitive Fragen zu reduzieren.",
+        "button": "HR Agent ansehen",
+        "secondary": "Oder alle Agents erkunden"
       },
       "documentPipeline": {
-        "title": "Intelligent Document Processing",
-        "description": "Your documents go through a sophisticated pipeline to ensure accurate AI retrieval.",
+        "title": "Intelligente Dokumentenverarbeitung",
+        "description": "Ihre Dokumente durchlaufen eine ausgefeilte Pipeline, um akkurate AI-Abfragen zu gewährleisten.",
         "steps": {
           "extraction": {
             "title": "Content Extraction",
-            "description": "Text is extracted from PDFs, Word documents, Excel files, and PowerPoints while preserving structure."
+            "description": "Text wird aus PDFs, Word-Dokumenten, Excel-Dateien und PowerPoints extrahiert, wobei die Struktur erhalten bleibt."
           },
           "classification": {
-            "title": "Automatic Classification",
-            "description": "Machine learning categorizes documents by type, department, and topic."
+            "title": "Automatische Klassifizierung",
+            "description": "Machine Learning kategorisiert Dokumente nach Typ, Abteilung und Thema."
           },
           "metadata": {
-            "title": "Metadata Extraction",
-            "description": "Author, date, version, and custom properties are captured automatically."
+            "title": "Metadaten-Extraktion",
+            "description": "Autor, Datum, Version und benutzerdefinierte Eigenschaften werden automatisch erfasst."
           },
           "indexing": {
-            "title": "Semantic Indexing",
-            "description": "AI embeddings enable semantic search. Find by meaning, not just keywords."
+            "title": "Semantische Indizierung",
+            "description": "AI-Embeddings ermöglichen semantische Suche. Finden nach Bedeutung, nicht nur nach Schlüsselwörtern."
           }
         },
-        "readyLabel": "Ready for AI Retrieval"
+        "readyLabel": "Bereit für AI-Retrieval"
       },
       "administration": {
         "title": "Administration & Governance",
-        "description": "Enterprise-grade administration tools for complete control over your AI platform.",
+        "description": "Enterprise-Grade-Administrations-Tools für vollständige Kontrolle über Ihre AI-Plattform.",
         "features": {
           "adminConsole": {
             "title": "Multi-Tenant Admin Console",
-            "description": "Centralized management for user provisioning, role assignments, and configuration."
+            "description": "Zentralisiertes Management für Benutzer-Provisioning, Rollenzuweisungen und Konfiguration."
           },
           "rbac": {
             "title": "Role-Based Access Control",
-            "description": "Granular permissions at workspace, collection, document, and feature level."
+            "description": "Granulare Berechtigungen auf Workspace-, Collection-, Dokumenten- und Feature-Ebene."
           },
           "contentPolicies": {
             "title": "Content Policies",
-            "description": "Configure approved topics, content filtering, and response guidelines."
+            "description": "Konfigurieren Sie genehmigte Themen, Content-Filterung und Antwort-Guidelines."
           },
           "complianceDashboard": {
             "title": "Compliance Dashboard",
-            "description": "Monitor data processing, audit logs, and retention policy status in real-time."
+            "description": "Überwachen Sie Datenverarbeitung, Audit Logs und Retention-Policy-Status in Echtzeit."
           },
           "userProvisioning": {
-            "title": "Automated User Provisioning",
-            "description": "SCIM 2.0 integration for automatic user creation and deprovisioning from your identity provider."
+            "title": "Automatisiertes User Provisioning",
+            "description": "SCIM 2.0-Integration für automatische Benutzererstellung und -deaktivierung aus Ihrem Identity Provider."
           },
           "retentionPolicies": {
             "title": "Retention Policies",
-            "description": "Configurable data retention periods to meet your compliance requirements (default: 12 months)."
+            "description": "Konfigurierbare Datenaufbewahrungsfristen zur Erfüllung Ihrer Compliance-Anforderungen (Standard: 12 Monate)."
           }
         }
       },
       "accessibility": {
-        "title": "Accessible Everywhere",
-        "description": "Use Volentis.ai on any device, with accessibility features built in.",
+        "title": "Überall zugänglich",
+        "description": "Nutzen Sie Volentis.ai auf jedem Gerät, mit eingebauten Accessibility-Features.",
         "mobile": {
           "title": "Mobile & Responsive",
-          "description": "Fully responsive design optimized for desktop, tablet, and mobile. Access your knowledge base from anywhere."
+          "description": "Vollständig responsives Design optimiert für Desktop, Tablet und Mobile. Greifen Sie von überall auf Ihre Wissensdatenbank zu."
         },
         "crossDevice": {
           "title": "Cross-Device Sync",
-          "description": "Start a conversation on your laptop, continue on your phone. Real-time synchronization across all your devices."
+          "description": "Starten Sie eine Konversation auf Ihrem Laptop, setzen Sie sie auf Ihrem Telefon fort. Echtzeit-Synchronisation über alle Geräte."
         },
         "keyboard": {
-          "title": "Keyboard Navigation",
-          "description": "Full platform functionality via keyboard shortcuts for power users and accessibility needs."
+          "title": "Tastaturnavigation",
+          "description": "Volle Plattformfunktionalität via Tastaturkürzel für Power-User und Accessibility-Bedürfnisse."
         },
         "screenReader": {
-          "title": "Screen Reader Support",
-          "description": "ARIA labels and descriptions throughout for compatibility with assistive technologies."
+          "title": "Screenreader-Unterstützung",
+          "description": "ARIA-Labels und -Beschreibungen durchgehend für Kompatibilität mit assistiven Technologien."
         },
         "visual": {
-          "title": "Visual Accessibility",
-          "description": "High contrast modes, adjustable font sizes, and motor accessibility options available."
+          "title": "Visuelle Accessibility",
+          "description": "Kontrastreiche Modi, anpassbare Schriftgrößen und Motor-Accessibility-Optionen verfügbar."
         }
       },
       "knowledgeManagement": {
-        "title": "Intelligent Knowledge Management",
-        "description": "Your documents are automatically processed, classified, and indexed for AI retrieval.",
+        "title": "Intelligentes Knowledge Management",
+        "description": "Ihre Dokumente werden automatisch verarbeitet, klassifiziert und für AI-Retrieval indiziert.",
         "features": {
-          "sharepoint": "SharePoint integration with read-only access and OAuth 2.0 authentication",
-          "autoClassification": "Automatic document classification using machine learning",
-          "versionTracking": "Version tracking and refresh scheduling to keep knowledge current",
-          "semanticSearch": "Semantic search powered by AI embeddings. Find by meaning, not just keywords"
+          "sharepoint": "SharePoint-Integration mit Read-Only-Zugriff und OAuth 2.0-Authentifizierung",
+          "autoClassification": "Automatische Dokumentenklassifizierung mit Machine Learning",
+          "versionTracking": "Versions-Tracking und Refresh-Scheduling, um Wissen aktuell zu halten",
+          "semanticSearch": "Semantische Suche powered by AI-Embeddings. Finden nach Bedeutung, nicht nur nach Keywords"
         },
         "formats": {
-          "title": "Supported Formats",
-          "maxSize": "Max file size",
-          "perFile": "per file"
+          "title": "Unterstützte Formate",
+          "maxSize": "Max. Dateigröße",
+          "perFile": "pro Datei"
         }
       },
       "collaboration": {
         "title": "Collaboration Features",
-        "description": "Work together on complex queries and share insights across your organization.",
+        "description": "Arbeiten Sie gemeinsam an komplexen Anfragen und teilen Sie Insights über Ihre Organisation.",
         "features": {
           "workspaces": {
             "title": "Team Workspaces",
-            "description": "Create dedicated workspaces with role-based access control"
+            "description": "Erstellen Sie dedizierte Workspaces mit rollenbasierter Zugriffskontrolle"
           },
           "sharing": {
-            "title": "Conversation Sharing",
-            "description": "Share threads with colleagues, including time-limited external access"
+            "title": "Konversations-Sharing",
+            "description": "Teilen Sie Threads mit Kollegen, inkl. zeitlich begrenztem externen Zugriff"
           },
           "annotations": {
-            "title": "Thread Annotations",
-            "description": "Add comments and notes to shared conversations"
+            "title": "Thread-Annotationen",
+            "description": "Fügen Sie Kommentare und Notizen zu geteilten Konversationen hinzu"
           },
           "export": {
-            "title": "Export Options",
-            "description": "Export to PDF, Word, or plain text formats"
+            "title": "Export-Optionen",
+            "description": "Export in PDF, Word oder Plain-Text-Formate"
           }
         }
       },
       "perfectFit": {
-        "title": "Volentis.ai delivers the most value when...",
+        "title": "Volentis.ai liefert den größten Mehrwert, wenn...",
         "items": {
           "1": {
-            "title": "You have 200+ employees",
-            "description": "With more people asking questions, the time savings multiply. One HR Agent can handle the volume of 2-3 FTEs."
+            "title": "Sie 200+ Mitarbeiter haben",
+            "description": "Mit mehr Menschen, die Fragen stellen, multiplizieren sich die Zeiteinsparungen. Ein HR Agent kann das Volumen von 2-3 FTEs bewältigen."
           },
           "2": {
-            "title": "Your policies are documented",
-            "description": "You have handbooks, procedures, and policies in digital form (Word, PDF, SharePoint). Even if they're scattered, we'll connect them."
+            "title": "Ihre Richtlinien dokumentiert sind",
+            "description": "Sie haben Handbücher, Verfahren und Richtlinien in digitaler Form (Word, PDF, SharePoint). Selbst wenn sie verstreut sind, verbinden wir sie."
           },
           "3": {
-            "title": "GDPR compliance matters",
-            "description": "You need control over your data. EU hosting, audit trails, no training on your data: these aren't nice-to-haves for you."
+            "title": "DSGVO-Compliance wichtig ist",
+            "description": "Sie brauchen Kontrolle über Ihre Daten. EU-Hosting, Audit Trails, kein Training mit Ihren Daten: Das sind keine Nice-to-haves für Sie."
           },
           "4": {
-            "title": "Your team is drowning in repetitive questions",
-            "description": "HR, IT, Finance, or Legal spends hours answering the same questions. You want them focused on strategic work."
+            "title": "Ihr Team in repetitiven Fragen ertrinkt",
+            "description": "HR, IT, Finance oder Legal verbringt Stunden mit der Beantwortung derselben Fragen. Sie wollen, dass sie sich auf strategische Arbeit konzentrieren."
           }
         },
-        "cta": "Does this sound like you?"
+        "cta": "Klingt das nach Ihnen?"
       },
       "cta": {
-        "title": "Ready to see these features in action?",
-        "description": "Book a demo and experience how Volentis.ai can transform your organization's knowledge management.",
-        "button": "Book a Demo",
-        "secondaryButton": "View Integrations"
+        "title": "Bereit, diese Features in Aktion zu sehen?",
+        "description": "Buchen Sie eine Demo und erleben Sie, wie Volentis.ai das Knowledge Management Ihrer Organisation transformieren kann.",
+        "button": "Demo buchen",
+        "secondaryButton": "Integrationen ansehen"
       }
     },
     "integrations": {
