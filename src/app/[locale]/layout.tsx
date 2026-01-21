@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { Outfit } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
 import { locales } from '@/i18n/config';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
@@ -118,6 +119,7 @@ export default async function LocaleLayout({
       </head>
       <body className="font-sans">
         <GoogleAnalytics />
+        <Analytics />
         <NextIntlClientProvider messages={messages}>
           <div className="flex min-h-screen flex-col">
             <Header />
