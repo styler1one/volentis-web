@@ -1643,7 +1643,8 @@
           },
           "durations": {
             "session": "Sessie",
-            "year": "1 jaar"
+            "year": "1 jaar",
+            "twoYears": "2 jaar"
           },
           "necessary": {
             "title": "Strikt noodzakelijke cookies",
@@ -1655,10 +1656,12 @@
           },
           "analytics": {
             "title": "Analytische cookies",
-            "description": "Deze cookies helpen ons te begrijpen hoe bezoekers met onze website omgaan. Alle analytische gegevens zijn geanonimiseerd.",
+            "description": "Deze cookies helpen ons te begrijpen hoe bezoekers met onze website omgaan. Deze cookies worden alleen geplaatst na jouw toestemming.",
             "cookies": {
-              "analytics": "Anonieme gebruiksstatistieken"
-            }
+              "ga": "Google Analytics - onderscheidt unieke bezoekers",
+              "gaSession": "Google Analytics - behoudt sessie status"
+            },
+            "consentNote": "Deze cookies worden alleen geplaatst als je op 'Accepteren' klikt in de cookiebanner."
           }
         },
         "managing": {

@@ -1643,7 +1643,8 @@
           },
           "durations": {
             "session": "Session",
-            "year": "1 year"
+            "year": "1 an",
+            "twoYears": "2 ans"
           },
           "necessary": {
             "title": "Strictly Necessary Cookies",
@@ -1654,11 +1655,13 @@
             }
           },
           "analytics": {
-            "title": "Analytics Cookies",
-            "description": "These cookies help us understand how visitors interact with our website. All analytics data is anonymized.",
+            "title": "Cookies analytiques",
+            "description": "Ces cookies nous aident à comprendre comment les visiteurs interagissent avec notre site. Ces cookies ne sont placés qu'après votre consentement.",
             "cookies": {
-              "analytics": "Anonymous usage statistics"
-            }
+              "ga": "Google Analytics - distingue les visiteurs uniques",
+              "gaSession": "Google Analytics - maintient l'état de la session"
+            },
+            "consentNote": "Ces cookies ne sont placés que si vous cliquez sur 'Accepter' dans la bannière de cookies."
           }
         },
         "managing": {

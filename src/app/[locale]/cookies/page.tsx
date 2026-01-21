@@ -88,14 +88,20 @@ export default async function CookiesPage({ params }: PageProps) {
                       </tr>
                     </thead>
                     <tbody className="text-text-body">
+                      <tr className="border-b border-border-gray/20">
+                        <td className="py-2">_ga</td>
+                        <td className="py-2">{t('sections.types.analytics.cookies.ga')}</td>
+                        <td className="py-2">{t('sections.types.durations.twoYears')}</td>
+                      </tr>
                       <tr>
-                        <td className="py-2">_analytics</td>
-                        <td className="py-2">{t('sections.types.analytics.cookies.analytics')}</td>
-                        <td className="py-2">{t('sections.types.durations.year')}</td>
+                        <td className="py-2">_ga_*</td>
+                        <td className="py-2">{t('sections.types.analytics.cookies.gaSession')}</td>
+                        <td className="py-2">{t('sections.types.durations.twoYears')}</td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
+                <p className="text-xs text-text-muted mt-2">{t('sections.types.analytics.consentNote')}</p>
               </div>
             </section>
 
