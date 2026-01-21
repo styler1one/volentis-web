@@ -3,6 +3,12 @@
     "title": "Volentis.ai - Europese AI met Vertrouwen als Kern",
     "description": "Enterprise AI die je kunt vertrouwen: geen hallucinaties, geen datalekken, geen compliance-risico's. De enige AI-assistent gebouwd voor Europese ondernemingen."
   },
+  "cookieConsent": {
+    "message": "We gebruiken cookies om je ervaring te verbeteren en sitegebruik te analyseren.",
+    "accept": "Accepteren",
+    "necessary": "Alleen noodzakelijk",
+    "learnMore": "Meer info"
+  },
   "nav": {
     "product": "Product",
     "useCases": "AI Agents",

@@ -3,6 +3,12 @@
     "title": "Volentis.ai - European AI with Trust at the Core",
     "description": "Enterprise AI you can trust: no hallucinations, no data leaks, no compliance risks. The only AI assistant built for European enterprises."
   },
+  "cookieConsent": {
+    "message": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern und die Nutzung zu analysieren.",
+    "accept": "Akzeptieren",
+    "necessary": "Nur notwendige",
+    "learnMore": "Mehr erfahren"
+  },
   "nav": {
     "product": "Product",
     "useCases": "AI Agents",

@@ -6,6 +6,8 @@ import { locales } from '@/i18n/config';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import StructuredData from '@/components/seo/StructuredData';
+import GoogleAnalytics from '@/components/analytics/GoogleAnalytics';
+import CookieConsent from '@/components/ui/CookieConsent';
 import '@/styles/globals.css';
 
 const outfit = Outfit({
@@ -115,12 +117,14 @@ export default async function LocaleLayout({
         <StructuredData />
       </head>
       <body className="font-sans">
+        <GoogleAnalytics />
         <NextIntlClientProvider messages={messages}>
           <div className="flex min-h-screen flex-col">
             <Header />
             <main className="flex-1">{children}</main>
             <Footer />
           </div>
+          <CookieConsent />
         </NextIntlClientProvider>
       </body>
     </html>
