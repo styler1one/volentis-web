@@ -2303,527 +2303,527 @@
       }
     },
     "integrations": {
-      "metaTitle": "Integrations - Volentis.ai | Connect Your Enterprise Tools",
-      "metaDescription": "Volentis.ai integrates with SharePoint, Microsoft Teams, Slack, SAP, Workday, and more. Enterprise-grade SSO and API access.",
-      "badge": "Integrations",
-      "headline": "Works with the tools you already use",
-      "subheadline": "No disruption to your existing workflows. Volentis.ai connects to your document repositories, HR systems, and collaboration tools so employees can get AI answers where they already work.",
+      "metaTitle": "Integrationen - Volentis.ai | Verbinden Sie Ihre Enterprise Tools",
+      "metaDescription": "Volentis.ai integriert sich mit SharePoint, Microsoft Teams, Slack, SAP, Workday und mehr. Enterprise-Grade SSO und API-Zugang.",
+      "badge": "Integrationen",
+      "headline": "Funktioniert mit den Tools, die Sie bereits nutzen",
+      "subheadline": "Keine Störung Ihrer bestehenden Workflows. Volentis.ai verbindet sich mit Ihren Dokumenten-Repositories, HR-Systemen und Collaboration-Tools, damit Mitarbeiter AI-Antworten dort erhalten, wo sie bereits arbeiten.",
       "whyIntegrations": {
-        "title": "Why integrations matter",
-        "description": "Most AI projects fail because they require employees to change how they work. With Volentis.ai:",
+        "title": "Warum Integrationen wichtig sind",
+        "description": "Die meisten AI-Projekte scheitern, weil sie von Mitarbeitern verlangen, ihre Arbeitsweise zu ändern. Mit Volentis.ai:",
         "benefits": {
           "noMigration": {
-            "title": "No document migration needed",
-            "description": "Keep your documents in SharePoint. We connect directly and stay in sync automatically."
+            "title": "Keine Dokumentenmigration nötig",
+            "description": "Behalten Sie Ihre Dokumente in SharePoint. Wir verbinden direkt und bleiben automatisch synchron."
           },
           "singleSignOn": {
-            "title": "One login for everything",
-            "description": "Employees use their existing Microsoft or Google accounts. No new passwords to remember or manage."
+            "title": "Ein Login für alles",
+            "description": "Mitarbeiter nutzen ihre bestehenden Microsoft- oder Google-Accounts. Keine neuen Passwörter zum Merken oder Verwalten."
           },
           "whereTheyWork": {
-            "title": "Answers where employees already are",
-            "description": "Ask questions in Teams or Slack. No need to open another app or learn a new interface."
+            "title": "Antworten dort, wo Mitarbeiter bereits sind",
+            "description": "Stellen Sie Fragen in Teams oder Slack. Keine Notwendigkeit, eine andere App zu öffnen oder eine neue Oberfläche zu lernen."
           }
         },
         "notListed": {
-          "title": "Don't see your system?",
-          "description": "We integrate with any API-enabled platform. Our team has connected to dozens of enterprise systems, from custom intranets to legacy databases.",
-          "cta": "Let's discuss your setup"
+          "title": "Ihr System nicht aufgelistet?",
+          "description": "Wir integrieren uns mit jeder API-fähigen Plattform. Unser Team hat Dutzende von Enterprise-Systemen verbunden, von benutzerdefinierten Intranets bis zu Legacy-Datenbanken.",
+          "cta": "Lassen Sie uns Ihr Setup besprechen"
         }
       },
       "documentSources": {
-        "title": "Connect Your Document Repositories",
-        "description": "Your company knowledge stays where it is. We connect to it securely and keep it in sync.",
+        "title": "Verbinden Sie Ihre Dokumenten-Repositories",
+        "description": "Ihr Unternehmenswissen bleibt, wo es ist. Wir verbinden uns sicher und halten es synchron.",
         "sharepoint": {
           "title": "SharePoint Online & Server",
-          "description": "Native integration with Microsoft SharePoint for seamless document access.",
-          "timeline": "Setup: 1-2 days",
+          "description": "Native Integration mit Microsoft SharePoint für nahtlosen Dokumentenzugriff.",
+          "timeline": "Setup: 1-2 Tage",
           "features": {
-            "oauth": "Login with existing Microsoft accounts, no separate credentials needed",
-            "readOnly": "Read-only access: the AI can never modify or delete your documents",
-            "sync": "Documents stay up-to-date automatically, no manual re-uploads"
+            "oauth": "Login mit bestehenden Microsoft-Accounts, keine separaten Credentials nötig",
+            "readOnly": "Read-Only-Zugriff: Die AI kann Ihre Dokumente niemals ändern oder löschen",
+            "sync": "Dokumente bleiben automatisch aktuell, keine manuellen Re-Uploads"
           },
-          "benefit": "Your team already uses SharePoint? Perfect. We connect directly and respect your existing folder structure and permissions."
+          "benefit": "Ihr Team nutzt bereits SharePoint? Perfekt. Wir verbinden direkt und respektieren Ihre bestehende Ordnerstruktur und Berechtigungen."
         },
         "upload": {
-          "title": "Direct Upload",
-          "description": "For documents not in SharePoint, simply drag and drop to add them to your knowledge base.",
+          "title": "Direkter Upload",
+          "description": "Für Dokumente, die nicht in SharePoint sind, einfach per Drag & Drop zu Ihrer Wissensdatenbank hinzufügen.",
           "features": {
-            "batch": "Upload hundreds of documents at once, no more one-by-one",
-            "formats": "All common formats: PDF, Word, Excel, PowerPoint, TXT",
-            "size": "Files up to 50MB, enough for even your longest policy documents"
+            "batch": "Hunderte Dokumente auf einmal hochladen, kein Einzelupload mehr",
+            "formats": "Alle gängigen Formate: PDF, Word, Excel, PowerPoint, TXT",
+            "size": "Dateien bis 50MB, genug für selbst Ihre längsten Richtliniendokumente"
           },
-          "benefit": "Have some documents in network drives or local folders? Upload them directly. Mix and match sources as needed."
+          "benefit": "Haben Sie Dokumente auf Netzlaufwerken oder in lokalen Ordnern? Laden Sie sie direkt hoch. Kombinieren Sie Quellen nach Bedarf."
         }
       },
       "hrSystems": {
-        "title": "HR System Integrations",
-        "description": "Connect to your HR systems for personalized answers. When an employee asks about their leave balance, the AI knows who's asking.",
-        "benefit": "The AI gives personalized answers based on the employee's role, department, and contract type without them having to specify every time.",
+        "title": "HR-System-Integrationen",
+        "description": "Verbinden Sie sich mit Ihren HR-Systemen für personalisierte Antworten. Wenn ein Mitarbeiter nach seinem Urlaubssaldo fragt, weiß die AI, wer fragt.",
+        "benefit": "Die AI gibt personalisierte Antworten basierend auf Rolle, Abteilung und Vertragstyp des Mitarbeiters, ohne dass dieser jedes Mal spezifizieren muss.",
         "systems": {
           "afas": "Dutch HR/Payroll",
           "sap": "Enterprise HCM",
           "dynamics": "Microsoft HR",
           "workday": "Cloud HCM",
           "personio": "European HR",
-          "outlook": "Calendar Integration"
+          "outlook": "Kalender-Integration"
         },
-        "comingSoon": "Integration available on request"
+        "comingSoon": "Integration auf Anfrage verfügbar"
       },
       "identity": {
         "title": "Single Sign-On & User Management",
-        "description": "Employees log in once with their existing company account. IT manages users from one central place.",
+        "description": "Mitarbeiter loggen sich einmal mit ihrem bestehenden Firmenaccount ein. IT verwaltet Nutzer von einer zentralen Stelle.",
         "saml": {
           "technical": "SAML 2.0",
-          "benefit": "Employees log in with their existing company account, the same one they use for email"
+          "benefit": "Mitarbeiter loggen sich mit ihrem bestehenden Firmenaccount ein, demselben, den sie für E-Mail nutzen"
         },
         "oidc": {
           "technical": "OpenID Connect",
-          "benefit": "Modern 'Login with Microsoft/Google' experience that employees already know"
+          "benefit": "Modernes 'Login mit Microsoft/Google'-Erlebnis, das Mitarbeiter bereits kennen"
         },
         "scim": {
           "technical": "SCIM 2.0",
-          "benefit": "New employees get access automatically. Leavers lose access immediately. No manual user management."
+          "benefit": "Neue Mitarbeiter erhalten automatisch Zugang. Ausscheidende verlieren sofort den Zugang. Keine manuelle Benutzerverwaltung."
         },
         "mfa": {
           "technical": "MFA Support",
-          "benefit": "Use your existing multi-factor authentication, no extra app needed"
+          "benefit": "Nutzen Sie Ihre bestehende Multi-Faktor-Authentifizierung, keine zusätzliche App nötig"
         }
       },
       "collaboration": {
-        "title": "Get Answers Where You Already Work",
-        "description": "Don't switch apps. Ask your questions right in Teams or Slack.",
+        "title": "Antworten dort, wo Sie bereits arbeiten",
+        "description": "Keine App wechseln. Stellen Sie Ihre Fragen direkt in Teams oder Slack.",
         "teams": {
           "title": "Microsoft Teams",
-          "description": "Ask questions directly in Teams. Share answers with colleagues. Get notifications when documents are updated.",
-          "benefit": "Your team lives in Teams? So does the AI assistant."
+          "description": "Stellen Sie Fragen direkt in Teams. Teilen Sie Antworten mit Kollegen. Erhalten Sie Benachrichtigungen, wenn Dokumente aktualisiert werden.",
+          "benefit": "Ihr Team lebt in Teams? Der AI-Assistent auch."
         },
         "slack": {
           "title": "Slack",
-          "description": "Same seamless experience in Slack. Ask questions, share threads, collaborate on complex queries.",
-          "benefit": "Slack-first company? We've got you covered."
+          "description": "Dieselbe nahtlose Erfahrung in Slack. Fragen stellen, Threads teilen, an komplexen Anfragen zusammenarbeiten.",
+          "benefit": "Slack-first Unternehmen? Wir haben Sie abgedeckt."
         },
         "email": {
-          "title": "Email & Calendar",
-          "description": "Schedule knowledge sessions, share conversations via email, integrate with your existing meeting workflows.",
-          "benefit": "For teams that prefer email-based workflows."
+          "title": "E-Mail & Kalender",
+          "description": "Knowledge-Sessions planen, Konversationen per E-Mail teilen, mit Ihren bestehenden Meeting-Workflows integrieren.",
+          "benefit": "Für Teams, die E-Mail-basierte Workflows bevorzugen."
         }
       },
       "api": {
-        "title": "Build Custom Integrations",
-        "description": "Need to connect Volentis.ai to your custom systems or workflows? Our API makes it straightforward.",
-        "useCases": "Common use cases: Embed AI answers in your intranet, connect to custom document systems, automate knowledge workflows.",
+        "title": "Custom Integrations bauen",
+        "description": "Müssen Sie Volentis.ai mit Ihren benutzerdefinierten Systemen oder Workflows verbinden? Unsere API macht es einfach.",
+        "useCases": "Häufige Use Cases: AI-Antworten in Ihr Intranet einbetten, mit Custom-Dokumentensystemen verbinden, Knowledge-Workflows automatisieren.",
         "features": {
-          "rest": "Full REST API. Integrate with any system that can make web requests",
-          "oauth": "Secure authentication using industry-standard OAuth 2.0",
-          "webhooks": "Get notified when documents are updated or questions are asked",
-          "docs": "Complete documentation and code examples to get started quickly"
+          "rest": "Vollständige REST API. Mit jedem System integrieren, das Web-Requests machen kann",
+          "oauth": "Sichere Authentifizierung mit Industrie-Standard OAuth 2.0",
+          "webhooks": "Benachrichtigungen erhalten, wenn Dokumente aktualisiert oder Fragen gestellt werden",
+          "docs": "Vollständige Dokumentation und Code-Beispiele für schnellen Einstieg"
         }
       },
       "cta": {
-        "title": "Need a custom integration?",
-        "description": "Our team can help you connect Volentis.ai to your specific enterprise systems. We've seen it all and can advise on the best approach.",
-        "button": "Talk to Our Team"
+        "title": "Custom Integration benötigt?",
+        "description": "Unser Team kann Ihnen helfen, Volentis.ai mit Ihren spezifischen Enterprise-Systemen zu verbinden. Wir haben alles gesehen und können zum besten Ansatz beraten.",
+        "button": "Mit unserem Team sprechen"
       }
     },
     "deployment": {
-      "metaTitle": "Deployment Options - Volentis.ai | SaaS, Single-Tenant, On-Premise",
-      "metaDescription": "Choose your deployment: Multi-tenant SaaS, Single-tenant with BYOK, or Customer-managed. All with EU data residency.",
+      "metaTitle": "Deployment-Optionen - Volentis.ai | SaaS, Single-Tenant, On-Premise",
+      "metaDescription": "Wählen Sie Ihr Deployment: Multi-Tenant SaaS, Single-Tenant mit BYOK oder Customer-Managed. Alle mit EU-Datenresidenz.",
       "badge": "Deployment",
-      "headline": "Choose how you want to run Volentis.ai",
-      "subheadline": "Whether you want to be live next month or need maximum control over your infrastructure, we have an option that fits.",
+      "headline": "Wählen Sie, wie Sie Volentis.ai betreiben möchten",
+      "subheadline": "Ob Sie nächsten Monat live gehen wollen oder maximale Kontrolle über Ihre Infrastruktur benötigen, wir haben eine passende Option.",
       "whyChoiceMatters": {
-        "title": "Why deployment choice matters",
-        "description": "Your security requirements, timeline, and budget determine the best fit. Here's how to decide:",
+        "title": "Warum die Deployment-Wahl wichtig ist",
+        "description": "Ihre Sicherheitsanforderungen, Timeline und Budget bestimmen die beste Wahl. So entscheiden Sie:",
         "quick": {
-          "title": "Need to be live quickly?",
-          "answer": "Choose SaaS Multi-Tenant. You'll be up and running in 2-4 weeks."
+          "title": "Schnell live gehen?",
+          "answer": "Wählen Sie SaaS Multi-Tenant. Sie sind in 2-4 Wochen einsatzbereit."
         },
         "control": {
-          "title": "Need maximum control?",
-          "answer": "Choose Single-Tenant or Customer-Managed. Your own infrastructure, your rules."
+          "title": "Maximale Kontrolle benötigt?",
+          "answer": "Wählen Sie Single-Tenant oder Customer-Managed. Ihre eigene Infrastruktur, Ihre Regeln."
         },
         "compliance": {
-          "title": "Strict compliance requirements?",
-          "answer": "All options keep your data in the EU. Single-Tenant and Customer-Managed add extra isolation."
+          "title": "Strenge Compliance-Anforderungen?",
+          "answer": "Alle Optionen halten Ihre Daten in der EU. Single-Tenant und Customer-Managed bieten zusätzliche Isolation."
         }
       },
       "comparisonTable": {
-        "title": "Quick comparison",
+        "title": "Schnellvergleich",
         "headers": {
           "option": "Option",
           "timeline": "Timeline",
-          "control": "Control",
-          "bestFor": "Best for"
+          "control": "Kontrolle",
+          "bestFor": "Ideal für"
         },
         "rows": {
           "multiTenant": {
-            "timeline": "2-4 weeks",
+            "timeline": "2-4 Wochen",
             "control": "Standard",
-            "bestFor": "Quick start, predictable cost"
+            "bestFor": "Schneller Start, kalkulierbare Kosten"
           },
           "singleTenant": {
-            "timeline": "4-8 weeks",
-            "control": "High (BYOK)",
-            "bestFor": "Elevated security, certifications"
+            "timeline": "4-8 Wochen",
+            "control": "Hoch (BYOK)",
+            "bestFor": "Erhöhte Sicherheit, Zertifizierungen"
           },
           "customerManaged": {
             "timeline": "TBD",
             "control": "Maximum",
-            "bestFor": "Air-gapped, on-premise required"
+            "bestFor": "Air-gapped, On-Premise erforderlich"
           }
         },
-        "notSure": "Not sure? Our team helps you decide, no pressure."
+        "notSure": "Unsicher? Unser Team hilft bei der Entscheidung, ohne Druck."
       },
       "options": {
         "multiTenant": {
           "title": "SaaS Multi-Tenant",
-          "description": "The fastest path to enterprise AI. Perfect for organizations wanting quick deployment with full security.",
-          "badge": "Most Popular",
-          "forYouIf": "Ideal for: Organizations that want to start quickly without infrastructure overhead",
+          "description": "Der schnellste Weg zu Enterprise AI. Perfekt für Organisationen, die schnelle Bereitstellung mit voller Sicherheit wollen.",
+          "badge": "Beliebteste Wahl",
+          "forYouIf": "Ideal für: Organisationen, die schnell starten wollen ohne Infrastruktur-Overhead",
           "features": {
-            "1": "Live in weeks, not months. Start seeing value immediately",
-            "2": "EU data centers in Germany & Netherlands. Your data never leaves Europe",
-            "3": "Your data is completely separated from other customers. No risk of data mixing",
-            "4": "Automatic updates: always have the latest features and security patches",
-            "5": "Predictable monthly pricing, no surprise infrastructure costs"
+            "1": "Live in Wochen, nicht Monaten. Sofort Mehrwert sehen",
+            "2": "EU-Rechenzentren in Deutschland & Niederlanden. Ihre Daten verlassen Europa nie",
+            "3": "Ihre Daten sind vollständig von anderen Kunden getrennt. Kein Risiko der Datenvermischung",
+            "4": "Automatische Updates: immer die neuesten Features und Sicherheitspatches",
+            "5": "Kalkulierbare monatliche Preise, keine Überraschungs-Infrastrukturkosten"
           },
-          "timeline": "Typical deployment: 2-4 weeks",
-          "tradeoff": "You share infrastructure (not data!) with other customers, which keeps costs lower."
+          "timeline": "Typisches Deployment: 2-4 Wochen",
+          "tradeoff": "Sie teilen Infrastruktur (nicht Daten!) mit anderen Kunden, was die Kosten niedrig hält."
         },
         "singleTenant": {
           "title": "Single-Tenant SaaS",
-          "description": "Your own dedicated infrastructure, managed by us. For organizations needing extra isolation.",
-          "forYouIf": "Ideal for: Organizations with elevated security requirements or regulatory obligations",
+          "description": "Ihre eigene dedizierte Infrastruktur, von uns verwaltet. Für Organisationen, die zusätzliche Isolation benötigen.",
+          "forYouIf": "Ideal für: Organisationen mit erhöhten Sicherheitsanforderungen oder regulatorischen Verpflichtungen",
           "features": {
-            "1": "Your own dedicated servers, not shared with anyone else",
-            "2": "Separate database and storage, complete infrastructure isolation",
-            "3": "Bring Your Own Key (BYOK): encrypt your data with keys only you control",
-            "4": "Audit certifications easier: isolated infrastructure simplifies compliance",
-            "5": "Custom configuration. Adjust settings to your specific needs"
+            "1": "Ihre eigenen dedizierten Server, mit niemandem geteilt",
+            "2": "Separate Datenbank und Speicher, vollständige Infrastruktur-Isolation",
+            "3": "Bring Your Own Key (BYOK): Verschlüsseln Sie Ihre Daten mit Schlüsseln, die nur Sie kontrollieren",
+            "4": "Audit-Zertifizierungen einfacher: isolierte Infrastruktur vereinfacht Compliance",
+            "5": "Custom Configuration. Einstellungen an Ihre spezifischen Bedürfnisse anpassen"
           },
-          "timeline": "Typical deployment: 4-8 weeks",
-          "tradeoff": "Higher cost than multi-tenant, but maximum isolation without managing infrastructure yourself."
+          "timeline": "Typisches Deployment: 4-8 Wochen",
+          "tradeoff": "Höhere Kosten als Multi-Tenant, aber maximale Isolation ohne Infrastruktur selbst zu verwalten."
         },
         "customerManaged": {
           "title": "Customer-Managed",
-          "description": "Full control: run Volentis.ai in your own data center or private cloud.",
-          "badge": "Coming Soon",
-          "forYouIf": "Ideal for: Organizations that must run all software on their own infrastructure",
+          "description": "Volle Kontrolle: Betreiben Sie Volentis.ai in Ihrem eigenen Rechenzentrum oder Ihrer Private Cloud.",
+          "badge": "Demnächst",
+          "forYouIf": "Ideal für: Organisationen, die alle Software auf eigener Infrastruktur betreiben müssen",
           "features": {
-            "1": "Complete control. Run it exactly how you want",
-            "2": "Air-gapped option: no internet connection required for extra-sensitive environments",
-            "3": "On-premise installation: runs in your own data center",
-            "4": "Maximum data sovereignty. Data never touches external infrastructure"
+            "1": "Vollständige Kontrolle. Betreiben Sie es genau so, wie Sie wollen",
+            "2": "Air-gapped Option: keine Internetverbindung erforderlich für extra-sensible Umgebungen",
+            "3": "On-Premise Installation: läuft in Ihrem eigenen Rechenzentrum",
+            "4": "Maximale Datensouveränität. Daten berühren niemals externe Infrastruktur"
           },
-          "timeline": "Contact us for timeline",
-          "tradeoff": "Requires your own infrastructure and technical team for maintenance."
+          "timeline": "Kontaktieren Sie uns für Timeline",
+          "tradeoff": "Erfordert eigene Infrastruktur und technisches Team für Wartung."
         }
       },
       "dataResidency": {
-        "title": "Your Data Stays in Europe. Guaranteed.",
-        "description": "For European companies, data residency isn't optional, it's required. All Volentis.ai deployments keep your data exclusively within the EU.",
+        "title": "Ihre Daten bleiben in Europa. Garantiert.",
+        "description": "Für europäische Unternehmen ist Datenresidenz nicht optional, sie ist erforderlich. Alle Volentis.ai Deployments halten Ihre Daten ausschließlich innerhalb der EU.",
         "whyItMatters": {
-          "title": "Why EU data residency matters",
+          "title": "Warum EU-Datenresidenz wichtig ist",
           "points": {
-            "1": "GDPR requires it: Personal data of EU citizens must stay within EU jurisdiction",
-            "2": "No CLOUD Act risk: US companies can be compelled to hand over data. We can't.",
-            "3": "Audit simplicity: When regulators ask where data is stored, the answer is simple: Europe."
+            "1": "DSGVO erfordert es: Personenbezogene Daten von EU-Bürgern müssen in EU-Jurisdiktion bleiben",
+            "2": "Kein CLOUD Act Risiko: US-Unternehmen können gezwungen werden, Daten herauszugeben. Wir nicht.",
+            "3": "Audit-Einfachheit: Wenn Regulierer fragen, wo Daten gespeichert sind, ist die Antwort einfach: Europa."
           }
         },
         "germany": {
-          "title": "Germany",
-          "description": "Primary data center in Frankfurt. German data protection law is among the strictest in the world."
+          "title": "Deutschland",
+          "description": "Primäres Rechenzentrum in Frankfurt. Deutsches Datenschutzrecht gehört zu den strengsten der Welt."
         },
         "netherlands": {
-          "title": "Netherlands",
-          "description": "Secondary data center in Amsterdam. Automatic failover ensures your AI stays available."
+          "title": "Niederlande",
+          "description": "Sekundäres Rechenzentrum in Amsterdam. Automatischer Failover stellt sicher, dass Ihre AI verfügbar bleibt."
         },
         "guarantees": {
-          "title": "Our Contractual Guarantees",
-          "1": "All data stored within EU boundaries, contractually guaranteed",
-          "2": "No transfers to non-EU countries without your explicit configuration",
-          "3": "Full GDPR compliance documentation for your auditors",
-          "4": "Standard Data Processing Agreement (DPA) included"
+          "title": "Unsere vertraglichen Garantien",
+          "1": "Alle Daten innerhalb der EU-Grenzen gespeichert, vertraglich garantiert",
+          "2": "Keine Transfers in Nicht-EU-Länder ohne Ihre explizite Konfiguration",
+          "3": "Vollständige DSGVO-Compliance-Dokumentation für Ihre Auditoren",
+          "4": "Standard-Auftragsverarbeitungsvertrag (AVV) inklusive"
         }
       },
       "implementation": {
-        "title": "From Contract to Go-Live",
-        "description": "We've done this many times. Here's what happens after you sign:",
+        "title": "Vom Vertrag zum Go-Live",
+        "description": "Wir haben das schon oft gemacht. Hier ist, was nach der Unterzeichnung passiert:",
         "steps": {
           "1": {
-            "title": "Discovery (Week 1)",
-            "description": "We map your requirements together. Which documents? Which integrations? Who needs access?",
-            "outcome": "You get: A clear implementation plan with timeline"
+            "title": "Discovery (Woche 1)",
+            "description": "Wir erfassen gemeinsam Ihre Anforderungen. Welche Dokumente? Welche Integrationen? Wer braucht Zugang?",
+            "outcome": "Sie erhalten: Einen klaren Implementation-Plan mit Timeline"
           },
           "2": {
-            "title": "Configuration (Week 2)",
-            "description": "We set up your environment, connect your identity provider, and configure permissions.",
-            "outcome": "You get: A working platform ready for your documents"
+            "title": "Konfiguration (Woche 2)",
+            "description": "Wir richten Ihre Umgebung ein, verbinden Ihren Identity Provider und konfigurieren Berechtigungen.",
+            "outcome": "Sie erhalten: Eine funktionierende Plattform bereit für Ihre Dokumente"
           },
           "3": {
-            "title": "Knowledge Loading (Week 2-3)",
-            "description": "Your documents are ingested and indexed. We fine-tune retrieval quality with your team.",
-            "outcome": "You get: An AI that knows your company's policies and procedures"
+            "title": "Knowledge Loading (Woche 2-3)",
+            "description": "Ihre Dokumente werden erfasst und indiziert. Wir feintunen die Retrieval-Qualität mit Ihrem Team.",
+            "outcome": "Sie erhalten: Eine AI, die die Richtlinien und Verfahren Ihres Unternehmens kennt"
           },
           "4": {
-            "title": "Go Live (Week 3-4)",
-            "description": "User training, pilot rollout with selected teams, then company-wide deployment.",
-            "outcome": "You get: Employees getting instant answers to their questions"
+            "title": "Go Live (Woche 3-4)",
+            "description": "Nutzer-Training, Pilot-Rollout mit ausgewählten Teams, dann unternehmensweites Deployment.",
+            "outcome": "Sie erhalten: Mitarbeiter, die sofortige Antworten auf ihre Fragen bekommen"
           }
         }
       },
       "support": {
-        "title": "Ongoing Support",
-        "description": "You're not alone after go-live. Our team stays engaged:",
+        "title": "Laufender Support",
+        "description": "Sie sind nach Go-Live nicht allein. Unser Team bleibt engagiert:",
         "items": {
-          "1": "Dedicated success manager for the first 90 days",
-          "2": "Regular check-ins to optimize AI performance",
-          "3": "Priority support for any issues",
-          "4": "Quarterly business reviews to measure impact"
+          "1": "Dedizierter Success Manager für die ersten 90 Tage",
+          "2": "Regelmäßige Check-ins zur Optimierung der AI-Performance",
+          "3": "Priority Support bei Problemen",
+          "4": "Quartalsweise Business Reviews zur Impact-Messung"
         }
       },
       "cta": {
-        "title": "Which deployment is right for you?",
-        "description": "Not sure which option fits your organization? Our team can walk you through the options and help you decide.",
-        "button": "Discuss Your Requirements"
+        "title": "Welches Deployment ist richtig für Sie?",
+        "description": "Unsicher, welche Option zu Ihrer Organisation passt? Unser Team kann Sie durch die Optionen führen und bei der Entscheidung helfen.",
+        "button": "Anforderungen besprechen"
       }
     },
     "security": {
-      "metaTitle": "Security & Compliance - Volentis.ai | GDPR & EU AI Act Ready",
-      "metaDescription": "Enterprise-grade security: GDPR compliant, EU AI Act ready, TLS/AES-256 encryption, RBAC, and complete audit trails.",
-      "badge": "Security & Compliance",
-      "headline": "Enterprise security built for European regulations",
-      "subheadline": "GDPR compliant, EU AI Act ready, with enterprise-grade security architecture designed from the ground up.",
+      "metaTitle": "Sicherheit & Compliance - Volentis.ai | DSGVO & EU AI Act Ready",
+      "metaDescription": "Enterprise-Grade Sicherheit: DSGVO-konform, EU AI Act ready, TLS/AES-256-Verschlüsselung, RBAC und vollständige Audit Trails.",
+      "badge": "Sicherheit & Compliance",
+      "headline": "Enterprise-Sicherheit für europäische Vorschriften konzipiert",
+      "subheadline": "DSGVO-konform, EU AI Act ready, mit Enterprise-Grade-Sicherheitsarchitektur von Grund auf entwickelt.",
       "badges": {
-        "euHosted": "EU-Hosted",
-        "gdpr": "GDPR Compliant",
+        "euHosted": "EU-gehostet",
+        "gdpr": "DSGVO-konform",
         "euAiAct": "EU AI Act Ready",
         "encryption": "TLS & AES-256",
-        "noTraining": "No Training on Your Data"
+        "noTraining": "Kein Training mit Ihren Daten"
       },
       "noTraining": {
-        "title": "Your data is never used for training",
-        "description": "This is a fundamental principle of Volentis.ai: not a policy, but an architectural guarantee.",
+        "title": "Ihre Daten werden niemals für Training verwendet",
+        "description": "Dies ist ein fundamentales Prinzip von Volentis.ai: keine Policy, sondern eine architektonische Garantie.",
         "points": {
-          "1": "Customer interactions are explicitly excluded from all model training processes",
-          "2": "Your documents and conversations remain 100% confidential",
-          "3": "No data is ever shared with third parties for training purposes",
-          "4": "Contractually guaranteed in our Data Processing Agreement"
+          "1": "Kundeninteraktionen sind explizit von allen Modell-Trainingsprozessen ausgeschlossen",
+          "2": "Ihre Dokumente und Konversationen bleiben 100% vertraulich",
+          "3": "Keine Daten werden jemals für Trainingszwecke mit Dritten geteilt",
+          "4": "Vertraglich garantiert in unserem Auftragsverarbeitungsvertrag"
         },
-        "highlight": "Your knowledge stays yours. Period."
+        "highlight": "Ihr Wissen bleibt Ihres. Punkt."
       },
       "gdpr": {
-        "title": "GDPR Compliance",
-        "description": "Volentis.ai is designed with privacy-by-design principles and operates as a Data Processor under GDPR Article 28.",
+        "title": "DSGVO Compliance",
+        "description": "Volentis.ai ist mit Privacy-by-Design-Prinzipien entwickelt und operiert als Auftragsverarbeiter gemäß DSGVO Artikel 28.",
         "dataProcessor": {
-          "title": "Data Processor Role",
-          "description": "We act as Data Processor for customer content, with clear data processing boundaries and responsibilities."
+          "title": "Auftragsverarbeiter-Rolle",
+          "description": "Wir handeln als Auftragsverarbeiter für Kundeninhalte, mit klaren Datenverarbeitungsgrenzen und Verantwortlichkeiten."
         },
         "dpa": {
-          "title": "Data Processing Agreement",
-          "description": "Comprehensive DPA incorporating EU Standard Contractual Clauses available with all enterprise contracts."
+          "title": "Auftragsverarbeitungsvertrag",
+          "description": "Umfassender AVV mit EU-Standardvertragsklauseln bei allen Enterprise-Verträgen verfügbar."
         },
         "dataSubjectRights": {
-          "title": "Data Subject Rights",
-          "description": "Full support for access, rectification, erasure, and portability requests."
+          "title": "Betroffenenrechte",
+          "description": "Volle Unterstützung für Auskunfts-, Berichtigungs-, Löschungs- und Übertragbarkeitsanfragen."
         },
         "keyCommitments": {
-          "title": "Our GDPR Commitments",
-          "1": "No customer data used for model training, ever",
-          "2": "All data stored in EU data centers (Germany/Netherlands)",
-          "3": "No data transfers outside EU without explicit consent",
-          "4": "Complete data subject rights support",
-          "5": "12-month default retention with configurable policies"
+          "title": "Unsere DSGVO-Verpflichtungen",
+          "1": "Keine Kundendaten für Modell-Training verwendet, niemals",
+          "2": "Alle Daten in EU-Rechenzentren (Deutschland/Niederlande) gespeichert",
+          "3": "Keine Datentransfers außerhalb der EU ohne explizite Zustimmung",
+          "4": "Vollständige Unterstützung der Betroffenenrechte",
+          "5": "12 Monate Standard-Aufbewahrung mit konfigurierbaren Richtlinien"
         }
       },
       "euAiAct": {
         "title": "EU AI Act Compliance",
-        "description": "Volentis.ai is designed to comply with the EU AI Act as a limited risk system under Article 52.",
+        "description": "Volentis.ai ist darauf ausgelegt, den EU AI Act als System mit begrenztem Risiko gemäß Artikel 52 einzuhalten.",
         "transparency": {
-          "title": "Transparency Requirements",
-          "description": "All AI-generated content is clearly labeled with mandatory transparency indicators."
+          "title": "Transparenzanforderungen",
+          "description": "Alle AI-generierten Inhalte sind klar mit obligatorischen Transparenzindikatoren gekennzeichnet."
         },
         "disclosure": {
-          "title": "AI Disclosure",
-          "description": "Every response includes clear AI interaction disclosure and source attribution."
+          "title": "AI-Offenlegung",
+          "description": "Jede Antwort enthält klare AI-Interaktions-Offenlegung und Quellenattribution."
         },
         "humanOversight": {
-          "title": "Human Oversight",
-          "description": "No autonomous agent actions without human approval gates for consequential decisions."
+          "title": "Menschliche Aufsicht",
+          "description": "Keine autonomen Agent-Aktionen ohne menschliche Genehmigungsstufen für wichtige Entscheidungen."
         },
         "classification": {
-          "badge": "Limited Risk",
-          "title": "Article 52 Classification",
-          "description": "Volentis.ai is classified as a limited risk AI system, requiring transparency measures but not the extensive requirements of high-risk systems.",
-          "article": "Article 52",
-          "articleDescription": "Requires clear disclosure of AI interaction and source attribution"
+          "badge": "Begrenztes Risiko",
+          "title": "Artikel 52 Klassifizierung",
+          "description": "Volentis.ai ist als AI-System mit begrenztem Risiko klassifiziert, das Transparenzmaßnahmen erfordert, aber nicht die umfangreichen Anforderungen von Hochrisiko-Systemen.",
+          "article": "Artikel 52",
+          "articleDescription": "Erfordert klare Offenlegung der AI-Interaktion und Quellenattribution"
         }
       },
       "technical": {
-        "title": "Technical Security",
+        "title": "Technische Sicherheit",
         "encryption": {
-          "title": "Encryption",
-          "description": "TLS 1.2+ for data in transit, AES-256 for data at rest. All communications and storage are fully encrypted.",
-          "benefit": "Same encryption standards as online banking. Your data is unreadable to anyone without authorization."
+          "title": "Verschlüsselung",
+          "description": "TLS 1.2+ für Daten in Transit, AES-256 für Daten at Rest. Alle Kommunikation und Speicherung ist vollständig verschlüsselt.",
+          "benefit": "Dieselben Verschlüsselungsstandards wie Online-Banking. Ihre Daten sind ohne Autorisierung für niemanden lesbar."
         },
         "authentication": {
-          "title": "Authentication",
-          "description": "Enterprise SSO via SAML 2.0 and OpenID Connect. Multi-factor authentication supported.",
-          "benefit": "Employees log in with their existing company credentials. No new passwords to remember or manage."
+          "title": "Authentifizierung",
+          "description": "Enterprise SSO via SAML 2.0 und OpenID Connect. Multi-Faktor-Authentifizierung unterstützt.",
+          "benefit": "Mitarbeiter loggen sich mit ihren bestehenden Firmen-Credentials ein. Keine neuen Passwörter zum Merken oder Verwalten."
         },
         "rbac": {
           "title": "Role-Based Access Control (RBAC)",
-          "description": "Granular permissions at workspace, document, and feature level. Inheritance based on department and role.",
-          "benefit": "You decide exactly who sees what. That sensitive salary policy? HR only. That IT procedure? IT team only. Automatically enforced."
+          "description": "Granulare Berechtigungen auf Workspace-, Dokumenten- und Feature-Ebene. Vererbung basierend auf Abteilung und Rolle.",
+          "benefit": "Sie entscheiden genau, wer was sieht. Diese sensible Gehaltsrichtlinie? Nur HR. Dieses IT-Verfahren? Nur IT-Team. Automatisch durchgesetzt."
         },
         "auditLogging": {
           "title": "Audit Logging",
-          "description": "Complete logging of all user and administrative actions. Exportable audit trails for compliance.",
-          "benefit": "Every action recorded. If something goes wrong, you can trace exactly what happened, when, and by whom."
+          "description": "Vollständige Protokollierung aller Benutzer- und Administratoraktionen. Exportierbare Audit Trails für Compliance.",
+          "benefit": "Jede Aktion aufgezeichnet. Wenn etwas schiefgeht, können Sie genau nachverfolgen, was wann und von wem passiert ist."
         },
         "tenantIsolation": {
           "title": "Tenant Isolation",
-          "description": "Logical separation in multi-tenant, dedicated infrastructure in single-tenant deployments.",
-          "benefit": "Your data is completely separated from other customers. No mixing, no leaks, no access by others. Guaranteed."
+          "description": "Logische Trennung bei Multi-Tenant, dedizierte Infrastruktur bei Single-Tenant Deployments.",
+          "benefit": "Ihre Daten sind vollständig von anderen Kunden getrennt. Keine Vermischung, keine Lecks, kein Zugriff durch andere. Garantiert."
         },
         "byok": {
           "title": "BYOK (Bring Your Own Key)",
-          "description": "Bring Your Own Key encryption available for single-tenant deployments.",
-          "benefit": "Maximum control: you manage the encryption keys. Even Volentis cannot access your data without your keys."
+          "description": "Bring Your Own Key-Verschlüsselung verfügbar für Single-Tenant Deployments.",
+          "benefit": "Maximale Kontrolle: Sie verwalten die Verschlüsselungsschlüssel. Selbst Volentis kann ohne Ihre Schlüssel nicht auf Ihre Daten zugreifen."
         }
       },
       "safeguards": {
-        "title": "Built-in Safeguards",
-        "description": "Volentis.ai includes important limitations by design to ensure responsible enterprise AI use.",
+        "title": "Eingebaute Schutzmaßnahmen",
+        "description": "Volentis.ai enthält wichtige Einschränkungen by Design, um verantwortungsvolle Enterprise AI-Nutzung sicherzustellen.",
         "items": {
           "noAutomatedDecisions": {
-            "title": "No Automated HR Decisions",
-            "description": "The system provides information and drafts; humans make all employment decisions."
+            "title": "Keine automatisierten HR-Entscheidungen",
+            "description": "Das System liefert Informationen und Entwürfe; Menschen treffen alle Beschäftigungsentscheidungen."
           },
           "specialCategoryData": {
-            "title": "Special Category Data Protection",
-            "description": "No processing of health information or trade union membership without explicit configuration."
+            "title": "Schutz besonderer Datenkategorien",
+            "description": "Keine Verarbeitung von Gesundheitsinformationen oder Gewerkschaftsmitgliedschaft ohne explizite Konfiguration."
           },
           "humanInLoop": {
             "title": "Human-in-the-Loop",
-            "description": "No autonomous agent actions without human approval for consequential decisions."
+            "description": "Keine autonomen Agent-Aktionen ohne menschliche Genehmigung für wichtige Entscheidungen."
           },
           "professionalAdvice": {
-            "title": "Professional Advice Disclaimer",
-            "description": "Not a replacement for professional legal, medical, or financial advice."
+            "title": "Fachberatungs-Disclaimer",
+            "description": "Kein Ersatz für professionelle Rechts-, Medizin- oder Finanzberatung."
           }
         }
       },
       "certifications": {
-        "title": "Certifications & Standards",
-        "description": "Our commitment to industry-recognized security standards.",
+        "title": "Zertifizierungen & Standards",
+        "description": "Unser Commitment zu branchenüblichen Sicherheitsstandards.",
         "iso27001": {
           "title": "ISO 27001",
-          "status": "In Progress",
-          "description": "We are actively working towards ISO 27001 certification to demonstrate our commitment to information security management."
+          "status": "In Bearbeitung",
+          "description": "Wir arbeiten aktiv auf die ISO 27001-Zertifizierung hin, um unser Engagement für Informationssicherheitsmanagement zu demonstrieren."
         },
         "gdprArticle28": {
-          "title": "GDPR Article 28",
-          "status": "Compliant",
-          "description": "Operating as a certified Data Processor with comprehensive Data Processing Agreements."
+          "title": "DSGVO Artikel 28",
+          "status": "Konform",
+          "description": "Operieren als zertifizierter Auftragsverarbeiter mit umfassenden Auftragsverarbeitungsverträgen."
         },
         "euAiActArticle52": {
-          "title": "EU AI Act Article 52",
-          "status": "Compliant",
-          "description": "Classified as limited risk system with full transparency requirements implemented."
+          "title": "EU AI Act Artikel 52",
+          "status": "Konform",
+          "description": "Als System mit begrenztem Risiko klassifiziert mit vollständig implementierten Transparenzanforderungen."
         }
       },
       "sectorCompliance": {
-        "title": "Sector-Specific Compliance Support",
-        "description": "Volentis.ai supports compliance requirements across regulated industries.",
+        "title": "Branchenspezifische Compliance-Unterstützung",
+        "description": "Volentis.ai unterstützt Compliance-Anforderungen über regulierte Branchen hinweg.",
         "sectors": {
           "financial": {
-            "title": "Financial Services",
-            "regulations": "MiFID II, GDPR Article 22 (automated decision-making)",
-            "description": "Special provisions for financial services data handling and automated decision restrictions."
+            "title": "Finanzdienstleistungen",
+            "regulations": "MiFID II, DSGVO Artikel 22 (automatisierte Entscheidungsfindung)",
+            "description": "Spezielle Bestimmungen für Finanzdienstleistungs-Datenhandhabung und Einschränkungen automatisierter Entscheidungen."
           },
           "healthcare": {
-            "title": "Healthcare",
-            "regulations": "GDPR special category data, medical confidentiality considerations",
-            "description": "Enhanced protections for health-related data with explicit consent requirements."
+            "title": "Gesundheitswesen",
+            "regulations": "DSGVO besondere Datenkategorien, medizinische Vertraulichkeitsaspekte",
+            "description": "Erweiterte Schutzmaßnahmen für gesundheitsbezogene Daten mit expliziten Einwilligungsanforderungen."
           },
           "government": {
-            "title": "Government & Public Sector",
-            "regulations": "Public sector compliance, transparency requirements",
-            "description": "Support for government-specific data protection and transparency obligations."
+            "title": "Regierung & Öffentlicher Sektor",
+            "regulations": "Compliance öffentlicher Sektor, Transparenzanforderungen",
+            "description": "Unterstützung für regierungsspezifische Datenschutz- und Transparenzpflichten."
           },
           "crossBorder": {
-            "title": "Cross-Border Operations",
-            "regulations": "Multi-jurisdictional GDPR, local implementations",
-            "description": "Comprehensive support for organizations operating across EU member states."
+            "title": "Grenzüberschreitende Operationen",
+            "regulations": "Multi-jurisdiktionelle DSGVO, lokale Implementierungen",
+            "description": "Umfassende Unterstützung für Organisationen, die über EU-Mitgliedsstaaten hinweg operieren."
           }
         }
       },
       "technicalSpecs": {
-        "title": "Technical Specifications",
-        "description": "Detailed technical specifications for your security review. We speak IT's language too.",
+        "title": "Technische Spezifikationen",
+        "description": "Detaillierte technische Spezifikationen für Ihre Sicherheitsprüfung. Wir sprechen auch die Sprache der IT.",
         "items": {
           "sessionManagement": {
             "label": "Session Management",
-            "value": "JWT tokens (RS256 signing), 1-hour token expiry, 8-hour session timeout (configurable)",
-            "plainEnglish": "Automatic logout after inactivity. Protection against forgotten open laptops"
+            "value": "JWT Tokens (RS256 Signing), 1-Stunde Token-Ablauf, 8-Stunden Session-Timeout (konfigurierbar)",
+            "plainEnglish": "Automatischer Logout nach Inaktivität. Schutz vor vergessenen offenen Laptops"
           },
           "dataRetention": {
             "label": "Data Retention",
-            "value": "Configurable retention policies, default 12 months for audit logs",
-            "plainEnglish": "You choose how long data is kept. Meet your industry requirements, no manual cleanup needed"
+            "value": "Konfigurierbare Retention Policies, Standard 12 Monate für Audit Logs",
+            "plainEnglish": "Sie wählen, wie lange Daten aufbewahrt werden. Erfüllen Sie Ihre Branchenanforderungen, keine manuelle Bereinigung nötig"
           },
           "sharepointSync": {
-            "label": "SharePoint Synchronization",
-            "value": "4 hours for metadata, 24 hours for full content refresh",
-            "plainEnglish": "Update a document in SharePoint? The AI knows about it within hours, automatically"
+            "label": "SharePoint-Synchronisation",
+            "value": "4 Stunden für Metadaten, 24 Stunden für vollständigen Content-Refresh",
+            "plainEnglish": "Dokument in SharePoint aktualisieren? Die AI weiß es innerhalb von Stunden, automatisch"
           },
           "encryptionStandards": {
-            "label": "Encryption Standards",
-            "value": "TLS 1.2+ for transit, AES-256 for at-rest encryption",
-            "plainEnglish": "Bank-level security for all your data, whether it's being sent or stored"
+            "label": "Verschlüsselungsstandards",
+            "value": "TLS 1.2+ für Transit, AES-256 für At-Rest-Verschlüsselung",
+            "plainEnglish": "Bank-Level-Sicherheit für alle Ihre Daten, ob gesendet oder gespeichert"
           },
           "apiSecurity": {
-            "label": "API Security",
-            "value": "REST API with OAuth 2.0, rate limiting, comprehensive logging",
-            "plainEnglish": "Build custom integrations with secure, well-documented APIs"
+            "label": "API-Sicherheit",
+            "value": "REST API mit OAuth 2.0, Rate Limiting, umfassendes Logging",
+            "plainEnglish": "Custom Integrations mit sicheren, gut dokumentierten APIs bauen"
           }
         },
         "browserSupport": {
-          "title": "Browser Support",
-          "description": "Supported browsers for optimal platform experience:",
+          "title": "Browser-Unterstützung",
+          "description": "Unterstützte Browser für optimale Plattform-Erfahrung:",
           "browsers": {
             "chrome": "Chrome 90+",
             "firefox": "Firefox 88+",
             "safari": "Safari 14+",
             "edge": "Edge 90+"
           },
-          "requirements": "Requires JavaScript enabled, TLS 1.2+, cookies for session management"
+          "requirements": "Erfordert JavaScript aktiviert, TLS 1.2+, Cookies für Session Management"
         }
       },
       "securityAssurance": {
-        "title": "Security assurance",
+        "title": "Sicherheitszusicherung",
         "pentest": {
-          "title": "Regular Security Assessments",
-          "description": "Annual penetration testing by independent security firms. Vulnerability scans performed quarterly. Findings addressed according to severity-based SLAs."
+          "title": "Regelmäßige Sicherheitsbewertungen",
+          "description": "Jährliche Penetrationstests durch unabhängige Sicherheitsfirmen. Quartalsweise Vulnerability-Scans. Findings werden gemäß Schweregrad-basierten SLAs bearbeitet."
         },
         "contact": {
-          "title": "Security Contact",
-          "description": "Report security vulnerabilities or questions:",
+          "title": "Sicherheitskontakt",
+          "description": "Sicherheitslücken oder Fragen melden:",
           "email": "security@volentis.ai"
         }
       },
       "docRequest": {
-        "title": "Need security documentation?",
-        "description": "DPOs and security teams can request our full security documentation package, including DPA, technical specifications, and penetration test summaries.",
-        "button": "Request Security Docs",
-        "includes": "Includes: DPA, Security Whitepaper, Architecture Overview, Pentest Summary"
+        "title": "Sicherheitsdokumentation benötigt?",
+        "description": "DSBs und Sicherheitsteams können unser vollständiges Sicherheitsdokumentationspaket anfordern, inkl. AVV, technische Spezifikationen und Pentest-Zusammenfassungen.",
+        "button": "Sicherheitsdoku anfordern",
+        "includes": "Enthält: AVV, Security Whitepaper, Architekturübersicht, Pentest-Summary"
       },
       "cta": {
-        "title": "Ready to discuss your security requirements?",
-        "description": "Our team can provide detailed security documentation and answer your compliance questions.",
-        "button": "Schedule a Security Review"
+        "title": "Bereit, Ihre Sicherheitsanforderungen zu besprechen?",
+        "description": "Unser Team kann detaillierte Sicherheitsdokumentation bereitstellen und Ihre Compliance-Fragen beantworten.",
+        "button": "Security Review vereinbaren"
       }
     }
   },
