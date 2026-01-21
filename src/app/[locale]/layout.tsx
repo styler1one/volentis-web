@@ -53,7 +53,10 @@ export const metadata: Metadata = {
     telephone: false,
   },
   icons: {
-    icon: '/volentis_logo.png',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/volentis_logo.png', type: 'image/png' },
+    ],
     apple: '/volentis_logo.png',
   },
   manifest: '/manifest.json',
