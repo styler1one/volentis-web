@@ -8,6 +8,8 @@ interface Message {
   type: 'user' | 'ai';
   textKey: string;
   sourceKey?: string;
+  actionKey?: string;
+  actionIcon?: 'link' | 'checklist' | 'calendar';
 }
 
 export default function ChatDemo() {
@@ -23,9 +25,9 @@ export default function ChatDemo() {
     { type: 'user', textKey: 'message1.user' },
     { type: 'ai', textKey: 'message1.ai', sourceKey: 'message1.source' },
     { type: 'user', textKey: 'message2.user' },
-    { type: 'ai', textKey: 'message2.ai', sourceKey: 'message2.source' },
+    { type: 'ai', textKey: 'message2.ai', sourceKey: 'message2.source', actionKey: 'message2.action', actionIcon: 'link' },
     { type: 'user', textKey: 'message3.user' },
-    { type: 'ai', textKey: 'message3.ai', sourceKey: 'message3.source' },
+    { type: 'ai', textKey: 'message3.ai', sourceKey: 'message3.source', actionKey: 'message3.action', actionIcon: 'checklist' },
   ];
 
   // Auto-scroll to bottom when new content appears
@@ -186,6 +188,30 @@ export default function ChatDemo() {
             if (isTyping || isComplete) {
               const displayText = isComplete ? t(message.textKey) : typedText;
               const showSource = isComplete && message.sourceKey;
+              const showAction = isComplete && message.actionKey;
+              
+              // Action button icons
+              const ActionIcon = ({ type }: { type?: string }) => {
+                if (type === 'link') {
+                  return (
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  );
+                }
+                if (type === 'checklist') {
+                  return (
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                    </svg>
+                  );
+                }
+                return (
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                );
+              };
               
               return (
                 <div key={index} className="flex justify-start animate-fade-in">
@@ -206,6 +232,19 @@ export default function ChatDemo() {
                           <span className="inline-block w-0.5 h-4 bg-volentis-cyan ml-0.5 animate-pulse" />
                         )}
                       </p>
+                      
+                      {/* Quick Action Button */}
+                      {showAction && (
+                        <div className="mt-3">
+                          <button 
+                            className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-volentis-cyan to-volentis-cyan-hover text-white text-xs font-semibold rounded-lg shadow-md shadow-volentis-cyan/20 hover:shadow-lg hover:shadow-volentis-cyan/30 hover:scale-[1.02] transition-all duration-200 cursor-default"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            <ActionIcon type={message.actionIcon} />
+                            {t(message.actionKey!)}
+                          </button>
+                        </div>
+                      )}
                       
                       {/* Source Citation - Enhanced */}
                       {showSource && (

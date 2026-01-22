@@ -51,12 +51,14 @@
       "message2": {
         "user": "Great! How do I apply for it?",
         "ai": "Go to the HR portal → 'Leave Requests' → 'Parental Leave'. Enter the expected birth date and your preferred leave period. Your manager will be notified automatically. Tip: apply at least 4 weeks in advance.",
-        "source": "HR Portal Guide, Section 3.4"
+        "source": "HR Portal Guide, Section 3.4",
+        "action": "Open Leave Request"
       },
       "message3": {
         "user": "Perfect. Do I need to arrange my own replacement?",
         "ai": "No, you don't. For parental leave, your manager arranges coverage. However, it's helpful to create a handover document for your ongoing projects. Would you like to see the handover checklist?",
-        "source": "Leave Policy 2024, Article 12"
+        "source": "Leave Policy 2024, Article 12",
+        "action": "View Handover Checklist"
       },
       "inputPlaceholder": "Ask your HR question...",
       "hint": "AI answers from your own documents"

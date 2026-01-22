@@ -51,12 +51,14 @@
       "message2": {
         "user": "Top! En hoe vraag ik dat precies aan?",
         "ai": "Ga naar het HR-portaal → 'Verlofaanvragen' → 'Ouderschapsverlof'. Vul de verwachte geboortedatum en gewenste verlofperiode in. Je manager krijgt automatisch een notificatie. Tip: vraag minimaal 4 weken van tevoren aan.",
-        "source": "HR Portaal Handleiding, Sectie 3.4"
+        "source": "HR Portaal Handleiding, Sectie 3.4",
+        "action": "Open Verlofaanvraag"
       },
       "message3": {
         "user": "Perfect. Moet ik zelf mijn vervanging regelen?",
         "ai": "Nee, dat hoeft niet. Bij ouderschapsverlof regelt je manager de vervanging. Wel is het handig om een overdracht te maken van je lopende projecten. Wil je de overdracht-checklist zien?",
-        "source": "Verlofbeleid 2024, Artikel 12"
+        "source": "Verlofbeleid 2024, Artikel 12",
+        "action": "Bekijk Overdracht-checklist"
       },
       "inputPlaceholder": "Stel je HR-vraag...",
       "hint": "AI antwoorden uit jouw eigen documenten"

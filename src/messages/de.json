@@ -51,12 +51,14 @@
       "message2": {
         "user": "Super! Wie beantrage ich das?",
         "ai": "Gehen Sie zum HR-Portal → 'Urlaubsanträge' → 'Elternzeit'. Geben Sie den voraussichtlichen Geburtstermin und Ihren gewünschten Zeitraum ein. Ihr Vorgesetzter wird automatisch benachrichtigt. Tipp: Beantragen Sie mindestens 4 Wochen im Voraus.",
-        "source": "HR-Portal Anleitung, Abschnitt 3.4"
+        "source": "HR-Portal Anleitung, Abschnitt 3.4",
+        "action": "Urlaubsantrag öffnen"
       },
       "message3": {
         "user": "Perfekt. Muss ich meine Vertretung selbst organisieren?",
         "ai": "Nein, das müssen Sie nicht. Bei Elternzeit organisiert Ihr Vorgesetzter die Vertretung. Es ist jedoch hilfreich, eine Übergabedokumentation für Ihre laufenden Projekte zu erstellen. Möchten Sie die Übergabe-Checkliste sehen?",
-        "source": "Urlaubsrichtlinie 2024, Artikel 12"
+        "source": "Urlaubsrichtlinie 2024, Artikel 12",
+        "action": "Übergabe-Checkliste anzeigen"
       },
       "inputPlaceholder": "Stellen Sie Ihre HR-Frage...",
       "hint": "AI-Antworten aus Ihren eigenen Dokumenten"

@@ -51,12 +51,14 @@
       "message2": {
         "user": "Super ! Comment puis-je en faire la demande ?",
         "ai": "Rendez-vous sur le portail RH → 'Demandes de congé' → 'Congé parental'. Entrez la date de naissance prévue et votre période de congé souhaitée. Votre manager sera notifié automatiquement. Conseil : faites la demande au moins 4 semaines à l'avance.",
-        "source": "Guide du portail RH, Section 3.4"
+        "source": "Guide du portail RH, Section 3.4",
+        "action": "Ouvrir Demande de congé"
       },
       "message3": {
         "user": "Parfait. Dois-je trouver moi-même un remplaçant ?",
         "ai": "Non. Pour le congé parental, votre manager organise le remplacement. Cependant, il est utile de créer un document de passation pour vos projets en cours. Souhaitez-vous voir la checklist de passation ?",
-        "source": "Politique de congés 2024, Article 12"
+        "source": "Politique de congés 2024, Article 12",
+        "action": "Voir Checklist de passation"
       },
       "inputPlaceholder": "Posez votre question RH...",
       "hint": "Réponses IA basées sur vos documents"
