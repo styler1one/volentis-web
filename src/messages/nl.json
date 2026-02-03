@@ -1,0 +1,3143 @@
+{
+  "metadata": {
+    "title": "Volentis.ai - Europese AI met Vertrouwen als Kern",
+    "description": "Enterprise AI die je kunt vertrouwen: geen hallucinaties, geen datalekken, geen compliance-risico's. De enige AI-assistent gebouwd voor Europese ondernemingen."
+  },
+  "cookieConsent": {
+    "message": "We gebruiken cookies om je ervaring te verbeteren en sitegebruik te analyseren.",
+    "accept": "Accepteren",
+    "necessary": "Alleen noodzakelijk",
+    "learnMore": "Meer info"
+  },
+  "nav": {
+    "product": "Product",
+    "useCases": "AI Agents",
+    "pricing": "Prijzen",
+    "contact": "Contact",
+    "blog": "Blog",
+    "login": "Inloggen",
+    "bookDemo": "Boek een Demo",
+    "features": "Functionaliteit",
+    "integrations": "Integraties",
+    "deployment": "Deployment",
+    "security": "Security",
+    "hr": "HR Agent",
+    "legal": "Legal Agent",
+    "compliance": "Compliance Agent",
+    "it": "IT Agent",
+    "finance": "Finance Agent",
+    "international": "Internationaal",
+    "language": "Taal"
+  },
+  "blog": {
+    "badge": "Insights & Artikelen",
+    "title": "Volentis Blog",
+    "description": "Inzichten, best practices en nieuws over enterprise AI, compliance en de toekomst van werk.",
+    "metaTitle": "Blog - Volentis.ai",
+    "metaDescription": "Ontdek inzichten over enterprise AI, EU AI Act compliance, en hoe AI HR, Legal en IT teams transformeert. Praktische gidsen en thought leadership.",
+    "featured": "Uitgelicht",
+    "allPosts": "Alle Artikelen",
+    "relatedPosts": "Gerelateerde artikelen",
+    "readMore": "Lees meer",
+    "minRead": "min leestijd",
+    "emptyTitle": "Nog geen artikelen",
+    "emptyDescription": "We werken aan interessante content. Kom snel terug!",
+    "backToBlog": "Terug naar blog",
+    "shareArticle": "Deel dit artikel",
+    "tags": "Tags",
+    "publishedOn": "Gepubliceerd op",
+    "by": "door",
+    "jumpTo": "In dit artikel",
+    "ctaBadge": "Zet dit in praktijk",
+    "ctaTitle": "Klaar om dit te ervaren?",
+    "ctaDescription": "Ontdek hoe Volentis jouw team kan helpen met betrouwbare AI-antwoorden uit je eigen documenten.",
+    "ctaButton": "Boek een demo",
+    "ctaSecondary": "Bekijk use cases"
+  },
+  "featuredArticles": {
+    "badge": "Uit onze Blog",
+    "title": "Laatste Inzichten",
+    "description": "Expert artikelen over AI in de enterprise, compliance, en hoe je team productiever wordt.",
+    "readMore": "Lees meer",
+    "viewAll": "Bekijk alle artikelen"
+  },
+  "hero": {
+    "badge": "Soeverein AI Platform",
+    "headline": "Beantwoordt je team steeds dezelfde vragen?",
+    "subheadline": "De Volentis HR Agent beantwoordt 50-70% van je HR-tickets. 24/7, uit je eigen documenten, 100% compliant.",
+    "description": "73% van medewerkers gebruikt al AI-tools, vaak zonder dat IT of Compliance het weet. Volentis.ai geeft je controle: één platform voor betrouwbare antwoorden uit je goedgekeurde documenten.",
+    "cta": "Bekijk de HR Agent",
+    "secondaryCta": "Bekijk alle Agents",
+    "metrics": {
+      "tickets": "minder tickets",
+      "availability": "beschikbaarheid",
+      "compliant": "GDPR compliant"
+    },
+    "chatDemo": {
+      "status": "Online",
+      "welcome": "Gesprek gestart",
+      "message1": {
+        "user": "Hoi! Ik word vader volgende maand 🎉 Hoeveel ouderschapsverlof heb ik eigenlijk?",
+        "ai": "Gefeliciteerd! Als vader heb je recht op 6 weken betaald ouderschapsverlof (70% salaris). Dit kun je opnemen in de eerste 6 maanden na de geboorte. Je kunt het ook in delen opnemen.",
+        "source": "Personeelshandboek v3.1, Hoofdstuk 5.2"
+      },
+      "message2": {
+        "user": "Top! En hoe vraag ik dat precies aan?",
+        "ai": "Ga naar het HR-portaal → 'Verlofaanvragen' → 'Ouderschapsverlof'. Vul de verwachte geboortedatum en gewenste verlofperiode in. Je manager krijgt automatisch een notificatie. Tip: vraag minimaal 4 weken van tevoren aan.",
+        "source": "HR Portaal Handleiding, Sectie 3.4",
+        "action": "Open Verlofaanvraag"
+      },
+      "message3": {
+        "user": "Perfect. Moet ik zelf mijn vervanging regelen?",
+        "ai": "Nee, dat hoeft niet. Bij ouderschapsverlof regelt je manager de vervanging. Wel is het handig om een overdracht te maken van je lopende projecten. Wil je de overdracht-checklist zien?",
+        "source": "Verlofbeleid 2024, Artikel 12",
+        "action": "Bekijk Overdracht-checklist"
+      },
+      "inputPlaceholder": "Stel je HR-vraag...",
+      "hint": "AI antwoorden uit jouw eigen documenten"
+    },
+    "scrollHint": "Scroll om te ontdekken"
+  },
+  "agents": {
+    "label": "AI Agents",
+    "sectionTitle": "Ontmoet onze AI Agents",
+    "sectionSubtitle": "Gespecialiseerde AI-assistenten voor elke afdeling. Start met één, schaal naar allemaal.",
+    "popular": "Meest Populair",
+    "learnMore": "Meer informatie",
+    "cards": {
+      "hr": {
+        "title": "HR Agent",
+        "metric": "50-70% minder tickets",
+        "description": "Je HR-team krijgt tijd terug. Medewerkers krijgen direct antwoord over verlof, benefits en beleid zonder te wachten op email.",
+        "benefit": "Stop met steeds dezelfde vragen beantwoorden"
+      },
+      "legal": {
+        "title": "Legal Agent",
+        "metric": "70% snellere review",
+        "description": "Vind die clausule die je zoekt in seconden, niet uren. Vergelijk contracten direct en spot afwijkingen van je templates.",
+        "benefit": "Mis nooit meer een risicovolle clausule"
+      },
+      "compliance": {
+        "title": "Compliance Agent",
+        "metric": "Audit-ready in uren",
+        "description": "Als de auditor belt, ben je klaar. Complete documentatie trail voor GDPR en EU AI Act compliance. Geen paniek, geen gehaast.",
+        "benefit": "Slaap beter voor audits"
+      },
+      "it": {
+        "title": "IT Agent",
+        "metric": "50-60% minder tickets",
+        "description": "Medewerkers lossen veelvoorkomende IT-problemen zelf op. Je IT-team focust op echte problemen in plaats van wachtwoord resets.",
+        "benefit": "Minder 'heb je al herstart?' tickets"
+      },
+      "finance": {
+        "title": "Finance Agent",
+        "metric": "60% minder fouten",
+        "description": "Geen afgekeurde declaraties meer. Medewerkers begrijpen inkoopbeleid voordat ze indienen, niet na afwijzing.",
+        "benefit": "Stop met achter foute facturen aanjagen"
+      },
+      "international": {
+        "title": "Internationaal",
+        "metric": "15 beleidssets → 1",
+        "description": "Eén antwoord, alle landen. Stop met aparte beleidsdocumenten per EU-land. Vraag één keer, krijg het juiste antwoord voor elke jurisdictie.",
+        "benefit": "Vereenvoudig cross-border complexiteit"
+      }
+    }
+  },
+  "socialProof": {
+    "title": "Bewezen resultaten bij Europese ondernemingen",
+    "subtitle": "Echte impact, meetbare resultaten",
+    "metrics": {
+      "hrTickets": "HR ticket reductie",
+      "contractReview": "snellere contract review",
+      "availability": "self-service beschikbaarheid",
+      "compliance": "GDPR compliant"
+    },
+    "badges": {
+      "euHosted": "EU-Gehost",
+      "gdpr": "GDPR Compliant",
+      "euAiAct": "EU AI Act Ready",
+      "security": "Enterprise Security"
+    },
+    "trustedBy": "Vertrouwd door",
+    "whyNotChatGPT": {
+      "title": "Waarom ondernemingen kiezen voor Volentis boven generieke AI",
+      "points": {
+        "noTraining": "Jouw data wordt nooit gebruikt voor training, contractueel gegarandeerd",
+        "euOnly": "100% EU data residency, geen US CLOUD Act risico",
+        "sourceCitations": "Elk antwoord bevat bronvermelding. Verifieer elke claim direct"
+      }
+    }
+  },
+  "platform": {
+    "label": "Het Platform",
+    "title": "Waarom één platform voor alle afdelingen?",
+    "description": "Volentis.ai is meer dan een chatbot. Het is een EU-soeverein enterprise AI-platform dat jouw interne kennis transformeert tot een betrouwbare, auditeerbare beslissingsmotor.",
+    "benefits": {
+      "knowledgeBase": {
+        "title": "Stop met zoeken op 5 verschillende plekken",
+        "description": "Al je bedrijfskennis (HR-beleid, contracten, procedures, IT-handleidingen) doorzoekbaar vanuit één interface. Medewerkers vinden antwoorden in seconden, niet uren."
+      },
+      "auditTrail": {
+        "title": "Als de auditor belt, ben je klaar",
+        "description": "Elke gestelde vraag, elk gegeven antwoord: volledig gelogd en exporteerbaar. Eén klik om precies te laten zien welke informatie gedeeld is en wanneer."
+      },
+      "compliance": {
+        "title": "Geen shadow AI zorgen meer",
+        "description": "Medewerkers die ChatGPT gebruiken met bedrijfsdata? Niet meer. Volentis.ai geeft ze een beter alternatief dat je data veilig houdt in de EU."
+      }
+    },
+    "scaleMessage": "Begin klein, groei snel. Deploy HR vandaag, voeg Legal toe volgende maand, schaal naar het hele bedrijf wanneer je klaar bent.",
+    "diagram": {
+      "title": "Volentis.ai Platform",
+      "subtitle": "Hoe het werkt",
+      "documents": "Jouw Documenten",
+      "engine": "AI Engine",
+      "engineDesc": "EU-deployed, geen training op jouw data",
+      "agents": "Gespecialiseerde Agents"
+    }
+  },
+  "features": {
+    "sectionTitle": "Wat maakt Volentis.ai uniek?",
+    "tryIt": "Probeer het zelf →",
+    "items": {
+      "documents": {
+        "title": "Geen hallucinaties. Nooit.",
+        "description": "Anders dan ChatGPT geeft Volentis.ai alleen antwoorden uit je goedgekeurde documenten. Als het antwoord niet in je kennisbank staat, zegt het 'ik weet het niet'. Geen verzonnen informatie die je in de problemen kan brengen.",
+        "benefit": "Medewerkers kunnen de antwoorden vertrouwen. Managers kunnen medewerkers vertrouwen die het gebruiken."
+      },
+      "sources": {
+        "title": "Elk antwoord is verifieerbaar",
+        "description": "Elke reactie bevat het exacte brondocument en paginanummer. Klik om de originele tekst te zien. Perfect voor wanneer je wilt dubbelchecken of je manager wilt laten zien waar je het vandaan hebt.",
+        "benefit": "Geen 'waar heb je dat gehoord?' gesprekken meer."
+      },
+      "search": {
+        "title": "Vind antwoorden ook als je de juiste woorden niet weet",
+        "description": "Vraag 'Kan ik vrijdag thuiswerken?' zelfs als je beleidsdocument spreekt over 'remote work arrangements'. De AI begrijpt wat je bedoelt, niet alleen wat je typt.",
+        "benefit": "Niet meer bladeren door 200-pagina handboeken voor één paragraaf."
+      },
+      "collaboration": {
+        "title": "Deel wat je leert",
+        "description": "Handig antwoord gevonden? Deel het gesprek met je team. Werken aan een complexe vraag? Werk samen met collega's. Bouw institutionele kennis die niet verdwijnt als mensen vertrekken.",
+        "benefit": "Stop met dezelfde vraag beantwoorden voor verschillende teamleden."
+      }
+    }
+  },
+  "value": {
+    "sectionTitle": "De waarde van Volentis.ai",
+    "videoTitle": "Zie Volentis.ai in actie",
+    "videoDescription": "Bekijk hoe onze AI-assistent transformeert hoe Europese ondernemingen omgaan met interne kennis.",
+    "props": {
+      "reliable": {
+        "title": "Betrouwbare Antwoorden",
+        "description": "Geen hallucinaties. Alleen geverifieerde informatie uit je goedgekeurde documenten met confidence scoring."
+      },
+      "audit": {
+        "title": "Volledige Audit Trail",
+        "description": "Elke interactie wordt gelogd. Volledige traceerbaarheid voor compliance en kwaliteitsborging."
+      },
+      "compliance": {
+        "title": "Compliance by Design",
+        "description": "GDPR compliant, EU AI Act ready. Van de grond af aan gebouwd voor Europese ondernemingen."
+      }
+    }
+  },
+  "deployment": {
+    "sectionTitle": "Deployment opties die bij je passen",
+    "sectionSubtitle": "Kies het deployment model dat past bij jouw security-eisen",
+    "options": {
+      "multiTenant": {
+        "title": "SaaS Multi-Tenant",
+        "description": "Live in 2-4 weken, EU-datacenters, wij regelen alles",
+        "features": [
+          "Operationeel in weken",
+          "Data blijft in Duitsland & Nederland",
+          "Jouw data is gescheiden van andere klanten",
+          "Altijd up-to-date, updates gaan automatisch",
+          "Voorspelbare maandelijkse kosten"
+        ]
+      },
+      "singleTenant": {
+        "title": "Single-Tenant SaaS",
+        "description": "Je eigen servers, maximale isolatie, jij houdt de encryptiesleutels",
+        "features": [
+          "Je eigen dedicated servers",
+          "Encryptie met sleutels die alleen jij beheert",
+          "Volledige infrastructuurisolatie",
+          "Custom configuratie opties",
+          "Makkelijkere compliance certificering"
+        ]
+      },
+      "customerManaged": {
+        "title": "Customer-Managed",
+        "description": "Draai het zelf, air-gapped indien nodig, maximale controle",
+        "badge": "Binnenkort",
+        "features": [
+          "Draait in je eigen datacenter",
+          "Kan werken zonder internet",
+          "Maximale data-soevereiniteit",
+          "Jij controleert alles"
+        ]
+      }
+    }
+  },
+  "trust": {
+    "sectionTitle": "Enterprise security die je kunt vertrouwen",
+    "badges": {
+      "euHosted": "EU-Gehost",
+      "gdpr": "GDPR Compliant",
+      "euAiAct": "EU AI Act Compliant",
+      "encryption": "TLS & AES-256"
+    },
+    "integrations": {
+      "title": "Integreert met je bestaande tools",
+      "description": "Verbind Volentis.ai met je HR-systemen, documentbronnen en samenwerkingstools"
+    }
+  },
+  "cta": {
+    "title": "Klaar om shadow AI risico's te elimineren?",
+    "description": "Boek een demo en zie hoe de Volentis HR Agent je tickets met 50-70% kan verminderen terwijl je 100% compliant blijft.",
+    "button": "Boek een Demo",
+    "secondaryButton": "Praat met een Expert",
+    "trust1": "Geen creditcard nodig",
+    "trust2": "Live in weken",
+    "trust3": "EU data residency"
+  },
+  "footer": {
+    "tagline": "Europese AI met Vertrouwen als Kern",
+    "product": "Product",
+    "company": "Bedrijf",
+    "resources": "Resources",
+    "hrGuide": "AI in HR Gids",
+    "euAiActGuide": "EU AI Act Gids",
+    "bookDemo": "Boek een Demo",
+    "legal": "Juridisch",
+    "contact": "Contact",
+    "privacy": "Privacybeleid",
+    "terms": "Algemene Voorwaarden",
+    "cookies": "Cookiebeleid",
+    "copyright": "© 2026 Volentis B.V. Alle rechten voorbehouden.",
+    "country": "Nederland"
+  },
+  "useCases": {
+    "common": {
+      "bookDemo": "Boek een Demo",
+      "seeHowItWorks": "Bekijk hoe het werkt",
+      "contactSales": "Praat met een Expert",
+      "theProblem": "Het Probleem",
+      "howItWorks": "Hoe Het Werkt",
+      "employee": "Medewerker",
+      "highConfidence": "Hoge Betrouwbaarheid",
+      "sourceVerified": "Bron geverifieerd",
+      "expectedResults": "Verwachte Resultaten",
+      "whyTrust": "Waarom Volentis.ai vertrouwen?",
+      "noHallucinations": "Geen Hallucinaties",
+      "noHallucinationsDesc": "Antwoorden komen uitsluitend uit je goedgekeurde documenten. Als informatie niet beschikbaar is, geeft het systeem dit aan. Geen gokken, geen verzinsels.",
+      "sourceAttribution": "Bronvermelding",
+      "sourceAttributionDesc": "Elk antwoord bevat exacte verwijzingen naar brondocumenten. Klik door om de informatie zelf te verifiëren.",
+      "compliance": "GDPR & EU AI Act Compliant",
+      "complianceDesc": "Gebouwd voor Europese ondernemingen. Data verlaat nooit de EU. Volledige audit trail voor elke interactie.",
+      "liveInWeeks": "Live in weken",
+      "euDataResidency": "EU data residency",
+      "noTrainingOnData": "Geen training op jouw data",
+      "noCreditCard": "Geen creditcard vereist",
+      "trustedBy": "Vertrouwd door Europese ondernemingen",
+      "whatHappensNext": "Wat gebeurt er na het boeken van een demo?",
+      "demoStep1": "30 minuten gesprek om je behoeften te begrijpen",
+      "demoStep2": "Live demo met jouw documenttypes",
+      "demoStep3": "Pilot voorstel binnen 48 uur",
+      "integrationNote": "Je systeem niet in de lijst? We integreren met elk API-enabled platform.",
+      "exploreOtherAgents": "Ontdek Andere AI Agents",
+      "learnMore": "Meer informatie",
+      "agents": {
+        "hr": "HR Agent",
+        "legal": "Legal Agent",
+        "compliance": "Compliance Agent",
+        "it": "IT Agent",
+        "finance": "Finance Agent",
+        "international": "Internationaal"
+      },
+      "agentDescriptions": {
+        "hr": "24/7 antwoorden op HR-beleidsvragen. 50-70% minder tickets.",
+        "legal": "Contract analyse en clausule lookup. 70% snellere review.",
+        "compliance": "GDPR & EU AI Act compliance checks. Audit-ready in uren.",
+        "it": "Self-service IT troubleshooting. 50-60% ticket deflection.",
+        "finance": "Inkoop- en finance beleidsuitleg. 60% minder fouten.",
+        "international": "Cross-border beleidsanalyse. Eén platform voor alle EU-jurisdicties."
+      }
+    },
+    "hr": {
+      "metaTitle": "HR Agent - Volentis.ai | 24/7 HR Beleidsassistent",
+      "metaDescription": "Verminder HR-tickets met 50-70% met de Volentis HR Agent. 24/7 antwoorden uit je handboeken, CAO's en beleid. GDPR compliant.",
+      "title": "HR Agent",
+      "badge": "Meest Populair",
+      "headline": "Bevrijdt je HR-team van repetitieve vragen",
+      "subheadline": "De Volentis HR Agent beantwoordt medewerkervragen 24/7, direct uit je handboeken, CAO's en interne beleid. Met bronvermelding en volledige compliance.",
+      "problemStatement": "HR-teams besteden 40% van hun tijd aan routinevragen",
+      "painPoints": {
+        "1": "Medewerkers kunnen geen antwoorden vinden in het 200+ pagina handboek",
+        "2": "Dezelfde vragen worden herhaaldelijk gesteld: verlof, benefits, procedures",
+        "3": "Inconsistente antwoorden leiden tot ontevredenheid en compliance-risico's"
+      },
+      "solutionTeaser": "De Volentis HR Agent: 24/7 antwoorden met bronvermelding",
+      "metrics": {
+        "ticketReduction": "HR ticket reductie",
+        "availability": "self-service beschikbaarheid",
+        "satisfaction": "medewerkerstevredenheid",
+        "onboarding": "snellere onboarding"
+      },
+      "howItWorksDescription": "Stel vragen in normale taal. Krijg antwoorden uit je eigen HR-documenten met exacte bronverwijzingen.",
+      "examples": {
+        "1": {
+          "question": "Hoeveel vakantiedagen heb ik als parttime medewerker?",
+          "answer": "Op basis van Artikel 7.2 van je Arbeidsovereenkomst en CAO Sectie 4.1: Parttime medewerkers ontvangen vakantiedagen pro rata op basis van hun contracturen. Met een 0,8 FTE contract heb je recht op 20 vakantiedagen per jaar (25 dagen × 0,8)."
+        },
+        "2": {
+          "question": "Hoe vraag ik ouderschapsverlof aan?",
+          "answer": "Volgens het HR Beleidshandboek (Sectie 8.3) en de Wet Arbeid en Zorg: Dien je aanvraag minimaal 2 maanden voor de gewenste startdatum in via het HR-portaal. Vermeld: gewenste startdatum, duur (maximaal 26 weken) en werktijdvoorstel. Je manager en HR bevestigen binnen 4 weken."
+        },
+        "3": {
+          "question": "Wat is ons thuiswerkbeleid?",
+          "answer": "Conform het Thuiswerkbeleid (v2.3, geldig vanaf januari 2025): Medewerkers mogen tot 3 dagen per week thuiswerken, mits goedgekeurd door de manager. Verplichte kantoordagen zijn dinsdag en donderdag. Thuiswerkvergoeding: €500 eenmalig voor thuiswerkplek inrichting. Volledige details in het Thuiswerk Richtlijnen document."
+        },
+        "4": {
+          "question": "Wanneer krijg ik mijn eindejaarsuitkering?",
+          "answer": "Volgens het Beloningsbeleid (Sectie 5.2) en je Arbeidsovereenkomst: De jaarlijkse bonus wordt uitbetaald in januari met het decembersalaris. Voorwaarde is minimaal 6 maanden dienstverband. De bonusberekening is gebaseerd op bedrijfsprestaties (60%) en individuele doelen (40%)."
+        }
+      },
+      "targetAudience": {
+        "title": "Is de HR Agent geschikt voor jou?",
+        "description": "De HR Agent levert de meeste waarde voor organisaties die aan dit profiel voldoen:",
+        "items": {
+          "size": {
+            "label": "Organisatiegrootte",
+            "value": "200+ medewerkers",
+            "description": "Voldoende volume voor significante ticket reductie"
+          },
+          "structure": {
+            "label": "Structuur",
+            "value": "Multi-site of multi-afdeling",
+            "description": "Consistente antwoorden over alle locaties"
+          },
+          "documents": {
+            "label": "Documentatie",
+            "value": "Personeelshandboeken, CAO's, HR-beleid",
+            "description": "Bestaande kennisbank om uit te putten"
+          },
+          "challenge": {
+            "label": "Huidige uitdaging",
+            "value": "Hoog volume repetitieve HR-vragen",
+            "description": "Dezelfde vragen door verschillende medewerkers"
+          }
+        },
+        "roles": {
+          "title": "Belangrijke stakeholders",
+          "items": ["CHRO / HR Director", "HR Manager", "HR Business Partner", "HR Service Desk"]
+        }
+      },
+      "categories": {
+        "title": "Waarover kunnen medewerkers vragen stellen",
+        "description": "De HR Agent is getraind op jouw specifieke beleid en documenten. Dit zijn de typische categorieën:",
+        "items": {
+          "policy": {
+            "title": "Beleid & Handboeken",
+            "description": "Verlofbeleid, arbeidsvoorwaarden, gedragscodes, werktijden, thuiswerkrichtlijnen",
+            "examples": ["Hoeveel ziektedagen heb ik?", "Wat is het kledingvoorschrift?", "Kan ik onbetaald verlof nemen?"]
+          },
+          "onboarding": {
+            "title": "Onboarding",
+            "description": "Eerste week checklists, rol-specifieke informatie, IT-setup handleidingen, introductie teams en processen",
+            "examples": ["Wat moet ik regelen in mijn eerste week?", "Wie is mijn HR-contactpersoon?", "Waar vind ik het organogram?"]
+          },
+          "benefits": {
+            "title": "Benefits & Beloning",
+            "description": "Zorgverzekering, pensioenregelingen, onkostendeclaraties, flexibele benefits, salariscomponenten",
+            "examples": ["Hoe meld ik me aan voor de pensioenregeling?", "Wat dekt onze zorgverzekering?", "Hoe declareer ik onkosten?"]
+          },
+          "performance": {
+            "title": "Performance Management",
+            "description": "Beoordelingscycli, evaluatiecriteria, ontwikkelprogramma's, promotieprocessen, feedback procedures",
+            "examples": ["Wanneer is mijn beoordelingsgesprek?", "Hoe werkt de bonusberekening?", "Welk opleidingsbudget heb ik?"]
+          },
+          "relations": {
+            "title": "Medewerker Relaties",
+            "description": "Conflictoplossing, klachtenprocedures, disciplinaire processen, werkplekaanpassingen",
+            "examples": ["Hoe meld ik een zorg op de werkvloer?", "Wat is de klachtenprocedure?", "Wie behandelt intimidatieklachten?"]
+          },
+          "recruitment": {
+            "title": "Recruitment Support",
+            "description": "Functiebeschrijving templates, sollicitatieprocedures, gelijke kansen richtlijnen, doorverwijsprogramma's",
+            "examples": ["Wat is onze referralbonus?", "Hoe vraag ik een nieuwe medewerker aan?", "Wat is het sollicitatieproces?"]
+          },
+          "compensation": {
+            "title": "Salaris & Classificatie",
+            "description": "Salarisschalen, functiewaardering, pay equity, overwerk regels, loonwetgeving per jurisdictie",
+            "examples": ["Welke salarisschaal hoort bij mijn functie?", "Hoe wordt overwerk berekend?", "Wanneer worden salarissen herzien?"]
+          },
+          "dataProtection": {
+            "title": "Gegevensbescherming",
+            "description": "GDPR-rechten voor medewerkers, persoonsgegevens beheer, inzageverzoeken, privacy beleid",
+            "examples": ["Welke persoonlijke gegevens bewaart HR over mij?", "Hoe vraag ik mijn personeelsdossier op?", "Wie heeft toegang tot mijn gegevens?"]
+          }
+        }
+      },
+      "integrations": {
+        "title": "Werkt met je HR-systemen",
+        "description": "De HR Agent verbindt met je bestaande HR-infrastructuur voor gepersonaliseerde, accurate antwoorden:",
+        "items": {
+          "afas": {
+            "name": "AFAS",
+            "description": "Nederlandse HR & salarisadministratie: medewerkersgegevens, verlofsaldi, contracten"
+          },
+          "successfactors": {
+            "name": "SAP SuccessFactors",
+            "description": "Enterprise HCM: performance, learning, employee central"
+          },
+          "workday": {
+            "name": "Workday",
+            "description": "Cloud HCM: HR, salarisadministratie, talent management"
+          },
+          "personio": {
+            "name": "Personio",
+            "description": "Europese HR-software: recruiting, HR management, salarisadministratie"
+          },
+          "dynamics": {
+            "name": "Microsoft Dynamics 365",
+            "description": "HR module: medewerkersgegevens, benefits, compliance"
+          },
+          "outlook": {
+            "name": "Outlook Agenda",
+            "description": "Verlofaanvragen, beschikbaarheid, vergaderplanning"
+          }
+        },
+        "documentSources": {
+          "title": "Documentbronnen",
+          "items": ["SharePoint bibliotheken", "Personeelshandboeken (PDF, Word)", "CAO documenten", "Beleidshandleidingen", "Procesdocumentatie"]
+        }
+      },
+      "safeguards": {
+        "title": "Verantwoorde AI: Wat de HR Agent niet doet",
+        "description": "De HR Agent is ontworpen met duidelijke grenzen om verantwoord gebruik in je organisatie te garanderen:",
+        "items": {
+          "noDecisions": {
+            "title": "Geen geautomatiseerde HR-beslissingen",
+            "description": "De HR Agent geeft informatie en aanbevelingen, hij neemt nooit personeelsbeslissingen. Aanname, ontslag, promoties en disciplinaire maatregelen vereisen altijd menselijk oordeel en goedkeuring."
+          },
+          "humanReview": {
+            "title": "Concept content vereist review",
+            "description": "Wanneer de HR Agent concept functiebeschrijvingen, beleidsamenvattingen of communicatie genereert, zijn deze duidelijk gemarkeerd als concepten die menselijke review vereisen voor gebruik."
+          },
+          "specialData": {
+            "title": "Bijzondere persoonsgegevens bescherming",
+            "description": "Gezondheidsinformatie, vakbondslidmaatschap en andere gevoelige gegevens worden standaard niet verwerkt. Dergelijke verwerking vereist expliciete configuratie en passende wettelijke grondslag."
+          },
+          "auditTrail": {
+            "title": "Volledige audit trail",
+            "description": "Elke gestelde vraag en gegeven antwoord wordt gelogd. Je kunt altijd traceren welke informatie is verstrekt en de gebruikte bronnen verifiëren."
+          }
+        },
+        "disclaimer": "De HR Agent is geen vervanging voor professioneel HR- of juridisch advies. Voor complexe arbeidszaken, raadpleeg altijd je HR-team of juridisch adviseur."
+      },
+      "capabilitiesTitle": "Wat kan de HR Agent?",
+      "capabilitiesDescription": "Je always-on HR-assistent die je beleid door en door kent.",
+      "capabilities": {
+        "1": "Beleidsvragen beantwoorden uit handboeken, CAO's en interne richtlijnen",
+        "2": "Medewerkers begeleiden door HR-processen (verlofaanvragen, declaraties, onboarding)",
+        "3": "Benefits en beloningsstructuren uitleggen",
+        "4": "Rol-specifieke en locatie-specifieke informatie verstrekken",
+        "5": "Functiebeschrijvingen opstellen (met verplichte menselijke review)",
+        "6": "Ondersteuning bij performance management vragen",
+        "7": "Vragen beantwoorden in alle EU-talen",
+        "8": "Volledige audit trail bijhouden voor compliance"
+      },
+      "ctaTitle": "Klaar om je HR-tickets met 50-70% te verminderen?",
+      "ctaDescription": "Zie hoe de Volentis HR Agent je HR-dienstverlening kan transformeren terwijl je 100% GDPR compliant blijft.",
+      "ctaTimeline": "Live in 2-4 weken",
+      "ctaWhyVolentis": "Anders dan generieke AI: Volentis antwoordt alleen uit je goedgekeurde documenten. Geen hallucinaties, volledige audit trail."
+    },
+    "legal": {
+      "metaTitle": "Legal Agent - Volentis.ai | Contract Analyse & Clausule Lookup",
+      "metaDescription": "Versnel contract review met 70% met de Volentis Legal Agent. Vind clausules in seconden, vergelijk contracten, identificeer afwijkingen.",
+      "title": "Legal Agent",
+      "badge": "Voor Juridische Teams",
+      "headline": "Contract review in uren, niet dagen",
+      "subheadline": "De Volentis Legal Agent vindt clausules in seconden, vergelijkt contracten met templates en identificeert afwijkingen. Met volledige bronvermelding.",
+      "problemStatement": "Juristen besteden 60% van hun tijd aan document review",
+      "painPoints": {
+        "1": "Contractclausules zijn verspreid over honderden documenten",
+        "2": "Due diligence duurt weken in plaats van dagen",
+        "3": "Gemiste clausules creëren compliance- en financiële risico's"
+      },
+      "solutionTeaser": "De Volentis Legal Agent: Vind elke clausule in seconden",
+      "metrics": {
+        "fasterReview": "snellere contract review",
+        "dueDiligence": "kortere due diligence",
+        "clauseAccuracy": "minder gemiste clausules",
+        "legalCosts": "lagere juridische kosten"
+      },
+      "howItWorksDescription": "Stel vragen over je contracten en juridische documenten. Krijg precieze antwoorden met exacte verwijzingen naar clausules en secties.",
+      "examples": {
+        "1": {
+          "question": "Wat zijn de data protection clausules in onze leverancierscontracten?",
+          "answer": "Analyse van 47 actieve leverancierscontracten toont: 43 contracten bevatten GDPR-compliant DPA-clausules (Artikel 28 compliant), 3 contracten hebben verouderde pre-GDPR taal (Leverancier A, B, C), 1 contract mist een DPA volledig (Leverancier D). Aanbeveling: Prioriteitsreview nodig voor 4 contracten. Volledige clausulevergelijking beschikbaar."
+        },
+        "2": {
+          "question": "Welke contracten hebben een change of control clausule?",
+          "answer": "Change of control bepalingen gevonden in 23 van 156 contracten: 15 vereisen schriftelijke kennisgeving binnen 30 dagen, 5 staan beëindiging zonder reden toe, 3 vereisen toestemming van wederpartij. Hoog-risico contracten gemarkeerd: [Contract X] met Grote Klant bevat beëindigingsrecht bij >50% eigendomswijziging."
+        },
+        "3": {
+          "question": "Vergelijk de aansprakelijkheidsclausule met onze standaard template",
+          "answer": "Gap-analyse vs. Standaard Template v4.2: Afwijking 1: Aansprakelijkheidsplafond is €500K vs. template €1M (lagere bescherming), Afwijking 2: Ontbrekende cyber incident uitsluiting, Afwijking 3: Vrijwaringsomvang breder dan template. Risicobeoordeling: Middel-Hoog. Juridische review aanbevolen voor ondertekening."
+        },
+        "4": {
+          "question": "Wat zijn de opzegtermijnen voor onze SaaS-contracten?",
+          "answer": "SaaS Contract Analyse (34 actieve overeenkomsten): 12 contracten: 90 dagen schriftelijke opzegging, 15 contracten: 60 dagen schriftelijke opzegging, 5 contracten: 30 dagen schriftelijke opzegging, 2 contracten: automatische verlenging met 180-dagen opzegtermijn. Aankomende verlengingsdata gemarkeerd voor komende 90 dagen: [Contract A] 15 feb, [Contract B] 1 mrt."
+        }
+      },
+      "targetAudience": {
+        "title": "Is de Legal Agent geschikt voor jou?",
+        "description": "De Legal Agent levert de meeste waarde voor juridische teams die aan dit profiel voldoen:",
+        "items": {
+          "volume": {
+            "label": "Contractvolume",
+            "value": "Hoog aantal actieve contracten",
+            "description": "Voldoende contracten om te profiteren van snellere zoek- en analysetools"
+          },
+          "complexity": {
+            "label": "Complexiteit",
+            "value": "Multi-party of grensoverschrijdende overeenkomsten",
+            "description": "Complexe contracten met veel clausulevariaties"
+          },
+          "frequency": {
+            "label": "Reviewfrequentie",
+            "value": "Regelmatige due diligence of audits",
+            "description": "Periodieke behoefte om contractportfolio's te reviewen"
+          },
+          "challenge": {
+            "label": "Huidige uitdaging",
+            "value": "Tijd besteed aan documentreview",
+            "description": "Juristen die te veel tijd besteden aan het vinden en vergelijken van clausules"
+          }
+        },
+        "roles": {
+          "title": "Belangrijke stakeholders",
+          "items": ["General Counsel", "Juridisch Directeur", "Contract Manager", "Paralegal"]
+        }
+      },
+      "categories": {
+        "title": "Waar de Legal Agent bij kan helpen",
+        "description": "De Legal Agent is getraind op je contracten, templates en juridische documenten. Dit zijn de typische use cases:",
+        "items": {
+          "contractAnalysis": {
+            "title": "Contract Analyse",
+            "description": "Clausule lookup, risicobeoordeling, template vergelijking, afwijkingsidentificatie, key terms extractie",
+            "examples": ["Vind alle aansprakelijkheidsclausules", "Welke contracten verlopen dit kwartaal?", "Vergelijk deze NDA met onze template"]
+          },
+          "regulatory": {
+            "title": "Regulatory Compliance",
+            "description": "Vereistenanalyse, cross-jurisdictionele vergelijking, impact assessment van regelgevingswijzigingen",
+            "examples": ["Wat zijn de GDPR-vereisten voor deze verwerking?", "Hoe verschilt dit tussen EU en UK?", "Wat is veranderd in de laatste regelgeving?"]
+          },
+          "policyDev": {
+            "title": "Beleidsontwikkeling",
+            "description": "Interne beleidsanalyse, beleidsharmonisatie tussen entiteiten, stakeholder guidance documenten",
+            "examples": ["Wat zegt ons beleid over X?", "Hoe verschillen onze beleidsregels tussen dochterondernemingen?", "Maak een samenvatting van ons dataretentiebeleid"]
+          },
+          "dueDiligence": {
+            "title": "Due Diligence",
+            "description": "Transactie due diligence, contractportfolio review, risico-identificatie over documentsets",
+            "examples": ["Wat zijn de materiële contracten in deze portfolio?", "Identificeer alle change of control clausules", "Markeer contracten met ongebruikelijke voorwaarden"]
+          },
+          "litigation": {
+            "title": "Litigation Support",
+            "description": "Documentreview, relevante clausule-identificatie, tijdlijnreconstructie uit contracten",
+            "examples": ["Vind alle correspondentie over dit issue", "Wat waren de afgesproken voorwaarden op datum X?", "Welke contracten verwijzen naar deze verplichting?"]
+          },
+          "compliance": {
+            "title": "Compliance Monitoring",
+            "description": "Lopende compliance status checks, regulatory reporting ondersteuning, verplichting tracking",
+            "examples": ["Zijn we compliant met clausule 5.2?", "Welke verplichtingen hebben we onder dit contract?", "Genereer compliance rapport voor deze portfolio"]
+          }
+        }
+      },
+      "integrations": {
+        "title": "Werkt met je legal tech stack",
+        "description": "De Legal Agent verbindt met je bestaande documentrepositories en contractmanagementsystemen:",
+        "items": {
+          "sharepoint": {
+            "name": "SharePoint",
+            "description": "Verbind met contractbibliotheken, juridische documentmappen en beleidsrepositories"
+          },
+          "teams": {
+            "name": "Microsoft Teams",
+            "description": "Stel juridische vragen direct vanuit Teams, deel analyses met collega's"
+          },
+          "onedrive": {
+            "name": "OneDrive / Netwerkschijven",
+            "description": "Indexeer contracten opgeslagen in persoonlijke of gedeelde schijven"
+          },
+          "email": {
+            "name": "E-mail Integratie",
+            "description": "Verwijs naar e-mailcorrespondentie naast contracten voor volledige context"
+          },
+          "clm": {
+            "name": "Contract Management Systemen",
+            "description": "Verbind met Ironclad, DocuSign CLM of andere CLM-platforms via API"
+          },
+          "upload": {
+            "name": "Directe Upload",
+            "description": "Upload contracten direct voor directe analyse (PDF, Word, Excel)"
+          }
+        },
+        "documentSources": {
+          "title": "Ondersteunde documenttypes",
+          "items": ["Contracten (PDF, Word)", "Juridische templates", "Regelgevingsdocumenten", "Beleidshandleidingen", "Bestuursbesluiten"]
+        }
+      },
+      "safeguards": {
+        "title": "Professionele verantwoordelijkheid: Wat de Legal Agent niet doet",
+        "description": "De Legal Agent is ontworpen om juridische professionals te ondersteunen, niet te vervangen:",
+        "items": {
+          "noAdvice": {
+            "title": "Geen vervanging voor juridisch advies",
+            "description": "De Legal Agent biedt informatie-retrieval en analyse-ondersteuning. Het geeft geen juridisch advies. Alle outputs moeten door gekwalificeerde juridische professionals worden gereviewed voor gebruik."
+          },
+          "privilege": {
+            "title": "Privilege en vertrouwelijkheid",
+            "description": "Attorney-client privilege overwegingen zijn van toepassing. Je data blijft in je geïsoleerde tenant, nooit gecombineerd met andere klanten, nooit gebruikt voor training. Privilege-bepalingen blijven bij juridisch counsel."
+          },
+          "humanReview": {
+            "title": "Kritieke beslissingen vereisen menselijke review",
+            "description": "Voor contractonderhandelingen, litigatiezaken en regulatory filings moet alle AI-gegenereerde analyse worden geverifieerd door juridische professionals voorafgaand aan gebruik."
+          },
+          "auditTrail": {
+            "title": "Volledige audit trail",
+            "description": "Elke query en respons wordt gelogd voor compliance doeleinden. Je kunt altijd aantonen welke analyse is uitgevoerd en welke bronnen zijn geraadpleegd."
+          }
+        },
+        "disclaimer": "De Legal Agent is een onderzoeks- en analysetool voor juridische professionals. Het vormt geen juridisch advies. Verifieer altijd AI-outputs en raadpleeg gekwalificeerde counsel voor juridische zaken."
+      },
+      "capabilitiesTitle": "Wat kan de Legal Agent?",
+      "capabilitiesDescription": "Je intelligente juridische onderzoeksassistent die 24/7 werkt.",
+      "capabilities": {
+        "1": "Specifieke clausules vinden in al je contracten in seconden",
+        "2": "Contracten vergelijken met templates en afwijkingen identificeren",
+        "3": "Contractueel risico analyseren en potentiële issues markeren",
+        "4": "Due diligence ondersteunen met uitgebreide documentreview",
+        "5": "Regelgevingsvereisten en compliance status bijhouden",
+        "6": "Contractsamenvattingen genereren met key terms gemarkeerd",
+        "7": "Vragen beantwoorden in alle EU-talen",
+        "8": "Volledige audit trail bijhouden voor elke query"
+      },
+      "ctaTitle": "Klaar om je juridische operaties te transformeren?",
+      "ctaDescription": "Zie hoe de Volentis Legal Agent contract review met 70% kan versnellen met behoud van volledige nauwkeurigheid en audit trails.",
+      "ctaTimeline": "Live in 2-4 weken",
+      "ctaWhyVolentis": "Je data blijft geïsoleerd in je tenant. Geen vermenging, geen training op je contracten. Volledige privilege bescherming."
+    },
+    "compliance": {
+      "metaTitle": "Compliance Agent - Volentis.ai | GDPR & EU AI Act Compliance",
+      "metaDescription": "Word audit-ready in uren met de Volentis Compliance Agent. GDPR, EU AI Act en sectorspecifieke compliance checks met volledige documentatie.",
+      "title": "Compliance Agent",
+      "badge": "Voor Compliance Teams",
+      "headline": "Compliance-vertrouwen in een complexe wereld",
+      "subheadline": "De Volentis Compliance Agent interpreteert regelgeving, identificeert gaps en bereidt auditdocumentatie voor. Allemaal vanuit je bestaande beleid en procedures.",
+      "problemStatement": "Regelgeving verandert sneller dan teams kunnen bijhouden",
+      "painPoints": {
+        "1": "Complexe, overlappende regelgeving: GDPR, EU AI Act, sectorspecifieke regels",
+        "2": "Auditvoorbereiding kost weken handmatig documenten verzamelen",
+        "3": "Inconsistente interpretatie tussen afdelingen creëert risico"
+      },
+      "solutionTeaser": "De Volentis Compliance Agent: Audit-ready in uren",
+      "metrics": {
+        "auditPrep": "snellere auditvoorbereiding",
+        "gapIdentification": "snellere gap-identificatie",
+        "researchTime": "minder onderzoekstijd",
+        "fineRisk": "proactieve compliance"
+      },
+      "howItWorksDescription": "Stel compliance-vragen in normale taal. Krijg antwoorden gegrond in je beleid met regelgevingsverwijzingen inbegrepen.",
+      "examples": {
+        "1": {
+          "question": "Wat zijn de GDPR-vereisten voor verwerking van personeelsgegevens?",
+          "answer": "Op basis van je GDPR Compliance Beleid (v3.1) en GDPR Artikelen 6, 9, 13: Wettelijke grondslag: Arbeidsovereenkomst (Art. 6.1.b) voor kern HR-gegevens. Bewaring: 7 jaar na einde dienstverband conform je bewaarschema. Vereiste documentatie: Privacyverklaring verstrekt, Verwerkingsregister bijgewerkt, DPIA afgerond voor performance monitoring. Huidige status: Compliant. Laatste audit: September 2025."
+        },
+        "2": {
+          "question": "Valt ons AI-gebruik onder de EU AI Act?",
+          "answer": "Analyse op basis van EU AI Act en je AI Inventarisatie Register: Huidige AI-systemen classificatie: Volentis.ai (dit systeem): Limited Risk (Art. 52) - transparantievereisten van toepassing, Recruitment screening tool: High Risk (Bijlage III) - vereist conformiteitsbeoordeling, Klanten chatbot: Minimal Risk - geen specifieke vereisten. Actiepunten: High-risk systeem vereist registratie voor augustus 2025."
+        },
+        "3": {
+          "question": "Welke documentatie hebben we nodig voor een GDPR-audit?",
+          "answer": "Conform je Audit Readiness Checklist en GDPR Art. 30: Vereiste documentatie (status): ✓ Register van Verwerkingsactiviteiten (actueel), ✓ Privacyverklaringen (bijgewerkt dec 2025), ✓ Verwerkersovereenkomsten (47 van 48 compleet), ⚠ DPIA voor nieuwe HR analytics (pending), ✓ Datalekprocedure (getest Q3 2025). Ontbrekend: 1 verwerkersovereenkomst met Leverancier X. Deadline: Voor volgende audit maart 2026."
+        },
+        "4": {
+          "question": "Hoe verschilt GDPR-implementatie tussen NL en DE?",
+          "answer": "Vergelijkende analyse op basis van je Multi-Jurisdictie Compliance Gids: Ondernemingsraad vereisten: DE vereist uitgebreidere consultatie, Gegevensbewaring: Beide 7 jaar, maar DE heeft strengere sectorregels voor financiële diensten, DPO vereisten: Vergelijkbaar, maar DE Länder kunnen aanvullende vereisten hebben, Handhavingsaanpak: DE Datenschutzbehörden historisch actiever. Je beleid is afgestemd op beide jurisdicties. Review aanbevolen bij opening nieuwe DE-locaties."
+        }
+      },
+      "targetAudience": {
+        "title": "Is de Compliance Agent geschikt voor jou?",
+        "description": "De Compliance Agent levert de meeste waarde voor organisaties die aan dit profiel voldoen:",
+        "items": {
+          "regulation": {
+            "label": "Regelgevingsomgeving",
+            "value": "Meerdere overlappende regelgevingen",
+            "description": "GDPR, EU AI Act, sectorspecifieke regels, of multi-jurisdictie vereisten"
+          },
+          "audits": {
+            "label": "Auditfrequentie",
+            "value": "Regelmatige interne of externe audits",
+            "description": "Noodzaak om compliance aan te tonen aan toezichthouders of auditors"
+          },
+          "documentation": {
+            "label": "Documentatie",
+            "value": "Beleid, procedures, compliance frameworks",
+            "description": "Bestaande compliance-documentatie om uit te putten"
+          },
+          "challenge": {
+            "label": "Huidige uitdaging",
+            "value": "Tijd besteed aan compliance-onderzoek en auditvoorbereiding",
+            "description": "Handmatige inspanning voor documentatieverzameling en vereisteninterpretatie"
+          }
+        },
+        "roles": {
+          "title": "Belangrijke stakeholders",
+          "items": ["Compliance Officer", "Risk Manager", "Functionaris Gegevensbescherming", "Internal Audit"]
+        }
+      },
+      "categories": {
+        "title": "Waar de Compliance Agent bij kan helpen",
+        "description": "De Compliance Agent is getraind op je beleid en regelgevingsvereisten. Dit zijn de typische use cases:",
+        "items": {
+          "gdpr": {
+            "title": "GDPR Compliance",
+            "description": "Gegevensbeschermingsvereisten, privacyverklaringen, DPIA's, rechten van betrokkenen, verwerkersovereenkomsten, dataleknotificaties",
+            "examples": ["Wat is onze wettelijke grondslag voor deze verwerking?", "Is een DPIA vereist voor dit project?", "Hoe behandelen we een inzageverzoek?"]
+          },
+          "euAiAct": {
+            "title": "EU AI Act",
+            "description": "AI-systeemclassificatie, risicobeoordeling, transparantievereisten, conformiteitsbeoordeling, menselijk toezicht verplichtingen",
+            "examples": ["Is ons AI-systeem high-risk onder de AI Act?", "Welke transparantievereisten zijn van toepassing?", "Wanneer is een conformiteitsbeoordeling nodig?"]
+          },
+          "sector": {
+            "title": "Sectorspecifieke Regels",
+            "description": "Financiële diensten (MiFID II, DORA), gezondheidszorg, NIS2 cybersecurity, sectorspecifieke vereisten",
+            "examples": ["Wat zijn onze NIS2-verplichtingen?", "Hoe beïnvloedt DORA onze IT-uitbesteding?", "Welke sectorspecifieke bewaartermijnen gelden?"]
+          },
+          "audit": {
+            "title": "Auditvoorbereiding",
+            "description": "Documentatieverzameling, bewijscompilatie, gap-analyse, hersteltracking, auditrespons",
+            "examples": ["Welke documentatie hebben we nodig voor de GDPR-audit?", "Toon me onze compliance-status voor vereiste X", "Welke gaps vereisen aandacht voor de audit?"]
+          },
+          "policy": {
+            "title": "Beleidsreview",
+            "description": "Interne beleidscompliance, consistentiechecks, beleidsgap-identificatie, updatevereisten",
+            "examples": ["Is ons beleid in lijn met de regelgeving?", "Zijn onze beleidsregels consistent tussen afdelingen?", "Wanneer is dit beleid laatst gereviewed?"]
+          },
+          "risk": {
+            "title": "Risicobeoordeling",
+            "description": "Compliance-risico-identificatie, impactbeoordeling, mitigatieplannen, risicoregister updates",
+            "examples": ["Wat zijn onze top compliance-risico's?", "Wat is de potentiële boete-exposure voor deze gap?", "Hoe moeten we herstel prioriteren?"]
+          }
+        }
+      },
+      "integrations": {
+        "title": "Werkt met je compliance-infrastructuur",
+        "description": "De Compliance Agent verbindt met je bestaande compliance-documentatie en systemen:",
+        "items": {
+          "sharepoint": {
+            "name": "SharePoint",
+            "description": "Verbind met beleidsbibliotheken, compliance-documentatie en audit-bewijsrepositories"
+          },
+          "grc": {
+            "name": "GRC Platforms",
+            "description": "Integreer met governance, risk en compliance platforms voor unified compliance management"
+          },
+          "audit": {
+            "name": "Audit Management",
+            "description": "Verbind met auditmanagementsystemen voor bewijstracking en bevindingsherstel"
+          },
+          "regulatory": {
+            "name": "Regelgevingsbronnen",
+            "description": "Refereer naar officiële regelgevingsteksten en guidance documenten"
+          },
+          "teams": {
+            "name": "Microsoft Teams",
+            "description": "Stel compliance-vragen direct vanuit Teams, werk samen aan compliance-zaken"
+          },
+          "upload": {
+            "name": "Directe Upload",
+            "description": "Upload beleid en compliance-documenten direct voor directe analyse"
+          }
+        },
+        "documentSources": {
+          "title": "Ondersteunde documenttypes",
+          "items": ["Compliance-beleid", "Regelgevingsteksten", "Auditrapporten", "Risicoregisters", "Procesdocumentatie"]
+        }
+      },
+      "safeguards": {
+        "title": "Professionele verantwoordelijkheid: Wat de Compliance Agent niet doet",
+        "description": "De Compliance Agent is ontworpen om compliance-professionals te ondersteunen, niet te vervangen:",
+        "items": {
+          "noAdvice": {
+            "title": "Geen vervanging voor compliance-advies",
+            "description": "De Compliance Agent biedt onderzoeksondersteuning en documentatiehulp. Het geeft geen definitieve compliance-bepalingen. Alle outputs moeten worden geverifieerd door gekwalificeerde compliance-professionals."
+          },
+          "regulatory": {
+            "title": "Regelgevingsinterpretaties vereisen verificatie",
+            "description": "Regelgeving is complex en contextafhankelijk. AI-gegenereerde interpretaties moeten worden gevalideerd tegen officiële guidance en, waar nodig, met toezichthouders of externe counsel."
+          },
+          "humanReview": {
+            "title": "Kritieke beslissingen vereisen menselijk oordeel",
+            "description": "Voor regulatory filings, auditresponsen en compliance-certificeringen moet alle AI-gegenereerde analyse worden gereviewed en goedgekeurd door gekwalificeerde professionals."
+          },
+          "auditTrail": {
+            "title": "Volledige audit trail",
+            "description": "Elke query en respons wordt gelogd. Je kunt aantonen welke analyse is uitgevoerd, welke bronnen zijn geraadpleegd en welke beslissingen zijn genomen."
+          }
+        },
+        "disclaimer": "De Compliance Agent is een onderzoeks- en analysetool voor compliance-professionals. Het vormt geen compliance-advies of certificering. Verifieer altijd AI-outputs met gekwalificeerde compliance counsel."
+      },
+      "capabilitiesTitle": "Wat kan de Compliance Agent?",
+      "capabilitiesDescription": "Je regelgevingsintelligentie-assistent die je audit-ready houdt.",
+      "capabilities": {
+        "1": "GDPR, EU AI Act en sectorspecifieke regelgeving interpreteren",
+        "2": "Compliance gaps in je beleid en procedures identificeren",
+        "3": "Audit-ready documentatie genereren met bronvermelding",
+        "4": "Cross-jurisdictionele compliance analyse leveren",
+        "5": "Relevante regelgevingswijzigingen voor je organisatie bijhouden",
+        "6": "Data Subject Rights verzoeken ondersteunen met procesbegeleiding",
+        "7": "Vragen beantwoorden in alle EU-talen",
+        "8": "Volledige audit trail bijhouden voor elke query"
+      },
+      "ctaTitle": "Klaar voor compliance-vertrouwen?",
+      "ctaDescription": "Zie hoe de Volentis Compliance Agent je audit-ready krijgt in uren met volledige documentatie en traceerbaarheid.",
+      "ctaTimeline": "Live in 2-4 weken",
+      "ctaWhyVolentis": "Regelgevingsdatabase per kwartaal bijgewerkt. Volledige audit trail toont precies wat is gecontroleerd en wanneer."
+    },
+    "it": {
+      "metaTitle": "IT Agent - Volentis.ai | IT Helpdesk Automatisering",
+      "metaDescription": "Verminder IT-tickets met 50-60% met de Volentis IT Agent. Self-service troubleshooting uit je documentatie, 24/7.",
+      "title": "IT Agent",
+      "badge": "Voor IT Teams",
+      "headline": "Halveer je IT-tickets zonder extra headcount",
+      "subheadline": "De Volentis IT Agent beantwoordt tier-1 vragen direct uit je procedures en documentatie, zodat je team kan focussen op complexe issues.",
+      "problemStatement": "60-70% van IT-tickets zijn repetitieve, simpele vragen",
+      "painPoints": {
+        "1": "Dezelfde vragen herhaaldelijk gesteld: wachtwoord resets, VPN issues, toegangsaanvragen",
+        "2": "Documentatie is verouderd of medewerkers kunnen het niet vinden",
+        "3": "Kennis verdwijnt wanneer ervaren personeel vertrekt"
+      },
+      "solutionTeaser": "De Volentis IT Agent: Tier-1 deflection met self-service",
+      "metrics": {
+        "ticketDeflection": "ticket deflection",
+        "resolutionTime": "snellere oplossing",
+        "costReduction": "lagere kosten per ticket",
+        "satisfaction": "medewerkertevredenheid"
+      },
+      "howItWorksDescription": "Medewerkers stellen IT-vragen in normale taal. Krijg stap-voor-stap begeleiding uit je procedures en documentatie.",
+      "examples": {
+        "1": {
+          "question": "Hoe reset ik mijn wachtwoord voor het CRM?",
+          "answer": "Op basis van de CRM Gebruikershandleiding (v4.2) en IT Security Beleid: Stap 1: Ga naar crm.company.com/reset, Stap 2: Voer je e-mailadres in, Stap 3: Check e-mail voor reset link (15 minuten geldig), Stap 4: Maak nieuw wachtwoord (minimaal 12 tekens, 1 hoofdletter, 1 cijfer, 1 speciaal teken). Als je de e-mail niet ontvangt, check spam of neem contact op met IT Helpdesk."
+        },
+        "2": {
+          "question": "VPN werkt niet, wat moet ik doen?",
+          "answer": "Uit de VPN Troubleshooting Gids (bijgewerkt jan 2026): Snelle checks: 1) Werkt je internetverbinding? (test met speedtest.net), 2) Is de VPN client up-to-date? (huidige versie: 5.2.1), 3) Heb je de VPN client herstart? Veelvoorkomende fixes: Wis VPN credentials en voer opnieuw in. Bij aanhoudende problemen: Draai diagnostische tool (Start > VPN Diagnostic), Screenshot de fout, Dien ticket in bij IT met diagnostische resultaten."
+        },
+        "3": {
+          "question": "Hoe vraag ik toegang aan tot SharePoint?",
+          "answer": "Conform de Toegangsbeheer Procedure (IT-PROC-042): Stap 1: Dien aanvraag in via IT Portal > Toegangsaanvragen > SharePoint, Stap 2: Je manager ontvangt goedkeuringsverzoek (automatisch gerouteerd), Stap 3: Na goedkeuring verleent IT toegang binnen 4 werkdagen. Vereiste informatie: Site naam of URL, Zakelijke rechtvaardiging, Gevraagd permissieniveau (Bekijken/Bewerken/Volledig). Voor urgente aanvragen, neem contact op met IT Helpdesk met manager in CC."
+        },
+        "4": {
+          "question": "Wat zijn de backup-procedures voor onze servers?",
+          "answer": "Uit het Backup en Recovery Beleid (IT-POL-015): Schema: Dagelijkse incrementele backups om 02:00 CET, Wekelijkse volledige backups zaterdag 01:00 CET, Maandelijkse archivering naar offsite opslag. Bewaring: 30 dagen voor dagelijks, 12 weken voor wekelijks, 7 jaar voor maandelijkse archivering. Recovery time objective: 4 uur voor kritieke systemen, 24 uur voor standaard. Contact: backup-team@company.com voor herstelverzoeken."
+        }
+      },
+      "targetAudience": {
+        "title": "Is de IT Agent geschikt voor jou?",
+        "description": "De IT Agent levert de meeste waarde voor organisaties die aan dit profiel voldoen:",
+        "items": {
+          "ticketVolume": {
+            "label": "Ticketvolume",
+            "value": "Hoog volume repetitieve vragen",
+            "description": "Significant deel van helpdesk tickets zijn tier-1 issues (wachtwoorden, VPN, toegang)"
+          },
+          "teamSize": {
+            "label": "Organisatiegrootte",
+            "value": "200+ medewerkers",
+            "description": "Voldoende gebruikers om betekenisvolle ticket deflection besparingen te genereren"
+          },
+          "documentation": {
+            "label": "Documentatie",
+            "value": "IT-procedures en kennisbank artikelen",
+            "description": "Bestaande documentatie om nauwkeurige antwoorden te geven"
+          },
+          "challenge": {
+            "label": "Huidige uitdaging",
+            "value": "IT-team overweldigd door repetitieve vragen",
+            "description": "Ervaren IT-medewerkers besteden tijd aan laagwaardige tier-1 issues"
+          }
+        },
+        "roles": {
+          "title": "Belangrijke stakeholders",
+          "items": ["IT Director", "Service Desk Manager", "IT Support Lead", "Systeembeheerder"]
+        }
+      },
+      "categories": {
+        "title": "Waar de IT Agent bij kan helpen",
+        "description": "De IT Agent is getraind op je procedures en documentatie. Dit zijn de typische use cases:",
+        "items": {
+          "access": {
+            "title": "Wachtwoord & Toegang",
+            "description": "Wachtwoord resets, account lockouts, toegangsaanvragen, MFA setup, permissiewijzigingen",
+            "examples": ["Hoe reset ik mijn wachtwoord?", "Mijn account is geblokkeerd", "Hoe vraag ik toegang aan tot de finance drive?"]
+          },
+          "connectivity": {
+            "title": "VPN & Connectiviteit",
+            "description": "VPN troubleshooting, netwerkproblemen, remote access, wifi problemen, connectiviteitsdiagnostiek",
+            "examples": ["VPN maakt geen verbinding", "Internet is traag", "Kan niet verbinden met het kantoornnetwerk vanuit huis"]
+          },
+          "software": {
+            "title": "Software Support",
+            "description": "Applicatie troubleshooting, installatiehandleidingen, configuratiehulp, software updates",
+            "examples": ["Hoe installeer ik Zoom?", "Excel blijft crashen", "Welke versie van het CRM moet ik gebruiken?"]
+          },
+          "hardware": {
+            "title": "Hardware & Apparaten",
+            "description": "Laptop issues, printerproblemen, mobiel apparaat setup, randapparatuur configuratie",
+            "examples": ["Printer werkt niet", "Hoe stel ik mijn nieuwe laptop in?", "Mijn monitor flikkert steeds"]
+          },
+          "security": {
+            "title": "Security Procedures",
+            "description": "Securitybeleid, verdachte e-mail afhandeling, datahandeling procedures, incident rapportage",
+            "examples": ["Ik heb een verdachte e-mail ontvangen", "Wat is ons beleid voor USB-sticks?", "Hoe versleutel ik een bestand?"]
+          },
+          "procedures": {
+            "title": "IT Procedures",
+            "description": "Aanvraagprocessen, goedkeuringsworkflows, onboarding/offboarding, apparatuur aanvragen",
+            "examples": ["Hoe vraag ik een nieuwe laptop aan?", "Wat is het proces voor software goedkeuring?", "Hoe stel ik een nieuwe medewerker in?"]
+          }
+        }
+      },
+      "integrations": {
+        "title": "Werkt met je IT-infrastructuur",
+        "description": "De IT Agent verbindt met je bestaande IT-documentatie en servicemanagement:",
+        "items": {
+          "itsm": {
+            "name": "ITSM Platforms",
+            "description": "ServiceNow, Jira Service Management, Freshservice voor ticket deflection en escalatie"
+          },
+          "knowledge": {
+            "name": "Kennisbanken",
+            "description": "Verbind met bestaande IT wiki's, Confluence, of interne kennisrepositories"
+          },
+          "sharepoint": {
+            "name": "SharePoint",
+            "description": "Toegang tot IT-documentatie, procedures en beleidsdocumenten"
+          },
+          "teams": {
+            "name": "Microsoft Teams",
+            "description": "Bied IT-support direct binnen Teams chat"
+          },
+          "ad": {
+            "name": "Active Directory",
+            "description": "Refereer naar gebruikersaccountinformatie en toegangsbeleid (alleen lezen)"
+          },
+          "upload": {
+            "name": "Directe Upload",
+            "description": "Upload IT-procedures en handleidingen direct voor onmiddellijk gebruik"
+          }
+        },
+        "documentSources": {
+          "title": "Ondersteunde documenttypes",
+          "items": ["IT-procedures", "Troubleshooting guides", "Gebruikershandleidingen", "Kennisbank artikelen", "Beleidsdocumenten"]
+        }
+      },
+      "safeguards": {
+        "title": "Veilig by design: Wat de IT Agent niet doet",
+        "description": "De IT Agent geeft informatie en begeleiding, maar behoudt belangrijke grenzen:",
+        "items": {
+          "noSystemChanges": {
+            "title": "Geen geautomatiseerde systeemwijzigingen",
+            "description": "De IT Agent geeft instructies en begeleiding, maar maakt geen directe wijzigingen aan systemen, accounts of configuraties. Alle wijzigingen vereisen menselijke actie via de juiste kanalen."
+          },
+          "escalation": {
+            "title": "Duidelijke escalatiepaden",
+            "description": "Wanneer een vraag menselijke expertise of systeemtoegang vereist, verwijst de IT Agent gebruikers naar het juiste supportkanaal of suggereert een ticket aan te maken."
+          },
+          "security": {
+            "title": "Security grenzen",
+            "description": "De IT Agent vraagt nooit om en slaat nooit wachtwoorden, credentials of andere gevoelige informatie op. Security procedures worden uitgelegd maar niet omzeild."
+          },
+          "auditTrail": {
+            "title": "Volledige audit trail",
+            "description": "Elke vraag en elk antwoord wordt gelogd. IT-managers kunnen reviewen welke informatie wordt gevraagd en documentatielacunes identificeren."
+          }
+        },
+        "disclaimer": "De IT Agent biedt self-service begeleiding op basis van je documentatie. Voor complexe issues, systeemwijzigingen of security-incidenten verwijst het gebruikers naar de juiste IT-supportkanalen."
+      },
+      "capabilitiesTitle": "Wat kan de IT Agent?",
+      "capabilitiesDescription": "Je 24/7 IT support assistent die nooit slaapt.",
+      "capabilities": {
+        "1": "Veelgestelde IT-vragen beantwoorden uit procedures en documentatie",
+        "2": "Stap-voor-stap troubleshooting begeleiding geven",
+        "3": "Gebruikers begeleiden door toegangsaanvragen en goedkeuringen",
+        "4": "IT-beleid en security-vereisten uitleggen",
+        "5": "Helpen met software-installatie en configuratie",
+        "6": "Institutionele kennis behouden wanneer personeel wisselt",
+        "7": "Vragen beantwoorden in alle EU-talen",
+        "8": "Volledige audit trail bijhouden voor elke query"
+      },
+      "ctaTitle": "Klaar om je IT-ticketvolume met 50-60% te verminderen?",
+      "ctaDescription": "Zie hoe de Volentis IT Agent je helpdesk operaties kan transformeren terwijl je team vrijkomt voor hoger-waardig werk.",
+      "ctaTimeline": "Live in 2-4 weken",
+      "ctaWhyVolentis": "Veilig by design: geeft alleen begeleiding, maakt nooit systeemwijzigingen. Duidelijke escalatie wanneer menselijke hulp nodig is."
+    },
+    "finance": {
+      "metaTitle": "Finance Agent - Volentis.ai | Inkoop & Finance Beleidsassistent",
+      "metaDescription": "Verminder procedurefouten met 60% met de Volentis Finance Agent. Duidelijke begeleiding bij inkoop, declaraties en finance beleid.",
+      "title": "Finance Agent",
+      "badge": "Voor Finance Teams",
+      "headline": "Inkoopbeleid dat iedereen echt begrijpt",
+      "subheadline": "De Volentis Finance Agent legt goedkeuringsworkflows, inkoopdrempels en declaratieprocedures uit, zodat iedereen het de eerste keer goed doet.",
+      "problemStatement": "30% van facturen wordt vertraagd door procedurefouten",
+      "painPoints": {
+        "1": "Complexe goedkeuringsmatrices die niemand volledig begrijpt",
+        "2": "Inconsistente beleidstoepassing tussen afdelingen",
+        "3": "Nieuwe medewerkers maken dure fouten"
+      },
+      "solutionTeaser": "De Volentis Finance Agent: Duidelijke begeleiding, minder fouten",
+      "metrics": {
+        "proceduralErrors": "minder procedurefouten",
+        "processingTime": "snellere factuurverwerking",
+        "complianceDeviations": "minder compliance-afwijkingen",
+        "firstTimeRight": "first-time approval rate"
+      },
+      "howItWorksDescription": "Stel finance en inkoop vragen in normale taal. Krijg duidelijke antwoorden met beleidsverwijzingen en goedkeuringsworkflows.",
+      "examples": {
+        "1": {
+          "question": "Wie moet een inkooporder van €50.000 goedkeuren?",
+          "answer": "Conform het Inkoopbeleid (FIN-POL-003) Goedkeuringsmatrix: €50.000 vereist: 1) Afdelingsmanager goedkeuring, 2) Finance Director goedkeuring, 3) CFO goedkeuring (voor bedragen >€25.000). Aanvullende vereisten: Minimaal 3 leveranciersoffertes vereist, Inkoopteam moet leveranciersgegevens valideren, Juridische review indien nieuwe leverancier of niet-standaard voorwaarden. Doorlooptijd: Reken op 5-7 werkdagen voor volledige goedkeuringscyclus."
+        },
+        "2": {
+          "question": "Hoe declareer ik reiskosten?",
+          "answer": "Uit het Declaratiebeleid (FIN-POL-007): Stap 1: Verzamel alle bonnen (vereist voor uitgaven >€25), Stap 2: Dien in via Declaratie Portal binnen 30 dagen na reis, Stap 3: Voeg toe: bonnen, reisautorisatieformulier, meeting agenda. Limieten: Hotel max €180/nacht (EU-hoofdsteden), €150/nacht (overig). Maaltijden: Max €75/dag inclusief fooi. Manager goedkeuring vereist voor indienen. Terugbetaling binnen 10 werkdagen na goedkeuring."
+        },
+        "3": {
+          "question": "Wat is ons beleid voor preferred suppliers?",
+          "answer": "Conform het Preferred Supplier Beleid (FIN-POL-012): Preferred suppliers moeten worden gebruikt voor: IT hardware (Dell, HP), Kantoorbenodigdheden (Staples), Reizen (Company Travel Agency), Cloud services (AWS, Azure - goedgekeurde lijst). Uitzonderingen vereisen: Schriftelijke rechtvaardiging, Kostenvergelijking met preferred supplier, Inkoop Manager goedkeuring, Juridische review voor contracten >€10.000. Uitzonderingsaanvraag formulier: Finance Portal > Inkoop > Uitzonderingsaanvraag."
+        },
+        "4": {
+          "question": "Wanneer is een aanbesteding verplicht?",
+          "answer": "Op basis van het Inkoopbeleid (FIN-POL-003) Aanbestedingsdrempels: >€10.000: Minimaal 3 offertes vereist, >€50.000: Formeel RFQ-proces, >€150.000: Volledige aanbesteding met evaluatiecommissie, >€215.000 (EU-drempel): Europese aanbesteding vereist. Categorie-uitzonderingen: Noodinkopen (gedocumenteerd), Sole source (technische rechtvaardiging vereist), Raamcontracten (vooraf aanbesteed). Alle aanbestedingen gedocumenteerd in Inkoop Register."
+        }
+      },
+      "targetAudience": {
+        "title": "Is de Finance Agent geschikt voor jou?",
+        "description": "De Finance Agent levert de meeste waarde voor organisaties die aan dit profiel voldoen:",
+        "items": {
+          "complexity": {
+            "label": "Goedkeuringscomplexiteit",
+            "value": "Meerdere niveaus goedkeuringsmatrices",
+            "description": "Verschillende drempels en goedkeurders voor diverse inkoopcategorieën"
+          },
+          "volume": {
+            "label": "Transactievolume",
+            "value": "Significante inkoop- en declaratieactiviteit",
+            "description": "Voldoende transacties waarbij procedurefouten betekenisvolle kosten creëren"
+          },
+          "documentation": {
+            "label": "Documentatie",
+            "value": "Finance beleid en procedures gedocumenteerd",
+            "description": "Bestaande beleidsdocumenten om nauwkeurige begeleiding te geven"
+          },
+          "challenge": {
+            "label": "Huidige uitdaging",
+            "value": "Afgewezen aanvragen en herwerk",
+            "description": "Tijd besteed aan afgewezen declaraties, verkeerde goedkeuringen, beleidsvragen"
+          }
+        },
+        "roles": {
+          "title": "Belangrijke stakeholders",
+          "items": ["CFO", "Inkoop Director", "Finance Controller", "Accounts Payable Manager"]
+        }
+      },
+      "categories": {
+        "title": "Waar de Finance Agent bij kan helpen",
+        "description": "De Finance Agent is getraind op je finance beleid en procedures. Dit zijn de typische use cases:",
+        "items": {
+          "procurement": {
+            "title": "Inkoop & Purchasing",
+            "description": "Inkooporders, leveranciersselectie, aanbestedingsvereisten, leveranciersbeheer, contractvoorwaarden",
+            "examples": ["Wie keurt een inkoop van €50.000 goed?", "Moet ik offertes opvragen hiervoor?", "Hoe voeg ik een nieuwe leverancier toe?"]
+          },
+          "expenses": {
+            "title": "Declaraties & Reizen",
+            "description": "Declaraties, reisbeleid, dagvergoedingen, bonnenvereisten, terugbetalingstermijnen",
+            "examples": ["Hoe declareer ik reiskosten?", "Wat is de hotellimiet voor Parijs?", "Heb ik een bon nodig voor lunch?"]
+          },
+          "approvals": {
+            "title": "Goedkeuringsworkflows",
+            "description": "Goedkeuringsmatrices, autorisatielimieten, delegatieregels, escalatieprocedures",
+            "examples": ["Wie moet dit goedkeuren?", "Kan mijn manager €30.000 goedkeuren?", "Wat is de goedkeuringstermijn?"]
+          },
+          "budgets": {
+            "title": "Budget & Kostenplaatsen",
+            "description": "Budgettoewijzing, kostenplaatscodes, budgetoverboekingen, variantie-uitleg",
+            "examples": ["Welke kostenplaats voor deze uitgave?", "Hoe vraag ik een budgetoverboeking aan?", "Wat is ons resterende budget?"]
+          },
+          "invoices": {
+            "title": "Factuurverwerking",
+            "description": "Factuurindiening, betalingsvoorwaarden, matching vereisten, betalingsstatus",
+            "examples": ["Hoe dien ik een factuur in?", "Wanneer wordt deze factuur betaald?", "Wat is ons betalingsvoorwaardenbeleid?"]
+          },
+          "policies": {
+            "title": "Finance Beleid",
+            "description": "Beleidsinterpretatie, compliance vereisten, uitzonderingsproces, auditvoorbereiding",
+            "examples": ["Wat is het beleid voor giften?", "Hoe vraag ik een uitzondering aan?", "Welke documentatie hebben auditors nodig?"]
+          }
+        }
+      },
+      "integrations": {
+        "title": "Werkt met je finance systemen",
+        "description": "De Finance Agent verbindt met je bestaande finance documentatie en processen:",
+        "items": {
+          "erp": {
+            "name": "ERP Systemen",
+            "description": "SAP, Oracle, Microsoft Dynamics voor beleidsreferentie en procesbegeleiding"
+          },
+          "expense": {
+            "name": "Expense Management",
+            "description": "Concur, Expensify, SAP Concur voor declaratiebeleids begeleiding en procesondersteuning"
+          },
+          "p2p": {
+            "name": "P2P Platforms",
+            "description": "Coupa, Ariba, Basware voor inkoopbeleidsbegeleiding en goedkeuringsworkflows"
+          },
+          "sharepoint": {
+            "name": "SharePoint",
+            "description": "Toegang tot finance beleid, proceduredocumenten en goedkeuringsmatrices"
+          },
+          "teams": {
+            "name": "Microsoft Teams",
+            "description": "Finance vragen beantwoorden direct binnen Teams chat"
+          },
+          "upload": {
+            "name": "Directe Upload",
+            "description": "Upload finance beleid en procedures voor direct gebruik"
+          }
+        },
+        "documentSources": {
+          "title": "Ondersteunde documenttypes",
+          "items": ["Finance beleid", "Goedkeuringsmatrices", "Declaratierichtlijnen", "Inkoopprocedures", "Budgettemplates"]
+        }
+      },
+      "safeguards": {
+        "title": "Duidelijke grenzen: Wat de Finance Agent niet doet",
+        "description": "De Finance Agent geeft begeleiding en beleidsinterpretatie, maar behoudt belangrijke grenzen:",
+        "items": {
+          "noApprovals": {
+            "title": "Geen financiële goedkeuringen",
+            "description": "De Finance Agent legt uit wie moet goedkeuren en hoe, maar keurt geen transacties goed en autoriseert geen uitgaven. Alle goedkeuringen gaan via de juiste kanalen."
+          },
+          "verification": {
+            "title": "Bedragen en limieten vereisen verificatie",
+            "description": "Beleidsdrempels en limieten worden ter begeleiding gegeven. Verifieer altijd actuele limieten in je finance systeem voordat je verplichtingen aangaat."
+          },
+          "policyChanges": {
+            "title": "Beleidsinterpretatie, geen advies",
+            "description": "De Finance Agent legt beleid uit zoals gedocumenteerd. Voor randgevallen, uitzonderingen of beleidsverduidelijkingen, raadpleeg je Finance team."
+          },
+          "auditTrail": {
+            "title": "Volledige audit trail",
+            "description": "Elke vraag en elk antwoord wordt gelogd. Finance teams kunnen reviewen welke begeleiding wordt gegeven en beleidsgaten of verwarrende punten identificeren."
+          }
+        },
+        "disclaimer": "De Finance Agent biedt begeleiding op basis van je gedocumenteerde beleid en procedures. Voor financiële beslissingen, uitzonderingen of verplichtingen, volg altijd de formele goedkeuringsprocessen van je organisatie."
+      },
+      "capabilitiesTitle": "Wat kan de Finance Agent?",
+      "capabilitiesDescription": "Je finance beleidsexpert die compliance vanaf dag één garandeert.",
+      "capabilities": {
+        "1": "Goedkeuringsworkflows en inkoopdrempels uitleggen",
+        "2": "Declaratie-indiening en terugbetalingsprocessen begeleiden",
+        "3": "Preferred supplier vereisten en uitzonderingen verduidelijken",
+        "4": "Aanbestedingsdrempel begeleiding per categorie geven",
+        "5": "Vragen over factuurverwerking en betaling beantwoorden",
+        "6": "Nieuwe medewerkers snel inwerken op finance procedures",
+        "7": "Vragen beantwoorden in alle EU-talen",
+        "8": "Volledige audit trail bijhouden voor elke query"
+      },
+      "ctaTitle": "Klaar om kostbare procedurefouten te elimineren?",
+      "ctaDescription": "Zie hoe de Volentis Finance Agent first-time-right rates kan verbeteren terwijl je finance team ontlast wordt.",
+      "ctaTimeline": "Live in 2-4 weken",
+      "ctaWhyVolentis": "Elke begeleidingsvraag wordt gelogd. Audit-ready trail van wat medewerkers is verteld en wanneer."
+    },
+    "international": {
+      "metaTitle": "Internationaal - Volentis.ai | Multi-Jurisdictionele Beleidsanalyse",
+      "metaDescription": "Eén AI voor al je Europese operaties. Cross-border beleidsvergelijking en harmonisatie voor multinationals.",
+      "title": "Internationaal",
+      "badge": "Voor Multinationals",
+      "headline": "Eén AI voor al je Europese operaties",
+      "subheadline": "Het Volentis platform biedt cross-border beleidsanalyse, jurisdictievergelijkingen en harmonisatie-ondersteuning in alle EU-talen.",
+      "problemStatement": "Multinationals beheren 15+ verschillende beleidssets per land",
+      "painPoints": {
+        "1": "Verschillend arbeidsrecht in elk land",
+        "2": "Onmogelijk om snel antwoorden te krijgen op cross-border vragen",
+        "3": "Hoge kosten voor lokale juridische expertise in elke jurisdictie"
+      },
+      "solutionTeaser": "Volentis: Eén platform voor alle EU-jurisdicties",
+      "metrics": {
+        "crossBorderSpeed": "snellere cross-border antwoorden",
+        "legalCosts": "lagere externe juridische kosten",
+        "harmonization": "snellere beleidsharmonisatie",
+        "localSupport": "lokale HR support beschikbaarheid"
+      },
+      "howItWorksDescription": "Stel vragen over beleid in meerdere EU-landen. Krijg vergelijkende analyse met jurisdictie-specifieke details.",
+      "examples": {
+        "1": {
+          "question": "Vergelijk het ontslagrecht in NL, DE en FR",
+          "answer": "Cross-jurisdictionele analyse uit je Arbeidsrecht Handboek: Nederland: 1-4 maanden opzegtermijn (dienstverband-afhankelijk), UWV/rechter goedkeuring vaak vereist, Transitievergoeding verplicht. Duitsland: 4 weken tot 7 maanden opzegtermijn (dienstverband-afhankelijk), OR consultatie vereist, Sociale selectiecriteria van toepassing. Frankrijk: 1-2 maanden opzegtermijn, Formeel ontslaggesprek vereist, Ontslagvergoeding: 1/4 maand per dienstjaar. Samenvatting: DE heeft strengste vereisten. Je beleid is afgestemd. Overweeg juridische review voor DE reorganisaties."
+        },
+        "2": {
+          "question": "Kan een medewerker in België werken vanuit Nederland?",
+          "answer": "Analyse op basis van je Cross-Border Werk Beleid en EU-regelgeving: Sociale zekerheid: Na 25% werk in NL, mogelijk NL sociale zekerheidsverplichting. Belasting: Inhouding kan vereist zijn in NL na 183 dagen. Arbeidsrecht: Belgische contractvoorwaarden blijven van toepassing. Je beleid (CB-POL-001): Maximaal 10 dagen/maand cross-border remote werk zonder formeel proces. Voor langere arrangementen: HR + Legal goedkeuring vereist. Aanbeveling: Houd administratie van cross-border dagen bij voor compliance."
+        },
+        "3": {
+          "question": "Wat zijn de minimum vakantiedagen per EU-land?",
+          "answer": "Uit je EU Benefits Vergelijkingsgids: Wettelijk minimum: Alle EU: 20 dagen minimum (EU-Richtlijn). Je beleid per land: NL: 25 dagen, DE: 30 dagen (gangbare praktijk), FR: 25 dagen + RTT dagen, BE: 20 dagen + 10 feestdagen, ES: 22 werkdagen. Let op: Sommige landen tellen werkdagen, andere kalenderdagen. Je beleid overtreft wettelijke minima in alle locaties. Volledige vergelijkingstabel beschikbaar in het Benefits Matrix document."
+        },
+        "4": {
+          "question": "Hoe verschilt GDPR-implementatie per land?",
+          "answer": "Uit je Multi-Jurisdictie GDPR Gids: Belangrijke verschillen in je opererende landen: Duitsland: Strengere OR gegevenstoegangsvereisten, Länder-specifieke toezichthouders. Frankrijk: CNIL vereist Franstalige privacyverklaringen, Strengere cookie consent handhaving. Nederland: AP focust op grootschalige verwerking, Specifieke zorggegevensregels. Je huidige status: Compliant in alle jurisdicties. Laatste multi-country audit: Oktober 2025. Volgende review: Bij uitbreiding naar nieuwe landen."
+        }
+      },
+      "coverageNote": "Momenteel ondersteund: Nederland, Duitsland, Frankrijk, België, Spanje, Italië, Polen, Oostenrijk en uitbreidend.",
+      "targetAudience": {
+        "title": "Is de International capability geschikt voor jou?",
+        "description": "De International capability levert de meeste waarde voor organisaties die aan dit profiel voldoen:",
+        "items": {
+          "presence": {
+            "label": "Europese aanwezigheid",
+            "value": "Operaties in meerdere EU-landen",
+            "description": "Medewerkers en beleid in 3+ EU-jurisdicties"
+          },
+          "complexity": {
+            "label": "Beleidscomplexiteit",
+            "value": "Landspecifiek beleid dat vergelijking nodig heeft",
+            "description": "Verschillende HR, juridisch of compliance beleid per land"
+          },
+          "questions": {
+            "label": "Cross-border vragen",
+            "value": "Regelmatige multi-jurisdictie vragen",
+            "description": "Medewerkers of HR die antwoorden nodig hebben die landgrenzen overschrijden"
+          },
+          "challenge": {
+            "label": "Huidige uitdaging",
+            "value": "Trage antwoorden en externe juridische kosten",
+            "description": "Wachttijd op lokaal juridisch advies, hoge kosten voor multi-country vragen"
+          }
+        },
+        "roles": {
+          "title": "Belangrijke stakeholders",
+          "items": ["International HR Director", "Global Mobility Specialist", "Regional HR Business Partner", "European General Counsel"]
+        }
+      },
+      "categories": {
+        "title": "Waar de International capability bij kan helpen",
+        "description": "Het platform analyseert beleid over al je EU-jurisdicties. Dit zijn de typische use cases:",
+        "items": {
+          "employment": {
+            "title": "Arbeidsrechtvergelijking",
+            "description": "Ontslagregels, opzegtermijnen, OR vereisten, ontslagvergoedingsverplichtingen, arbeidscontracten",
+            "examples": ["Vergelijk ontslagrecht in NL vs DE", "Welke opzegtermijn geldt in Frankrijk?", "Hebben we OR goedkeuring nodig in Duitsland?"]
+          },
+          "benefits": {
+            "title": "Benefits & Verlofanalyse",
+            "description": "Vakantie-aanspraken, ouderschapsverlof, ziekteverlof, feestdagen, pensioenvereisten per land",
+            "examples": ["Wat zijn vakantiedagen per land?", "Vergelijk ouderschapsverlofbeleid", "Welke pensioenbijdragen zijn vereist in België?"]
+          },
+          "mobility": {
+            "title": "Global Mobility",
+            "description": "Cross-border remote werk, uitzendingsbeleid, sociale zekerheidsimplicaties, fiscale overwegingen",
+            "examples": ["Kan onze Belgische medewerker vanuit NL werken?", "Wat triggert sociale zekerheidswissel?", "Wat zijn de uitzendingsvereisten voor Duitsland?"]
+          },
+          "harmonization": {
+            "title": "Beleidsharmonisatie",
+            "description": "Verschillen identificeren, harmonisatiemogelijkheden, minimumstandaarden, best practices afstemming",
+            "examples": ["Waar verschillen onze beleidsregels?", "Wat is het minimum dat we kunnen bieden over EU?", "Hoe kunnen we declaratiebeleid harmoniseren?"]
+          },
+          "compliance": {
+            "title": "Lokale Compliance",
+            "description": "Landspecifieke regelgevingsvereisten, benodigde lokale aanpassingen, compliance tracking",
+            "examples": ["Welke lokale vereisten gelden in Spanje?", "Zijn we compliant in alle landen?", "Wat verandert bij uitbreiding naar Italië?"]
+          },
+          "language": {
+            "title": "Meertalige Ondersteuning",
+            "description": "Vragen en antwoorden in alle 24 EU-talen, lokale terminologie, cultureel gepaste antwoorden",
+            "examples": ["Antwoord in het Nederlands", "Antwort auf Deutsch", "Répondez en français"]
+          }
+        }
+      },
+      "integrations": {
+        "title": "Werkt over je Europese operaties",
+        "description": "De International capability verbindt met documentatie van al je EU-locaties:",
+        "items": {
+          "hris": {
+            "name": "Globale HRIS",
+            "description": "Workday, SAP SuccessFactors, Oracle HCM voor multi-country HR beleid"
+          },
+          "sharepoint": {
+            "name": "SharePoint",
+            "description": "Landspecifieke beleidsbibliotheken en regionale documentrepositories"
+          },
+          "legal": {
+            "name": "Juridische Documentsystemen",
+            "description": "Arbeidsrecht handboeken, country guides, juridische opinie's"
+          },
+          "teams": {
+            "name": "Microsoft Teams",
+            "description": "Cross-border samenwerking met lokale HR teams in hun taal"
+          },
+          "regulatory": {
+            "name": "Regelgevingsbronnen",
+            "description": "Refereer naar lokale arbeidsrecht databases en officiële guidance"
+          },
+          "upload": {
+            "name": "Directe Upload",
+            "description": "Upload landspecifiek beleid voor directe cross-border analyse"
+          }
+        },
+        "documentSources": {
+          "title": "Ondersteunde documenttypes",
+          "items": ["Land HR beleid", "Arbeidsrecht samenvattingen", "Benefits guides", "Mobility beleid", "Lokale compliance documenten"]
+        }
+      },
+      "safeguards": {
+        "title": "Belangrijke overwegingen: Lokale expertise blijft nodig",
+        "description": "De International capability biedt krachtige cross-border analyse, maar sommige situaties vereisen lokale expertise:",
+        "items": {
+          "localLaw": {
+            "title": "Lokaal recht is complex en veranderlijk",
+            "description": "Arbeidsrecht verschilt significant per land en verandert regelmatig. Voor specifieke zaken (vooral ontslagen, reorganisaties en geschillen) raadpleeg lokale juridische counsel."
+          },
+          "variations": {
+            "title": "Landspecifieke variaties",
+            "description": "Zelfs met hetzelfde beleid kan lokale implementatie verschillen door verplicht lokaal recht, OR-afspraken of culturele praktijken. Verifieer altijd met lokale HR."
+          },
+          "taxSocial": {
+            "title": "Belasting en sociale zekerheid vereisen specialisten",
+            "description": "Cross-border belasting- en sociale zekerheidsimplicaties zijn complex. Het platform geeft algemene begeleiding, maar schakel fiscale adviseurs in voor specifieke situaties."
+          },
+          "auditTrail": {
+            "title": "Volledige audit trail",
+            "description": "Elke cross-border query wordt gelogd met jurisdictiedetails. Aantonen welke analyse is uitgevoerd over welke landen."
+          }
+        },
+        "disclaimer": "De International capability biedt vergelijkende analyse en beleidsbegeleiding over EU-jurisdicties. Voor juridische beslissingen, individuele zaken en complexe cross-border situaties, raadpleeg gekwalificeerde lokale counsel."
+      },
+      "capabilitiesTitle": "Wat kan het International platform?",
+      "capabilitiesDescription": "Je cross-border intelligentie-assistent voor Europese operaties.",
+      "capabilities": {
+        "1": "Beleid en regelgeving vergelijken tussen EU-jurisdicties",
+        "2": "Verschillen en harmonisatiemogelijkheden identificeren",
+        "3": "Adviseren over lokale vereisten bij cross-border situaties",
+        "4": "Uitbreiding naar nieuwe EU-landen ondersteunen",
+        "5": "Antwoorden geven in alle 24 EU-talen",
+        "6": "Jurisdictie-specifieke compliance tracking bijhouden",
+        "7": "Lokale HR teams ondersteunen in hun eigen taal",
+        "8": "Volledige audit trail met jurisdictiecontext"
+      },
+      "ctaTitle": "Klaar om je Europese operaties te vereenvoudigen?",
+      "ctaDescription": "Zie hoe Volentis je kan helpen beleid te beheren over al je EU-locaties vanuit één platform, in elke taal.",
+      "ctaTimeline": "Live in 2-4 weken",
+      "ctaWhyVolentis": "Lokale expertise op schaal: 24 EU-talen, landspecifieke nuances, kwartaal regelgevingsupdates."
+    }
+  },
+  "legal": {
+    "privacy": {
+      "metaTitle": "Privacybeleid - Volentis.ai",
+      "metaDescription": "Leer hoe Volentis.ai je privacy beschermt en je persoonsgegevens verwerkt in overeenstemming met de AVG.",
+      "title": "Privacybeleid",
+      "lastUpdated": "Laatst bijgewerkt: januari 2026",
+      "sections": {
+        "intro": {
+          "title": "Inleiding",
+          "p1": "Volentis B.V. (\"Volentis\", \"wij\", \"ons\" of \"onze\") zet zich in voor de bescherming van je privacy. Dit Privacybeleid legt uit hoe wij je gegevens verzamelen, gebruiken, delen en beschermen wanneer je onze website bezoekt of onze diensten gebruikt.",
+          "p2": "Lees dit privacybeleid zorgvuldig door. Door onze diensten te gebruiken, stem je in met de praktijken beschreven in dit beleid."
+        },
+        "controller": {
+          "title": "Verwerkingsverantwoordelijke",
+          "description": "De verwerkingsverantwoordelijke voor je persoonsgegevens is:"
+        },
+        "dataCollected": {
+          "title": "Gegevens die wij verzamelen",
+          "description": "Wij verzamelen verschillende soorten gegevens afhankelijk van hoe je met ons interacteert:",
+          "website": {
+            "title": "Websitebezoekers",
+            "items": {
+              "1": "Contactgegevens die je verstrekt (naam, e-mail, bedrijf) bij het aanvragen van een demo of contact opnemen",
+              "2": "Technische informatie zoals IP-adres, browsertype en apparaatinformatie",
+              "3": "Gebruiksgegevens over hoe je met onze website omgaat"
+            }
+          },
+          "platform": {
+            "title": "Platformgebruikers",
+            "items": {
+              "1": "Accountinformatie (naam, e-mail, organisatie)",
+              "2": "Gebruiksgegevens en interactielogs voor auditdoeleinden",
+              "3": "Documenten die je uploadt naar je kennisbank (verwerkt als Verwerker)"
+            }
+          }
+        },
+        "legalBasis": {
+          "title": "Rechtsgrond voor verwerking",
+          "description": "Wij verwerken je persoonsgegevens op basis van de volgende rechtsgronden:",
+          "items": {
+            "contract": {
+              "title": "Overeenkomst",
+              "description": "Verwerking noodzakelijk voor de uitvoering van een overeenkomst met jou"
+            },
+            "consent": {
+              "title": "Toestemming",
+              "description": "Wanneer je ons expliciete toestemming hebt gegeven voor specifieke doeleinden"
+            },
+            "legitimate": {
+              "title": "Gerechtvaardigd belang",
+              "description": "Voor onze gerechtvaardigde zakelijke belangen, zoals het verbeteren van onze diensten"
+            }
+          }
+        },
+        "retention": {
+          "title": "Bewaartermijn",
+          "description": "Wij bewaren je persoonsgegevens alleen zolang als nodig:",
+          "items": {
+            "1": "Contactformulier inzendingen: 2 jaar of tot je om verwijdering vraagt",
+            "2": "Platformgebruikersgegevens: Duur van je contract plus 12 maanden",
+            "3": "Audit logs: Configureerbaar, standaard 12 maanden"
+          }
+        },
+        "sharing": {
+          "title": "Delen van gegevens",
+          "description": "Wij verkopen je persoonsgegevens niet. Wij kunnen gegevens delen met:",
+          "items": {
+            "1": "Dienstverleners die ons helpen onze bedrijfsvoering uit te voeren (onder strikte verwerkersovereenkomst)",
+            "2": "Wettelijke autoriteiten wanneer wettelijk vereist",
+            "3": "Opvolgers bij een fusie of overname"
+          }
+        },
+        "transfers": {
+          "title": "Internationale doorgifte",
+          "description": "Alle klantgegevens worden opgeslagen en verwerkt binnen de Europese Unie (Duitsland en Nederland). Wij geven geen persoonsgegevens door buiten de EU zonder expliciete toestemming en passende waarborgen."
+        },
+        "rights": {
+          "title": "Je rechten",
+          "description": "Op grond van de AVG heb je de volgende rechten:",
+          "items": {
+            "access": {
+              "title": "Recht op inzage",
+              "description": "Vraag een kopie van je persoonsgegevens op"
+            },
+            "rectification": {
+              "title": "Recht op rectificatie",
+              "description": "Vraag correctie van onjuiste gegevens"
+            },
+            "erasure": {
+              "title": "Recht op verwijdering",
+              "description": "Vraag om verwijdering van je gegevens"
+            },
+            "restriction": {
+              "title": "Recht op beperking",
+              "description": "Vraag om beperking van verwerking"
+            },
+            "portability": {
+              "title": "Recht op overdraagbaarheid",
+              "description": "Ontvang je gegevens in een gestructureerd formaat"
+            },
+            "objection": {
+              "title": "Recht op bezwaar",
+              "description": "Maak bezwaar tegen verwerking op basis van gerechtvaardigd belang"
+            }
+          },
+          "contact": "Om je rechten uit te oefenen, neem contact met ons op via info@volentis.ai"
+        },
+        "security": {
+          "title": "Beveiliging",
+          "description": "Wij implementeren passende technische en organisatorische maatregelen om je persoonsgegevens te beschermen, waaronder TLS 1.2+ encryptie tijdens verzending en AES-256 encryptie voor opgeslagen gegevens."
+        },
+        "contact": {
+          "title": "Neem contact op",
+          "description": "Als je vragen hebt over dit Privacybeleid of je rechten wilt uitoefenen, neem dan contact met ons op:"
+        },
+        "changes": {
+          "title": "Wijzigingen in dit beleid",
+          "description": "Wij kunnen dit Privacybeleid van tijd tot tijd bijwerken. Wij informeren je over materiële wijzigingen door het nieuwe beleid op deze pagina te plaatsen met een bijgewerkte datum."
+        }
+      }
+    },
+    "terms": {
+      "metaTitle": "Algemene Voorwaarden - Volentis.ai",
+      "metaDescription": "Lees de algemene voorwaarden voor het gebruik van Volentis.ai diensten.",
+      "title": "Algemene Voorwaarden",
+      "lastUpdated": "Laatst bijgewerkt: januari 2026",
+      "sections": {
+        "intro": {
+          "title": "Inleiding",
+          "description": "Deze Algemene Voorwaarden (\"Voorwaarden\") regelen je gebruik van het Volentis.ai platform en diensten geleverd door Volentis B.V. (\"Volentis\", \"wij\", \"ons\"). Door toegang te krijgen tot of gebruik te maken van onze diensten, ga je akkoord met deze Voorwaarden."
+        },
+        "definitions": {
+          "title": "Definities",
+          "items": {
+            "platform": {
+              "term": "Platform",
+              "definition": "Het Volentis.ai software-as-a-service platform en gerelateerde tools"
+            },
+            "services": {
+              "term": "Diensten",
+              "definition": "Alle diensten geleverd door Volentis, inclusief het Platform, support en professionele diensten"
+            },
+            "user": {
+              "term": "Gebruiker",
+              "definition": "Elke persoon die geautoriseerd is om toegang te krijgen tot het Platform onder het account van je organisatie"
+            },
+            "content": {
+              "term": "Klantinhoud",
+              "definition": "Alle documenten, gegevens en informatie geüpload naar of verwerkt door het Platform"
+            }
+          }
+        },
+        "acceptance": {
+          "title": "Aanvaarding van Voorwaarden",
+          "description": "Door toegang te krijgen tot of gebruik te maken van onze Diensten, verklaar je dat je de bevoegdheid hebt om je organisatie te binden aan deze Voorwaarden. Als je niet akkoord gaat met deze Voorwaarden, mag je onze Diensten niet gebruiken."
+        },
+        "services": {
+          "title": "Beschrijving van Diensten",
+          "description": "Volentis.ai biedt een AI-gestuurd enterprise assistentplatform dat organisaties helpt bij het beheren en ophalen van informatie uit hun interne kennisbanken.",
+          "disclaimer": "Het Platform biedt informatie en assistentie maar vervangt geen professioneel juridisch, HR of ander professioneel advies. Gebruikers dienen belangrijke informatie en beslissingen te verifiëren met gekwalificeerde professionals."
+        },
+        "obligations": {
+          "title": "Verplichtingen van de Gebruiker",
+          "description": "Je gaat ermee akkoord:",
+          "items": {
+            "1": "De Diensten alleen te gebruiken voor wettige doeleinden en in overeenstemming met deze Voorwaarden",
+            "2": "De vertrouwelijkheid van je accountgegevens te handhaven",
+            "3": "Ervoor te zorgen dat je gebruik van de Diensten voldoet aan toepasselijke wet- en regelgeving",
+            "4": "Niet te proberen het Platform te reverse-engineeren, kopiëren of misbruiken"
+          }
+        },
+        "ip": {
+          "title": "Intellectueel Eigendom",
+          "volentis": "Volentis behoudt alle rechten op het Platform, inclusief alle software, algoritmes en verbeteringen. Niets in deze Voorwaarden draagt eigendom van intellectueel eigendom van Volentis aan jou over.",
+          "customer": "Je behoudt alle rechten op je Klantinhoud. Door inhoud te uploaden, verleen je Volentis een beperkte licentie om deze te verwerken uitsluitend voor het leveren van de Diensten."
+        },
+        "dataProtection": {
+          "title": "Gegevensbescherming",
+          "description": "Wij verwerken persoonsgegevens in overeenstemming met de AVG en ons Privacybeleid. Voor klantgegevens:",
+          "items": {
+            "1": "Volentis handelt als Verwerker onder Artikel 28 AVG",
+            "2": "Een Verwerkersovereenkomst is beschikbaar bij alle enterprise contracten",
+            "3": "Klantgegevens worden uitsluitend opgeslagen in EU-datacenters"
+          }
+        },
+        "liability": {
+          "title": "Beperking van Aansprakelijkheid",
+          "description": "Voor zover wettelijk toegestaan, is Volentis niet aansprakelijk voor indirecte, incidentele, speciale, gevolgschade of punitieve schade voortvloeiend uit je gebruik van de Diensten.",
+          "exclusions": "Onze totale aansprakelijkheid voor claims voortvloeiend uit deze Voorwaarden zal niet hoger zijn dan de bedragen die je hebt betaald voor de Diensten in de 12 maanden voorafgaand aan de claim."
+        },
+        "termination": {
+          "title": "Beëindiging",
+          "description": "Elk van beide partijen kan deze Voorwaarden beëindigen na schriftelijke kennisgeving als de andere partij deze Voorwaarden wezenlijk schendt en niet binnen 30 dagen herstelt. Na beëindiging wordt je toegang tot het Platform ingetrokken en verwijderen wij je Klantinhoud binnen 90 dagen, tenzij wettelijk verplicht om deze te bewaren."
+        },
+        "law": {
+          "title": "Toepasselijk Recht",
+          "description": "Deze Voorwaarden worden beheerst door het Nederlands recht. Geschillen worden voorgelegd aan de exclusieve bevoegdheid van de rechtbanken van Amsterdam, Nederland."
+        },
+        "changes": {
+          "title": "Wijzigingen van Voorwaarden",
+          "description": "Wij kunnen deze Voorwaarden van tijd tot tijd bijwerken. Wij geven ten minste 30 dagen van tevoren kennisgeving van materiële wijzigingen. Voortgezet gebruik van de Diensten na het van kracht worden van wijzigingen betekent aanvaarding van de nieuwe Voorwaarden."
+        },
+        "contact": {
+          "title": "Contact",
+          "description": "Vragen over deze Voorwaarden kunnen worden gericht aan:"
+        }
+      }
+    },
+    "cookies": {
+      "metaTitle": "Cookiebeleid - Volentis.ai",
+      "metaDescription": "Leer over hoe Volentis.ai cookies en vergelijkbare technologieën gebruikt.",
+      "title": "Cookiebeleid",
+      "lastUpdated": "Laatst bijgewerkt: januari 2026",
+      "sections": {
+        "intro": {
+          "title": "Inleiding",
+          "description": "Dit Cookiebeleid legt uit hoe Volentis B.V. (\"Volentis\", \"wij\", \"ons\") cookies en vergelijkbare technologieën gebruikt wanneer je onze website bezoekt of ons platform gebruikt."
+        },
+        "whatAreCookies": {
+          "title": "Wat zijn cookies?",
+          "description": "Cookies zijn kleine tekstbestanden die op je apparaat worden geplaatst wanneer je een website bezoekt. Ze helpen de website je apparaat te herkennen en bepaalde informatie over je bezoek te onthouden."
+        },
+        "types": {
+          "title": "Soorten cookies die wij gebruiken",
+          "tableHeaders": {
+            "name": "Cookienaam",
+            "purpose": "Doel",
+            "duration": "Duur"
+          },
+          "durations": {
+            "session": "Sessie",
+            "year": "1 jaar",
+            "twoYears": "2 jaar"
+          },
+          "necessary": {
+            "title": "Strikt noodzakelijke cookies",
+            "description": "Deze cookies zijn essentieel voor het goed functioneren van de website. Ze kunnen niet worden uitgeschakeld.",
+            "cookies": {
+              "session": "Handhaaft je sessie tijdens het browsen",
+              "locale": "Onthoudt je taalvoorkeur"
+            }
+          },
+          "analytics": {
+            "title": "Analytische cookies",
+            "description": "Deze cookies helpen ons te begrijpen hoe bezoekers met onze website omgaan. Deze cookies worden alleen geplaatst na jouw toestemming.",
+            "cookies": {
+              "ga": "Google Analytics - onderscheidt unieke bezoekers",
+              "gaSession": "Google Analytics - behoudt sessie status"
+            },
+            "consentNote": "Deze cookies worden alleen geplaatst als je op 'Accepteren' klikt in de cookiebanner."
+          }
+        },
+        "managing": {
+          "title": "Cookies beheren",
+          "description": "Je kunt cookies beheren en controleren via je browserinstellingen. Let op dat het uitschakelen van bepaalde cookies de functionaliteit van onze website kan beïnvloeden.",
+          "browserSettings": "De meeste browsers staan je toe cookies te weigeren of je te waarschuwen wanneer cookies worden verzonden. Raadpleeg de helpdocumentatie van je browser voor instructies."
+        },
+        "thirdParty": {
+          "title": "Cookies van derden",
+          "description": "Wij minimaliseren het gebruik van cookies van derden. Wanneer wij diensten van derden gebruiken, zorgen wij ervoor dat zij voldoen aan de AVG en je privacyvoorkeuren respecteren."
+        },
+        "changes": {
+          "title": "Wijzigingen in dit beleid",
+          "description": "Wij kunnen dit Cookiebeleid van tijd tot tijd bijwerken. Wijzigingen worden op deze pagina geplaatst met een bijgewerkte datum."
+        },
+        "contact": {
+          "title": "Neem contact op",
+          "description": "Als je vragen hebt over ons gebruik van cookies, neem dan contact met ons op:"
+        }
+      }
+    }
+  },
+  "pricing": {
+    "metaTitle": "Prijzen - Volentis.ai | Enterprise AI Prijzen",
+    "metaDescription": "Flexibele prijzen op basis van jouw behoeften. Van SaaS multi-tenant tot single-tenant met BYOK. Neem contact op voor een offerte op maat.",
+    "headline": "Transparante prijzen voor enterprise AI",
+    "subheadline": "Prijzen afgestemd op je organisatiegrootte, documentvolume en deployment-eisen.",
+    "philosophy": {
+      "title": "Hoe onze prijzen werken",
+      "description": "Wij geloven in transparante, waarde-gebaseerde prijzen. Je investering hangt af van drie belangrijke factoren:",
+      "factors": {
+        "users": {
+          "title": "Aantal Gebruikers",
+          "description": "Prijs schaalt met actieve gebruikers op het platform"
+        },
+        "documents": {
+          "title": "Documentvolume",
+          "description": "Gebaseerd op de omvang van je kennisbank"
+        },
+        "deployment": {
+          "title": "Deployment Model",
+          "description": "Multi-tenant, single-tenant, of customer-managed"
+        }
+      }
+    },
+    "tiers": {
+      "title": "Kies je plan",
+      "subtitle": "Alle plannen inclusief EU data residency, GDPR compliance en volledige audit trails.",
+      "starter": {
+        "title": "Starter",
+        "description": "Perfect voor teams die beginnen met enterprise AI.",
+        "priceLabel": "Vanaf",
+        "price": "Neem contact op",
+        "features": {
+          "1": "Tot 500 gebruikers",
+          "2": "1 AI Agent (bijv. HR Agent)",
+          "3": "SharePoint integratie",
+          "4": "Standaard SSO (SAML 2.0)",
+          "5": "E-mail support"
+        },
+        "cta": "Aan de slag"
+      },
+      "professional": {
+        "title": "Professional",
+        "badge": "Meest Populair",
+        "description": "Voor organisaties die meerdere agents en uitgebreide functies nodig hebben.",
+        "priceLabel": "Vanaf",
+        "price": "Neem contact op",
+        "features": {
+          "1": "Tot 2.000 gebruikers",
+          "2": "Meerdere AI Agents",
+          "3": "Alle integraties inbegrepen",
+          "4": "Prioriteit support",
+          "5": "Dedicated success manager",
+          "6": "Custom workflows"
+        },
+        "cta": "Aan de slag"
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "description": "Volledige flexibiliteit voor grote organisaties met complexe eisen.",
+        "priceLabel": "Prijs op maat",
+        "price": "Laten we praten",
+        "features": {
+          "1": "Onbeperkt gebruikers",
+          "2": "Alle AI Agents",
+          "3": "Single-tenant of on-premise",
+          "4": "BYOK encryptie",
+          "5": "24/7 premium support",
+          "6": "Custom SLA"
+        },
+        "cta": "Neem Contact Op"
+      }
+    },
+    "included": {
+      "title": "Inbegrepen bij alle plannen",
+      "items": {
+        "implementation": {
+          "title": "Implementatie Support",
+          "description": "Begeleide onboarding, document ingestion en gebruikerstraining"
+        },
+        "support": {
+          "title": "Technische Support",
+          "description": "Toegang tot ons expert supportteam via e-mail en telefoon"
+        },
+        "updates": {
+          "title": "Platform Updates",
+          "description": "Automatische updates met nieuwe features en verbeteringen"
+        },
+        "compliance": {
+          "title": "Compliance Documentatie",
+          "description": "Verwerkersovereenkomst, security documentatie en audit support"
+        }
+      }
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "questions": {
+        "1": {
+          "question": "Hoe snel kunnen we starten?",
+          "answer": "Voor SaaS multi-tenant deployments kun je binnen 2-4 weken live zijn. Single-tenant deployments duren doorgaans 4-8 weken. We werken met jouw tijdlijn en vereisten."
+        },
+        "2": {
+          "question": "Kunnen we starten met één agent en later uitbreiden?",
+          "answer": "Absoluut. Veel klanten starten met de HR Agent en breiden uit naar Legal, Compliance of IT zodra ze waarde zien. Het platform is ontworpen om mee te schalen met je behoeften."
+        },
+        "3": {
+          "question": "Wat is inbegrepen bij implementatie?",
+          "answer": "Implementatie omvat tenant setup, SSO configuratie, documentbron connectie, initiële document ingestion, admin training en gebruikers onboarding support."
+        },
+        "4": {
+          "question": "Bieden jullie een pilot of proof of concept?",
+          "answer": "Ja, we bieden tijdgebonden pilots met een subset van je documenten en gebruikers. Dit laat je de oplossing valideren voordat je volledig committeert."
+        }
+      }
+    },
+    "cta": {
+      "title": "Klaar om je vereisten te bespreken?",
+      "description": "Ons team helpt je het juiste plan te vinden en beantwoordt alle vragen over prijzen, deployment of implementatie.",
+      "primary": "Boek een Demo",
+      "secondary": "Praat met een Expert"
+    }
+  },
+  "contact": {
+    "metaTitle": "Contact - Volentis.ai | Neem Contact Op",
+    "metaDescription": "Neem contact op met het Volentis.ai team. Stel vragen, vraag een offerte aan, of bespreek hoe ons enterprise AI platform jouw organisatie kan helpen.",
+    "headline": "Laten we praten",
+    "subheadline": "Heb je een vraag? Een offerte nodig? Wil je jouw specifieke situatie bespreken? Wij helpen je graag.",
+    "form": {
+      "title": "Stuur ons een bericht",
+      "fields": {
+        "firstName": {
+          "label": "Voornaam",
+          "placeholder": "Jan"
+        },
+        "lastName": {
+          "label": "Achternaam",
+          "placeholder": "Jansen"
+        },
+        "email": {
+          "label": "Werk e-mail",
+          "placeholder": "jan.jansen@bedrijf.nl"
+        },
+        "company": {
+          "label": "Bedrijf",
+          "placeholder": "Je bedrijfsnaam"
+        },
+        "jobTitle": {
+          "label": "Functietitel",
+          "placeholder": "HR Director"
+        },
+        "employees": {
+          "label": "Bedrijfsgrootte",
+          "placeholder": "Selecteer...",
+          "options": {
+            "1": "50-200 medewerkers",
+            "2": "200-500 medewerkers",
+            "3": "500-1.000 medewerkers",
+            "4": "1.000-5.000 medewerkers",
+            "5": "5.000+ medewerkers"
+          }
+        },
+        "interest": {
+          "label": "Primaire interesse",
+          "placeholder": "Selecteer...",
+          "options": {
+            "hr": "HR Agent",
+            "legal": "Legal Agent",
+            "compliance": "Compliance Agent",
+            "it": "IT Agent",
+            "finance": "Finance Agent",
+            "multiple": "Meerdere agents"
+          }
+        },
+        "message": {
+          "label": "Nog iets dat we moeten weten?",
+          "placeholder": "Vertel ons over je specifieke behoeften of vragen..."
+        }
+      },
+      "privacy": "Door dit formulier in te dienen ga je akkoord met ons Privacybeleid. We gebruiken je gegevens om op je verzoek te reageren en kunnen contact opnemen over Volentis.ai.",
+      "submit": "Verstuur Bericht",
+      "submitting": "Bezig met verzenden...",
+      "error": "Er ging iets mis. Probeer het opnieuw of mail ons direct op info@volentis.ai.",
+      "success": {
+        "title": "Bedankt!",
+        "message": "We hebben je aanvraag ontvangen en nemen binnen 1 werkdag contact met je op."
+      }
+    },
+    "talkToExpert": {
+      "title": "Praat met een expert",
+      "description": "Liever een gesprek? Boek een call met een van onze specialisten.",
+      "button": "Plan een Gesprek"
+    },
+    "whatToExpect": {
+      "title": "Hoe we kunnen helpen",
+      "steps": {
+        "1": {
+          "title": "Snelle reactie",
+          "description": "We reageren binnen 1 werkdag."
+        },
+        "2": {
+          "title": "Eerlijk gesprek",
+          "description": "We bespreken jouw situatie en beantwoorden je vragen. Geen scripts, geen druk."
+        },
+        "3": {
+          "title": "Duidelijke vervolgstappen",
+          "description": "Of het nu een demo is, documentatie, of gewoon meer info, we helpen je verder."
+        }
+      }
+    },
+    "directContact": {
+      "title": "Liever direct contact?",
+      "email": {
+        "label": "E-mail"
+      },
+      "phone": {
+        "label": "Telefoon"
+      },
+      "address": {
+        "label": "Adres",
+        "country": "Nederland"
+      }
+    },
+    "trust": {
+      "euHosted": "EU-Gehost",
+      "gdpr": "GDPR Compliant",
+      "euAiAct": "EU AI Act Ready"
+    }
+  },
+  "demo": {
+    "metaTitle": "Boek een Demo - Volentis.ai | Zie Enterprise AI in Actie",
+    "metaDescription": "Boek een demo van 30 minuten van Volentis.ai. Zie hoe onze AI agents je HR tickets met 50-70% kunnen verminderen. Geen verkooppraatje, gewoon een werksessie.",
+    "badge": "Boek Je Demo",
+    "headline": "Zie Volentis.ai in actie",
+    "subheadline": "30 minuten. Jouw vragen. Echte antwoorden. Geen verkooppraatje.",
+    "whatToExpect": {
+      "title": "Wat te verwachten",
+      "items": {
+        "duration": {
+          "icon": "clock",
+          "title": "30 minuten",
+          "description": "Gefocuste sessie, geen onzin"
+        },
+        "personalized": {
+          "icon": "user",
+          "title": "Jouw use case",
+          "description": "We bespreken jouw specifieke uitdagingen"
+        },
+        "live": {
+          "icon": "play",
+          "title": "Live demonstratie",
+          "description": "Zie de AI werken met echte documenten"
+        },
+        "questions": {
+          "icon": "chat",
+          "title": "Q&A inbegrepen",
+          "description": "Vraag alles: security, prijzen, integratie"
+        }
+      }
+    },
+    "booking": {
+      "title": "Kies een moment dat past",
+      "description": "Selecteer een slot en we sturen je een agenda-uitnodiging met een videocall link.",
+      "instructions": "Klik hieronder om onze boekingskalender te openen en kies een moment dat jou uitkomt.",
+      "button": "Open Boekingskalender",
+      "placeholder": "Boekingskalender laden...",
+      "fallback": {
+        "title": "Kalender niet zichtbaar?",
+        "description": "Mail ons direct en we vinden een moment:",
+        "email": "info@volentis.ai"
+      }
+    },
+    "socialProof": {
+      "title": "Sluit je aan bij leidende Europese ondernemingen",
+      "stats": {
+        "demos": "200+",
+        "demosLabel": "demo's gegeven",
+        "countries": "12",
+        "countriesLabel": "EU landen",
+        "satisfaction": "98%",
+        "satisfactionLabel": "zou aanbevelen"
+      }
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "items": {
+        "salesPitch": {
+          "question": "Is dit een verkooppraatje?",
+          "answer": "Nee. Het is een werksessie waarin we je het product laten zien en bespreken of het bij je past. Geen druk, geen follow-up calls tenzij je dat wilt."
+        },
+        "prepare": {
+          "question": "Hoe moet ik me voorbereiden?",
+          "answer": "Breng gewoon je vragen mee. Het helpt als je kunt delen welke uitdagingen je probeert op te lossen, maar het is niet verplicht."
+        },
+        "technical": {
+          "question": "Moet ik mijn IT-team meenemen?",
+          "answer": "Niet voor de eerste demo. We focussen eerst op de business waarde. We kunnen later een technische deep-dive plannen indien nodig."
+        },
+        "next": {
+          "question": "Wat gebeurt er na de demo?",
+          "answer": "Als er een match is, stellen we een pilot voor met je eigen documenten. Zo niet, geen probleem. We scheiden als vrienden."
+        }
+      }
+    },
+    "alternativeCta": {
+      "title": "Liever eerst verkennen?",
+      "description": "Probeer onze interactieve demo om te zien hoe de AI agents werken.",
+      "button": "Probeer de HR Agent"
+    }
+  },
+  "tryAgent": {
+    "metaTitle": "{agent} Demo - Volentis.ai | Probeer Het Zelf",
+    "metaDescription": "Ervaar de Volentis.ai {agent} in actie. Bekijk de video, probeer de interactieve demo en zie hoe het jouw {department} kan transformeren.",
+    "badge": "Interactieve Demo",
+    "headline": "Ervaar de {agent}",
+    "subheadline": "Bekijk hoe het werkt en probeer het zelf met voorbeelddata.",
+    "video": {
+      "title": "Zie het in actie",
+      "description": "Bekijk hoe de {agent} vragen beantwoordt met de eigen documenten van je bedrijf.",
+      "duration": "2:30",
+      "comingSoon": "Video binnenkort beschikbaar",
+      "comingSoonDescription": "We bereiden een walkthrough video voor. Probeer in de tussentijd de interactieve demo hieronder."
+    },
+    "interactiveDemo": {
+      "title": "Probeer het zelf",
+      "description": "Deze demo gebruikt voorbeeld {department} beleid. Stel vragen en zie hoe de AI reageert met bronvermeldingen.",
+      "disclaimer": "Dit is een demonstratie met voorbeelddata. Boek een demo om het te zien werken met jouw echte documenten.",
+      "suggestions": {
+        "title": "Probeer te vragen:",
+        "hr": [
+          "Hoeveel vakantiedagen heb ik?",
+          "Wat is het thuiswerkbeleid?",
+          "Hoe vraag ik ouderschapsverlof aan?",
+          "Wat is het proces voor onkostenvergoeding?"
+        ],
+        "legal": [
+          "Wat is onze standaard betalingstermijn?",
+          "Is er een aansprakelijkheidsbeperkingsclausule?",
+          "Wat is de opzegtermijn voor beëindiging?",
+          "Zijn er concurrentiebedingen?"
+        ],
+        "compliance": [
+          "Wat zijn onze GDPR-verplichtingen?",
+          "Hoe behandelen we data subject verzoeken?",
+          "Wat is het dataretentiebeleid?",
+          "Wie is onze Functionaris Gegevensbescherming?"
+        ],
+        "it": [
+          "Hoe reset ik mijn wachtwoord?",
+          "Wat is het VPN setup proces?",
+          "Hoe vraag ik nieuwe software aan?",
+          "Wat is het beleid voor persoonlijke apparaten?"
+        ],
+        "finance": [
+          "Wat is de goedkeuringslimiet voor uitgaven?",
+          "Hoe dien ik een factuur in?",
+          "Wat is het inkoopproces?",
+          "Wanneer is de budgetdeadline?"
+        ],
+        "international": [
+          "Wat is het ouderschapsverlofbeleid in Duitsland?",
+          "Hoe werken vakantiedagen in Frankrijk?",
+          "Wat zijn de opzegtermijnen in Nederland?",
+          "Wat is het minimumloon in Spanje?"
+        ]
+      }
+    },
+    "results": {
+      "title": "Wat ondernemingen bereiken",
+      "hr": {
+        "metric1": { "value": "50-70%", "label": "minder HR tickets" },
+        "metric2": { "value": "24/7", "label": "medewerker self-service" },
+        "metric3": { "value": "< 30 sec", "label": "gemiddelde reactietijd" }
+      },
+      "legal": {
+        "metric1": { "value": "70%", "label": "snellere contract review" },
+        "metric2": { "value": "100%", "label": "clausule dekking" },
+        "metric3": { "value": "< 10 sec", "label": "clausule opzoektijd" }
+      },
+      "compliance": {
+        "metric1": { "value": "Uren", "label": "tot audit-ready (niet dagen)" },
+        "metric2": { "value": "100%", "label": "audit trail dekking" },
+        "metric3": { "value": "Real-time", "label": "compliance monitoring" }
+      },
+      "it": {
+        "metric1": { "value": "50-60%", "label": "ticket deflectie" },
+        "metric2": { "value": "24/7", "label": "IT self-service" },
+        "metric3": { "value": "< 1 min", "label": "tot oplossing" }
+      },
+      "finance": {
+        "metric1": { "value": "60%", "label": "minder beleidsfouten" },
+        "metric2": { "value": "40%", "label": "snellere goedkeuringen" },
+        "metric3": { "value": "100%", "label": "beleidsnaleving" }
+      },
+      "international": {
+        "metric1": { "value": "27", "label": "EU landen ondersteund" },
+        "metric2": { "value": "24", "label": "talen" },
+        "metric3": { "value": "1", "label": "unified platform" }
+      }
+    },
+    "cta": {
+      "title": "Klaar om het te zien met jouw documenten?",
+      "description": "Deze demo gebruikt voorbeelddata. De echte magie gebeurt wanneer we jouw echte beleid en procedures koppelen.",
+      "primary": "Boek een Demo",
+      "secondary": "Praat met een Expert"
+    },
+    "otherAgents": {
+      "title": "Ontdek andere AI Agents",
+      "description": "Volentis.ai biedt gespecialiseerde agents voor elke afdeling."
+    }
+  },
+  "productPages": {
+    "features": {
+      "metaTitle": "Functionaliteit - Volentis.ai | Enterprise AI Platform Mogelijkheden",
+      "metaDescription": "Ontdek Volentis.ai functionaliteit: RAG-gebaseerde AI, bronvermelding, confidence scoring, meertalige ondersteuning, en complete audit trails.",
+      "badge": "Platform Functionaliteit",
+      "headline": "Enterprise AI-mogelijkheden gebouwd voor vertrouwen",
+      "subheadline": "Elke functie ontworpen met compliance, transparantie en nauwkeurigheid als kern.",
+      "coreCapabilities": {
+        "title": "Kernmogelijkheden",
+        "conversational": {
+          "title": "Conversationele AI",
+          "description": "Stel vragen zoals je ze aan een collega zou stellen. Geen training nodig, geen speciale syntax.",
+          "benefit": "Je medewerkers krijgen antwoord in seconden, niet in uren wachten op e-mail."
+        },
+        "rag": {
+          "title": "RAG-Architectuur",
+          "description": "Retrieval-Augmented Generation (RAG) zorgt dat antwoorden uitsluitend uit je goedgekeurde documenten komen.",
+          "benefit": "De AI verzint niets. Geen antwoord in je documenten? Dan krijg je eerlijk 'ik weet het niet' in plaats van een verzonnen reactie."
+        },
+        "sources": {
+          "title": "Bronvermelding",
+          "description": "Elk antwoord bevat exacte verwijzingen naar brondocumenten met klikbare links.",
+          "benefit": "Medewerkers kunnen elk antwoord zelf verifiëren. Managers kunnen de gedeelde informatie vertrouwen."
+        },
+        "confidence": {
+          "title": "Confidence Scoring",
+          "description": "Visuele indicatoren tonen betrouwbaarheid: groen voor hoog, geel voor medium, rood voor laag.",
+          "benefit": "Groen = ga je gang. Geel = even checken. Geen onzekerheid meer of je het antwoord kunt vertrouwen."
+        },
+        "multilanguage": {
+          "title": "Alle EU-Talen",
+          "description": "Volledige ondersteuning voor alle 24 EU-talen. Vraag in het Nederlands, krijg antwoord in het Nederlands, zelfs uit Engelse documenten.",
+          "benefit": "Internationale teams werken in hun voorkeurstaal. Geen vertaalvertragingen, geen misverstanden."
+        },
+        "audit": {
+          "title": "Complete Audit Trail",
+          "description": "Elke vraag, elk antwoord en elke bron wordt gelogd met timestamps en gebruikersinformatie.",
+          "benefit": "Als de auditor komt, ben je klaar. Exporteer alles met één klik voor compliance-reviews."
+        }
+      },
+      "beyondChat": {
+        "title": "Meer dan een chatbot: een decision support engine",
+        "description": "Volentis.ai gaat verder dan simpele Q&A. Het is ontworpen om complexe workflows en besluitvormingsprocessen te ondersteunen.",
+        "agenticWorkflows": {
+          "title": "Agentic Workflows",
+          "description": "Geautomatiseerde workflows met menselijke goedkeuringspoorten. Het systeem kan meerstaps-taken uitvoeren terwijl mensen controle houden over belangrijke beslissingen.",
+          "benefit": "Voorbeeld: Een medewerker vraagt 'Ik wil ouderschapsverlof aanvragen'. De AI begeleidt door het formulier, checkt voorwaarden en routeert de aanvraag naar de juiste manager, in één gesprek.",
+          "learnMore": "Wat zijn agentic workflows?"
+        },
+        "decisionSupport": {
+          "title": "Decision Support",
+          "description": "Krijg onderbouwde adviezen met bronvermelding voor betere besluitvorming. Het systeem presenteert relevante informatie uit meerdere documenten om je te helpen geïnformeerde keuzes te maken.",
+          "benefit": "Stop met zoeken in 5 verschillende PDF's. Vraag 'Wat zijn onze opties hier?' en krijg een gestructureerd overzicht met voors, tegens en beleidsverwijzingen."
+        },
+        "draftGeneration": {
+          "title": "Draft Generation",
+          "description": "Genereer concept-documenten zoals functiebeschrijvingen, beleidsamenvattingen en contractclausules, altijd met verplichte menselijke review voor gebruik.",
+          "benefit": "Eerste concept in 30 seconden in plaats van 30 minuten. Jij reviewt en verfijnt, de AI doet het zware werk."
+        }
+      },
+      "midPageCta": {
+        "title": "Wil je dit in actie zien?",
+        "description": "De meeste klanten starten met de HR Agent: de snelste route naar minder repetitieve vragen.",
+        "button": "Bekijk de HR Agent",
+        "secondary": "Of ontdek alle agents"
+      },
+      "documentPipeline": {
+        "title": "Intelligente Documentverwerking",
+        "description": "Je documenten doorlopen een geavanceerde pipeline voor nauwkeurige AI-retrieval.",
+        "steps": {
+          "extraction": {
+            "title": "Content Extractie",
+            "description": "Tekst wordt geëxtraheerd uit PDFs, Word-documenten, Excel-bestanden en PowerPoints met behoud van structuur."
+          },
+          "classification": {
+            "title": "Automatische Classificatie",
+            "description": "Machine learning categoriseert documenten op type, afdeling en onderwerp."
+          },
+          "metadata": {
+            "title": "Metadata Extractie",
+            "description": "Auteur, datum, versie en aangepaste eigenschappen worden automatisch vastgelegd."
+          },
+          "indexing": {
+            "title": "Semantische Indexering",
+            "description": "AI embeddings maken semantisch zoeken mogelijk. Vind op betekenis, niet alleen trefwoorden."
+          }
+        },
+        "readyLabel": "Klaar voor AI Retrieval"
+      },
+      "administration": {
+        "title": "Administratie & Governance",
+        "description": "Enterprise-grade beheertools voor volledige controle over je AI-platform.",
+        "features": {
+          "adminConsole": {
+            "title": "Multi-Tenant Admin Console",
+            "description": "Gecentraliseerd beheer voor user provisioning, roltoewijzingen en configuratie."
+          },
+          "rbac": {
+            "title": "Role-Based Access Control",
+            "description": "Granulaire permissies op workspace-, collectie-, document- en functieniveau."
+          },
+          "contentPolicies": {
+            "title": "Content Policies",
+            "description": "Configureer goedgekeurde onderwerpen, contentfiltering en response-richtlijnen."
+          },
+          "complianceDashboard": {
+            "title": "Compliance Dashboard",
+            "description": "Monitor dataverwerking, audit logs en retentiebeleidsstatus in real-time."
+          },
+          "userProvisioning": {
+            "title": "Geautomatiseerde User Provisioning",
+            "description": "SCIM 2.0 integratie voor automatische gebruikersaanmaak en -verwijdering vanuit je identity provider."
+          },
+          "retentionPolicies": {
+            "title": "Retentiebeleid",
+            "description": "Configureerbare dataretentieperiodes om aan je compliance-vereisten te voldoen (standaard: 12 maanden)."
+          }
+        }
+      },
+      "accessibility": {
+        "title": "Overal Toegankelijk",
+        "description": "Gebruik Volentis.ai op elk apparaat, met ingebouwde toegankelijkheidsfuncties.",
+        "mobile": {
+          "title": "Mobiel & Responsive",
+          "description": "Volledig responsive design geoptimaliseerd voor desktop, tablet en mobiel. Toegang tot je kennisbank vanaf elke locatie."
+        },
+        "crossDevice": {
+          "title": "Cross-Device Sync",
+          "description": "Begin een gesprek op je laptop, ga verder op je telefoon. Real-time synchronisatie over al je apparaten."
+        },
+        "keyboard": {
+          "title": "Toetsenbordnavigatie",
+          "description": "Volledige platformfunctionaliteit via sneltoetsen voor power users en toegankelijkheidsbehoeften."
+        },
+        "screenReader": {
+          "title": "Screenreader Ondersteuning",
+          "description": "ARIA labels en beschrijvingen door het hele platform voor compatibiliteit met hulptechnologieën."
+        },
+        "visual": {
+          "title": "Visuele Toegankelijkheid",
+          "description": "Hoog contrast modi, aanpasbare lettergroottes en motorische toegankelijkheidsopties beschikbaar."
+        }
+      },
+      "knowledgeManagement": {
+        "title": "Intelligent Kennisbeheer",
+        "description": "Je documenten worden automatisch verwerkt, geclassificeerd en geïndexeerd voor AI-retrieval.",
+        "features": {
+          "sharepoint": "SharePoint integratie met read-only toegang en OAuth 2.0 authenticatie",
+          "autoClassification": "Automatische documentclassificatie met machine learning",
+          "versionTracking": "Versiebeheer en verversingsschema's om kennis actueel te houden",
+          "semanticSearch": "Semantisch zoeken met AI embeddings. Vind op betekenis, niet alleen trefwoorden"
+        },
+        "formats": {
+          "title": "Ondersteunde Formaten",
+          "maxSize": "Max bestandsgrootte",
+          "perFile": "per bestand"
+        }
+      },
+      "collaboration": {
+        "title": "Samenwerkingsfuncties",
+        "description": "Werk samen aan complexe vragen en deel inzichten binnen je organisatie.",
+        "features": {
+          "workspaces": {
+            "title": "Team Workspaces",
+            "description": "Maak dedicated workspaces met role-based access control"
+          },
+          "sharing": {
+            "title": "Gesprekken Delen",
+            "description": "Deel threads met collega's, inclusief tijdgebonden externe toegang"
+          },
+          "annotations": {
+            "title": "Thread Annotaties",
+            "description": "Voeg commentaar en notities toe aan gedeelde gesprekken"
+          },
+          "export": {
+            "title": "Export Opties",
+            "description": "Exporteer naar PDF, Word of platte tekst formaten"
+          }
+        }
+      },
+      "perfectFit": {
+        "title": "Volentis.ai levert de meeste waarde wanneer...",
+        "items": {
+          "1": {
+            "title": "Je 200+ medewerkers hebt",
+            "description": "Hoe meer mensen vragen stellen, hoe groter de tijdsbesparing. Eén HR Agent kan het volume van 2-3 FTE's aan."
+          },
+          "2": {
+            "title": "Je beleid gedocumenteerd is",
+            "description": "Je hebt handboeken, procedures en beleid in digitale vorm (Word, PDF, SharePoint). Ook als ze verspreid zijn, wij verbinden ze."
+          },
+          "3": {
+            "title": "GDPR compliance belangrijk is",
+            "description": "Je hebt controle over je data nodig. EU hosting, audit trails, geen training op je data: dit zijn geen nice-to-haves voor jou."
+          },
+          "4": {
+            "title": "Je team verdrinkt in repetitieve vragen",
+            "description": "HR, IT, Finance of Legal besteedt uren aan dezelfde vragen beantwoorden. Je wilt dat ze focussen op strategisch werk."
+          }
+        },
+        "cta": "Klinkt dit als jouw situatie?"
+      },
+      "cta": {
+        "title": "Klaar om deze functies in actie te zien?",
+        "description": "Boek een demo en ervaar hoe Volentis.ai het kennisbeheer van je organisatie kan transformeren.",
+        "button": "Boek een Demo",
+        "secondaryButton": "Bekijk Integraties"
+      }
+    },
+    "integrations": {
+      "metaTitle": "Integraties - Volentis.ai | Verbind Je Enterprise Tools",
+      "metaDescription": "Volentis.ai integreert met SharePoint, Microsoft Teams, Slack, SAP, Workday en meer. Enterprise-grade SSO en API-toegang.",
+      "badge": "Integraties",
+      "headline": "Werkt met de tools die je al gebruikt",
+      "subheadline": "Geen verstoring van je bestaande workflows. Volentis.ai verbindt met je documentbronnen, HR-systemen en samenwerkingstools zodat medewerkers AI-antwoorden krijgen waar ze al werken.",
+      "whyIntegrations": {
+        "title": "Waarom integraties belangrijk zijn",
+        "description": "De meeste AI-projecten mislukken omdat ze medewerkers dwingen anders te werken. Met Volentis.ai:",
+        "benefits": {
+          "noMigration": {
+            "title": "Geen documentmigratie nodig",
+            "description": "Laat je documenten in SharePoint. Wij verbinden direct en blijven automatisch gesynchroniseerd."
+          },
+          "singleSignOn": {
+            "title": "Eén login voor alles",
+            "description": "Medewerkers gebruiken hun bestaande Microsoft of Google account. Geen nieuwe wachtwoorden om te onthouden."
+          },
+          "whereTheyWork": {
+            "title": "Antwoorden waar medewerkers al zijn",
+            "description": "Stel vragen direct in Teams of Slack. Geen nieuwe app nodig."
+          }
+        },
+        "notListed": {
+          "title": "Je systeem niet in de lijst?",
+          "description": "We integreren met elk API-enabled platform. Ons team heeft al tientallen enterprise systemen gekoppeld, van custom intranets tot legacy databases.",
+          "cta": "Bespreek jouw setup"
+        }
+      },
+      "documentSources": {
+        "title": "Verbind Je Documentbronnen",
+        "description": "Je bedrijfskennis blijft waar het is. Wij verbinden er veilig mee en houden het gesynchroniseerd.",
+        "sharepoint": {
+          "title": "SharePoint Online & Server",
+          "description": "Native integratie met Microsoft SharePoint voor naadloze documenttoegang.",
+          "timeline": "Setup: 1-2 dagen",
+          "features": {
+            "oauth": "Inloggen met bestaande Microsoft accounts, geen aparte credentials nodig",
+            "readOnly": "Read-only toegang: de AI kan nooit documenten wijzigen of verwijderen",
+            "sync": "Documenten blijven automatisch up-to-date, geen handmatig opnieuw uploaden"
+          },
+          "benefit": "Je team gebruikt al SharePoint? Perfect. We verbinden direct en respecteren je bestaande mapstructuur en permissies."
+        },
+        "upload": {
+          "title": "Direct Uploaden",
+          "description": "Voor documenten die niet in SharePoint staan: simpelweg slepen en neerzetten om ze aan je kennisbank toe te voegen.",
+          "features": {
+            "batch": "Upload honderden documenten tegelijk, niet meer één voor één",
+            "formats": "Alle gangbare formaten: PDF, Word, Excel, PowerPoint, TXT",
+            "size": "Bestanden tot 50MB, genoeg voor zelfs je langste beleidsdocumenten"
+          },
+          "benefit": "Documenten op netwerkschijven of lokale mappen? Upload ze direct. Mix en match bronnen naar behoefte."
+        }
+      },
+      "hrSystems": {
+        "title": "HR Systeem Integraties",
+        "description": "Verbind met je HR-systemen voor gepersonaliseerde antwoorden. Als een medewerker vraagt naar verlofbalans, weet de AI wie er vraagt.",
+        "benefit": "De AI geeft gepersonaliseerde antwoorden op basis van de rol, afdeling en contracttype van de medewerker zonder dat ze het elke keer hoeven te specificeren.",
+        "systems": {
+          "afas": "Nederlandse HR/Payroll",
+          "sap": "Enterprise HCM",
+          "dynamics": "Microsoft HR",
+          "workday": "Cloud HCM",
+          "personio": "Europese HR",
+          "outlook": "Agenda Integratie"
+        },
+        "comingSoon": "Integratie beschikbaar op aanvraag"
+      },
+      "identity": {
+        "title": "Single Sign-On & Gebruikersbeheer",
+        "description": "Medewerkers loggen één keer in met hun bestaande bedrijfsaccount. IT beheert gebruikers vanuit één centrale plek.",
+        "saml": {
+          "technical": "SAML 2.0",
+          "benefit": "Medewerkers loggen in met hun bestaande bedrijfsaccount, dezelfde als voor email"
+        },
+        "oidc": {
+          "technical": "OpenID Connect",
+          "benefit": "Moderne 'Login met Microsoft/Google' ervaring die medewerkers al kennen"
+        },
+        "scim": {
+          "technical": "SCIM 2.0",
+          "benefit": "Nieuwe medewerkers krijgen automatisch toegang. Vertrekkers verliezen direct toegang. Geen handmatig gebruikersbeheer."
+        },
+        "mfa": {
+          "technical": "MFA Support",
+          "benefit": "Gebruik je bestaande multi-factor authenticatie, geen extra app nodig"
+        }
+      },
+      "collaboration": {
+        "title": "Krijg Antwoorden Waar Je Al Werkt",
+        "description": "Niet wisselen van app. Stel je vragen direct in Teams of Slack.",
+        "teams": {
+          "title": "Microsoft Teams",
+          "description": "Stel vragen direct in Teams. Deel antwoorden met collega's. Krijg notificaties wanneer documenten worden bijgewerkt.",
+          "benefit": "Je team leeft in Teams? Dan de AI-assistent ook."
+        },
+        "slack": {
+          "title": "Slack",
+          "description": "Dezelfde naadloze ervaring in Slack. Stel vragen, deel threads, werk samen aan complexe queries.",
+          "benefit": "Slack-first bedrijf? We hebben je gedekt."
+        },
+        "email": {
+          "title": "Email & Agenda",
+          "description": "Plan kennissessies, deel gesprekken via email, integreer met je bestaande vergaderworkflows.",
+          "benefit": "Voor teams die de voorkeur geven aan email-gebaseerde workflows."
+        }
+      },
+      "api": {
+        "title": "Bouw Custom Integraties",
+        "description": "Moet je Volentis.ai verbinden met je custom systemen of workflows? Onze API maakt het eenvoudig.",
+        "useCases": "Veelvoorkomende use cases: Embed AI-antwoorden in je intranet, verbind met custom documentsystemen, automatiseer kennisworkflows.",
+        "features": {
+          "rest": "Volledige REST API. Integreer met elk systeem dat web requests kan maken",
+          "oauth": "Veilige authenticatie met industrie-standaard OAuth 2.0",
+          "webhooks": "Krijg notificaties wanneer documenten worden bijgewerkt of vragen worden gesteld",
+          "docs": "Complete documentatie en codevoorbeelden om snel te starten"
+        }
+      },
+      "cta": {
+        "title": "Custom integratie nodig?",
+        "description": "Ons team kan je helpen Volentis.ai te verbinden met je specifieke enterprise systemen. We hebben alles gezien en kunnen adviseren over de beste aanpak.",
+        "button": "Praat met Ons Team"
+      }
+    },
+    "deployment": {
+      "metaTitle": "Deployment Opties - Volentis.ai | SaaS, Single-Tenant, On-Premise",
+      "metaDescription": "Kies je deployment: Multi-tenant SaaS, Single-tenant met BYOK, of Customer-managed. Allemaal met EU data residency.",
+      "badge": "Deployment",
+      "headline": "Kies hoe je Volentis.ai wilt draaien",
+      "subheadline": "Of je volgende maand live wilt zijn of maximale controle over je infrastructuur nodig hebt, wij hebben een optie die past.",
+      "whyChoiceMatters": {
+        "title": "Waarom de keuze belangrijk is",
+        "description": "Je security-eisen, tijdlijn en budget bepalen de beste keuze. Zo besluit je:",
+        "quick": {
+          "title": "Snel live moeten zijn?",
+          "answer": "Kies SaaS Multi-Tenant. Je bent binnen 2-4 weken operationeel."
+        },
+        "control": {
+          "title": "Maximale controle nodig?",
+          "answer": "Kies Single-Tenant of Customer-Managed. Je eigen infrastructuur, jouw regels."
+        },
+        "compliance": {
+          "title": "Strikte compliance-eisen?",
+          "answer": "Alle opties houden je data in de EU. Single-Tenant en Customer-Managed bieden extra isolatie."
+        }
+      },
+      "comparisonTable": {
+        "title": "Snelle vergelijking",
+        "headers": {
+          "option": "Optie",
+          "timeline": "Tijdlijn",
+          "control": "Controle",
+          "bestFor": "Ideaal voor"
+        },
+        "rows": {
+          "multiTenant": {
+            "timeline": "2-4 weken",
+            "control": "Standaard",
+            "bestFor": "Snelle start, voorspelbare kosten"
+          },
+          "singleTenant": {
+            "timeline": "4-8 weken",
+            "control": "Hoog (BYOK)",
+            "bestFor": "Verhoogde security, certificeringen"
+          },
+          "customerManaged": {
+            "timeline": "N.o.t.k.",
+            "control": "Maximaal",
+            "bestFor": "Air-gapped, on-premise vereist"
+          }
+        },
+        "notSure": "Niet zeker? Ons team helpt je kiezen, vrijblijvend."
+      },
+      "options": {
+        "multiTenant": {
+          "title": "SaaS Multi-Tenant",
+          "description": "De snelste weg naar enterprise AI. Perfect voor organisaties die snel willen starten met volledige security.",
+          "badge": "Meest Populair",
+          "forYouIf": "Ideaal voor: Organisaties die snel willen starten zonder infrastructuur-overhead",
+          "features": {
+            "1": "Live in weken, niet maanden. Begin direct met waarde zien",
+            "2": "EU-datacenters in Duitsland & Nederland. Je data verlaat nooit Europa",
+            "3": "Je data is volledig gescheiden van andere klanten. Geen risico op datavermenging",
+            "4": "Automatische updates: altijd de nieuwste features en security patches",
+            "5": "Voorspelbare maandelijkse kosten, geen verrassende infrastructuurkosten"
+          },
+          "timeline": "Typische deployment: 2-4 weken",
+          "tradeoff": "Je deelt infrastructuur (niet data!) met andere klanten, wat de kosten lager houdt."
+        },
+        "singleTenant": {
+          "title": "Single-Tenant SaaS",
+          "description": "Je eigen dedicated infrastructuur, beheerd door ons. Voor organisaties die extra isolatie nodig hebben.",
+          "forYouIf": "Ideaal voor: Organisaties met verhoogde security-eisen of regelgevende verplichtingen",
+          "features": {
+            "1": "Je eigen dedicated servers, niet gedeeld met iemand anders",
+            "2": "Aparte database en opslag, volledige infrastructuurisolatie",
+            "3": "Bring Your Own Key (BYOK): versleutel je data met sleutels die alleen jij controleert",
+            "4": "Auditcertificeringen eenvoudiger: geïsoleerde infrastructuur vereenvoudigt compliance",
+            "5": "Custom configuratie. Pas instellingen aan naar jouw specifieke behoeften"
+          },
+          "timeline": "Typische deployment: 4-8 weken",
+          "tradeoff": "Hogere kosten dan multi-tenant, maar maximale isolatie zonder zelf infrastructuur te beheren."
+        },
+        "customerManaged": {
+          "title": "Customer-Managed",
+          "description": "Volledige controle: draai Volentis.ai in je eigen datacenter of private cloud.",
+          "badge": "Binnenkort",
+          "forYouIf": "Ideaal voor: Organisaties die alle software op eigen infrastructuur moeten draaien",
+          "features": {
+            "1": "Volledige controle. Draai het precies zoals je wilt",
+            "2": "Air-gapped optie: geen internetverbinding nodig voor extra-gevoelige omgevingen",
+            "3": "On-premise installatie: draait in je eigen datacenter",
+            "4": "Maximale data-soevereiniteit. Data raakt nooit externe infrastructuur"
+          },
+          "timeline": "Neem contact op voor tijdlijn",
+          "tradeoff": "Vereist eigen infrastructuur en technisch team voor onderhoud."
+        }
+      },
+      "dataResidency": {
+        "title": "Je Data Blijft in Europa. Gegarandeerd.",
+        "description": "Voor Europese bedrijven is data residency geen optie, het is verplicht. Alle Volentis.ai deployments houden je data exclusief binnen de EU.",
+        "whyItMatters": {
+          "title": "Waarom EU data residency belangrijk is",
+          "points": {
+            "1": "GDPR vereist het: Persoonsgegevens van EU-burgers moeten binnen EU-jurisdictie blijven",
+            "2": "Geen CLOUD Act risico: Amerikaanse bedrijven kunnen gedwongen worden data af te staan. Wij niet.",
+            "3": "Audit-eenvoud: Als toezichthouders vragen waar data is opgeslagen, is het antwoord simpel: Europa."
+          }
+        },
+        "germany": {
+          "title": "Duitsland",
+          "description": "Primair datacenter in Frankfurt. Duitse gegevensbeschermingswetgeving is een van de strengste ter wereld."
+        },
+        "netherlands": {
+          "title": "Nederland",
+          "description": "Secundair datacenter in Amsterdam. Automatische failover zorgt dat je AI beschikbaar blijft."
+        },
+        "guarantees": {
+          "title": "Onze Contractuele Garanties",
+          "1": "Alle data opgeslagen binnen EU-grenzen, contractueel gegarandeerd",
+          "2": "Geen transfers naar niet-EU landen zonder jouw expliciete configuratie",
+          "3": "Volledige GDPR compliance documentatie voor je auditors",
+          "4": "Standaard Verwerkersovereenkomst (DPA) inbegrepen"
+        }
+      },
+      "implementation": {
+        "title": "Van Contract naar Go-Live",
+        "description": "We hebben dit vaak gedaan. Dit is wat er gebeurt na ondertekening:",
+        "steps": {
+          "1": {
+            "title": "Discovery (Week 1)",
+            "description": "We brengen samen je vereisten in kaart. Welke documenten? Welke integraties? Wie heeft toegang nodig?",
+            "outcome": "Je krijgt: Een duidelijk implementatieplan met tijdlijn"
+          },
+          "2": {
+            "title": "Configuratie (Week 2)",
+            "description": "We richten je omgeving in, verbinden je identity provider en configureren permissies.",
+            "outcome": "Je krijgt: Een werkend platform klaar voor je documenten"
+          },
+          "3": {
+            "title": "Kennis Laden (Week 2-3)",
+            "description": "Je documenten worden geïngesteerd en geïndexeerd. We fine-tunen retrieval-kwaliteit met je team.",
+            "outcome": "Je krijgt: Een AI die je bedrijfsbeleid en procedures kent"
+          },
+          "4": {
+            "title": "Go Live (Week 3-4)",
+            "description": "Gebruikerstraining, pilot rollout met geselecteerde teams, daarna bedrijfsbrede deployment.",
+            "outcome": "Je krijgt: Medewerkers die direct antwoord krijgen op hun vragen"
+          }
+        }
+      },
+      "support": {
+        "title": "Doorlopende Support",
+        "description": "Je staat er niet alleen voor na go-live. Ons team blijft betrokken:",
+        "items": {
+          "1": "Dedicated success manager de eerste 90 dagen",
+          "2": "Regelmatige check-ins om AI-performance te optimaliseren",
+          "3": "Prioriteit support voor alle issues",
+          "4": "Kwartaal business reviews om impact te meten"
+        }
+      },
+      "cta": {
+        "title": "Welke deployment past bij jou?",
+        "description": "Niet zeker welke optie bij je organisatie past? Ons team kan je door de opties leiden en helpen beslissen.",
+        "button": "Bespreek Je Vereisten"
+      }
+    },
+    "security": {
+      "metaTitle": "Security & Compliance - Volentis.ai | GDPR & EU AI Act Ready",
+      "metaDescription": "Enterprise-grade security: GDPR compliant, EU AI Act ready, TLS/AES-256 encryptie, RBAC, en complete audit trails.",
+      "badge": "Security & Compliance",
+      "headline": "Enterprise security gebouwd voor Europese regelgeving",
+      "subheadline": "GDPR compliant, EU AI Act ready, met enterprise-grade security-architectuur van de grond af ontworpen.",
+      "badges": {
+        "euHosted": "EU-Gehost",
+        "gdpr": "GDPR Compliant",
+        "euAiAct": "EU AI Act Ready",
+        "encryption": "TLS & AES-256",
+        "noTraining": "Geen Training op Jouw Data"
+      },
+      "noTraining": {
+        "title": "Jouw data wordt nooit gebruikt voor training",
+        "description": "Dit is een fundamenteel principe van Volentis.ai: geen beleid, maar een architecturale garantie.",
+        "points": {
+          "1": "Klantinteracties zijn expliciet uitgesloten van alle modeltrainingsprocessen",
+          "2": "Jouw documenten en gesprekken blijven 100% vertrouwelijk",
+          "3": "Geen data wordt ooit gedeeld met derden voor trainingsdoeleinden",
+          "4": "Contractueel gegarandeerd in onze Verwerkersovereenkomst"
+        },
+        "highlight": "Jouw kennis blijft van jou. Punt."
+      },
+      "gdpr": {
+        "title": "GDPR Compliance",
+        "description": "Volentis.ai is ontworpen met privacy-by-design principes en opereert als Verwerker onder GDPR Artikel 28.",
+        "dataProcessor": {
+          "title": "Verwerker Rol",
+          "description": "Wij handelen als Verwerker voor klantcontent, met duidelijke verwerkingsgrenzen en verantwoordelijkheden."
+        },
+        "dpa": {
+          "title": "Verwerkersovereenkomst",
+          "description": "Uitgebreide verwerkersovereenkomst met EU Standard Contractual Clauses beschikbaar bij alle enterprise contracten."
+        },
+        "dataSubjectRights": {
+          "title": "Rechten Betrokkenen",
+          "description": "Volledige ondersteuning voor inzage, rectificatie, verwijdering en overdraagbaarheidsverzoeken."
+        },
+        "keyCommitments": {
+          "title": "Onze GDPR Toezeggingen",
+          "1": "Geen klantdata gebruikt voor modeltraining, ooit",
+          "2": "Alle data opgeslagen in EU-datacenters (Duitsland/Nederland)",
+          "3": "Geen datatransfers buiten EU zonder expliciete toestemming",
+          "4": "Complete ondersteuning rechten betrokkenen",
+          "5": "12 maanden standaard bewaring met configureerbaar beleid"
+        }
+      },
+      "euAiAct": {
+        "title": "EU AI Act Compliance",
+        "description": "Volentis.ai is ontworpen om te voldoen aan de EU AI Act als limited risk systeem onder Artikel 52.",
+        "transparency": {
+          "title": "Transparantie Vereisten",
+          "description": "Alle AI-gegenereerde content is duidelijk gelabeld met verplichte transparantie-indicatoren."
+        },
+        "disclosure": {
+          "title": "AI Disclosure",
+          "description": "Elk antwoord bevat duidelijke AI-interactie disclosure en bronvermelding."
+        },
+        "humanOversight": {
+          "title": "Menselijk Toezicht",
+          "description": "Geen autonome agent-acties zonder menselijke goedkeuring voor ingrijpende beslissingen."
+        },
+        "classification": {
+          "badge": "Limited Risk",
+          "title": "Artikel 52 Classificatie",
+          "description": "Volentis.ai is geclassificeerd als limited risk AI-systeem, met transparantie-eisen maar niet de uitgebreide vereisten van high-risk systemen.",
+          "article": "Artikel 52",
+          "articleDescription": "Vereist duidelijke disclosure van AI-interactie en bronvermelding"
+        }
+      },
+      "technical": {
+        "title": "Technische Security",
+        "encryption": {
+          "title": "Encryptie",
+          "description": "TLS 1.2+ voor data in transit, AES-256 voor data at rest. Alle communicatie en opslag volledig versleuteld.",
+          "benefit": "Dezelfde encryptiestandaarden als online bankieren. Je data is onleesbaar voor iedereen zonder autorisatie."
+        },
+        "authentication": {
+          "title": "Authenticatie",
+          "description": "Enterprise SSO via SAML 2.0 en OpenID Connect. Multi-factor authenticatie ondersteund.",
+          "benefit": "Medewerkers loggen in met hun bestaande bedrijfsgegevens. Geen nieuw wachtwoord om te onthouden of te beheren."
+        },
+        "rbac": {
+          "title": "Role-Based Access Control (RBAC)",
+          "description": "Granulaire permissies op workspace-, document- en functieniveau. Overerving op basis van afdeling en rol.",
+          "benefit": "Jij bepaalt precies wie wat ziet. Dat gevoelige salarisbeleid? Alleen HR. Die IT-procedure? Alleen IT. Automatisch afgedwongen."
+        },
+        "auditLogging": {
+          "title": "Audit Logging",
+          "description": "Complete logging van alle gebruikers- en beheerderacties. Exporteerbare audit trails voor compliance.",
+          "benefit": "Elke actie vastgelegd. Als er iets misgaat, kun je precies traceren wat er gebeurde, wanneer, en door wie."
+        },
+        "tenantIsolation": {
+          "title": "Tenant Isolatie",
+          "description": "Logische scheiding in multi-tenant, dedicated infrastructuur in single-tenant deployments.",
+          "benefit": "Je data is volledig gescheiden van andere klanten. Geen vermenging, geen lekken, geen toegang door anderen. Gegarandeerd."
+        },
+        "byok": {
+          "title": "BYOK (Bring Your Own Key)",
+          "description": "Bring Your Own Key encryptie beschikbaar voor single-tenant deployments.",
+          "benefit": "Maximale controle: jij beheert de encryptiesleutels. Zelfs Volentis kan zonder jouw sleutels niet bij je data."
+        }
+      },
+      "safeguards": {
+        "title": "Ingebouwde Safeguards",
+        "description": "Volentis.ai bevat belangrijke beperkingen by design om verantwoord enterprise AI-gebruik te garanderen.",
+        "items": {
+          "noAutomatedDecisions": {
+            "title": "Geen Geautomatiseerde HR-Beslissingen",
+            "description": "Het systeem geeft informatie en concepten; mensen nemen alle personeelsbeslissingen."
+          },
+          "specialCategoryData": {
+            "title": "Bijzondere Persoonsgegevens Bescherming",
+            "description": "Geen verwerking van gezondheidsgegevens of vakbondslidmaatschap zonder expliciete configuratie."
+          },
+          "humanInLoop": {
+            "title": "Human-in-the-Loop",
+            "description": "Geen autonome agent-acties zonder menselijke goedkeuring voor ingrijpende beslissingen."
+          },
+          "professionalAdvice": {
+            "title": "Professioneel Advies Disclaimer",
+            "description": "Geen vervanging voor professioneel juridisch, medisch of financieel advies."
+          }
+        }
+      },
+      "certifications": {
+        "title": "Certificeringen & Standaarden",
+        "description": "Onze toewijding aan industrie-erkende beveiligingsstandaarden.",
+        "iso27001": {
+          "title": "ISO 27001",
+          "status": "In Uitvoering",
+          "description": "We werken actief aan ISO 27001 certificering om onze toewijding aan informatiebeveiliging te demonstreren."
+        },
+        "gdprArticle28": {
+          "title": "GDPR Artikel 28",
+          "status": "Compliant",
+          "description": "Opereren als gecertificeerde Verwerker met uitgebreide Verwerkersovereenkomsten."
+        },
+        "euAiActArticle52": {
+          "title": "EU AI Act Artikel 52",
+          "status": "Compliant",
+          "description": "Geclassificeerd als limited risk systeem met volledige transparantievereisten geïmplementeerd."
+        }
+      },
+      "sectorCompliance": {
+        "title": "Sectorspecifieke Compliance Ondersteuning",
+        "description": "Volentis.ai ondersteunt compliance-vereisten in gereguleerde industrieën.",
+        "sectors": {
+          "financial": {
+            "title": "Financiële Diensten",
+            "regulations": "MiFID II, GDPR Artikel 22 (geautomatiseerde besluitvorming)",
+            "description": "Speciale voorzieningen voor financiële diensten dataverwerking en geautomatiseerde besluitvormingsbeperkingen."
+          },
+          "healthcare": {
+            "title": "Gezondheidszorg",
+            "regulations": "GDPR bijzondere persoonsgegevens, medische vertrouwelijkheidsoverwegingen",
+            "description": "Verbeterde bescherming voor gezondheidsgerelateerde data met expliciete toestemmingsvereisten."
+          },
+          "government": {
+            "title": "Overheid & Publieke Sector",
+            "regulations": "Publieke sector compliance, transparantievereisten",
+            "description": "Ondersteuning voor overheidsspecifieke gegevensbescherming en transparantieverplichtingen."
+          },
+          "crossBorder": {
+            "title": "Cross-Border Operaties",
+            "regulations": "Multi-jurisdictionele GDPR, lokale implementaties",
+            "description": "Uitgebreide ondersteuning voor organisaties die opereren in meerdere EU-lidstaten."
+          }
+        }
+      },
+      "technicalSpecs": {
+        "title": "Technische Specificaties",
+        "description": "Gedetailleerde technische specificaties voor je security review. We spreken ook IT's taal.",
+        "items": {
+          "sessionManagement": {
+            "label": "Sessiebeheer",
+            "value": "JWT tokens (RS256 signing), 1-uur token verloop, 8-uur sessie timeout (configureerbaar)",
+            "plainEnglish": "Automatisch uitloggen na inactiviteit. Bescherming tegen opengelaten laptops"
+          },
+          "dataRetention": {
+            "label": "Dataretentie",
+            "value": "Configureerbaar retentiebeleid, standaard 12 maanden voor audit logs",
+            "plainEnglish": "Jij kiest hoe lang data bewaard wordt. Voldoe aan je branche-eisen, geen handmatig opruimen nodig"
+          },
+          "sharepointSync": {
+            "label": "SharePoint Synchronisatie",
+            "value": "4 uur voor metadata, 24 uur voor volledige content verversing",
+            "plainEnglish": "Document bijgewerkt in SharePoint? De AI weet het binnen uren, automatisch"
+          },
+          "encryptionStandards": {
+            "label": "Encryptiestandaarden",
+            "value": "TLS 1.2+ voor transit, AES-256 voor at-rest encryptie",
+            "plainEnglish": "Bankkluis-beveiliging voor al je data, of het nu verstuurd of opgeslagen wordt"
+          },
+          "apiSecurity": {
+            "label": "API Security",
+            "value": "REST API met OAuth 2.0, rate limiting, uitgebreide logging",
+            "plainEnglish": "Bouw custom integraties met veilige, goed gedocumenteerde API's"
+          }
+        },
+        "browserSupport": {
+          "title": "Browser Ondersteuning",
+          "description": "Ondersteunde browsers voor optimale platform ervaring:",
+          "browsers": {
+            "chrome": "Chrome 90+",
+            "firefox": "Firefox 88+",
+            "safari": "Safari 14+",
+            "edge": "Edge 90+"
+          },
+          "requirements": "Vereist JavaScript ingeschakeld, TLS 1.2+, cookies voor sessiebeheer"
+        }
+      },
+      "securityAssurance": {
+        "title": "Security garanties",
+        "pentest": {
+          "title": "Regelmatige Security Assessments",
+          "description": "Jaarlijkse penetratietests door onafhankelijke security-bedrijven. Kwartaalse vulnerability scans. Bevindingen worden opgelost volgens severity-based SLA's."
+        },
+        "contact": {
+          "title": "Security Contact",
+          "description": "Meld security kwetsbaarheden of vragen:",
+          "email": "security@volentis.ai"
+        }
+      },
+      "docRequest": {
+        "title": "Security documentatie nodig?",
+        "description": "DPO's en security teams kunnen ons volledige security documentatiepakket opvragen, inclusief DPA, technische specificaties en pentest samenvattingen.",
+        "button": "Vraag Security Docs Aan",
+        "includes": "Bevat: DPA, Security Whitepaper, Architectuur Overzicht, Pentest Samenvatting"
+      },
+      "cta": {
+        "title": "Klaar om je security-eisen te bespreken?",
+        "description": "Ons team kan gedetailleerde security documentatie verstrekken en je compliance vragen beantwoorden.",
+        "button": "Plan een Security Review"
+      }
+    }
+  },
+  "landingHR": {
+    "meta": {
+      "title": "HR Agent - Verminder HR Tickets met 50-70% | Volentis.ai",
+      "description": "Bevrijdt je HR-team van repetitieve vragen. De Volentis HR Agent beantwoordt medewerkersvragen 24/7 uit je eigen beleid. GDPR-compliant, geen hallucinaties."
+    },
+    "hero": {
+      "badge": "Voor HR-teams met 200+ medewerkers",
+      "headline": "Je HR-team verdrinkt in repetitieve vragen",
+      "subheadline": "Geef ze hun tijd terug met een AI-assistent die 50-70% van de tickets oplost. 24/7, uit je eigen beleid, GDPR-compliant.",
+      "cta": "Boek Je Demo",
+      "secondaryCta": "Bekijk Hoe Het Werkt",
+      "trustedBy": "Vertrouwd door HR-teams in heel Europa",
+      "watchVideo": "Bekijk 2-min demo"
+    },
+    "stats": {
+      "tickets": { "value": "50-70%", "label": "minder HR tickets" },
+      "availability": { "value": "24/7", "label": "medewerker self-service" },
+      "satisfaction": { "value": "+30%", "label": "medewerkerstevredenheid" },
+      "compliance": { "value": "100%", "label": "GDPR compliant" }
+    },
+    "problem": {
+      "title": "Herkenbaar?",
+      "subtitle": "Dit zijn de verborgen kosten van repetitieve HR-vragen",
+      "points": {
+        "1": {
+          "title": "Dezelfde vragen, elke dag",
+          "description": "\"Hoeveel vakantiedagen heb ik?\" \"Wat is het thuiswerkbeleid?\" Je team beantwoordt deze 10+ keer per dag."
+        },
+        "2": {
+          "title": "Medewerkers vinden geen antwoorden",
+          "description": "Je handboek bestaat, maar niemand leest het. Medewerkers mailen HR in plaats van te zoeken."
+        },
+        "3": {
+          "title": "Inconsistente antwoorden",
+          "description": "Verschillende HR-teamleden geven verschillende interpretaties. Dit creëert frustratie en compliance-risico."
+        },
+        "4": {
+          "title": "Geen tijd voor strategisch werk",
+          "description": "Je HR-professionals willen focussen op cultuur, ontwikkeling en retentie. Niet op het beantwoorden van dezelfde vragen."
+        }
+      },
+      "statistic": {
+        "value": "40%",
+        "label": "van de HR-tijd gaat naar routinevragen",
+        "source": "Branche-onderzoek"
+      }
+    },
+    "solution": {
+      "title": "Maak kennis met de HR Agent",
+      "subtitle": "Een always-on AI-assistent die HR-vragen beantwoordt direct uit je goedgekeurde documenten",
+      "description": "Medewerkers stellen vragen in natuurlijke taal. De HR Agent doorzoekt je CAO's, handboeken en beleid en antwoordt met geverifieerde antwoorden en bronvermeldingen.",
+      "capabilities": {
+        "1": {
+          "title": "Directe antwoorden",
+          "description": "Vragen over verlof, benefits, procedures: beantwoord in seconden, niet uren"
+        },
+        "2": {
+          "title": "Bronvermeldingen",
+          "description": "Elk antwoord bevat het exacte document en de paragraaf. Medewerkers kunnen zelf verifiëren."
+        },
+        "3": {
+          "title": "Geen hallucinaties",
+          "description": "Kan alleen antwoorden uit je goedgekeurde documenten. Als het iets niet weet, zegt het dat."
+        },
+        "4": {
+          "title": "Altijd beschikbaar",
+          "description": "24/7 toegang voor alle medewerkers. Nachtdienst? Remote? Geen probleem."
+        }
+      }
+    },
+    "demo": {
+      "title": "Zie het in actie",
+      "subtitle": "Echte vragen, echte antwoorden uit daadwerkelijk HR-beleid",
+      "disclaimer": "Deze demo gebruikt voorbeeld HR-beleid. Jouw versie gebruikt je eigen documenten."
+    },
+    "results": {
+      "title": "Wat HR-teams bereiken",
+      "subtitle": "Meetbare impact vanaf dag één",
+      "metrics": {
+        "1": {
+          "before": "100+",
+          "beforeLabel": "HR tickets per week",
+          "after": "30-50",
+          "afterLabel": "HR tickets per week",
+          "change": "50-70% reductie"
+        },
+        "2": {
+          "before": "24-48u",
+          "beforeLabel": "gemiddelde reactietijd",
+          "after": "<30 sec",
+          "afterLabel": "gemiddelde reactietijd",
+          "change": "Directe antwoorden"
+        },
+        "3": {
+          "before": "40%",
+          "beforeLabel": "tijd aan routinevragen",
+          "after": "10%",
+          "afterLabel": "tijd aan routinevragen",
+          "change": "Meer strategische focus"
+        }
+      },
+      "quote": {
+        "text": "We gingen van 120 HR-tickets per week naar 45. Mijn team heeft eindelijk tijd voor het werk dat er echt toe doet.",
+        "author": "HR Director",
+        "company": "Europese Enterprise (2.500 medewerkers)"
+      }
+    },
+    "topics": {
+      "title": "Waar medewerkers over kunnen vragen",
+      "subtitle": "De HR Agent dekt al je interne HR-kennis",
+      "categories": {
+        "leave": {
+          "title": "Verlof & Afwezigheid",
+          "examples": ["Hoeveel vakantiedagen heb ik?", "Hoe vraag ik ouderschapsverlof aan?", "Wat is het ziekteverlofbeleid?"]
+        },
+        "benefits": {
+          "title": "Benefits & Beloning",
+          "examples": ["Hoe werkt de pensioenregeling?", "Wanneer krijg ik mijn bonus?", "Wat is het declaratiebeleid?"]
+        },
+        "policies": {
+          "title": "Beleid & Procedures",
+          "examples": ["Wat is het thuiswerkbeleid?", "Hoe meld ik intimidatie?", "Wat is de dresscode?"]
+        },
+        "onboarding": {
+          "title": "Onboarding & Ontwikkeling",
+          "examples": ["Wat moet ik regelen in mijn eerste week?", "Hoe vraag ik training aan?", "Wat is het promotieproces?"]
+        }
+      }
+    },
+    "security": {
+      "title": "Gebouwd voor Europese enterprises",
+      "subtitle": "Security en compliance die je IT- en juridische teams zullen goedkeuren",
+      "points": {
+        "1": {
+          "title": "EU data residency",
+          "description": "Je data blijft in EU-datacenters (Duitsland & Nederland). Verlaat nooit Europa."
+        },
+        "2": {
+          "title": "Geen training op je data",
+          "description": "Je documenten worden nooit gebruikt om AI-modellen te trainen. Je data blijft van jou."
+        },
+        "3": {
+          "title": "GDPR compliant",
+          "description": "Data Processor onder Artikel 28. Volledige DPA met Standard Contractual Clauses."
+        },
+        "4": {
+          "title": "EU AI Act ready",
+          "description": "Geclassificeerd als limited risk systeem. Volledige transparantie en audit trails."
+        },
+        "5": {
+          "title": "Complete audit trail",
+          "description": "Elke vraag en elk antwoord wordt gelogd. Perfect voor compliance-audits."
+        },
+        "6": {
+          "title": "Enterprise SSO",
+          "description": "SAML 2.0, OpenID Connect, MFA. Integreert met je identity provider."
+        }
+      },
+      "badges": {
+        "gdpr": "GDPR Compliant",
+        "euAiAct": "EU AI Act Ready",
+        "euHosted": "EU Gehost",
+        "soc2": "SOC 2 Type II (in progress)"
+      }
+    },
+    "integration": {
+      "title": "Werkt met je bestaande systemen",
+      "subtitle": "Verbind je documentbronnen en HR-systemen",
+      "sources": {
+        "sharepoint": "SharePoint",
+        "teams": "Microsoft Teams",
+        "afas": "AFAS",
+        "sap": "SAP SuccessFactors",
+        "workday": "Workday",
+        "personio": "Personio"
+      },
+      "note": "Native integraties beschikbaar. Custom integraties via API."
+    },
+    "objections": {
+      "title": "Veelgestelde vragen",
+      "items": {
+        "1": {
+          "question": "Wat als de AI verkeerde informatie geeft?",
+          "answer": "De HR Agent kan alleen antwoorden uit je goedgekeurde documenten. Elk antwoord bevat bronvermeldingen zodat medewerkers kunnen verifiëren. Als informatie niet in je kennisbank staat, zegt het \"Ik weet het niet\" in plaats van te gokken."
+        },
+        "2": {
+          "question": "Hoe lang duurt de implementatie?",
+          "answer": "De meeste klanten zijn live binnen 2-4 weken. Wij handelen de documentverwerking en training af. Je team hoeft alleen toegang te geven tot je HR-documenten."
+        },
+        "3": {
+          "question": "Is onze medewerkersdata veilig?",
+          "answer": "Je data verlaat nooit EU-datacenters. We trainen geen AI-modellen op je data. Volledige GDPR-compliance met DPA inbegrepen. We kunnen security-documentatie verstrekken voor je IT-team."
+        },
+        "4": {
+          "question": "Vervangt dit ons HR-team?",
+          "answer": "Nee. De HR Agent handelt routinevragen af zodat je HR-professionals kunnen focussen op strategisch werk: cultuur, ontwikkeling, employee relations. Het is augmentatie, geen vervanging."
+        },
+        "5": {
+          "question": "Hoe zit het met complexe of gevoelige vragen?",
+          "answer": "Het systeem herkent wanneer vragen menselijke aandacht nodig hebben en routeert ze naar je HR-team. Het handelt de routine 50-70% af, je team handelt de rest."
+        }
+      }
+    },
+    "pricing": {
+      "title": "Transparante prijzen",
+      "subtitle": "Geen verborgen kosten. Geen kosten per vraag. Voorspelbare maandelijkse kosten.",
+      "note": "Prijzen gebaseerd op aantal medewerkers. Neem contact op voor een offerte op maat.",
+      "includes": {
+        "title": "Elk pakket bevat:",
+        "items": [
+          "Onbeperkte vragen",
+          "Alle HR-documenttypes",
+          "SharePoint-integratie",
+          "Teams bot",
+          "E-mail support",
+          "Security-documentatie"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Klaar om je HR-team te ontlasten?",
+      "subtitle": "Boek een demo van 30 minuten. We laten je precies zien hoe de HR Agent werkt met HR-beleid zoals het jouwe.",
+      "booking": {
+        "title": "Kies een moment dat past",
+        "subtitle": "Selecteer een slot en we sturen je een agenda-uitnodiging",
+        "loading": "Boekingskalender laden...",
+        "button": "Boek Je Demo",
+        "fallback": "Kalender niet zichtbaar? Mail ons op",
+        "trust": {
+          "free": "Gratis, vrijblijvend",
+          "duration": "30 minuten",
+          "noCommitment": "Geen verplichting"
+        }
+      },
+      "benefits": {
+        "1": "30 minuten gefocuste sessie",
+        "2": "Zie het met echt HR-beleid",
+        "3": "Krijg een ROI-schatting op maat",
+        "4": "Geen verplichting"
+      },
+      "trust": {
+        "noCreditCard": "Geen creditcard nodig",
+        "liveInWeeks": "Live in 2-4 weken",
+        "euHosted": "Alleen EU data"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Volentis B.V. Alle rechten voorbehouden.",
+      "links": {
+        "privacy": "Privacybeleid",
+        "terms": "Algemene Voorwaarden",
+        "security": "Security"
+      }
+    },
+    "calculator": {
+      "title": "Bereken je potentiële besparing",
+      "employees": {
+        "label": "Aantal medewerkers",
+        "placeholder": "bijv. 500"
+      },
+      "tickets": {
+        "label": "HR tickets per week (schatting)",
+        "placeholder": "bijv. 100"
+      },
+      "results": {
+        "title": "Je geschatte jaarlijkse besparing",
+        "ticketReduction": "tickets opgelost door AI per week",
+        "hoursSaved": "HR-uren bespaard per jaar",
+        "costSaved": "geschatte kostenbesparing per jaar"
+      },
+      "cta": "Krijg een gedetailleerde ROI-analyse",
+      "disclaimer": "Schattingen gebaseerd op 50-70% ticket deflection en €25 gemiddelde kosten per ticket. Werkelijke resultaten kunnen variëren."
+    }
+  }
+}

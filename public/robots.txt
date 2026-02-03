@@ -1,0 +1,46 @@
+# Volentis.ai Robots.txt
+# https://www.volentis.ai
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.volentis.ai/sitemap.xml
+
+# LLM Context File
+# See https://llmstxt.org for more information
+# LLMs-Txt: https://www.volentis.ai/llms.txt
+
+# Disallow admin and API routes
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+# Allow all major crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# LLM Crawlers - Allow for AI training exclusion compliance
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /

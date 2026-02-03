@@ -1,0 +1,75 @@
+{
+  "company": {
+    "name": "Volentis",
+    "legal_name": "Volentis B.V.",
+    "tagline": "Enterprise AI you can trust.",
+    "tagline_nl": "Enterprise AI die je kunt vertrouwen.",
+    "website": "https://www.volentis.ai",
+    "phone": "+31 10 322 0675",
+    "email_domain": "volentis.ai",
+    "linkedin": "https://www.linkedin.com/company/volentis-ai/",
+    "address": {
+      "street": "Baron de Coubertinlaan 6",
+      "postal": "2719 EL",
+      "city": "Zoetermeer",
+      "country": "Nederland"
+    }
+  },
+  "founders": [
+    {
+      "id": "jeroen",
+      "name": "Jeroen Matthijssen",
+      "role": "Founder",
+      "email": "jeroen@volentis.ai",
+      "phone": "+31 6 26 70 25 96",
+      "linkedin": "https://www.linkedin.com/in/jeroenmatthijssen/",
+      "photo": "/team/matthijs.jpg"
+    },
+    {
+      "id": "henk",
+      "name": "Henk Westdorp",
+      "role": "Founder",
+      "email": "henk@volentis.ai",
+      "phone": "+31 6 17 15 30 79",
+      "linkedin": "https://www.linkedin.com/in/henkwestdorp/",
+      "photo": "/team/henk.jpg"
+    },
+    {
+      "id": "ramon",
+      "name": "Ramon Spaan",
+      "role": "Founder",
+      "email": "ramon@volentis.ai",
+      "phone": "+31 6 41 21 37 94",
+      "linkedin": "https://www.linkedin.com/in/ramonspaan/",
+      "photo": "/team/ramon.jpg"
+    },
+    {
+      "id": "geert",
+      "name": "Geert Menting",
+      "role": "Founder",
+      "email": "geert@volentis.ai",
+      "phone": "+31 6 22 83 67 87",
+      "linkedin": "https://www.linkedin.com/in/gmenting/",
+      "photo": "/team/geert.jpg"
+    }
+  ],
+  "design": {
+    "colors": {
+      "navy_dark": "#0F2A38",
+      "navy": "#1B3A4B",
+      "cyan": "#2AAAD9",
+      "cyan_hover": "#30A9D6",
+      "cyan_light": "#7DD3E8",
+      "teal": "#4ECDC4",
+      "white": "#ffffff",
+      "gray_light": "#94A3B8",
+      "text_body": "#666666"
+    },
+    "photo_size": "90px",
+    "border_radius": "50%"
+  },
+  "_instructions": {
+    "nl": "Pas de gegevens hierboven aan en genereer de signatures opnieuw, of pas ze direct aan in de HTML bestanden.",
+    "phone_format": "Gebruik internationaal formaat: +31 6 12 34 56 78"
+  }
+}

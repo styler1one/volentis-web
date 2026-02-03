@@ -1,0 +1,66 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- Light gradient background - matching hero section -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#e8f4f8"/>
+    </linearGradient>
+    
+    <!-- Wave fill colors -->
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2AAAD9" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#7DD3E8" stop-opacity="0.05"/>
+    </linearGradient>
+    
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B3A4B" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#2AAAD9" stop-opacity="0.03"/>
+    </linearGradient>
+    
+    <!-- Blur filter -->
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+  
+  <!-- Soft glow orbs -->
+  <ellipse cx="300" cy="900" rx="400" ry="350" fill="#2AAAD9" fill-opacity="0.04" filter="url(#softBlur)"/>
+  <ellipse cx="1700" cy="100" rx="350" ry="300" fill="#7DD3E8" fill-opacity="0.05" filter="url(#softBlur)"/>
+  
+  <!-- Wave layer 1 - back -->
+  <path fill="url(#waveGrad1)" d="M0,400 C300,320 500,480 800,400 C1100,320 1300,440 1600,360 C1800,300 1880,360 1920,340 L1920,1080 L0,1080 Z"/>
+  
+  <!-- Wave layer 2 -->
+  <path fill="url(#waveGrad2)" d="M0,520 C250,460 450,580 750,500 C1050,420 1250,540 1550,460 C1750,400 1860,480 1920,440 L1920,1080 L0,1080 Z"/>
+  
+  <!-- Wave layer 3 -->
+  <path fill="url(#waveGrad1)" d="M0,640 C280,560 480,680 780,600 C1080,520 1280,640 1580,560 C1780,500 1870,580 1920,540 L1920,1080 L0,1080 Z"/>
+  
+  <!-- Wave layer 4 - front -->
+  <path fill="url(#waveGrad2)" d="M0,760 C320,680 520,800 820,720 C1120,640 1320,760 1620,680 C1800,620 1880,700 1920,660 L1920,1080 L0,1080 Z"/>
+  
+  <!-- Curved line accents -->
+  <path fill="none" stroke="#2AAAD9" stroke-width="2.5" stroke-opacity="0.12" d="M-50,450 C300,370 500,530 800,450 C1100,370 1300,490 1600,410 C1850,340 1950,420 2050,380"/>
+  <path fill="none" stroke="#2AAAD9" stroke-width="2" stroke-opacity="0.1" d="M-30,580 C280,520 480,640 780,560 C1080,480 1280,600 1580,520 C1830,450 1930,540 2030,500"/>
+  
+  <!-- Volentis Logo - top right -->
+  <image x="1620" y="40" width="260" height="80" href="/volentis_logo.png" preserveAspectRatio="xMidYMid meet"/>
+  
+  <!-- EU Sovereign AI Badge - center -->
+  <g transform="translate(120, 420)">
+    <rect x="0" y="0" width="280" height="56" rx="28" fill="white" fill-opacity="0.9" stroke="#2AAAD9" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="28" y="37" font-family="Arial, sans-serif" font-size="22">🇪🇺</text>
+    <text x="60" y="38" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#1B3A4B">Sovereign AI Platform</text>
+  </g>
+  
+  <!-- Main tagline -->
+  <text x="120" y="560" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#1B3A4B">Enterprise AI</text>
+  <text x="120" y="650" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#1B3A4B">you can trust.</text>
+  
+  <!-- Website -->
+  <text x="120" y="740" font-family="Arial, sans-serif" font-size="24" fill="#2AAAD9">volentis.ai</text>
+</svg>

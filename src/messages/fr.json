@@ -1,0 +1,3143 @@
+{
+  "metadata": {
+    "title": "Volentis.ai - L'IA européenne avec la confiance au cœur",
+    "description": "Une IA d'entreprise de confiance : pas d'hallucinations, pas de fuites de données, pas de risques de conformité. Le seul assistant IA conçu pour les entreprises européennes."
+  },
+  "cookieConsent": {
+    "message": "Nous utilisons des cookies pour améliorer votre expérience et analyser l'utilisation du site.",
+    "accept": "Accepter",
+    "necessary": "Nécessaires uniquement",
+    "learnMore": "En savoir plus"
+  },
+  "nav": {
+    "product": "Produit",
+    "useCases": "AI Agents",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "blog": "Blog",
+    "login": "Connexion",
+    "bookDemo": "Réserver une démo",
+    "features": "Fonctionnalités",
+    "integrations": "Intégrations",
+    "deployment": "Déploiement",
+    "security": "Sécurité",
+    "hr": "HR Agent",
+    "legal": "Legal Agent",
+    "compliance": "Compliance Agent",
+    "it": "IT Agent",
+    "finance": "Finance Agent",
+    "international": "International",
+    "language": "Langue"
+  },
+  "blog": {
+    "badge": "Insights & Articles",
+    "title": "Blog Volentis",
+    "description": "Perspectives, bonnes pratiques et actualités sur l'IA d'entreprise, la conformité et l'avenir du travail.",
+    "metaTitle": "Blog - Volentis.ai",
+    "metaDescription": "Découvrez des insights sur l'IA d'entreprise, la conformité EU AI Act, et comment l'IA transforme les équipes RH, juridiques et IT. Guides pratiques et thought leadership.",
+    "featured": "À la une",
+    "allPosts": "Tous les articles",
+    "relatedPosts": "Articles connexes",
+    "readMore": "Lire la suite",
+    "minRead": "min de lecture",
+    "emptyTitle": "Pas encore d'articles",
+    "emptyDescription": "Nous travaillons sur du contenu intéressant. Revenez bientôt!",
+    "backToBlog": "Retour au blog",
+    "shareArticle": "Partager cet article",
+    "tags": "Tags",
+    "publishedOn": "Publié le",
+    "by": "par",
+    "jumpTo": "Dans cet article",
+    "ctaBadge": "Mettez cela en pratique",
+    "ctaTitle": "Prêt à l'expérimenter?",
+    "ctaDescription": "Découvrez comment Volentis peut aider votre équipe avec des réponses IA fiables à partir de vos propres documents.",
+    "ctaButton": "Réserver une démo",
+    "ctaSecondary": "Voir les cas d'usage"
+  },
+  "featuredArticles": {
+    "badge": "De notre Blog",
+    "title": "Dernières Actualités",
+    "description": "Articles d'experts sur l'IA en entreprise, la conformité et comment rendre votre équipe plus productive.",
+    "readMore": "Lire la suite",
+    "viewAll": "Voir tous les articles"
+  },
+  "hero": {
+    "badge": "Plateforme IA Souveraine",
+    "headline": "Votre équipe est-elle submergée par les questions répétitives ?",
+    "subheadline": "Le Volentis HR Agent répond à 50-70% de vos tickets RH. 24h/24, depuis vos propres documents, 100% conforme.",
+    "description": "73% des employés utilisent déjà des outils IA, souvent sans que l'IT ou la Conformité le sache. Volentis.ai vous donne le contrôle : une plateforme pour des réponses fiables à partir de vos documents approuvés.",
+    "cta": "Voir le HR Agent",
+    "secondaryCta": "Voir tous les Agents",
+    "metrics": {
+      "tickets": "moins de tickets",
+      "availability": "disponibilité",
+      "compliant": "conforme RGPD"
+    },
+    "chatDemo": {
+      "status": "En ligne",
+      "welcome": "Conversation commencée",
+      "message1": {
+        "user": "Bonjour ! Je deviens père le mois prochain 🎉 À combien de congé parental ai-je droit ?",
+        "ai": "Félicitations ! En tant que père, vous avez droit à 6 semaines de congé parental payé (70% du salaire). Vous pouvez le prendre dans les 6 premiers mois après la naissance. Vous pouvez également le fractionner.",
+        "source": "Manuel de l'employé v3.1, Chapitre 5.2"
+      },
+      "message2": {
+        "user": "Super ! Comment puis-je en faire la demande ?",
+        "ai": "Rendez-vous sur le portail RH → 'Demandes de congé' → 'Congé parental'. Entrez la date de naissance prévue et votre période de congé souhaitée. Votre manager sera notifié automatiquement. Conseil : faites la demande au moins 4 semaines à l'avance.",
+        "source": "Guide du portail RH, Section 3.4",
+        "action": "Ouvrir Demande de congé"
+      },
+      "message3": {
+        "user": "Parfait. Dois-je trouver moi-même un remplaçant ?",
+        "ai": "Non. Pour le congé parental, votre manager organise le remplacement. Cependant, il est utile de créer un document de passation pour vos projets en cours. Souhaitez-vous voir la checklist de passation ?",
+        "source": "Politique de congés 2024, Article 12",
+        "action": "Voir Checklist de passation"
+      },
+      "inputPlaceholder": "Posez votre question RH...",
+      "hint": "Réponses IA basées sur vos documents"
+    },
+    "scrollHint": "Défiler pour explorer"
+  },
+  "agents": {
+    "label": "AI Agents",
+    "sectionTitle": "Découvrez nos AI Agents",
+    "sectionSubtitle": "Des assistants IA spécialisés pour chaque département. Commencez par un, déployez-les tous.",
+    "popular": "Le plus populaire",
+    "learnMore": "En savoir plus",
+    "cards": {
+      "hr": {
+        "title": "HR Agent",
+        "metric": "50-70% moins de tickets",
+        "description": "Votre équipe RH retrouve du temps. Les employés obtiennent des réponses instantanées sur les congés, avantages et politiques sans attendre les e-mails.",
+        "benefit": "Arrêtez de répondre aux mêmes questions"
+      },
+      "legal": {
+        "title": "Legal Agent",
+        "metric": "70% plus rapide",
+        "description": "Trouvez la clause recherchée en secondes, pas en heures. Comparez les contrats instantanément et repérez les écarts par rapport à vos modèles.",
+        "benefit": "Ne manquez plus jamais une clause à risque"
+      },
+      "compliance": {
+        "title": "Compliance Agent",
+        "metric": "Prêt pour l'audit en heures",
+        "description": "Quand l'auditeur appelle, vous êtes prêt. Documentation complète pour la conformité RGPD et EU AI Act. Pas de panique, pas de stress.",
+        "benefit": "Dormez mieux avant les audits"
+      },
+      "it": {
+        "title": "IT Agent",
+        "metric": "50-60% moins de tickets",
+        "description": "Les employés résolvent eux-mêmes les problèmes IT courants. Votre équipe IT se concentre sur les vrais problèmes plutôt que les réinitialisations de mots de passe.",
+        "benefit": "Moins de tickets \"avez-vous essayé de redémarrer ?\""
+      },
+      "finance": {
+        "title": "Finance Agent",
+        "metric": "60% moins d'erreurs",
+        "description": "Plus de notes de frais rejetées. Les employés comprennent les politiques d'achat avant de soumettre, pas après le rejet.",
+        "benefit": "Arrêtez de courir après les factures incorrectes"
+      },
+      "international": {
+        "title": "International",
+        "metric": "15 jeux de politiques → 1",
+        "description": "Une réponse, tous les pays. Arrêtez de gérer des documents distincts pour chaque pays UE. Demandez une fois, obtenez la bonne réponse pour toute juridiction.",
+        "benefit": "Simplifiez la complexité transfrontalière"
+      }
+    }
+  },
+  "socialProof": {
+    "title": "Résultats prouvés par les entreprises européennes",
+    "subtitle": "Impact réel, résultats mesurables",
+    "metrics": {
+      "hrTickets": "réduction des tickets RH",
+      "contractReview": "révision de contrats plus rapide",
+      "availability": "disponibilité en self-service",
+      "compliance": "conforme RGPD"
+    },
+    "badges": {
+      "euHosted": "Hébergé en UE",
+      "gdpr": "Conforme RGPD",
+      "euAiAct": "EU AI Act Ready",
+      "security": "Sécurité Enterprise"
+    },
+    "trustedBy": "Ils nous font confiance",
+    "whyNotChatGPT": {
+      "title": "Pourquoi les entreprises choisissent Volentis plutôt que l'IA générique",
+      "points": {
+        "noTraining": "Vos données ne sont jamais utilisées pour l'entraînement, garanti contractuellement",
+        "euOnly": "100% résidence des données en UE, pas d'exposition au CLOUD Act américain",
+        "sourceCitations": "Chaque réponse inclut les citations sources. Vérifiez toute affirmation instantanément"
+      }
+    }
+  },
+  "platform": {
+    "label": "La Plateforme",
+    "title": "Pourquoi une plateforme pour tous les départements ?",
+    "description": "Volentis.ai est plus qu'un chatbot. C'est une plateforme IA d'entreprise souveraine européenne qui transforme vos connaissances internes en un moteur de décision fiable et auditable.",
+    "benefits": {
+      "knowledgeBase": {
+        "title": "Arrêtez de chercher dans 5 endroits différents",
+        "description": "Toutes les connaissances de votre entreprise (politiques RH, contrats, procédures, guides IT) accessibles depuis une seule interface. Les employés trouvent des réponses en secondes, pas en heures."
+      },
+      "auditTrail": {
+        "title": "Quand l'auditeur appelle, vous êtes prêt",
+        "description": "Chaque question posée, chaque réponse donnée : entièrement enregistrée et exportable. Un clic pour montrer exactement quelles informations ont été partagées et quand."
+      },
+      "compliance": {
+        "title": "Plus d'inquiétudes sur l'IA fantôme",
+        "description": "Des employés utilisent ChatGPT avec des données d'entreprise ? Plus maintenant. Volentis.ai leur offre une meilleure alternative qui garde vos données en sécurité dans l'UE."
+      }
+    },
+    "scaleMessage": "Commencez petit, grandissez vite. Déployez RH aujourd'hui, ajoutez Legal le mois prochain, étendez à toute l'entreprise quand vous êtes prêt.",
+    "diagram": {
+      "title": "Plateforme Volentis.ai",
+      "subtitle": "Comment ça marche",
+      "documents": "Vos Documents",
+      "engine": "Moteur IA",
+      "engineDesc": "Déployé en UE, pas d'entraînement sur vos données",
+      "agents": "Agents Spécialisés"
+    }
+  },
+  "features": {
+    "sectionTitle": "Qu'est-ce qui rend Volentis.ai unique ?",
+    "tryIt": "Essayez vous-même →",
+    "items": {
+      "documents": {
+        "title": "Pas d'hallucinations. Jamais.",
+        "description": "Contrairement à ChatGPT, Volentis.ai ne répond qu'à partir de vos documents approuvés. Si la réponse n'est pas dans votre base de connaissances, il dit 'Je ne sais pas'. Pas d'informations inventées qui pourraient vous causer des problèmes.",
+        "benefit": "Les employés peuvent faire confiance aux réponses. Les managers peuvent faire confiance aux employés qui l'utilisent."
+      },
+      "sources": {
+        "title": "Chaque réponse est vérifiable",
+        "description": "Chaque réponse inclut le document source exact et le numéro de page. Cliquez pour voir le texte original. Parfait pour vérifier ou montrer à votre manager d'où vient l'information.",
+        "benefit": "Plus de conversations 'où as-tu entendu ça ?'"
+      },
+      "search": {
+        "title": "Trouvez des réponses même sans connaître les bons mots",
+        "description": "Demandez 'Puis-je travailler de chez moi le vendredi ?' même si votre document de politique dit 'arrangements de travail à distance'. L'IA comprend ce que vous voulez dire, pas seulement ce que vous tapez.",
+        "benefit": "Plus besoin de fouiller des manuels de 200 pages pour trouver un paragraphe."
+      },
+      "collaboration": {
+        "title": "Partagez ce que vous apprenez",
+        "description": "Trouvé une réponse utile ? Partagez la conversation avec votre équipe. Travaillez sur une question complexe ? Collaborez avec vos collègues. Construisez des connaissances institutionnelles qui ne disparaissent pas quand les gens partent.",
+        "benefit": "Arrêtez de répondre à la même question pour différents membres de l'équipe."
+      }
+    }
+  },
+  "value": {
+    "sectionTitle": "La valeur de Volentis.ai",
+    "videoTitle": "Voir Volentis.ai en action",
+    "videoDescription": "Découvrez comment notre assistant IA transforme la façon dont les entreprises européennes gèrent leurs connaissances internes.",
+    "props": {
+      "reliable": {
+        "title": "Réponses Fiables",
+        "description": "Pas d'hallucinations. Uniquement des informations vérifiées de vos documents approuvés avec scoring de confiance."
+      },
+      "audit": {
+        "title": "Audit Trail Complet",
+        "description": "Chaque interaction est enregistrée. Traçabilité complète pour la conformité et l'assurance qualité."
+      },
+      "compliance": {
+        "title": "Conformité par Conception",
+        "description": "Conforme RGPD, prêt pour l'EU AI Act. Conçu de A à Z pour les entreprises européennes."
+      }
+    }
+  },
+  "deployment": {
+    "sectionTitle": "Options de déploiement adaptées à vos besoins",
+    "sectionSubtitle": "Choisissez le modèle de déploiement qui correspond à vos exigences de sécurité",
+    "options": {
+      "multiTenant": {
+        "title": "SaaS Multi-Tenant",
+        "description": "En production en 2-4 semaines, centres de données UE, nous gérons tout",
+        "features": [
+          "Opérationnel en quelques semaines",
+          "Données en Allemagne & Pays-Bas",
+          "Vos données séparées des autres clients",
+          "Toujours à jour, mises à jour automatiques",
+          "Coût mensuel prévisible"
+        ]
+      },
+      "singleTenant": {
+        "title": "Single-Tenant SaaS",
+        "description": "Vos propres serveurs, isolation maximale, vous détenez les clés de chiffrement",
+        "features": [
+          "Vos propres serveurs dédiés",
+          "Chiffrement avec des clés que vous seul contrôlez",
+          "Isolation complète de l'infrastructure",
+          "Options de configuration personnalisées",
+          "Certification de conformité facilitée"
+        ]
+      },
+      "customerManaged": {
+        "title": "Customer-Managed",
+        "description": "Exécutez-le vous-même, air-gapped si nécessaire, contrôle maximum",
+        "badge": "Bientôt disponible",
+        "features": [
+          "Fonctionne dans votre propre centre de données",
+          "Peut fonctionner sans internet",
+          "Souveraineté maximale des données",
+          "Vous contrôlez tout"
+        ]
+      }
+    }
+  },
+  "trust": {
+    "sectionTitle": "Sécurité d'entreprise de confiance",
+    "badges": {
+      "euHosted": "Hébergé en UE",
+      "gdpr": "Conforme RGPD",
+      "euAiAct": "Conforme EU AI Act",
+      "encryption": "TLS & AES-256"
+    },
+    "integrations": {
+      "title": "S'intègre à vos outils existants",
+      "description": "Connectez Volentis.ai à vos systèmes RH, sources documentaires et outils de collaboration"
+    }
+  },
+  "cta": {
+    "title": "Prêt à éliminer les risques de l'IA fantôme ?",
+    "description": "Réservez une démo et voyez comment le Volentis HR Agent peut réduire vos tickets de 50-70% tout en restant 100% conforme.",
+    "button": "Réserver une démo",
+    "secondaryButton": "Parler à un expert",
+    "trust1": "Pas de carte de crédit requise",
+    "trust2": "En production en quelques semaines",
+    "trust3": "Résidence des données en UE"
+  },
+  "footer": {
+    "tagline": "L'IA européenne avec la confiance au cœur",
+    "product": "Produit",
+    "company": "Entreprise",
+    "resources": "Ressources",
+    "hrGuide": "Guide IA en RH",
+    "euAiActGuide": "Guide EU AI Act",
+    "bookDemo": "Réserver une démo",
+    "legal": "Mentions légales",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales",
+    "cookies": "Politique des cookies",
+    "copyright": "© 2026 Volentis B.V. Tous droits réservés.",
+    "country": "Pays-Bas"
+  },
+  "useCases": {
+    "common": {
+      "bookDemo": "Réserver une démo",
+      "seeHowItWorks": "Voir comment ça marche",
+      "contactSales": "Parler à un expert",
+      "theProblem": "Le Problème",
+      "howItWorks": "Comment ça marche",
+      "employee": "Employé",
+      "highConfidence": "Confiance élevée",
+      "sourceVerified": "Source vérifiée",
+      "expectedResults": "Résultats attendus",
+      "whyTrust": "Pourquoi faire confiance à Volentis.ai ?",
+      "noHallucinations": "Pas d'hallucinations",
+      "noHallucinationsDesc": "Les réponses proviennent exclusivement de vos documents approuvés. Si l'information n'est pas disponible, le système vous le dit. Pas de devinettes, pas de fabrications.",
+      "sourceAttribution": "Citation des sources",
+      "sourceAttributionDesc": "Chaque réponse inclut des références exactes aux documents sources. Cliquez pour vérifier l'information vous-même.",
+      "compliance": "Conforme RGPD & EU AI Act",
+      "complianceDesc": "Conçu pour les entreprises européennes. Les données ne quittent jamais l'UE. Audit trail complet pour chaque interaction.",
+      "liveInWeeks": "En production en quelques semaines",
+      "euDataResidency": "Résidence des données en UE",
+      "noTrainingOnData": "Pas d'entraînement sur vos données",
+      "noCreditCard": "Pas de carte de crédit requise",
+      "trustedBy": "Approuvé par les entreprises européennes",
+      "whatHappensNext": "Que se passe-t-il après avoir réservé une démo ?",
+      "demoStep1": "Appel de 30 minutes pour comprendre vos besoins",
+      "demoStep2": "Démo en direct avec vos types de documents",
+      "demoStep3": "Proposition de pilote sous 48 heures",
+      "integrationNote": "Vous ne voyez pas votre système ? Nous nous intégrons à toute plateforme compatible API.",
+      "exploreOtherAgents": "Explorer les autres AI Agents",
+      "learnMore": "En savoir plus",
+      "agents": {
+        "hr": "HR Agent",
+        "legal": "Legal Agent",
+        "compliance": "Compliance Agent",
+        "it": "IT Agent",
+        "finance": "Finance Agent",
+        "international": "International"
+      },
+      "agentDescriptions": {
+        "hr": "Réponses 24h/24 aux questions sur les politiques RH. 50-70% de tickets en moins.",
+        "legal": "Analyse de contrats et recherche de clauses. Révision 70% plus rapide.",
+        "compliance": "Vérifications de conformité RGPD & EU AI Act. Prêt pour l'audit en heures.",
+        "it": "Dépannage IT en self-service. 50-60% de déflection de tickets.",
+        "finance": "Conseils sur les politiques d'achat et finance. 60% d'erreurs en moins.",
+        "international": "Analyse de politiques transfrontalières. Une plateforme pour toutes les juridictions UE."
+      }
+    },
+    "hr": {
+      "metaTitle": "HR Agent - Volentis.ai | Assistant RH 24h/24",
+      "metaDescription": "Réduisez les tickets RH de 50-70% avec le Volentis HR Agent. Réponses 24h/24 depuis vos manuels, conventions et politiques. Conforme RGPD.",
+      "title": "HR Agent",
+      "badge": "Le plus populaire",
+      "headline": "Libérez votre équipe RH des questions répétitives",
+      "subheadline": "Le Volentis HR Agent répond aux questions des employés 24h/24, directement depuis vos manuels, conventions collectives et politiques internes. Avec citations des sources et conformité totale.",
+      "problemStatement": "Les équipes RH passent 40% de leur temps à répondre aux questions de routine",
+      "painPoints": {
+        "1": "Les employés ne trouvent pas de réponses dans le manuel de 200+ pages",
+        "2": "Les mêmes questions reviennent sans cesse : congés, avantages, procédures",
+        "3": "Des réponses incohérentes mènent à l'insatisfaction et aux risques de conformité"
+      },
+      "solutionTeaser": "Le Volentis HR Agent : réponses 24h/24 avec citations des sources",
+      "metrics": {
+        "ticketReduction": "réduction des tickets RH",
+        "availability": "disponibilité en self-service",
+        "satisfaction": "satisfaction des employés",
+        "onboarding": "intégration plus rapide"
+      },
+      "howItWorksDescription": "Posez des questions en langage naturel. Obtenez des réponses depuis vos documents RH avec des références sources exactes.",
+      "examples": {
+        "1": {
+          "question": "Combien de jours de congés ai-je en tant qu'employé à temps partiel ?",
+          "answer": "Selon l'Article 7.2 de votre Contrat de travail et la Section 4.1 de la convention : Les employés à temps partiel reçoivent des jours de congés au prorata de leurs heures contractuelles. Avec un contrat de 0,8 ETP, vous avez droit à 20 jours de congés par an (25 jours × 0,8)."
+        },
+        "2": {
+          "question": "Comment puis-je demander un congé parental ?",
+          "answer": "Selon le Manuel de politique RH (Section 8.3) et la Loi sur le congé parental : Soumettez votre demande au moins 2 mois avant la date de début souhaitée via le portail RH. Incluez : date de début souhaitée, durée (jusqu'à 26 semaines) et proposition d'horaire de travail. Votre manager et les RH confirmeront sous 4 semaines."
+        },
+        "3": {
+          "question": "Quelle est notre politique de télétravail ?",
+          "answer": "Selon la Politique de télétravail (v2.3, en vigueur depuis janvier 2025) : Les employés peuvent travailler depuis chez eux jusqu'à 3 jours par semaine, sous réserve de l'approbation du manager. Les jours de présence obligatoire sont le mardi et le jeudi. Allocation équipement : 500€ unique pour l'installation du bureau à domicile. Détails complets dans le document Directives de télétravail."
+        },
+        "4": {
+          "question": "Quand est-ce que je reçois ma prime de fin d'année ?",
+          "answer": "Selon la Politique de rémunération (Section 5.2) et votre Contrat de travail : La prime annuelle est versée en janvier avec le salaire de décembre. L'éligibilité requiert un minimum de 6 mois d'emploi. Le calcul de la prime est basé sur la performance de l'entreprise (60%) et les objectifs individuels (40%)."
+        }
+      },
+      "targetAudience": {
+        "title": "Le HR Agent est-il fait pour vous ?",
+        "description": "Le HR Agent apporte le plus de valeur aux organisations qui correspondent à ce profil :",
+        "items": {
+          "size": {
+            "label": "Taille de l'organisation",
+            "value": "200+ employés",
+            "description": "Volume suffisant pour une réduction significative des tickets"
+          },
+          "structure": {
+            "label": "Structure",
+            "value": "Multi-sites ou multi-départements",
+            "description": "Réponses cohérentes sur tous les sites"
+          },
+          "documents": {
+            "label": "Documentation",
+            "value": "Manuels employés, conventions, politiques RH",
+            "description": "Base de connaissances existante"
+          },
+          "challenge": {
+            "label": "Défi actuel",
+            "value": "Volume élevé de questions RH répétitives",
+            "description": "Mêmes questions posées par différents employés"
+          }
+        },
+        "roles": {
+          "title": "Parties prenantes clés",
+          "items": ["DRH / Directeur RH", "Responsable RH", "HR Business Partner", "Service Desk RH"]
+        }
+      },
+      "categories": {
+        "title": "Sur quoi les employés peuvent poser des questions",
+        "description": "Le HR Agent est formé sur vos politiques et documents spécifiques. Voici les catégories typiques :",
+        "items": {
+          "policy": {
+            "title": "Politiques & Manuels",
+            "description": "Politiques de congés, conditions d'emploi, codes de conduite, horaires de travail, directives de télétravail",
+            "examples": ["Combien de jours maladie ai-je ?", "Quelle est la politique vestimentaire ?", "Puis-je prendre un congé sans solde ?"]
+          },
+          "onboarding": {
+            "title": "Intégration",
+            "description": "Checklists première semaine, informations spécifiques au poste, guides de configuration IT, introduction aux équipes et processus",
+            "examples": ["Que dois-je faire ma première semaine ?", "Qui est mon contact RH ?", "Où puis-je trouver l'organigramme ?"]
+          },
+          "benefits": {
+            "title": "Avantages & Rémunération",
+            "description": "Assurance maladie, plans de retraite, remboursement de frais, avantages flexibles, composantes salariales",
+            "examples": ["Comment m'inscrire au plan de retraite ?", "Qu'est-ce qui est couvert par notre assurance ?", "Comment soumettre mes frais ?"]
+          },
+          "performance": {
+            "title": "Gestion de la Performance",
+            "description": "Cycles d'évaluation, critères d'évaluation, programmes de développement, processus de promotion, procédures de feedback",
+            "examples": ["Quand est mon évaluation de performance ?", "Comment fonctionne le calcul des primes ?", "Quel est mon budget formation ?"]
+          },
+          "relations": {
+            "title": "Relations Employés",
+            "description": "Résolution de conflits, procédures de réclamation, processus disciplinaires, aménagements du lieu de travail",
+            "examples": ["Comment signaler un problème au travail ?", "Quelle est la procédure de réclamation ?", "Qui traite les plaintes de harcèlement ?"]
+          },
+          "recruitment": {
+            "title": "Support Recrutement",
+            "description": "Modèles de descriptions de poste, procédures d'entretien, directives d'égalité des chances, programmes de cooptation",
+            "examples": ["Quelle est notre prime de cooptation ?", "Comment demander une nouvelle embauche ?", "Quel est le processus d'entretien ?"]
+          },
+          "compensation": {
+            "title": "Salaire & Classification",
+            "description": "Grilles salariales, classification des postes, équité salariale, règles des heures supplémentaires, réglementations salariales par juridiction",
+            "examples": ["Quelle est la grille salariale de mon poste ?", "Comment sont calculées les heures supplémentaires ?", "Quand les salaires sont-ils révisés ?"]
+          },
+          "dataProtection": {
+            "title": "Protection des Données",
+            "description": "Droits RGPD pour les employés, traitement des données personnelles, demandes d'accès, politiques de confidentialité",
+            "examples": ["Quelles données personnelles les RH stockent-elles sur moi ?", "Comment demander mon dossier employé ?", "Qui peut accéder à mes données ?"]
+          }
+        }
+      },
+      "integrations": {
+        "title": "Fonctionne avec vos systèmes RH",
+        "description": "Le HR Agent se connecte à votre infrastructure RH existante pour des réponses personnalisées et précises :",
+        "items": {
+          "afas": {
+            "name": "AFAS",
+            "description": "RH & paie néerlandais : données employés, soldes de congés, contrats"
+          },
+          "successfactors": {
+            "name": "SAP SuccessFactors",
+            "description": "HCM Enterprise : performance, formation, employee central"
+          },
+          "workday": {
+            "name": "Workday",
+            "description": "HCM Cloud : RH, paie, gestion des talents"
+          },
+          "personio": {
+            "name": "Personio",
+            "description": "Logiciel RH européen : recrutement, gestion RH, paie"
+          },
+          "dynamics": {
+            "name": "Microsoft Dynamics 365",
+            "description": "Module RH : dossiers employés, avantages, conformité"
+          },
+          "outlook": {
+            "name": "Outlook Calendar",
+            "description": "Demandes de congés, disponibilités, planification de réunions"
+          }
+        },
+        "documentSources": {
+          "title": "Sources documentaires",
+          "items": ["Bibliothèques SharePoint", "Manuels employés (PDF, Word)", "Documents de convention collective", "Manuels de politiques", "Documentation des processus"]
+        }
+      },
+      "safeguards": {
+        "title": "IA Responsable : Ce que le HR Agent ne fait pas",
+        "description": "Le HR Agent est conçu avec des limites claires pour garantir une utilisation responsable dans votre organisation :",
+        "items": {
+          "noDecisions": {
+            "title": "Pas de décisions RH automatisées",
+            "description": "Le HR Agent fournit des informations et des recommandations, il ne prend jamais de décisions d'emploi. L'embauche, le licenciement, les promotions et les actions disciplinaires nécessitent toujours un jugement et une approbation humains."
+          },
+          "humanReview": {
+            "title": "Le contenu brouillon nécessite une révision",
+            "description": "Lorsque le HR Agent génère des brouillons de descriptions de poste, de résumés de politiques ou de communications, ceux-ci sont clairement marqués comme brouillons nécessitant une révision humaine avant utilisation."
+          },
+          "specialData": {
+            "title": "Protection des données de catégorie spéciale",
+            "description": "Les informations de santé, l'appartenance syndicale et autres données sensibles ne sont pas traitées par défaut. Tout traitement de ce type nécessite une configuration explicite et une base juridique appropriée."
+          },
+          "auditTrail": {
+            "title": "Audit trail complet",
+            "description": "Chaque question posée et réponse donnée est enregistrée. Vous pouvez toujours retracer quelles informations ont été fournies et vérifier les sources utilisées."
+          }
+        },
+        "disclaimer": "Le HR Agent ne remplace pas les conseils professionnels RH ou juridiques. Pour les questions d'emploi complexes, consultez toujours votre équipe RH ou votre conseiller juridique."
+      },
+      "capabilitiesTitle": "Que peut faire le HR Agent ?",
+      "capabilitiesDescription": "Votre assistant RH disponible 24h/24, qui connaît vos politiques sur le bout des doigts.",
+      "capabilities": {
+        "1": "Répondre aux questions sur les politiques depuis les manuels, conventions et directives internes",
+        "2": "Guider les employés dans les processus RH (demandes de congés, notes de frais, intégration)",
+        "3": "Expliquer les avantages et structures de rémunération",
+        "4": "Fournir des informations spécifiques au poste et au site",
+        "5": "Rédiger des descriptions de poste (révision humaine requise)",
+        "6": "Assister les demandes de gestion de performance",
+        "7": "Répondre aux questions dans toutes les langues de l'UE",
+        "8": "Maintenir un audit trail complet pour la conformité"
+      },
+      "ctaTitle": "Prêt à réduire vos tickets RH de 50-70% ?",
+      "ctaDescription": "Découvrez comment le Volentis HR Agent peut transformer votre service RH tout en restant 100% conforme RGPD.",
+      "ctaTimeline": "En production en 2-4 semaines",
+      "ctaWhyVolentis": "Contrairement à l'IA générique, Volentis répond uniquement depuis vos documents approuvés. Pas d'hallucinations, audit trail complet."
+    },
+    "legal": {
+      "metaTitle": "Legal Agent - Volentis.ai | Analyse de contrats & Recherche de clauses",
+      "metaDescription": "Accélérez la révision des contrats de 70% avec le Volentis Legal Agent. Trouvez des clauses en secondes, comparez les contrats, identifiez les écarts.",
+      "title": "Legal Agent",
+      "badge": "Pour les équipes juridiques",
+      "headline": "Révision de contrats en heures, pas en jours",
+      "subheadline": "Le Volentis Legal Agent trouve des clauses en secondes, compare les contrats aux modèles et identifie les écarts. Avec citation complète des sources.",
+      "problemStatement": "Les juristes passent 60% de leur temps en révision documentaire",
+      "painPoints": {
+        "1": "Les clauses contractuelles sont dispersées dans des centaines de documents",
+        "2": "La due diligence prend des semaines au lieu de jours",
+        "3": "Les clauses manquées créent des risques de conformité et financiers"
+      },
+      "solutionTeaser": "Le Volentis Legal Agent : Trouvez n'importe quelle clause en secondes",
+      "metrics": {
+        "fasterReview": "révision de contrats plus rapide",
+        "dueDiligence": "due diligence plus courte",
+        "clauseAccuracy": "moins de clauses manquées",
+        "legalCosts": "coûts juridiques réduits"
+      },
+      "howItWorksDescription": "Posez des questions sur vos contrats et documents juridiques. Obtenez des réponses précises avec des références exactes aux clauses et sections.",
+      "examples": {
+        "1": {
+          "question": "Quelles sont les clauses de protection des données dans nos contrats fournisseurs ?",
+          "answer": "L'analyse de 47 contrats fournisseurs actifs montre : 43 contrats contiennent des clauses DPA conformes au RGPD (Article 28), 3 contrats ont un langage pré-RGPD obsolète (Fournisseurs A, B, C), 1 contrat n'a pas de DPA du tout (Fournisseur D). Recommandation : Révision prioritaire nécessaire pour 4 contrats. Comparaison complète des clauses disponible."
+        },
+        "2": {
+          "question": "Quels contrats ont une clause de changement de contrôle ?",
+          "answer": "Dispositions de changement de contrôle trouvées dans 23 des 156 contrats : 15 exigent un préavis écrit de 30 jours, 5 permettent une résiliation sans motif, 3 nécessitent le consentement de la contrepartie. Contrats à haut risque signalés : [Contrat X] avec Client Principal contient un droit de résiliation en cas de changement de propriété >50%."
+        },
+        "3": {
+          "question": "Comparez la clause de responsabilité avec notre modèle standard",
+          "answer": "Analyse des écarts vs. Modèle Standard v4.2 : Écart 1 : Plafond de responsabilité est 500K€ vs. modèle 1M€ (protection moindre), Écart 2 : Exclusion des incidents cyber manquante, Écart 3 : Portée de l'indemnisation plus large que le modèle. Évaluation du risque : Moyen-Élevé. Révision juridique recommandée avant signature."
+        },
+        "4": {
+          "question": "Quels sont les délais de préavis de résiliation pour nos contrats SaaS ?",
+          "answer": "Analyse des contrats SaaS (34 accords actifs) : 12 contrats : préavis écrit de 90 jours, 15 contrats : préavis écrit de 60 jours, 5 contrats : préavis écrit de 30 jours, 2 contrats : renouvellement automatique avec préavis de 180 jours. Dates de renouvellement à venir signalées pour les 90 prochains jours : [Contrat A] 15 fév, [Contrat B] 1er mars."
+        }
+      },
+      "targetAudience": {
+        "title": "Le Legal Agent est-il fait pour vous ?",
+        "description": "Le Legal Agent apporte le plus de valeur aux équipes juridiques correspondant à ce profil :",
+        "items": {
+          "volume": {
+            "label": "Volume de contrats",
+            "value": "Nombre élevé de contrats actifs",
+            "description": "Suffisamment de contrats pour bénéficier d'une recherche et analyse plus rapides"
+          },
+          "complexity": {
+            "label": "Complexité",
+            "value": "Accords multipartites ou transfrontaliers",
+            "description": "Contrats complexes avec de nombreuses variations de clauses"
+          },
+          "frequency": {
+            "label": "Fréquence de révision",
+            "value": "Due diligence ou audits réguliers",
+            "description": "Besoin périodique de réviser les portefeuilles de contrats"
+          },
+          "challenge": {
+            "label": "Défi actuel",
+            "value": "Temps passé en révision documentaire",
+            "description": "Juristes passant trop de temps à trouver et comparer des clauses"
+          }
+        },
+        "roles": {
+          "title": "Parties prenantes clés",
+          "items": ["Directeur Juridique", "Responsable Juridique", "Contract Manager", "Paralegal"]
+        }
+      },
+      "categories": {
+        "title": "Comment le Legal Agent peut vous aider",
+        "description": "Le Legal Agent est formé sur vos contrats, modèles et documents juridiques. Voici les cas d'usage typiques :",
+        "items": {
+          "contractAnalysis": {
+            "title": "Analyse de Contrats",
+            "description": "Recherche de clauses, évaluation des risques, comparaison aux modèles, identification des écarts, extraction des termes clés",
+            "examples": ["Trouver toutes les clauses de limitation de responsabilité", "Quels contrats expirent ce trimestre ?", "Comparer ce NDA à notre modèle"]
+          },
+          "regulatory": {
+            "title": "Conformité Réglementaire",
+            "description": "Analyse des exigences, comparaison entre juridictions, évaluation de l'impact des changements réglementaires",
+            "examples": ["Quelles sont les exigences RGPD pour ce traitement ?", "Quelles différences entre l'UE et le Royaume-Uni ?", "Qu'est-ce qui a changé dans la dernière réglementation ?"]
+          },
+          "policyDev": {
+            "title": "Développement de Politiques",
+            "description": "Analyse des politiques internes, harmonisation des politiques entre entités, documents de guidance pour les parties prenantes",
+            "examples": ["Que dit notre politique sur X ?", "Comment nos politiques diffèrent-elles entre filiales ?", "Rédiger un résumé de notre politique de rétention des données"]
+          },
+          "dueDiligence": {
+            "title": "Due Diligence",
+            "description": "Due diligence transactionnelle, revue du portefeuille de contrats, identification des risques dans les ensembles de documents",
+            "examples": ["Quels sont les contrats matériels de ce portefeuille ?", "Identifier toutes les clauses de changement de contrôle", "Signaler les contrats avec des termes inhabituels"]
+          },
+          "litigation": {
+            "title": "Support Contentieux",
+            "description": "Revue documentaire, identification des clauses pertinentes, reconstruction de la chronologie depuis les contrats",
+            "examples": ["Trouver toute la correspondance sur ce sujet", "Quels étaient les termes convenus à la date X ?", "Quels contrats font référence à cette obligation ?"]
+          },
+          "compliance": {
+            "title": "Suivi de Conformité",
+            "description": "Vérifications continues du statut de conformité, support aux rapports réglementaires, suivi des obligations",
+            "examples": ["Sommes-nous conformes à la clause 5.2 ?", "Quelles obligations avons-nous sous ce contrat ?", "Générer un rapport de conformité pour ce portefeuille"]
+          }
+        }
+      },
+      "integrations": {
+        "title": "Fonctionne avec votre stack juridique",
+        "description": "Le Legal Agent se connecte à vos référentiels documentaires et systèmes de gestion de contrats existants :",
+        "items": {
+          "sharepoint": {
+            "name": "SharePoint",
+            "description": "Connexion aux bibliothèques de contrats, dossiers de documents juridiques et référentiels de politiques"
+          },
+          "teams": {
+            "name": "Microsoft Teams",
+            "description": "Posez des questions juridiques directement depuis Teams, partagez les analyses avec vos collègues"
+          },
+          "onedrive": {
+            "name": "OneDrive / Lecteurs réseau",
+            "description": "Indexez les contrats stockés sur les lecteurs personnels ou partagés"
+          },
+          "email": {
+            "name": "Intégration Email",
+            "description": "Référencez la correspondance email aux côtés des contrats pour un contexte complet"
+          },
+          "clm": {
+            "name": "Systèmes de Gestion de Contrats",
+            "description": "Connexion à Ironclad, DocuSign CLM, Agiloft, Conga ou autres plateformes CLM via API"
+          },
+          "upload": {
+            "name": "Upload Direct",
+            "description": "Téléchargez des contrats directement pour une analyse immédiate (PDF, Word, Excel)"
+          }
+        },
+        "documentSources": {
+          "title": "Types de documents supportés",
+          "items": ["Contrats (PDF, Word)", "Modèles juridiques", "Documents réglementaires", "Manuels de politiques", "Résolutions du conseil"]
+        }
+      },
+      "safeguards": {
+        "title": "Responsabilité professionnelle : Ce que le Legal Agent ne fait pas",
+        "description": "Le Legal Agent est conçu pour assister les professionnels du droit, pas pour les remplacer :",
+        "items": {
+          "noAdvice": {
+            "title": "Ne remplace pas le conseil juridique",
+            "description": "Le Legal Agent fournit de la recherche d'information et du support d'analyse. Il ne fournit pas de conseil juridique. Toutes les sorties doivent être revues par des professionnels juridiques qualifiés avant utilisation."
+          },
+          "privilege": {
+            "title": "Secret professionnel et confidentialité",
+            "description": "Les considérations de secret professionnel s'appliquent. Vos données restent dans votre tenant isolé, jamais mélangées avec d'autres clients, jamais utilisées pour l'entraînement. Les déterminations de privilège restent avec le conseiller juridique."
+          },
+          "humanReview": {
+            "title": "Les décisions critiques nécessitent une revue humaine",
+            "description": "Pour les négociations de contrats, les contentieux et les dépôts réglementaires, toute analyse générée par l'IA doit être vérifiée par des professionnels juridiques avant utilisation."
+          },
+          "auditTrail": {
+            "title": "Audit trail complet",
+            "description": "Chaque requête et réponse est enregistrée pour la conformité. Vous pouvez toujours démontrer quelle analyse a été effectuée et quelles sources ont été consultées."
+          }
+        },
+        "disclaimer": "Le Legal Agent est un outil de recherche et d'analyse pour les professionnels du droit. Il ne constitue pas un conseil juridique. Vérifiez toujours les sorties de l'IA et consultez un conseiller qualifié pour les questions juridiques."
+      },
+      "capabilitiesTitle": "Que peut faire le Legal Agent ?",
+      "capabilitiesDescription": "Votre assistant de recherche juridique intelligent disponible 24h/24.",
+      "capabilities": {
+        "1": "Trouver des clauses spécifiques dans tous vos contrats en secondes",
+        "2": "Comparer les contrats aux modèles et identifier les écarts",
+        "3": "Analyser les risques contractuels et signaler les problèmes potentiels",
+        "4": "Assister la due diligence avec une revue documentaire complète",
+        "5": "Suivre les exigences réglementaires et le statut de conformité",
+        "6": "Générer des résumés de contrats avec les termes clés mis en évidence",
+        "7": "Répondre aux questions dans toutes les langues de l'UE",
+        "8": "Maintenir un audit trail complet pour chaque requête"
+      },
+      "ctaTitle": "Prêt à transformer vos opérations juridiques ?",
+      "ctaDescription": "Découvrez comment le Volentis Legal Agent peut accélérer la revue de contrats de 70% tout en maintenant une précision totale et des audit trails complets.",
+      "ctaTimeline": "En production en 2-4 semaines",
+      "ctaWhyVolentis": "Vos données restent isolées dans votre tenant. Pas de mélange, pas d'entraînement sur vos contrats. Protection complète du secret professionnel."
+    },
+    "compliance": {
+      "metaTitle": "Compliance Agent - Volentis.ai | Conformité RGPD & EU AI Act",
+      "metaDescription": "Soyez prêt pour l'audit en quelques heures avec le Volentis Compliance Agent. Contrôles RGPD, EU AI Act et réglementations sectorielles avec documentation complète.",
+      "title": "Compliance Agent",
+      "badge": "Pour les équipes Conformité",
+      "headline": "La conformité en toute confiance dans un monde complexe",
+      "subheadline": "Le Volentis Compliance Agent interprète les réglementations, identifie les lacunes et prépare la documentation d'audit. Le tout depuis vos politiques et procédures existantes.",
+      "problemStatement": "Les réglementations évoluent plus vite que les équipes ne peuvent suivre",
+      "painPoints": {
+        "1": "Réglementations complexes et superposées : RGPD, EU AI Act, règles sectorielles",
+        "2": "La préparation d'audit prend des semaines de collecte manuelle de documents",
+        "3": "L'interprétation incohérente entre départements crée des risques"
+      },
+      "solutionTeaser": "Le Volentis Compliance Agent : Prêt pour l'audit en quelques heures",
+      "metrics": {
+        "auditPrep": "préparation d'audit plus rapide",
+        "gapIdentification": "identification des lacunes plus rapide",
+        "researchTime": "moins de temps de recherche",
+        "fineRisk": "conformité proactive"
+      },
+      "howItWorksDescription": "Posez des questions de conformité en langage naturel. Obtenez des réponses basées sur vos politiques avec les références réglementaires incluses.",
+      "examples": {
+        "1": {
+          "question": "Quelles sont les exigences RGPD pour le traitement des données des employés ?",
+          "answer": "Selon votre Politique de Conformité RGPD (v3.1) et les Articles 6, 9, 13 du RGPD : Base juridique : Contrat de travail (Art. 6.1.b) pour les données RH de base. Conservation : 7 ans après fin d'emploi selon votre calendrier de conservation. Documentation requise : Notice de confidentialité fournie, Registre des traitements mis à jour, AIPD complétée pour le suivi de performance. Statut actuel : Conforme. Dernier audit : Septembre 2025."
+        },
+        "2": {
+          "question": "Notre utilisation de l'IA est-elle couverte par l'EU AI Act ?",
+          "answer": "Analyse basée sur l'EU AI Act et votre Registre d'Inventaire IA : Classification actuelle des systèmes IA : Volentis.ai (ce système) : Risque Limité (Art. 52) - exigences de transparence applicables, Outil de screening recrutement : Risque Élevé (Annexe III) - évaluation de conformité requise, Chatbot client : Risque Minimal - pas d'exigences spécifiques. Actions à mener : Le système à risque élevé nécessite un enregistrement avant août 2025."
+        },
+        "3": {
+          "question": "Quelle documentation avons-nous besoin pour un audit RGPD ?",
+          "answer": "Selon votre Checklist de Préparation d'Audit et l'Art. 30 du RGPD : Documentation requise (statut) : ✓ Registres des Activités de Traitement (à jour), ✓ Notices de Confidentialité (mises à jour déc. 2025), ✓ Accords de Traitement de Données (47 sur 48 complets), ⚠ AIPD pour la nouvelle analytique RH (en attente), ✓ Procédure de notification de violation (testée T3 2025). Manquant : 1 DPA avec Fournisseur X. Échéance : Avant prochain audit mars 2026."
+        },
+        "4": {
+          "question": "Comment l'implémentation du RGPD diffère-t-elle entre NL et DE ?",
+          "answer": "Analyse comparative basée sur votre Guide de Conformité Multi-Juridictions : Exigences Comité d'Entreprise : DE nécessite une consultation plus extensive, Conservation des données : Les deux 7 ans, mais DE a des règles sectorielles plus strictes pour les services financiers, Exigences DPO : Similaires, mais les Länder DE peuvent avoir des exigences supplémentaires, Approche d'application : Les Datenschutzbehörden DE historiquement plus actives. Vos politiques sont alignées pour les deux juridictions. Révision recommandée lors de l'ouverture de nouveaux sites DE."
+        }
+      },
+      "targetAudience": {
+        "title": "Le Compliance Agent est-il fait pour vous ?",
+        "description": "Le Compliance Agent apporte le plus de valeur aux organisations correspondant à ce profil :",
+        "items": {
+          "regulation": {
+            "label": "Environnement réglementaire",
+            "value": "Réglementations multiples et superposées",
+            "description": "RGPD, EU AI Act, règles sectorielles ou exigences multi-juridictions"
+          },
+          "audits": {
+            "label": "Fréquence des audits",
+            "value": "Audits internes ou externes réguliers",
+            "description": "Besoin de démontrer la conformité aux régulateurs ou auditeurs"
+          },
+          "documentation": {
+            "label": "Documentation",
+            "value": "Politiques, procédures, cadres de conformité",
+            "description": "Documentation de conformité existante à exploiter"
+          },
+          "challenge": {
+            "label": "Défi actuel",
+            "value": "Temps passé en recherche de conformité et préparation d'audit",
+            "description": "Effort manuel de collecte de documentation et d'interprétation des exigences"
+          }
+        },
+        "roles": {
+          "title": "Parties prenantes clés",
+          "items": ["Compliance Officer", "Risk Manager", "Data Protection Officer", "Audit Interne"]
+        }
+      },
+      "categories": {
+        "title": "Comment le Compliance Agent peut vous aider",
+        "description": "Le Compliance Agent est formé sur vos politiques et exigences réglementaires. Voici les cas d'usage typiques :",
+        "items": {
+          "gdpr": {
+            "title": "Conformité RGPD",
+            "description": "Exigences de protection des données, notices de confidentialité, AIPD, droits des personnes concernées, accords sous-traitants, notifications de violation",
+            "examples": ["Quelle est notre base juridique pour ce traitement ?", "Une AIPD est-elle requise pour ce projet ?", "Comment traitons-nous une demande d'accès aux données ?"]
+          },
+          "euAiAct": {
+            "title": "EU AI Act",
+            "description": "Classification des systèmes IA, évaluation des risques, exigences de transparence, évaluation de conformité, obligations de surveillance humaine",
+            "examples": ["Notre système IA est-il à risque élevé selon l'AI Act ?", "Quelles exigences de transparence s'appliquent ?", "Quand avons-nous besoin d'une évaluation de conformité ?"]
+          },
+          "sector": {
+            "title": "Règles Sectorielles",
+            "description": "Services financiers (MiFID II, DORA), santé, cybersécurité NIS2, exigences spécifiques à l'industrie",
+            "examples": ["Quelles sont nos obligations NIS2 ?", "Comment DORA affecte-t-il notre externalisation IT ?", "Quelles règles de conservation sectorielles s'appliquent ?"]
+          },
+          "audit": {
+            "title": "Préparation d'Audit",
+            "description": "Collecte de documentation, compilation des preuves, analyse des écarts, suivi des remédiations, réponse aux audits",
+            "examples": ["Quelle documentation avons-nous besoin pour l'audit RGPD ?", "Montrez-moi notre statut de conformité pour l'exigence X", "Quelles lacunes nécessitent attention avant l'audit ?"]
+          },
+          "policy": {
+            "title": "Revue des Politiques",
+            "description": "Conformité des politiques internes, vérifications de cohérence, identification des lacunes, exigences de mise à jour",
+            "examples": ["Notre politique est-elle alignée avec la réglementation ?", "Nos politiques sont-elles cohérentes entre départements ?", "Quand cette politique a-t-elle été revue pour la dernière fois ?"]
+          },
+          "risk": {
+            "title": "Évaluation des Risques",
+            "description": "Identification des risques de conformité, évaluation d'impact, planification des atténuations, mise à jour du registre des risques",
+            "examples": ["Quels sont nos principaux risques de conformité ?", "Quelle est l'exposition potentielle aux amendes pour cette lacune ?", "Comment prioriser la remédiation ?"]
+          }
+        }
+      },
+      "integrations": {
+        "title": "Fonctionne avec votre infrastructure de conformité",
+        "description": "Le Compliance Agent se connecte à votre documentation et systèmes de conformité existants :",
+        "items": {
+          "sharepoint": {
+            "name": "SharePoint",
+            "description": "Connexion aux bibliothèques de politiques, documentation de conformité et référentiels de preuves d'audit"
+          },
+          "grc": {
+            "name": "Plateformes GRC",
+            "description": "Intégration aux plateformes de gouvernance, risque et conformité pour une gestion unifiée de la conformité"
+          },
+          "audit": {
+            "name": "Gestion d'Audit",
+            "description": "Connexion aux systèmes de gestion d'audit pour le suivi des preuves et la remédiation des constats"
+          },
+          "regulatory": {
+            "name": "Sources Réglementaires",
+            "description": "Référence aux textes réglementaires officiels et documents de guidance, mis à jour trimestriellement"
+          },
+          "teams": {
+            "name": "Microsoft Teams",
+            "description": "Posez des questions de conformité directement depuis Teams, collaborez sur les sujets de conformité"
+          },
+          "upload": {
+            "name": "Upload Direct",
+            "description": "Téléchargez des politiques et documents de conformité directement pour une analyse immédiate"
+          }
+        },
+        "documentSources": {
+          "title": "Types de documents supportés",
+          "items": ["Politiques de conformité", "Textes réglementaires", "Rapports d'audit", "Registres de risques", "Documentation des processus"]
+        }
+      },
+      "safeguards": {
+        "title": "Responsabilité professionnelle : Ce que le Compliance Agent ne fait pas",
+        "description": "Le Compliance Agent est conçu pour assister les professionnels de la conformité, pas pour les remplacer :",
+        "items": {
+          "noAdvice": {
+            "title": "Ne remplace pas le conseil en conformité",
+            "description": "Le Compliance Agent fournit une assistance à la recherche et un support documentaire. Il ne fournit pas de déterminations de conformité définitives. Toutes les sorties doivent être vérifiées par des professionnels de conformité qualifiés."
+          },
+          "regulatory": {
+            "title": "Les interprétations réglementaires nécessitent une vérification",
+            "description": "Les réglementations sont complexes et dépendent du contexte. Les interprétations générées par l'IA doivent être validées par rapport aux orientations officielles et, si nécessaire, avec les régulateurs ou un conseiller externe."
+          },
+          "humanReview": {
+            "title": "Les décisions critiques nécessitent un jugement humain",
+            "description": "Pour les dépôts réglementaires, les réponses aux audits et les certifications de conformité, toute analyse générée par l'IA doit être revue et approuvée par des professionnels qualifiés."
+          },
+          "auditTrail": {
+            "title": "Audit trail complet",
+            "description": "Chaque requête et réponse est enregistrée. Vous pouvez démontrer quelle analyse a été effectuée, quelles sources ont été consultées et quelles décisions ont été prises."
+          }
+        },
+        "disclaimer": "Le Compliance Agent est un outil de recherche et d'analyse pour les professionnels de la conformité. Il ne constitue pas un conseil ou une certification de conformité. Vérifiez toujours les sorties de l'IA avec un conseiller en conformité qualifié."
+      },
+      "capabilitiesTitle": "Que peut faire le Compliance Agent ?",
+      "capabilitiesDescription": "Votre assistant d'intelligence réglementaire qui vous maintient prêt pour l'audit.",
+      "capabilities": {
+        "1": "Interpréter le RGPD, l'EU AI Act et les réglementations sectorielles",
+        "2": "Identifier les lacunes de conformité dans vos politiques et procédures",
+        "3": "Générer une documentation prête pour l'audit avec citations des sources",
+        "4": "Fournir une analyse de conformité multi-juridictionnelle",
+        "5": "Suivre les changements réglementaires pertinents pour votre organisation",
+        "6": "Assister les demandes de Droits des Personnes Concernées avec des guides de processus",
+        "7": "Répondre aux questions dans toutes les langues de l'UE",
+        "8": "Maintenir un audit trail complet pour chaque requête"
+      },
+      "ctaTitle": "Prêt à atteindre la confiance en conformité ?",
+      "ctaDescription": "Découvrez comment le Volentis Compliance Agent peut vous rendre prêt pour l'audit en quelques heures avec une documentation et traçabilité complètes.",
+      "ctaTimeline": "En production en 2-4 semaines",
+      "ctaWhyVolentis": "Base de données réglementaire mise à jour trimestriellement. Audit trail complet montrant exactement ce qui a été vérifié et quand."
+    },
+    "it": {
+      "metaTitle": "IT Agent - Volentis.ai | Automatisation du Helpdesk IT",
+      "metaDescription": "Réduisez les tickets IT de 50-60% avec le Volentis IT Agent. Dépannage en self-service depuis votre documentation, 24h/24.",
+      "title": "IT Agent",
+      "badge": "Pour les équipes IT",
+      "headline": "Divisez vos tickets IT par deux sans recruter",
+      "subheadline": "Le Volentis IT Agent répond instantanément aux questions de niveau 1 depuis vos procédures et documentation, pour que votre équipe puisse se concentrer sur les problèmes complexes.",
+      "problemStatement": "60-70% des tickets IT sont des questions répétitives et simples",
+      "painPoints": {
+        "1": "Mêmes questions posées en boucle : réinitialisation de mot de passe, problèmes VPN, demandes d'accès",
+        "2": "La documentation est obsolète ou les employés ne la trouvent pas",
+        "3": "Les connaissances partent quand le personnel expérimenté s'en va"
+      },
+      "solutionTeaser": "Le Volentis IT Agent : Déflection niveau 1 en self-service",
+      "metrics": {
+        "ticketDeflection": "déflection de tickets",
+        "resolutionTime": "résolution plus rapide",
+        "costReduction": "coût par ticket réduit",
+        "satisfaction": "satisfaction employés"
+      },
+      "howItWorksDescription": "Les employés posent des questions IT en langage naturel. Obtenez des instructions pas-à-pas depuis vos procédures et documentation.",
+      "examples": {
+        "1": {
+          "question": "Comment réinitialiser mon mot de passe CRM ?",
+          "answer": "Selon le Guide Utilisateur CRM (v4.2) et la Politique de Sécurité IT : Étape 1 : Allez sur crm.company.com/reset, Étape 2 : Entrez votre adresse email, Étape 3 : Vérifiez votre email pour le lien de réinitialisation (valide 15 minutes), Étape 4 : Créez un nouveau mot de passe (minimum 12 caractères, 1 majuscule, 1 chiffre, 1 caractère spécial). Si vous ne recevez pas l'email, vérifiez les spams ou contactez le Helpdesk IT."
+        },
+        "2": {
+          "question": "Le VPN ne fonctionne pas, que dois-je faire ?",
+          "answer": "Selon le Guide de Dépannage VPN (mis à jour jan. 2026) : Vérifications rapides : 1) Votre connexion internet fonctionne-t-elle ? (testez avec speedtest.net), 2) Le client VPN est-il à jour ? (version actuelle : 5.2.1), 3) Avez-vous redémarré le client VPN ? Solutions courantes : Effacez les identifiants VPN et ressaisissez-les. Si le problème persiste : Lancez l'outil de diagnostic (Démarrer > Diagnostic VPN), Capturez l'erreur, Soumettez un ticket IT avec les résultats du diagnostic."
+        },
+        "3": {
+          "question": "Comment demander un accès à SharePoint ?",
+          "answer": "Selon la Procédure de Gestion des Accès (IT-PROC-042) : Étape 1 : Soumettez la demande via Portail IT > Demandes d'Accès > SharePoint, Étape 2 : Votre manager recevra la demande d'approbation (routage automatique), Étape 3 : Après approbation, l'IT provisionne l'accès sous 4 heures ouvrées. Informations requises : Nom ou URL du site, Justification métier, Niveau de permission demandé (Lecture/Modification/Contrôle Total). Pour les demandes urgentes, contactez le Helpdesk IT avec votre manager en copie."
+        },
+        "4": {
+          "question": "Quelles sont les procédures de sauvegarde de nos serveurs ?",
+          "answer": "Selon la Politique de Sauvegarde et Récupération (IT-POL-015) : Planning : Sauvegardes incrémentales quotidiennes à 02h00 CET, Sauvegardes complètes hebdomadaires samedi 01h00 CET, Archivage mensuel vers stockage hors-site. Conservation : 30 jours pour quotidien, 12 semaines pour hebdomadaire, 7 ans pour archivage mensuel. Objectif de temps de récupération : 4 heures pour systèmes critiques, 24 heures pour standard. Contact : backup-team@company.com pour les demandes de restauration."
+        }
+      },
+      "targetAudience": {
+        "title": "L'IT Agent est-il fait pour vous ?",
+        "description": "L'IT Agent apporte le plus de valeur aux organisations correspondant à ce profil :",
+        "items": {
+          "ticketVolume": {
+            "label": "Volume de tickets",
+            "value": "Volume élevé de questions répétitives",
+            "description": "Part significative des tickets helpdesk sont des problèmes niveau 1 (mots de passe, VPN, accès)"
+          },
+          "teamSize": {
+            "label": "Taille de l'organisation",
+            "value": "200+ employés",
+            "description": "Suffisamment d'utilisateurs pour générer des économies significatives de déflection de tickets"
+          },
+          "documentation": {
+            "label": "Documentation",
+            "value": "Procédures IT et articles de base de connaissances",
+            "description": "Documentation existante pour fournir des réponses précises"
+          },
+          "challenge": {
+            "label": "Défi actuel",
+            "value": "Équipe IT submergée par les questions répétitives",
+            "description": "Personnel IT qualifié passant du temps sur des problèmes niveau 1 à faible valeur"
+          }
+        },
+        "roles": {
+          "title": "Parties prenantes clés",
+          "items": ["Directeur IT", "Service Desk Manager", "Responsable Support IT", "Administrateur Système"]
+        }
+      },
+      "categories": {
+        "title": "Comment l'IT Agent peut vous aider",
+        "description": "L'IT Agent est formé sur vos procédures et documentation. Voici les cas d'usage typiques :",
+        "items": {
+          "access": {
+            "title": "Mot de passe & Accès",
+            "description": "Réinitialisation de mot de passe, comptes verrouillés, demandes d'accès, configuration MFA, changements de permissions",
+            "examples": ["Comment réinitialiser mon mot de passe ?", "Mon compte est verrouillé", "Comment demander l'accès au drive finance ?"]
+          },
+          "connectivity": {
+            "title": "VPN & Connectivité",
+            "description": "Dépannage VPN, problèmes réseau, accès distant, problèmes wifi, diagnostics de connectivité",
+            "examples": ["Le VPN ne se connecte pas", "Internet est lent", "Je ne peux pas me connecter au réseau du bureau depuis chez moi"]
+          },
+          "software": {
+            "title": "Support Logiciel",
+            "description": "Dépannage applications, guides d'installation, aide à la configuration, mises à jour logicielles",
+            "examples": ["Comment installer Zoom ?", "Excel plante constamment", "Quelle version du CRM dois-je utiliser ?"]
+          },
+          "hardware": {
+            "title": "Matériel & Appareils",
+            "description": "Problèmes de laptop, problèmes d'imprimante, configuration d'appareils mobiles, configuration de périphériques",
+            "examples": ["L'imprimante ne fonctionne pas", "Comment configurer mon nouveau laptop ?", "Mon moniteur scintille"]
+          },
+          "security": {
+            "title": "Procédures de Sécurité",
+            "description": "Politiques de sécurité, gestion des emails suspects, procédures de manipulation des données, signalement d'incidents",
+            "examples": ["J'ai reçu un email suspect", "Quelle est notre politique sur les clés USB ?", "Comment chiffrer un fichier ?"]
+          },
+          "procedures": {
+            "title": "Procédures IT",
+            "description": "Processus de demande, workflows d'approbation, onboarding/offboarding, demandes d'équipement",
+            "examples": ["Comment demander un nouveau laptop ?", "Quel est le processus d'approbation logicielle ?", "Comment configurer un nouvel employé ?"]
+          }
+        }
+      },
+      "integrations": {
+        "title": "Fonctionne avec votre infrastructure IT",
+        "description": "L'IT Agent se connecte à votre documentation IT et gestion de services existantes :",
+        "items": {
+          "itsm": {
+            "name": "Plateformes ITSM",
+            "description": "ServiceNow, Jira Service Management, Freshservice pour la déflection et l'escalade de tickets"
+          },
+          "knowledge": {
+            "name": "Bases de Connaissances",
+            "description": "Connexion aux wikis IT existants, Confluence ou référentiels de connaissances internes"
+          },
+          "sharepoint": {
+            "name": "SharePoint",
+            "description": "Accès à la documentation IT, procédures et documents de politiques"
+          },
+          "teams": {
+            "name": "Microsoft Teams",
+            "description": "Fournissez le support IT directement dans le chat Teams"
+          },
+          "ad": {
+            "name": "Active Directory",
+            "description": "Référence aux informations de compte utilisateur et politiques d'accès (lecture seule)"
+          },
+          "upload": {
+            "name": "Upload Direct",
+            "description": "Téléchargez des procédures et guides IT directement pour une utilisation immédiate"
+          }
+        },
+        "documentSources": {
+          "title": "Types de documents supportés",
+          "items": ["Procédures IT", "Guides de dépannage", "Manuels utilisateur", "Articles de connaissances", "Documents de politiques"]
+        }
+      },
+      "safeguards": {
+        "title": "Sécurisé par conception : Ce que l'IT Agent ne fait pas",
+        "description": "L'IT Agent fournit des informations et des conseils, mais maintient des limites importantes :",
+        "items": {
+          "noSystemChanges": {
+            "title": "Pas de changements système automatisés",
+            "description": "L'IT Agent fournit des instructions et des conseils, mais n'effectue pas de changements directs sur les systèmes, comptes ou configurations. Tous les changements nécessitent une action humaine via les canaux appropriés."
+          },
+          "escalation": {
+            "title": "Chemins d'escalade clairs",
+            "description": "Lorsqu'une question nécessite une expertise humaine ou un accès système, l'IT Agent dirige les utilisateurs vers le canal de support approprié ou suggère de créer un ticket."
+          },
+          "security": {
+            "title": "Limites de sécurité",
+            "description": "L'IT Agent ne demande jamais et ne stocke jamais de mots de passe, identifiants ou autres informations sensibles. Les procédures de sécurité sont expliquées mais pas contournées."
+          },
+          "auditTrail": {
+            "title": "Audit trail complet",
+            "description": "Chaque question et réponse est enregistrée. Les responsables IT peuvent réviser quelles informations sont demandées et identifier les lacunes de documentation."
+          }
+        },
+        "disclaimer": "L'IT Agent fournit des conseils en self-service basés sur votre documentation. Pour les problèmes complexes, les changements système ou les incidents de sécurité, il dirige les utilisateurs vers les canaux de support IT appropriés."
+      },
+      "capabilitiesTitle": "Que peut faire l'IT Agent ?",
+      "capabilitiesDescription": "Votre assistant de support IT 24h/24 qui ne dort jamais. Réponses instantanées, toujours disponible.",
+      "capabilities": {
+        "1": "Répondre aux questions IT courantes depuis les procédures et documentation",
+        "2": "Fournir des guides de dépannage pas-à-pas",
+        "3": "Guider les utilisateurs dans les demandes d'accès et approbations",
+        "4": "Expliquer les politiques IT et exigences de sécurité",
+        "5": "Aider à l'installation et configuration logicielles",
+        "6": "Préserver les connaissances institutionnelles lors des changements de personnel",
+        "7": "Répondre aux questions dans toutes les langues de l'UE",
+        "8": "Tableau de bord analytique des tickets pour identifier les lacunes de documentation"
+      },
+      "ctaTitle": "Prêt à réduire votre volume de tickets IT de 50-60% ?",
+      "ctaDescription": "Découvrez comment le Volentis IT Agent peut transformer vos opérations helpdesk tout en libérant votre équipe pour des tâches à plus haute valeur.",
+      "ctaTimeline": "En production en 2-4 semaines",
+      "ctaWhyVolentis": "Sécurisé par conception : fournit uniquement des conseils, ne fait jamais de changements système. Escalade claire quand l'aide humaine est nécessaire."
+    },
+    "finance": {
+      "metaTitle": "Finance Agent - Volentis.ai | Assistant Achats & Politiques Financières",
+      "metaDescription": "Réduisez les erreurs procédurales de 60% avec le Volentis Finance Agent. Conseils clairs sur les achats, notes de frais et politiques financières.",
+      "title": "Finance Agent",
+      "badge": "Pour les équipes Finance",
+      "headline": "Des politiques d'achats que tout le monde comprend vraiment",
+      "subheadline": "Le Volentis Finance Agent explique les workflows d'approbation, les seuils d'achat et les procédures de notes de frais, pour que tout soit correct du premier coup.",
+      "problemStatement": "30% des factures sont retardées à cause d'erreurs procédurales",
+      "painPoints": {
+        "1": "Matrices d'approbation complexes que personne ne comprend vraiment",
+        "2": "Application incohérente des politiques entre départements",
+        "3": "Les nouveaux employés font des erreurs coûteuses"
+      },
+      "solutionTeaser": "Le Volentis Finance Agent : Conseils clairs, moins d'erreurs",
+      "metrics": {
+        "proceduralErrors": "moins d'erreurs procédurales",
+        "processingTime": "traitement de factures plus rapide",
+        "complianceDeviations": "moins d'écarts de conformité",
+        "firstTimeRight": "taux d'approbation du premier coup"
+      },
+      "howItWorksDescription": "Posez des questions finance et achats en langage naturel. Obtenez des réponses claires avec références aux politiques et workflows d'approbation.",
+      "examples": {
+        "1": {
+          "question": "Qui doit approuver un bon de commande de 50 000€ ?",
+          "answer": "Selon la Politique Achats (FIN-POL-003) Matrice d'Approbation : 50 000€ nécessite : 1) Approbation du Responsable de département, 2) Approbation du Directeur Financier, 3) Approbation du DAF (pour montants >25 000€). Exigences supplémentaires : Minimum 3 devis fournisseurs requis, L'équipe Achats doit valider les credentials du fournisseur, Revue juridique si nouveau fournisseur ou termes non standard. Délai : Prévoir 5-7 jours ouvrés pour le cycle d'approbation complet."
+        },
+        "2": {
+          "question": "Comment soumettre mes frais de déplacement ?",
+          "answer": "Selon la Politique de Frais (FIN-POL-007) : Étape 1 : Collectez tous les justificatifs (requis pour frais >25€), Étape 2 : Soumettez via le Portail de Frais dans les 30 jours suivant le voyage, Étape 3 : Joignez : justificatifs, formulaire d'autorisation de voyage, ordre du jour de la réunion. Limites : Hôtel max 180€/nuit (capitales UE), 150€/nuit (autres). Repas : Max 75€/jour pourboires inclus. Approbation manager requise avant soumission. Remboursement sous 10 jours ouvrés après approbation."
+        },
+        "3": {
+          "question": "Quelle est notre politique pour les fournisseurs référencés ?",
+          "answer": "Selon la Politique Fournisseurs Référencés (FIN-POL-012) : Les fournisseurs référencés doivent être utilisés pour : Matériel IT (Dell, HP), Fournitures bureau (Staples), Voyages (Agence de voyage de l'entreprise), Services cloud (AWS, Azure - liste approuvée). Les exceptions nécessitent : Justification écrite, Comparaison des coûts avec le fournisseur référencé, Approbation du Responsable Achats, Revue juridique pour contrats >10 000€. Formulaire de demande d'exception : Portail Finance > Achats > Demande d'Exception."
+        },
+        "4": {
+          "question": "Quand un appel d'offres est-il requis ?",
+          "answer": "Selon la Politique Achats (FIN-POL-003) Seuils d'Appel d'Offres : >10 000€ : Minimum 3 devis requis, >50 000€ : Processus RFQ formel, >150 000€ : Appel d'offres complet avec comité d'évaluation, >215 000€ (seuil UE) : Appel d'offres public requis. Exceptions par catégorie : Achats d'urgence (documentés), Source unique (justification technique requise), Accords-cadres (pré-appel d'offres). Tous les appels d'offres documentés dans le Registre des Achats."
+        }
+      },
+      "targetAudience": {
+        "title": "Le Finance Agent est-il fait pour vous ?",
+        "description": "Le Finance Agent apporte le plus de valeur aux organisations correspondant à ce profil :",
+        "items": {
+          "complexity": {
+            "label": "Complexité des approbations",
+            "value": "Matrices d'approbation multi-niveaux",
+            "description": "Différents seuils et approbateurs pour diverses catégories d'achats"
+          },
+          "volume": {
+            "label": "Volume de transactions",
+            "value": "Activité achats et notes de frais significative",
+            "description": "Suffisamment de transactions où les erreurs procédurales créent des coûts significatifs"
+          },
+          "documentation": {
+            "label": "Documentation",
+            "value": "Politiques et procédures financières documentées",
+            "description": "Documents de politiques existants pour fournir des conseils précis"
+          },
+          "challenge": {
+            "label": "Défi actuel",
+            "value": "Demandes rejetées et retravail",
+            "description": "Temps passé sur les notes de frais rejetées, mauvaises approbations, questions de politique"
+          }
+        },
+        "roles": {
+          "title": "Parties prenantes clés",
+          "items": ["DAF", "Directeur des Achats", "Contrôleur Financier", "Responsable Comptabilité Fournisseurs"]
+        }
+      },
+      "categories": {
+        "title": "Comment le Finance Agent peut vous aider",
+        "description": "Le Finance Agent est formé sur vos politiques et procédures financières. Voici les cas d'usage typiques :",
+        "items": {
+          "procurement": {
+            "title": "Achats & Approvisionnement",
+            "description": "Bons de commande, sélection de fournisseurs, exigences d'appel d'offres, gestion des fournisseurs, termes contractuels",
+            "examples": ["Qui approuve un achat de 50 000€ ?", "Dois-je obtenir des devis pour cela ?", "Comment ajouter un nouveau fournisseur ?"]
+          },
+          "expenses": {
+            "title": "Notes de Frais & Voyages",
+            "description": "Notes de frais, politiques de voyage, per diem, exigences de justificatifs, délais de remboursement",
+            "examples": ["Comment soumettre mes frais de voyage ?", "Quelle est la limite hôtel pour Paris ?", "Ai-je besoin d'un justificatif pour le déjeuner ?"]
+          },
+          "approvals": {
+            "title": "Workflows d'Approbation",
+            "description": "Matrices d'approbation, limites d'autorisation, règles de délégation, procédures d'escalade",
+            "examples": ["Qui doit approuver cela ?", "Mon manager peut-il approuver 30 000€ ?", "Quel est le délai d'approbation ?"]
+          },
+          "budgets": {
+            "title": "Budget & Centres de Coûts",
+            "description": "Allocation budgétaire, codes de centres de coûts, transferts de budget, explications d'écarts",
+            "examples": ["Quel centre de coûts pour cette dépense ?", "Comment demander un transfert de budget ?", "Quel est notre budget restant ?"]
+          },
+          "invoices": {
+            "title": "Traitement des Factures",
+            "description": "Soumission de factures, conditions de paiement, exigences de rapprochement, statut de paiement",
+            "examples": ["Comment soumettre une facture ?", "Quand cette facture sera-t-elle payée ?", "Quelle est notre politique de conditions de paiement ?"]
+          },
+          "policies": {
+            "title": "Politiques Financières",
+            "description": "Interprétation des politiques, exigences de conformité, processus d'exceptions, préparation d'audit",
+            "examples": ["Quelle est la politique pour les cadeaux ?", "Comment demander une exception ?", "Quelle documentation les auditeurs ont-ils besoin ?"]
+          }
+        }
+      },
+      "integrations": {
+        "title": "Fonctionne avec vos systèmes financiers",
+        "description": "Le Finance Agent se connecte à votre documentation et processus financiers existants :",
+        "items": {
+          "erp": {
+            "name": "Systèmes ERP",
+            "description": "SAP, Oracle, Microsoft Dynamics pour référence aux politiques et guides de processus"
+          },
+          "expense": {
+            "name": "Gestion des Frais",
+            "description": "Concur, Expensify, SAP Concur pour les conseils sur les politiques de frais et le support de processus"
+          },
+          "p2p": {
+            "name": "Plateformes P2P",
+            "description": "Coupa, Ariba, Basware pour les conseils sur les politiques d'achats et workflows d'approbation"
+          },
+          "sharepoint": {
+            "name": "SharePoint",
+            "description": "Accès aux politiques financières, documents de procédures et matrices d'approbation"
+          },
+          "teams": {
+            "name": "Microsoft Teams",
+            "description": "Répondez aux questions finance directement dans le chat Teams"
+          },
+          "upload": {
+            "name": "Upload Direct",
+            "description": "Téléchargez des politiques et procédures financières pour une utilisation immédiate"
+          }
+        },
+        "documentSources": {
+          "title": "Types de documents supportés",
+          "items": ["Politiques financières", "Matrices d'approbation", "Directives de frais", "Procédures d'achats", "Modèles de budget"]
+        }
+      },
+      "safeguards": {
+        "title": "Limites claires : Ce que le Finance Agent ne fait pas",
+        "description": "Le Finance Agent fournit des conseils et interprète les politiques, mais maintient des limites importantes :",
+        "items": {
+          "noApprovals": {
+            "title": "Pas d'approbations financières",
+            "description": "Le Finance Agent explique qui doit approuver et comment, mais n'approuve pas de transactions et n'autorise pas de dépenses. Toutes les approbations passent par les canaux appropriés."
+          },
+          "verification": {
+            "title": "Les montants et limites nécessitent une vérification",
+            "description": "Les seuils et limites de politique se synchronisent automatiquement depuis vos documents. Vérifiez toujours dans votre système financier avant de prendre des engagements."
+          },
+          "policyChanges": {
+            "title": "Interprétation de politique, pas de conseil",
+            "description": "Le Finance Agent explique la politique telle que documentée. Pour les cas limites, exceptions ou clarifications de politique, consultez votre équipe Finance."
+          },
+          "auditTrail": {
+            "title": "Audit trail complet",
+            "description": "Chaque question et réponse est enregistrée. Les équipes Finance peuvent réviser quels conseils sont fournis et identifier les lacunes ou points de confusion des politiques."
+          }
+        },
+        "disclaimer": "Le Finance Agent fournit des conseils basés sur vos politiques et procédures documentées. Pour les décisions financières, exceptions ou engagements, suivez toujours les processus d'approbation formels de votre organisation."
+      },
+      "capabilitiesTitle": "Que peut faire le Finance Agent ?",
+      "capabilitiesDescription": "Votre expert en politiques financières qui garantit la conformité dès le premier jour.",
+      "capabilities": {
+        "1": "Expliquer les workflows d'approbation et seuils d'achat",
+        "2": "Guider la soumission des frais et processus de remboursement",
+        "3": "Clarifier les exigences et exceptions pour les fournisseurs référencés",
+        "4": "Fournir des conseils sur les seuils d'appel d'offres par catégorie",
+        "5": "Répondre aux questions sur le traitement des factures et paiements",
+        "6": "Intégrer rapidement les nouveaux employés aux procédures financières",
+        "7": "Répondre aux questions dans toutes les langues de l'UE",
+        "8": "Maintenir un audit trail complet pour chaque requête"
+      },
+      "ctaTitle": "Prêt à éliminer les erreurs procédurales coûteuses ?",
+      "ctaDescription": "Découvrez comment le Volentis Finance Agent peut améliorer les taux de réussite du premier coup tout en réduisant la charge de travail de l'équipe Finance.",
+      "ctaTimeline": "En production en 2-4 semaines",
+      "ctaWhyVolentis": "Chaque requête de conseil est enregistrée. Audit trail prêt de ce qui a été dit aux employés et quand."
+    },
+    "international": {
+      "metaTitle": "International - Volentis.ai | Analyse de politiques multi-juridictionnelle",
+      "metaDescription": "Une IA pour toutes vos opérations européennes. Comparaison et harmonisation de politiques transfrontalières pour les multinationales.",
+      "title": "International",
+      "badge": "Pour les multinationales",
+      "headline": "Une IA pour toutes vos opérations européennes",
+      "subheadline": "La plateforme Volentis fournit une analyse de politiques transfrontalière, des comparaisons juridictionnelles et un support d'harmonisation dans toutes les langues de l'UE.",
+      "problemStatement": "Les multinationales gèrent 15+ ensembles de politiques différents entre les pays",
+      "painPoints": {
+        "1": "Droit du travail différent dans chaque pays",
+        "2": "Impossible d'obtenir des réponses rapides sur les questions transfrontalières",
+        "3": "Coûts élevés pour l'expertise juridique locale dans chaque juridiction"
+      },
+      "solutionTeaser": "Volentis : Une plateforme pour toutes les juridictions de l'UE",
+      "metrics": {
+        "crossBorderSpeed": "réponses transfrontalières plus rapides",
+        "legalCosts": "coûts juridiques externes réduits",
+        "harmonization": "harmonisation des politiques plus rapide",
+        "localSupport": "disponibilité du support RH local"
+      },
+      "howItWorksDescription": "Posez des questions sur les politiques dans plusieurs pays de l'UE. Obtenez une analyse comparative avec des détails spécifiques à chaque juridiction.",
+      "examples": {
+        "1": {
+          "question": "Comparez le droit du licenciement en NL, DE et FR",
+          "answer": "Analyse multi-juridictionnelle depuis votre Manuel du Droit du Travail : Pays-Bas : 1-4 mois de préavis (basé sur l'ancienneté), approbation UWV/tribunal souvent requise, Indemnité de transition obligatoire. Allemagne : 4 semaines à 7 mois de préavis (basé sur l'ancienneté), consultation du Comité d'Entreprise requise, critères de sélection sociale applicables. France : 1-2 mois de préavis, entretien préalable au licenciement requis, indemnité : 1/4 mois par année de service. Résumé : DE a les exigences les plus strictes. Vos politiques sont alignées. Considérez une révision juridique pour les restructurations DE."
+        },
+        "2": {
+          "question": "Un employé basé en Belgique peut-il travailler depuis les Pays-Bas ?",
+          "answer": "Analyse basée sur votre Politique de Travail Transfrontalier et les réglementations UE : Sécurité sociale : Après 25% de travail en NL, peut déclencher des obligations de sécurité sociale NL. Fiscalité : Le prélèvement peut être requis en NL après 183 jours. Droit du travail : Les termes du contrat belge restent applicables. Votre politique (CB-POL-001) : Maximum 10 jours/mois de télétravail transfrontalier sans processus formel. Pour des arrangements plus longs : Approbation RH + Juridique requise. Recommandation : Gardez un registre des jours transfrontaliers pour la conformité."
+        },
+        "3": {
+          "question": "Quels sont les jours de congés minimum par pays de l'UE ?",
+          "answer": "Depuis votre Guide de Comparaison des Avantages UE : Minimum légal : Toute l'UE : 20 jours minimum (Directive UE). Votre politique par pays : NL : 25 jours, DE : 30 jours (pratique courante), FR : 25 jours + jours RTT, BE : 20 jours + 10 jours fériés, ES : 22 jours ouvrables. Note : Certains pays comptent en jours ouvrables, d'autres en jours calendaires. Vos politiques dépassent les minimums légaux dans tous les sites. Tableau de comparaison complet disponible dans le document Matrice des Avantages."
+        },
+        "4": {
+          "question": "Comment l'implémentation du RGPD diffère-t-elle par pays ?",
+          "answer": "Depuis votre Guide RGPD Multi-Juridictions : Différences clés dans vos pays d'opération : Allemagne : Exigences plus strictes d'accès aux données du Comité d'Entreprise, autorités de surveillance spécifiques aux Länder. France : La CNIL exige des notices de confidentialité en français, application plus stricte du consentement des cookies. Pays-Bas : L'AP se concentre sur le traitement à grande échelle, règles spécifiques sur les données de santé. Votre statut actuel : Conforme dans toutes les juridictions. Dernier audit multi-pays : Octobre 2025. Prochaine révision : Lors de l'expansion vers de nouveaux pays."
+        }
+      },
+      "coverageNote": "Couverture actuelle : Pays-Bas, Allemagne, France, Belgique, Espagne, Italie, Pologne, Autriche, et en expansion.",
+      "targetAudience": {
+        "title": "La capacité International est-elle faite pour vous ?",
+        "description": "La capacité International apporte le plus de valeur aux organisations correspondant à ce profil :",
+        "items": {
+          "presence": {
+            "label": "Présence européenne",
+            "value": "Opérations dans plusieurs pays de l'UE",
+            "description": "Employés et politiques dans 3+ juridictions de l'UE"
+          },
+          "complexity": {
+            "label": "Complexité des politiques",
+            "value": "Politiques spécifiques par pays nécessitant comparaison",
+            "description": "Politiques RH, juridiques ou de conformité différentes par pays"
+          },
+          "questions": {
+            "label": "Questions transfrontalières",
+            "value": "Demandes multi-juridictions régulières",
+            "description": "Employés ou RH ayant besoin de réponses qui traversent les frontières nationales"
+          },
+          "challenge": {
+            "label": "Défi actuel",
+            "value": "Réponses lentes et coûts juridiques externes",
+            "description": "Temps d'attente pour les conseils juridiques locaux, frais élevés pour les questions multi-pays"
+          }
+        },
+        "roles": {
+          "title": "Parties prenantes clés",
+          "items": ["Directeur RH International", "Spécialiste Mobilité Internationale", "HR Business Partner Régional", "Directeur Juridique Européen"]
+        }
+      },
+      "categories": {
+        "title": "Comment la capacité International peut vous aider",
+        "description": "La plateforme analyse les politiques dans toutes vos juridictions de l'UE. Voici les cas d'usage typiques :",
+        "items": {
+          "employment": {
+            "title": "Comparaison du Droit du Travail",
+            "description": "Règles de licenciement, délais de préavis, exigences de comité d'entreprise, obligations d'indemnités, contrats de travail",
+            "examples": ["Comparer le droit du licenciement NL vs DE", "Quel délai de préavis s'applique en France ?", "Avons-nous besoin de l'approbation du comité d'entreprise en Allemagne ?"]
+          },
+          "benefits": {
+            "title": "Analyse Avantages & Congés",
+            "description": "Droits aux congés, congé parental, arrêt maladie, jours fériés, exigences de pension par pays",
+            "examples": ["Quels sont les jours de congés par pays ?", "Comparer les politiques de congé parental", "Quelles cotisations de pension sont requises en Belgique ?"]
+          },
+          "mobility": {
+            "title": "Mobilité Internationale",
+            "description": "Télétravail transfrontalier, politiques d'affectation, implications de sécurité sociale, considérations fiscales",
+            "examples": ["Notre employé belge peut-il travailler depuis NL ?", "Qu'est-ce qui déclenche le changement de sécurité sociale ?", "Quelles sont les exigences d'affectation pour l'Allemagne ?"]
+          },
+          "harmonization": {
+            "title": "Harmonisation des Politiques",
+            "description": "Identifier les différences, opportunités d'harmonisation, standards minimums, alignement des meilleures pratiques",
+            "examples": ["Où nos politiques diffèrent-elles ?", "Quel est le minimum qu'on peut offrir dans toute l'UE ?", "Comment harmoniser les politiques de frais ?"]
+          },
+          "compliance": {
+            "title": "Conformité Locale",
+            "description": "Exigences réglementaires spécifiques par pays, adaptations locales nécessaires, suivi de conformité",
+            "examples": ["Quelles exigences locales s'appliquent en Espagne ?", "Sommes-nous conformes dans tous les pays ?", "Qu'est-ce qui change lors de l'expansion en Italie ?"]
+          },
+          "language": {
+            "title": "Support Multi-Langues",
+            "description": "Questions et réponses dans les 24 langues de l'UE, terminologie locale, réponses culturellement appropriées",
+            "examples": ["Antwoord in het Nederlands", "Antwort auf Deutsch", "Répondez en français"]
+          }
+        }
+      },
+      "integrations": {
+        "title": "Fonctionne dans toutes vos opérations européennes",
+        "description": "La capacité International se connecte à la documentation de tous vos sites de l'UE :",
+        "items": {
+          "hris": {
+            "name": "SIRH Global",
+            "description": "Workday, SAP SuccessFactors, Oracle HCM pour les politiques RH multi-pays"
+          },
+          "sharepoint": {
+            "name": "SharePoint",
+            "description": "Bibliothèques de politiques spécifiques par pays et référentiels documentaires régionaux"
+          },
+          "legal": {
+            "name": "Systèmes de Documents Juridiques",
+            "description": "Manuels de droit du travail, guides par pays, avis juridiques"
+          },
+          "teams": {
+            "name": "Microsoft Teams",
+            "description": "Collaboration transfrontalière avec les équipes RH locales dans leur langue"
+          },
+          "regulatory": {
+            "name": "Sources Réglementaires",
+            "description": "Référence aux bases de données de droit du travail local et orientations officielles, bases de données pays revues trimestriellement"
+          },
+          "upload": {
+            "name": "Upload Direct",
+            "description": "Téléchargez des politiques spécifiques par pays pour une analyse transfrontalière immédiate"
+          }
+        },
+        "documentSources": {
+          "title": "Types de documents supportés",
+          "items": ["Politiques RH par pays", "Résumés de droit du travail", "Guides d'avantages", "Politiques de mobilité", "Documents de conformité locaux"]
+        }
+      },
+      "safeguards": {
+        "title": "Considérations importantes : L'expertise locale reste essentielle",
+        "description": "La capacité International fournit une analyse transfrontalière puissante, mais certaines situations nécessitent une expertise locale :",
+        "items": {
+          "localLaw": {
+            "title": "Le droit local est complexe et évolutif",
+            "description": "Le droit du travail varie significativement par pays et change régulièrement. Pour des cas spécifiques (notamment licenciements, restructurations et litiges) consultez un conseiller juridique local."
+          },
+          "variations": {
+            "title": "Variations spécifiques par pays",
+            "description": "Même avec la même politique, l'implémentation locale peut différer en raison du droit local obligatoire, des accords de comité d'entreprise ou des pratiques culturelles. Vérifiez toujours avec les RH locaux."
+          },
+          "taxSocial": {
+            "title": "La fiscalité et la sécurité sociale nécessitent des spécialistes",
+            "description": "Les implications fiscales et de sécurité sociale transfrontalières sont complexes. La plateforme fournit des conseils généraux, mais engagez des conseillers fiscaux pour des situations spécifiques."
+          },
+          "auditTrail": {
+            "title": "Audit trail complet",
+            "description": "Chaque requête transfrontalière est enregistrée avec les détails de juridiction. Démontrez quelle analyse a été effectuée dans quels pays."
+          }
+        },
+        "disclaimer": "La capacité International fournit une analyse comparative et des conseils de politique dans les juridictions de l'UE. Pour les décisions juridiques, cas individuels et situations transfrontalières complexes, consultez un conseiller local qualifié."
+      },
+      "capabilitiesTitle": "Que peut faire la plateforme International ?",
+      "capabilitiesDescription": "Votre assistant d'intelligence transfrontalière pour les opérations européennes.",
+      "capabilities": {
+        "1": "Comparer les politiques et réglementations entre juridictions de l'UE",
+        "2": "Identifier les différences et opportunités d'harmonisation",
+        "3": "Conseiller sur les exigences locales pour les situations transfrontalières",
+        "4": "Assister l'expansion vers de nouveaux pays de l'UE",
+        "5": "Fournir des réponses dans les 24 langues de l'UE",
+        "6": "Maintenir un suivi de conformité spécifique par juridiction",
+        "7": "Assister les équipes RH locales dans leur langue maternelle",
+        "8": "Audit trail complet avec contexte juridictionnel"
+      },
+      "ctaTitle": "Prêt à simplifier vos opérations européennes ?",
+      "ctaDescription": "Découvrez comment Volentis peut vous aider à gérer les politiques de tous vos sites de l'UE depuis une seule plateforme, dans n'importe quelle langue.",
+      "ctaTimeline": "En production en 2-4 semaines",
+      "ctaWhyVolentis": "Expertise locale à grande échelle : 24 langues de l'UE, nuances spécifiques par pays, mises à jour réglementaires trimestrielles."
+    }
+  },
+  "legal": {
+    "privacy": {
+      "metaTitle": "Politique de Confidentialité - Volentis.ai",
+      "metaDescription": "Découvrez comment Volentis.ai protège votre vie privée et traite vos données personnelles en conformité avec le RGPD.",
+      "title": "Politique de Confidentialité",
+      "lastUpdated": "Dernière mise à jour : Janvier 2026",
+      "sections": {
+        "intro": {
+          "title": "Introduction",
+          "p1": "Volentis B.V. (\"Volentis\", \"nous\", \"notre\") s'engage à protéger votre vie privée. Cette Politique de Confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous visitez notre site web ou utilisez nos services.",
+          "p2": "Veuillez lire attentivement cette politique de confidentialité. En utilisant nos services, vous consentez aux pratiques décrites dans cette politique."
+        },
+        "controller": {
+          "title": "Responsable du Traitement",
+          "description": "Le responsable du traitement de vos données personnelles est :"
+        },
+        "dataCollected": {
+          "title": "Données que Nous Collectons",
+          "description": "Nous collectons différents types d'informations selon la façon dont vous interagissez avec nous :",
+          "website": {
+            "title": "Visiteurs du Site Web",
+            "items": {
+              "1": "Informations de contact que vous fournissez (nom, email, entreprise) lors d'une demande de démo ou en nous contactant",
+              "2": "Informations techniques telles que l'adresse IP, le type de navigateur et les informations sur l'appareil",
+              "3": "Données d'utilisation sur la façon dont vous interagissez avec notre site web"
+            }
+          },
+          "platform": {
+            "title": "Utilisateurs de la Plateforme",
+            "items": {
+              "1": "Informations de compte (nom, email, organisation)",
+              "2": "Données d'utilisation et journaux d'interaction à des fins d'audit",
+              "3": "Documents que vous téléchargez dans votre base de connaissances (traités en tant que Sous-traitant)"
+            }
+          }
+        },
+        "legalBasis": {
+          "title": "Base Juridique du Traitement",
+          "description": "Nous traitons vos données personnelles sur les bases juridiques suivantes :",
+          "items": {
+            "contract": {
+              "title": "Contrat",
+              "description": "Traitement nécessaire à l'exécution d'un contrat avec vous"
+            },
+            "consent": {
+              "title": "Consentement",
+              "description": "Lorsque vous nous avez donné un consentement explicite pour des finalités spécifiques"
+            },
+            "legitimate": {
+              "title": "Intérêts Légitimes",
+              "description": "Pour nos intérêts commerciaux légitimes, tels que l'amélioration de nos services"
+            }
+          }
+        },
+        "retention": {
+          "title": "Conservation des Données",
+          "description": "Nous conservons vos données personnelles uniquement aussi longtemps que nécessaire :",
+          "items": {
+            "1": "Soumissions de formulaire de contact : 2 ans ou jusqu'à ce que vous demandiez la suppression",
+            "2": "Données des utilisateurs de la plateforme : Durée de votre contrat plus 12 mois",
+            "3": "Journaux d'audit : Configurable, 12 mois par défaut"
+          }
+        },
+        "sharing": {
+          "title": "Partage des Données",
+          "description": "Nous ne vendons pas vos données personnelles. Nous pouvons partager des données avec :",
+          "items": {
+            "1": "Prestataires de services qui nous aident à exploiter notre activité (sous DPA strict)",
+            "2": "Autorités légales lorsque la loi l'exige",
+            "3": "Successeurs en cas de fusion ou d'acquisition"
+          }
+        },
+        "transfers": {
+          "title": "Transferts Internationaux",
+          "description": "Toutes les données clients sont stockées et traitées au sein de l'Union Européenne (Allemagne et Pays-Bas). Nous ne transférons pas de données personnelles hors de l'UE sans consentement explicite et garanties appropriées."
+        },
+        "rights": {
+          "title": "Vos Droits",
+          "description": "Selon le RGPD, vous disposez des droits suivants :",
+          "items": {
+            "access": {
+              "title": "Droit d'Accès",
+              "description": "Demander une copie de vos données personnelles"
+            },
+            "rectification": {
+              "title": "Droit de Rectification",
+              "description": "Demander la correction de données inexactes"
+            },
+            "erasure": {
+              "title": "Droit à l'Effacement",
+              "description": "Demander la suppression de vos données"
+            },
+            "restriction": {
+              "title": "Droit à la Limitation",
+              "description": "Demander la limitation du traitement"
+            },
+            "portability": {
+              "title": "Droit à la Portabilité",
+              "description": "Recevoir vos données dans un format structuré"
+            },
+            "objection": {
+              "title": "Droit d'Opposition",
+              "description": "S'opposer au traitement basé sur les intérêts légitimes"
+            }
+          },
+          "contact": "Pour exercer vos droits, contactez-nous à info@volentis.ai"
+        },
+        "security": {
+          "title": "Sécurité",
+          "description": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données personnelles, notamment le chiffrement TLS 1.2+ en transit et le chiffrement AES-256 au repos."
+        },
+        "contact": {
+          "title": "Nous Contacter",
+          "description": "Si vous avez des questions sur cette Politique de Confidentialité ou souhaitez exercer vos droits, veuillez nous contacter :"
+        },
+        "changes": {
+          "title": "Modifications de Cette Politique",
+          "description": "Nous pouvons mettre à jour cette Politique de Confidentialité de temps en temps. Nous vous informerons des changements importants en publiant la nouvelle politique sur cette page avec une date mise à jour."
+        }
+      }
+    },
+    "terms": {
+      "metaTitle": "Conditions Générales - Volentis.ai",
+      "metaDescription": "Lisez les conditions générales régissant l'utilisation des services Volentis.ai.",
+      "title": "Conditions Générales",
+      "lastUpdated": "Dernière mise à jour : Janvier 2026",
+      "sections": {
+        "intro": {
+          "title": "Introduction",
+          "description": "Ces Conditions Générales (\"Conditions\") régissent votre utilisation de la plateforme Volentis.ai et des services fournis par Volentis B.V. (\"Volentis\", \"nous\"). En accédant ou en utilisant nos services, vous acceptez d'être lié par ces Conditions."
+        },
+        "definitions": {
+          "title": "Définitions",
+          "items": {
+            "platform": {
+              "term": "Plateforme",
+              "definition": "La plateforme software-as-a-service Volentis.ai et les outils associés"
+            },
+            "services": {
+              "term": "Services",
+              "definition": "Tous les services fournis par Volentis, y compris la Plateforme, le support et les services professionnels"
+            },
+            "user": {
+              "term": "Utilisateur",
+              "definition": "Toute personne autorisée à accéder à la Plateforme sous le compte de votre organisation"
+            },
+            "content": {
+              "term": "Contenu Client",
+              "definition": "Tous les documents, données et informations téléchargés ou traités par la Plateforme"
+            }
+          }
+        },
+        "acceptance": {
+          "title": "Acceptation des Conditions",
+          "description": "En accédant ou en utilisant nos Services, vous déclarez avoir l'autorité d'engager votre organisation à ces Conditions. Si vous n'acceptez pas ces Conditions, vous ne pouvez pas utiliser nos Services."
+        },
+        "services": {
+          "title": "Description des Services",
+          "description": "Volentis.ai fournit une plateforme d'assistant d'entreprise alimentée par l'IA qui aide les organisations à gérer et récupérer des informations depuis leurs bases de connaissances internes.",
+          "disclaimer": "La Plateforme fournit des informations et de l'assistance mais ne remplace pas les conseils juridiques, RH ou autres conseils professionnels. Les utilisateurs doivent vérifier les informations importantes et les décisions avec des professionnels qualifiés."
+        },
+        "obligations": {
+          "title": "Obligations des Utilisateurs",
+          "description": "Vous vous engagez à :",
+          "items": {
+            "1": "Utiliser les Services uniquement à des fins légales et en conformité avec ces Conditions",
+            "2": "Maintenir la confidentialité de vos identifiants de compte",
+            "3": "Vous assurer que votre utilisation des Services est conforme aux lois et réglementations applicables",
+            "4": "Ne pas tenter de faire de l'ingénierie inverse, copier ou détourner la Plateforme"
+          }
+        },
+        "ip": {
+          "title": "Propriété Intellectuelle",
+          "volentis": "Volentis conserve tous les droits sur la Plateforme, y compris tous les logiciels, algorithmes et améliorations. Rien dans ces Conditions ne transfère la propriété intellectuelle de Volentis à vous.",
+          "customer": "Vous conservez tous les droits sur votre Contenu Client. En téléchargeant du contenu, vous accordez à Volentis une licence limitée pour le traiter uniquement pour fournir les Services."
+        },
+        "dataProtection": {
+          "title": "Protection des Données",
+          "description": "Nous traitons les données personnelles conformément au RGPD et à notre Politique de Confidentialité. Pour les données client :",
+          "items": {
+            "1": "Volentis agit en tant que Sous-traitant au sens de l'Article 28 du RGPD",
+            "2": "Un Accord de Traitement des Données est disponible avec tous les contrats enterprise",
+            "3": "Les données client sont stockées exclusivement dans des centres de données de l'UE"
+          }
+        },
+        "liability": {
+          "title": "Limitation de Responsabilité",
+          "description": "Dans la mesure maximale permise par la loi, Volentis ne sera pas responsable des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs découlant de votre utilisation des Services.",
+          "exclusions": "Notre responsabilité totale pour toute réclamation découlant de ces Conditions ne dépassera pas les montants payés par vous pour les Services dans les 12 mois précédant la réclamation."
+        },
+        "termination": {
+          "title": "Résiliation",
+          "description": "Chaque partie peut résilier ces Conditions par notification écrite si l'autre partie viole substantiellement ces Conditions et ne remédie pas à cette violation dans les 30 jours. À la résiliation, votre accès à la Plateforme sera révoqué, et nous supprimerons votre Contenu Client dans les 90 jours, sauf obligation légale de le conserver."
+        },
+        "law": {
+          "title": "Droit Applicable",
+          "description": "Ces Conditions sont régies par les lois des Pays-Bas. Tout litige sera soumis à la juridiction exclusive des tribunaux d'Amsterdam, Pays-Bas."
+        },
+        "changes": {
+          "title": "Modifications des Conditions",
+          "description": "Nous pouvons mettre à jour ces Conditions de temps en temps. Nous vous informerons des changements importants au moins 30 jours avant leur entrée en vigueur. L'utilisation continue des Services après l'entrée en vigueur des changements constitue l'acceptation des nouvelles Conditions."
+        },
+        "contact": {
+          "title": "Contact",
+          "description": "Les questions concernant ces Conditions doivent être adressées à :"
+        }
+      }
+    },
+    "cookies": {
+      "metaTitle": "Politique des Cookies - Volentis.ai",
+      "metaDescription": "Découvrez comment Volentis.ai utilise les cookies et technologies similaires.",
+      "title": "Politique des Cookies",
+      "lastUpdated": "Dernière mise à jour : Janvier 2026",
+      "sections": {
+        "intro": {
+          "title": "Introduction",
+          "description": "Cette Politique des Cookies explique comment Volentis B.V. (\"Volentis\", \"nous\") utilise les cookies et technologies similaires lorsque vous visitez notre site web ou utilisez notre plateforme."
+        },
+        "whatAreCookies": {
+          "title": "Que Sont les Cookies ?",
+          "description": "Les cookies sont de petits fichiers texte qui sont placés sur votre appareil lorsque vous visitez un site web. Ils aident le site à reconnaître votre appareil et à mémoriser certaines informations sur votre visite."
+        },
+        "types": {
+          "title": "Types de Cookies que Nous Utilisons",
+          "tableHeaders": {
+            "name": "Nom du Cookie",
+            "purpose": "Finalité",
+            "duration": "Durée"
+          },
+          "durations": {
+            "session": "Session",
+            "year": "1 an",
+            "twoYears": "2 ans"
+          },
+          "necessary": {
+            "title": "Cookies Strictement Nécessaires",
+            "description": "Ces cookies sont essentiels au bon fonctionnement du site web. Ils ne peuvent pas être désactivés.",
+            "cookies": {
+              "session": "Maintient votre session pendant la navigation",
+              "locale": "Mémorise votre préférence de langue"
+            }
+          },
+          "analytics": {
+            "title": "Cookies Analytiques",
+            "description": "Ces cookies nous aident à comprendre comment les visiteurs interagissent avec notre site. Ces cookies ne sont placés qu'après votre consentement.",
+            "cookies": {
+              "ga": "Google Analytics - distingue les visiteurs uniques",
+              "gaSession": "Google Analytics - maintient l'état de la session"
+            },
+            "consentNote": "Ces cookies ne sont placés que si vous cliquez sur 'Accepter' dans la bannière de cookies."
+          }
+        },
+        "managing": {
+          "title": "Gestion des Cookies",
+          "description": "Vous pouvez contrôler et gérer les cookies via les paramètres de votre navigateur. Veuillez noter que la désactivation de certains cookies peut affecter la fonctionnalité de notre site web.",
+          "browserSettings": "La plupart des navigateurs vous permettent de refuser les cookies ou de vous alerter lorsque des cookies sont envoyés. Consultez la documentation d'aide de votre navigateur pour les instructions."
+        },
+        "thirdParty": {
+          "title": "Cookies Tiers",
+          "description": "Nous minimisons l'utilisation de cookies tiers. Lorsque nous utilisons des services tiers, nous nous assurons qu'ils sont conformes au RGPD et respectent vos préférences de confidentialité."
+        },
+        "changes": {
+          "title": "Modifications de Cette Politique",
+          "description": "Nous pouvons mettre à jour cette Politique des Cookies de temps en temps. Toute modification sera publiée sur cette page avec une date mise à jour."
+        },
+        "contact": {
+          "title": "Nous Contacter",
+          "description": "Si vous avez des questions sur notre utilisation des cookies, veuillez nous contacter :"
+        }
+      }
+    }
+  },
+  "pricing": {
+    "metaTitle": "Tarifs - Volentis.ai | Tarification IA Enterprise",
+    "metaDescription": "Tarification flexible selon vos besoins. Du SaaS multi-tenant au single-tenant avec BYOK. Contactez-nous pour un devis personnalisé.",
+    "headline": "Tarification transparente pour l'IA enterprise",
+    "subheadline": "Tarifs adaptés à la taille de votre organisation, au volume de documents et aux exigences de déploiement.",
+    "philosophy": {
+      "title": "Comment fonctionne notre tarification",
+      "description": "Nous croyons en une tarification transparente et basée sur la valeur. Votre investissement dépend de trois facteurs clés :",
+      "factors": {
+        "users": {
+          "title": "Nombre d'Utilisateurs",
+          "description": "La tarification évolue avec les utilisateurs actifs accédant à la plateforme"
+        },
+        "documents": {
+          "title": "Volume de Documents",
+          "description": "Basé sur la taille de votre base de connaissances"
+        },
+        "deployment": {
+          "title": "Modèle de Déploiement",
+          "description": "Multi-tenant, single-tenant ou géré par le client"
+        }
+      }
+    },
+    "tiers": {
+      "title": "Choisissez votre forfait",
+      "subtitle": "Tous les forfaits incluent la résidence des données en UE, la conformité RGPD et les audit trails complets.",
+      "starter": {
+        "title": "Starter",
+        "description": "Parfait pour les équipes qui débutent avec l'IA enterprise.",
+        "priceLabel": "À partir de",
+        "price": "Contactez-nous",
+        "features": {
+          "1": "Jusqu'à 500 utilisateurs",
+          "2": "1 AI Agent (ex. HR Agent)",
+          "3": "Intégration SharePoint",
+          "4": "SSO Standard (SAML 2.0)",
+          "5": "Support par email"
+        },
+        "cta": "Commencer"
+      },
+      "professional": {
+        "title": "Professional",
+        "badge": "Le plus populaire",
+        "description": "Pour les organisations ayant besoin de plusieurs agents et de fonctionnalités avancées.",
+        "priceLabel": "À partir de",
+        "price": "Contactez-nous",
+        "features": {
+          "1": "Jusqu'à 2 000 utilisateurs",
+          "2": "Plusieurs AI Agents",
+          "3": "Toutes les intégrations incluses",
+          "4": "Support prioritaire",
+          "5": "Success manager dédié",
+          "6": "Workflows personnalisés"
+        },
+        "cta": "Commencer"
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "description": "Flexibilité totale pour les grandes organisations avec des exigences complexes.",
+        "priceLabel": "Tarification personnalisée",
+        "price": "Parlons-en",
+        "features": {
+          "1": "Utilisateurs illimités",
+          "2": "Tous les AI Agents",
+          "3": "Single-tenant ou on-premise",
+          "4": "Chiffrement BYOK",
+          "5": "Support premium 24h/24",
+          "6": "SLA personnalisé"
+        },
+        "cta": "Parler à un expert"
+      }
+    },
+    "included": {
+      "title": "Inclus dans tous les forfaits",
+      "items": {
+        "implementation": {
+          "title": "Support d'Implémentation",
+          "description": "Onboarding guidé, ingestion de documents et formation des utilisateurs"
+        },
+        "support": {
+          "title": "Support Technique",
+          "description": "Accès à notre équipe de support expert par email et téléphone"
+        },
+        "updates": {
+          "title": "Mises à jour de la Plateforme",
+          "description": "Mises à jour automatiques avec nouvelles fonctionnalités et améliorations"
+        },
+        "compliance": {
+          "title": "Documentation de Conformité",
+          "description": "DPA, documentation de sécurité et support d'audit"
+        }
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "questions": {
+        "1": {
+          "question": "En combien de temps pouvons-nous commencer ?",
+          "answer": "Pour les déploiements SaaS multi-tenant, vous pouvez être opérationnels en 2-4 semaines. Les déploiements single-tenant prennent généralement 4-8 semaines. Nous nous adapterons à votre calendrier et vos exigences."
+        },
+        "2": {
+          "question": "Pouvons-nous commencer avec un agent et en ajouter d'autres ensuite ?",
+          "answer": "Absolument. De nombreux clients commencent avec le HR Agent et s'étendent vers Legal, Compliance ou IT à mesure qu'ils voient la valeur. La plateforme est conçue pour évoluer avec vos besoins."
+        },
+        "3": {
+          "question": "Qu'est-ce qui est inclus dans l'implémentation ?",
+          "answer": "L'implémentation inclut la configuration du tenant, la configuration SSO, la connexion aux sources documentaires, l'ingestion initiale des documents, la formation des administrateurs et le support d'onboarding des utilisateurs."
+        },
+        "4": {
+          "question": "Proposez-vous un pilote ou une preuve de concept ?",
+          "answer": "Oui, nous proposons des pilotes à durée limitée avec un sous-ensemble de vos documents et utilisateurs. Cela vous permet de valider la solution avant un engagement complet."
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à discuter de vos besoins ?",
+      "description": "Notre équipe vous aidera à trouver le bon forfait et répondra à toutes vos questions sur les tarifs, le déploiement ou l'implémentation.",
+      "primary": "Réserver une démo",
+      "secondary": "Parler à un expert"
+    }
+  },
+  "contact": {
+    "metaTitle": "Contact - Volentis.ai | Contactez-nous",
+    "metaDescription": "Contactez l'équipe Volentis.ai. Posez des questions, demandez un devis ou discutez de la façon dont notre plateforme IA enterprise peut aider votre organisation.",
+    "headline": "Parlons-en",
+    "subheadline": "Une question ? Besoin d'un devis personnalisé ? Vous souhaitez discuter de vos besoins spécifiques ? Nous sommes là pour vous aider.",
+    "form": {
+      "title": "Envoyez-nous un message",
+      "fields": {
+        "firstName": {
+          "label": "Prénom",
+          "placeholder": "Jean"
+        },
+        "lastName": {
+          "label": "Nom",
+          "placeholder": "Dupont"
+        },
+        "email": {
+          "label": "Email professionnel",
+          "placeholder": "jean.dupont@entreprise.com"
+        },
+        "company": {
+          "label": "Entreprise",
+          "placeholder": "Nom de votre entreprise"
+        },
+        "jobTitle": {
+          "label": "Fonction",
+          "placeholder": "Directeur RH"
+        },
+        "employees": {
+          "label": "Taille de l'entreprise",
+          "placeholder": "Sélectionner...",
+          "options": {
+            "1": "50-200 employés",
+            "2": "200-500 employés",
+            "3": "500-1 000 employés",
+            "4": "1 000-5 000 employés",
+            "5": "5 000+ employés"
+          }
+        },
+        "interest": {
+          "label": "Intérêt principal",
+          "placeholder": "Sélectionner...",
+          "options": {
+            "hr": "HR Agent",
+            "legal": "Legal Agent",
+            "compliance": "Compliance Agent",
+            "it": "IT Agent",
+            "finance": "Finance Agent",
+            "multiple": "Plusieurs agents"
+          }
+        },
+        "message": {
+          "label": "Autre chose que nous devrions savoir ?",
+          "placeholder": "Parlez-nous de vos besoins spécifiques ou questions..."
+        }
+      },
+      "privacy": "En soumettant ce formulaire, vous acceptez notre Politique de Confidentialité. Nous utiliserons vos informations pour répondre à votre demande et pourrons vous contacter au sujet de Volentis.ai.",
+      "submit": "Envoyer le message",
+      "submitting": "Envoi en cours...",
+      "error": "Une erreur s'est produite. Veuillez réessayer ou nous contacter directement à info@volentis.ai.",
+      "success": {
+        "title": "Merci !",
+        "message": "Nous avons reçu votre demande et vous répondrons sous 1 jour ouvré."
+      }
+    },
+    "talkToExpert": {
+      "title": "Parler à un expert",
+      "description": "Vous préférez une conversation ? Réservez un appel avec un de nos spécialistes.",
+      "button": "Planifier un appel"
+    },
+    "whatToExpect": {
+      "title": "Comment nous pouvons vous aider",
+      "steps": {
+        "1": {
+          "title": "Réponse rapide",
+          "description": "Nous vous répondrons sous 1 jour ouvré."
+        },
+        "2": {
+          "title": "Conversation honnête",
+          "description": "Nous discuterons de votre situation et répondrons à vos questions. Sans script, sans pression."
+        },
+        "3": {
+          "title": "Prochaines étapes claires",
+          "description": "Que ce soit une démo, de la documentation ou juste plus d'infos, nous vous aiderons à avancer."
+        }
+      }
+    },
+    "directContact": {
+      "title": "Vous préférez nous contacter directement ?",
+      "email": {
+        "label": "Email"
+      },
+      "phone": {
+        "label": "Téléphone"
+      },
+      "address": {
+        "label": "Adresse",
+        "country": "Pays-Bas"
+      }
+    },
+    "trust": {
+      "euHosted": "Hébergé en UE",
+      "gdpr": "Conforme RGPD",
+      "euAiAct": "Conforme EU AI Act"
+    }
+  },
+  "demo": {
+    "metaTitle": "Réserver une démo - Volentis.ai | Voyez l'IA Enterprise en action",
+    "metaDescription": "Réservez une démo de 30 minutes de Volentis.ai. Découvrez comment nos AI agents peuvent réduire vos tickets RH de 50-70%. Pas de pitch commercial, juste une session de travail.",
+    "badge": "Réserver votre démo",
+    "headline": "Voyez Volentis.ai en action",
+    "subheadline": "30 minutes. Vos questions. Des réponses concrètes. Pas de pitch commercial.",
+    "whatToExpect": {
+      "title": "À quoi s'attendre",
+      "items": {
+        "duration": {
+          "icon": "clock",
+          "title": "30 minutes",
+          "description": "Session concentrée, sans blabla"
+        },
+        "personalized": {
+          "icon": "user",
+          "title": "Votre cas d'usage",
+          "description": "Nous discutons de vos défis spécifiques"
+        },
+        "live": {
+          "icon": "play",
+          "title": "Démonstration en direct",
+          "description": "Voyez l'IA travailler avec de vrais documents"
+        },
+        "questions": {
+          "icon": "chat",
+          "title": "Q&R inclus",
+          "description": "Demandez tout : sécurité, tarifs, intégration"
+        }
+      }
+    },
+    "booking": {
+      "title": "Choisissez un créneau",
+      "description": "Sélectionnez un créneau et nous vous enverrons une invitation avec un lien de vidéoconférence.",
+      "instructions": "Cliquez ci-dessous pour ouvrir notre calendrier de réservation et choisir un créneau qui vous convient.",
+      "button": "Ouvrir le calendrier de réservation",
+      "placeholder": "Chargement du calendrier de réservation...",
+      "fallback": {
+        "title": "Vous ne voyez pas le calendrier ?",
+        "description": "Envoyez-nous un email directement et nous trouverons un créneau :",
+        "email": "info@volentis.ai"
+      }
+    },
+    "socialProof": {
+      "title": "Rejoignez les grandes entreprises européennes",
+      "stats": {
+        "demos": "200+",
+        "demosLabel": "démos réalisées",
+        "countries": "12",
+        "countriesLabel": "pays de l'UE",
+        "satisfaction": "98%",
+        "satisfactionLabel": "recommanderaient"
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "items": {
+        "salesPitch": {
+          "question": "Est-ce un pitch commercial ?",
+          "answer": "Non. C'est une session de travail où nous vous montrons le produit et discutons s'il correspond à vos besoins. Pas de pression, pas d'appels de suivi sauf si vous le souhaitez."
+        },
+        "prepare": {
+          "question": "Comment dois-je me préparer ?",
+          "answer": "Apportez juste vos questions. C'est utile si vous pouvez partager les défis que vous essayez de résoudre, mais ce n'est pas obligatoire."
+        },
+        "technical": {
+          "question": "Dois-je amener mon équipe IT ?",
+          "answer": "Pas pour la première démo. Nous nous concentrons d'abord sur la valeur métier. Nous pouvons planifier une session technique approfondie plus tard si nécessaire."
+        },
+        "next": {
+          "question": "Que se passe-t-il après la démo ?",
+          "answer": "S'il y a un fit, nous proposerons un pilote avec vos propres documents. Sinon, pas de rancune. Nous nous quitterons en amis."
+        }
+      }
+    },
+    "alternativeCta": {
+      "title": "Vous préférez explorer d'abord ?",
+      "description": "Essayez notre démo interactive pour voir comment fonctionnent les AI agents.",
+      "button": "Essayer le HR Agent"
+    }
+  },
+  "tryAgent": {
+    "metaTitle": "Démo {agent} - Volentis.ai | Essayez-le vous-même",
+    "metaDescription": "Découvrez le {agent} Volentis.ai en action. Regardez la vidéo, essayez la démo interactive et voyez comment il peut transformer votre {department}.",
+    "badge": "Démo Interactive",
+    "headline": "Découvrez le {agent}",
+    "subheadline": "Regardez comment ça fonctionne, puis essayez-le vous-même avec des données d'exemple.",
+    "video": {
+      "title": "Voyez-le en action",
+      "description": "Regardez comment le {agent} répond aux questions en utilisant les propres documents de votre entreprise.",
+      "duration": "2:30",
+      "comingSoon": "Vidéo bientôt disponible",
+      "comingSoonDescription": "Nous préparons une vidéo de présentation. En attendant, essayez la démo interactive ci-dessous."
+    },
+    "interactiveDemo": {
+      "title": "Essayez-le vous-même",
+      "description": "Cette démo utilise des politiques {department} d'exemple. Posez des questions et voyez comment l'IA répond avec des citations de sources.",
+      "disclaimer": "Ceci est une démonstration avec des données d'exemple. Réservez une démo pour le voir fonctionner avec vos vrais documents.",
+      "suggestions": {
+        "title": "Essayez de demander :",
+        "hr": [
+          "Combien de jours de congés ai-je ?",
+          "Quelle est la politique de télétravail ?",
+          "Comment demander un congé parental ?",
+          "Quel est le processus de remboursement des frais ?"
+        ],
+        "legal": [
+          "Quelles sont nos conditions de paiement standard ?",
+          "Y a-t-il une clause de limitation de responsabilité ?",
+          "Quel est le délai de préavis de résiliation ?",
+          "Y a-t-il des restrictions de non-concurrence ?"
+        ],
+        "compliance": [
+          "Quelles sont nos obligations RGPD ?",
+          "Comment traitons-nous les demandes des personnes concernées ?",
+          "Quelle est la politique de conservation des données ?",
+          "Qui est notre Délégué à la Protection des Données ?"
+        ],
+        "it": [
+          "Comment réinitialiser mon mot de passe ?",
+          "Quel est le processus de configuration VPN ?",
+          "Comment demander un nouveau logiciel ?",
+          "Quelle est la politique sur les appareils personnels ?"
+        ],
+        "finance": [
+          "Quelle est la limite d'approbation pour les dépenses ?",
+          "Comment soumettre une facture ?",
+          "Quel est le processus d'achat ?",
+          "Quelle est la date limite du budget ?"
+        ],
+        "international": [
+          "Quelle est la politique de congé parental en Allemagne ?",
+          "Comment fonctionnent les jours de congés en France ?",
+          "Quels sont les délais de préavis aux Pays-Bas ?",
+          "Quel est le salaire minimum en Espagne ?"
+        ]
+      }
+    },
+    "results": {
+      "title": "Ce que les entreprises obtiennent",
+      "hr": {
+        "metric1": { "value": "50-70%", "label": "de tickets RH en moins" },
+        "metric2": { "value": "24h/24", "label": "self-service employés" },
+        "metric3": { "value": "< 30 sec", "label": "temps de réponse moyen" }
+      },
+      "legal": {
+        "metric1": { "value": "70%", "label": "révision de contrats plus rapide" },
+        "metric2": { "value": "100%", "label": "couverture des clauses" },
+        "metric3": { "value": "< 10 sec", "label": "temps de recherche de clause" }
+      },
+      "compliance": {
+        "metric1": { "value": "Heures", "label": "pour être prêt pour l'audit (pas jours)" },
+        "metric2": { "value": "100%", "label": "couverture audit trail" },
+        "metric3": { "value": "Temps réel", "label": "surveillance de conformité" }
+      },
+      "it": {
+        "metric1": { "value": "50-60%", "label": "déflection de tickets" },
+        "metric2": { "value": "24h/24", "label": "self-service IT" },
+        "metric3": { "value": "< 1 min", "label": "jusqu'à résolution" }
+      },
+      "finance": {
+        "metric1": { "value": "60%", "label": "d'erreurs de politique en moins" },
+        "metric2": { "value": "40%", "label": "approbations plus rapides" },
+        "metric3": { "value": "100%", "label": "conformité aux politiques" }
+      },
+      "international": {
+        "metric1": { "value": "27", "label": "pays de l'UE supportés" },
+        "metric2": { "value": "24", "label": "langues" },
+        "metric3": { "value": "1", "label": "plateforme unifiée" }
+      }
+    },
+    "cta": {
+      "title": "Prêt à le voir avec vos documents ?",
+      "description": "Cette démo utilise des données d'exemple. La vraie magie opère quand nous connectons vos vraies politiques et procédures.",
+      "primary": "Réserver une démo",
+      "secondary": "Parler à un expert"
+    },
+    "otherAgents": {
+      "title": "Explorer les autres AI Agents",
+      "description": "Volentis.ai propose des agents spécialisés pour chaque département."
+    }
+  },
+  "productPages": {
+    "features": {
+      "metaTitle": "Fonctionnalités - Volentis.ai | Capacités de la plateforme IA Enterprise",
+      "metaDescription": "Découvrez les fonctionnalités Volentis.ai : IA basée sur RAG, attribution des sources, score de confiance, support multilingue et audit trails complets.",
+      "badge": "Fonctionnalités de la plateforme",
+      "headline": "Capacités IA enterprise conçues pour la confiance",
+      "subheadline": "Chaque fonctionnalité conçue avec la conformité, la transparence et la précision au cœur.",
+      "coreCapabilities": {
+        "title": "Capacités principales",
+        "conversational": {
+          "title": "IA Conversationnelle",
+          "description": "Posez des questions comme vous le feriez à un collègue. Pas de formation nécessaire, pas de syntaxe spéciale.",
+          "benefit": "Vos employés obtiennent des réponses en secondes, pas en heures à attendre des réponses par email."
+        },
+        "rag": {
+          "title": "Architecture RAG",
+          "description": "Le Retrieval-Augmented Generation (RAG) garantit que les réponses proviennent exclusivement de vos documents approuvés.",
+          "benefit": "L'IA n'invente jamais rien. Pas de réponse dans vos documents ? Vous obtiendrez un honnête 'Je ne sais pas' au lieu d'une réponse fabriquée."
+        },
+        "sources": {
+          "title": "Attribution des Sources",
+          "description": "Chaque réponse inclut des références exactes aux documents sources avec des liens cliquables.",
+          "benefit": "Les employés peuvent vérifier n'importe quelle réponse eux-mêmes. Les managers peuvent faire confiance aux informations partagées."
+        },
+        "confidence": {
+          "title": "Score de Confiance",
+          "description": "Des indicateurs visuels montrent la fiabilité des réponses : vert pour haute confiance, jaune pour moyenne, rouge pour basse.",
+          "benefit": "Vert signifie 'allez-y'. Jaune signifie 'vérifiez'. Plus d'incertitude sur la fiabilité de la réponse."
+        },
+        "multilanguage": {
+          "title": "Toutes les langues de l'UE",
+          "description": "Support complet pour les 24 langues de l'UE. Posez en français, obtenez des réponses en français, même depuis des documents anglais.",
+          "benefit": "Les équipes internationales travaillent dans leur langue préférée. Pas de délais de traduction, pas de malentendus."
+        },
+        "audit": {
+          "title": "Audit Trail Complet",
+          "description": "Chaque question, réponse et source est enregistrée avec horodatages et informations utilisateur.",
+          "benefit": "Quand l'auditeur arrive, vous êtes prêt. Exportez tout en un clic pour les revues de conformité."
+        }
+      },
+      "beyondChat": {
+        "title": "Plus qu'un chatbot : un moteur d'aide à la décision",
+        "description": "Volentis.ai va au-delà du simple Q&R. Il est conçu pour supporter des workflows complexes et des processus de prise de décision.",
+        "agenticWorkflows": {
+          "title": "Workflows Agentiques",
+          "description": "Workflows automatisés avec points de validation humaine. Le système peut exécuter des tâches multi-étapes tout en gardant les humains en contrôle des décisions importantes.",
+          "benefit": "Exemple : Un employé demande 'Je veux demander un congé parental'. L'IA le guide dans le formulaire, vérifie l'éligibilité et route la demande au bon manager, le tout en une conversation.",
+          "learnMore": "Que sont les workflows agentiques ?"
+        },
+        "decisionSupport": {
+          "title": "Aide à la Décision",
+          "description": "Obtenez des conseils argumentés avec citations des sources pour une meilleure prise de décision. Le système présente des informations pertinentes de plusieurs documents pour vous aider à faire des choix éclairés.",
+          "benefit": "Arrêtez de chercher dans 5 PDFs différents. Demandez 'Quelles sont nos options pour cette situation ?' et obtenez une vue structurée avec avantages, inconvénients et références aux politiques."
+        },
+        "draftGeneration": {
+          "title": "Génération de Brouillons",
+          "description": "Générez des brouillons de documents comme des descriptions de poste, résumés de politiques et clauses contractuelles, toujours avec révision humaine obligatoire avant utilisation.",
+          "benefit": "Premier brouillon en 30 secondes au lieu de 30 minutes. Vous révisez et affinez, l'IA fait le gros du travail."
+        }
+      },
+      "midPageCta": {
+        "title": "Vous voulez voir ça en action ?",
+        "description": "La plupart des clients commencent avec le HR Agent : le chemin le plus rapide pour réduire les questions répétitives.",
+        "button": "Voir le HR Agent",
+        "secondary": "Ou explorer tous les agents"
+      },
+      "documentPipeline": {
+        "title": "Traitement Intelligent des Documents",
+        "description": "Vos documents passent par un pipeline sophistiqué pour garantir une récupération IA précise.",
+        "steps": {
+          "extraction": {
+            "title": "Extraction du Contenu",
+            "description": "Le texte est extrait des PDFs, documents Word, fichiers Excel et PowerPoints en préservant la structure."
+          },
+          "classification": {
+            "title": "Classification Automatique",
+            "description": "Le machine learning catégorise les documents par type, département et sujet."
+          },
+          "metadata": {
+            "title": "Extraction des Métadonnées",
+            "description": "Auteur, date, version et propriétés personnalisées sont capturés automatiquement."
+          },
+          "indexing": {
+            "title": "Indexation Sémantique",
+            "description": "Les embeddings IA permettent la recherche sémantique. Trouvez par sens, pas seulement par mots-clés."
+          }
+        },
+        "readyLabel": "Prêt pour la récupération IA"
+      },
+      "administration": {
+        "title": "Administration & Gouvernance",
+        "description": "Outils d'administration enterprise pour un contrôle complet sur votre plateforme IA.",
+        "features": {
+          "adminConsole": {
+            "title": "Console Admin Multi-Tenant",
+            "description": "Gestion centralisée pour le provisioning des utilisateurs, les assignations de rôles et la configuration."
+          },
+          "rbac": {
+            "title": "Contrôle d'Accès Basé sur les Rôles",
+            "description": "Permissions granulaires au niveau workspace, collection, document et fonctionnalité."
+          },
+          "contentPolicies": {
+            "title": "Politiques de Contenu",
+            "description": "Configurez les sujets approuvés, le filtrage de contenu et les directives de réponse."
+          },
+          "complianceDashboard": {
+            "title": "Tableau de Bord Conformité",
+            "description": "Surveillez le traitement des données, les logs d'audit et le statut des politiques de conservation en temps réel."
+          },
+          "userProvisioning": {
+            "title": "Provisioning Automatique des Utilisateurs",
+            "description": "Intégration SCIM 2.0 pour la création et déprovisioning automatique des utilisateurs depuis votre fournisseur d'identité."
+          },
+          "retentionPolicies": {
+            "title": "Politiques de Conservation",
+            "description": "Périodes de conservation des données configurables pour répondre à vos exigences de conformité (défaut : 12 mois)."
+          }
+        }
+      },
+      "accessibility": {
+        "title": "Accessible Partout",
+        "description": "Utilisez Volentis.ai sur n'importe quel appareil, avec des fonctionnalités d'accessibilité intégrées.",
+        "mobile": {
+          "title": "Mobile & Responsive",
+          "description": "Design entièrement responsive optimisé pour desktop, tablette et mobile. Accédez à votre base de connaissances de n'importe où."
+        },
+        "crossDevice": {
+          "title": "Synchronisation Multi-Appareils",
+          "description": "Commencez une conversation sur votre laptop, continuez sur votre téléphone. Synchronisation en temps réel sur tous vos appareils."
+        },
+        "keyboard": {
+          "title": "Navigation au Clavier",
+          "description": "Fonctionnalité complète de la plateforme via raccourcis clavier pour les utilisateurs avancés et les besoins d'accessibilité."
+        },
+        "screenReader": {
+          "title": "Support Lecteur d'Écran",
+          "description": "Labels et descriptions ARIA partout pour la compatibilité avec les technologies d'assistance."
+        },
+        "visual": {
+          "title": "Accessibilité Visuelle",
+          "description": "Modes haut contraste, tailles de police ajustables et options d'accessibilité motrice disponibles."
+        }
+      },
+      "knowledgeManagement": {
+        "title": "Gestion Intelligente des Connaissances",
+        "description": "Vos documents sont automatiquement traités, classifiés et indexés pour la récupération IA.",
+        "features": {
+          "sharepoint": "Intégration SharePoint avec accès en lecture seule et authentification OAuth 2.0",
+          "autoClassification": "Classification automatique des documents utilisant le machine learning",
+          "versionTracking": "Suivi des versions et planification des rafraîchissements pour garder les connaissances à jour",
+          "semanticSearch": "Recherche sémantique alimentée par les embeddings IA. Trouvez par sens, pas seulement par mots-clés"
+        },
+        "formats": {
+          "title": "Formats Supportés",
+          "maxSize": "Taille max de fichier",
+          "perFile": "par fichier"
+        }
+      },
+      "collaboration": {
+        "title": "Fonctionnalités de Collaboration",
+        "description": "Travaillez ensemble sur des requêtes complexes et partagez des insights dans votre organisation.",
+        "features": {
+          "workspaces": {
+            "title": "Workspaces d'Équipe",
+            "description": "Créez des workspaces dédiés avec contrôle d'accès basé sur les rôles"
+          },
+          "sharing": {
+            "title": "Partage de Conversations",
+            "description": "Partagez des fils avec des collègues, y compris un accès externe limité dans le temps"
+          },
+          "annotations": {
+            "title": "Annotations de Fils",
+            "description": "Ajoutez des commentaires et notes aux conversations partagées"
+          },
+          "export": {
+            "title": "Options d'Export",
+            "description": "Exportez en PDF, Word ou formats texte brut"
+          }
+        }
+      },
+      "perfectFit": {
+        "title": "Volentis.ai apporte le plus de valeur quand...",
+        "items": {
+          "1": {
+            "title": "Vous avez 200+ employés",
+            "description": "Avec plus de personnes qui posent des questions, les gains de temps se multiplient. Un HR Agent peut gérer le volume de 2-3 ETP."
+          },
+          "2": {
+            "title": "Vos politiques sont documentées",
+            "description": "Vous avez des manuels, procédures et politiques sous forme numérique (Word, PDF, SharePoint). Même s'ils sont dispersés, nous les connecterons."
+          },
+          "3": {
+            "title": "La conformité RGPD compte",
+            "description": "Vous avez besoin de contrôle sur vos données. Hébergement UE, audit trails, pas d'entraînement sur vos données : ce ne sont pas des options pour vous."
+          },
+          "4": {
+            "title": "Votre équipe croule sous les questions répétitives",
+            "description": "Les RH, IT, Finance ou Juridique passent des heures à répondre aux mêmes questions. Vous voulez qu'ils se concentrent sur le travail stratégique."
+          }
+        },
+        "cta": "Cela vous ressemble ?"
+      },
+      "cta": {
+        "title": "Prêt à voir ces fonctionnalités en action ?",
+        "description": "Réservez une démo et découvrez comment Volentis.ai peut transformer la gestion des connaissances de votre organisation.",
+        "button": "Réserver une démo",
+        "secondaryButton": "Voir les intégrations"
+      }
+    },
+    "integrations": {
+      "metaTitle": "Intégrations - Volentis.ai | Connectez vos outils enterprise",
+      "metaDescription": "Volentis.ai s'intègre avec SharePoint, Microsoft Teams, Slack, SAP, Workday et plus encore. SSO enterprise et accès API.",
+      "badge": "Intégrations",
+      "headline": "Fonctionne avec les outils que vous utilisez déjà",
+      "subheadline": "Pas de perturbation de vos workflows existants. Volentis.ai se connecte à vos référentiels documentaires, systèmes RH et outils de collaboration pour que les employés obtiennent des réponses IA là où ils travaillent déjà.",
+      "whyIntegrations": {
+        "title": "Pourquoi les intégrations comptent",
+        "description": "La plupart des projets IA échouent parce qu'ils demandent aux employés de changer leur façon de travailler. Avec Volentis.ai :",
+        "benefits": {
+          "noMigration": {
+            "title": "Pas de migration de documents nécessaire",
+            "description": "Gardez vos documents dans SharePoint. Nous nous connectons directement et restons synchronisés automatiquement."
+          },
+          "singleSignOn": {
+            "title": "Une seule connexion pour tout",
+            "description": "Les employés utilisent leurs comptes Microsoft ou Google existants. Pas de nouveaux mots de passe à retenir ou gérer."
+          },
+          "whereTheyWork": {
+            "title": "Des réponses là où les employés sont déjà",
+            "description": "Posez des questions dans Teams ou Slack. Pas besoin d'ouvrir une autre app ou d'apprendre une nouvelle interface."
+          }
+        },
+        "notListed": {
+          "title": "Vous ne voyez pas votre système ?",
+          "description": "Nous nous intégrons à toute plateforme compatible API. Notre équipe s'est connectée à des dizaines de systèmes enterprise, des intranets personnalisés aux bases de données legacy.",
+          "cta": "Discutons de votre configuration"
+        }
+      },
+      "documentSources": {
+        "title": "Connectez vos référentiels documentaires",
+        "description": "Les connaissances de votre entreprise restent où elles sont. Nous nous y connectons de manière sécurisée et les gardons synchronisées.",
+        "sharepoint": {
+          "title": "SharePoint Online & Server",
+          "description": "Intégration native avec Microsoft SharePoint pour un accès documentaire fluide.",
+          "timeline": "Configuration : 1-2 jours",
+          "features": {
+            "oauth": "Connexion avec les comptes Microsoft existants, pas d'identifiants séparés nécessaires",
+            "readOnly": "Accès en lecture seule : l'IA ne peut jamais modifier ou supprimer vos documents",
+            "sync": "Les documents restent à jour automatiquement, pas de re-uploads manuels"
+          },
+          "benefit": "Votre équipe utilise déjà SharePoint ? Parfait. Nous nous connectons directement et respectons votre structure de dossiers et permissions existantes."
+        },
+        "upload": {
+          "title": "Upload Direct",
+          "description": "Pour les documents qui ne sont pas dans SharePoint, glissez-déposez simplement pour les ajouter à votre base de connaissances.",
+          "features": {
+            "batch": "Téléchargez des centaines de documents à la fois, plus besoin de un par un",
+            "formats": "Tous les formats courants : PDF, Word, Excel, PowerPoint, TXT",
+            "size": "Fichiers jusqu'à 50 Mo, assez même pour vos documents de politique les plus longs"
+          },
+          "benefit": "Vous avez des documents sur des lecteurs réseau ou dossiers locaux ? Téléchargez-les directement. Mélangez les sources selon vos besoins."
+        }
+      },
+      "hrSystems": {
+        "title": "Intégrations Systèmes RH",
+        "description": "Connectez-vous à vos systèmes RH pour des réponses personnalisées. Quand un employé demande son solde de congés, l'IA sait qui demande.",
+        "benefit": "L'IA donne des réponses personnalisées basées sur le rôle, département et type de contrat de l'employé sans qu'il ait à le préciser à chaque fois.",
+        "systems": {
+          "afas": "RH/Paie néerlandais",
+          "sap": "HCM Enterprise",
+          "dynamics": "Microsoft HR",
+          "workday": "HCM Cloud",
+          "personio": "RH Européen",
+          "outlook": "Intégration Calendrier"
+        },
+        "comingSoon": "Intégration disponible sur demande"
+      },
+      "identity": {
+        "title": "Single Sign-On & Gestion des Utilisateurs",
+        "description": "Les employés se connectent une fois avec leur compte entreprise existant. L'IT gère les utilisateurs depuis un seul endroit central.",
+        "saml": {
+          "technical": "SAML 2.0",
+          "benefit": "Les employés se connectent avec leur compte entreprise existant, le même qu'ils utilisent pour l'email"
+        },
+        "oidc": {
+          "technical": "OpenID Connect",
+          "benefit": "Expérience moderne 'Se connecter avec Microsoft/Google' que les employés connaissent déjà"
+        },
+        "scim": {
+          "technical": "SCIM 2.0",
+          "benefit": "Les nouveaux employés obtiennent l'accès automatiquement. Les sortants perdent l'accès immédiatement. Pas de gestion manuelle des utilisateurs."
+        },
+        "mfa": {
+          "technical": "Support MFA",
+          "benefit": "Utilisez votre authentification multi-facteurs existante, pas d'app supplémentaire nécessaire"
+        }
+      },
+      "collaboration": {
+        "title": "Obtenez des réponses là où vous travaillez déjà",
+        "description": "Ne changez pas d'app. Posez vos questions directement dans Teams ou Slack.",
+        "teams": {
+          "title": "Microsoft Teams",
+          "description": "Posez des questions directement dans Teams. Partagez des réponses avec des collègues. Recevez des notifications quand les documents sont mis à jour.",
+          "benefit": "Votre équipe vit dans Teams ? L'assistant IA aussi."
+        },
+        "slack": {
+          "title": "Slack",
+          "description": "Même expérience fluide dans Slack. Posez des questions, partagez des fils, collaborez sur des requêtes complexes.",
+          "benefit": "Entreprise Slack-first ? Nous vous couvrons."
+        },
+        "email": {
+          "title": "Email & Calendrier",
+          "description": "Planifiez des sessions de connaissances, partagez des conversations par email, intégrez avec vos workflows de réunion existants.",
+          "benefit": "Pour les équipes qui préfèrent les workflows basés sur l'email."
+        }
+      },
+      "api": {
+        "title": "Créez des intégrations personnalisées",
+        "description": "Besoin de connecter Volentis.ai à vos systèmes ou workflows personnalisés ? Notre API rend cela simple.",
+        "useCases": "Cas d'usage courants : Intégrer des réponses IA dans votre intranet, se connecter à des systèmes documentaires personnalisés, automatiser des workflows de connaissances.",
+        "features": {
+          "rest": "API REST complète. Intégrez avec tout système capable de faire des requêtes web",
+          "oauth": "Authentification sécurisée utilisant le standard OAuth 2.0",
+          "webhooks": "Soyez notifié quand les documents sont mis à jour ou des questions sont posées",
+          "docs": "Documentation complète et exemples de code pour démarrer rapidement"
+        }
+      },
+      "cta": {
+        "title": "Besoin d'une intégration personnalisée ?",
+        "description": "Notre équipe peut vous aider à connecter Volentis.ai à vos systèmes enterprise spécifiques. Nous avons tout vu et pouvons conseiller sur la meilleure approche.",
+        "button": "Parler à notre équipe"
+      }
+    },
+    "deployment": {
+      "metaTitle": "Options de Déploiement - Volentis.ai | SaaS, Single-Tenant, On-Premise",
+      "metaDescription": "Choisissez votre déploiement : SaaS Multi-tenant, Single-tenant avec BYOK, ou géré par le client. Tous avec résidence des données en UE.",
+      "badge": "Déploiement",
+      "headline": "Choisissez comment vous voulez exécuter Volentis.ai",
+      "subheadline": "Que vous vouliez être opérationnel le mois prochain ou ayez besoin d'un contrôle maximum sur votre infrastructure, nous avons une option qui convient.",
+      "whyChoiceMatters": {
+        "title": "Pourquoi le choix du déploiement compte",
+        "description": "Vos exigences de sécurité, votre calendrier et votre budget déterminent le meilleur choix. Voici comment décider :",
+        "quick": {
+          "title": "Besoin d'être opérationnel rapidement ?",
+          "answer": "Choisissez SaaS Multi-Tenant. Vous serez opérationnel en 2-4 semaines."
+        },
+        "control": {
+          "title": "Besoin d'un contrôle maximum ?",
+          "answer": "Choisissez Single-Tenant ou géré par le client. Votre propre infrastructure, vos règles."
+        },
+        "compliance": {
+          "title": "Exigences de conformité strictes ?",
+          "answer": "Toutes les options gardent vos données dans l'UE. Single-Tenant et géré par le client ajoutent une isolation supplémentaire."
+        }
+      },
+      "comparisonTable": {
+        "title": "Comparaison rapide",
+        "headers": {
+          "option": "Option",
+          "timeline": "Délai",
+          "control": "Contrôle",
+          "bestFor": "Idéal pour"
+        },
+        "rows": {
+          "multiTenant": {
+            "timeline": "2-4 semaines",
+            "control": "Standard",
+            "bestFor": "Démarrage rapide, coût prévisible"
+          },
+          "singleTenant": {
+            "timeline": "4-8 semaines",
+            "control": "Élevé (BYOK)",
+            "bestFor": "Sécurité renforcée, certifications"
+          },
+          "customerManaged": {
+            "timeline": "À définir",
+            "control": "Maximum",
+            "bestFor": "Air-gapped, on-premise requis"
+          }
+        },
+        "notSure": "Pas sûr ? Notre équipe vous aide à décider, sans pression."
+      },
+      "options": {
+        "multiTenant": {
+          "title": "SaaS Multi-Tenant",
+          "description": "Le chemin le plus rapide vers l'IA enterprise. Parfait pour les organisations voulant un déploiement rapide avec sécurité complète.",
+          "badge": "Le plus populaire",
+          "forYouIf": "Idéal pour : Les organisations qui veulent démarrer rapidement sans overhead d'infrastructure",
+          "features": {
+            "1": "Opérationnel en semaines, pas en mois. Commencez à voir la valeur immédiatement",
+            "2": "Centres de données UE en Allemagne et Pays-Bas. Vos données ne quittent jamais l'Europe",
+            "3": "Vos données sont complètement séparées des autres clients. Pas de risque de mélange de données",
+            "4": "Mises à jour automatiques : toujours les dernières fonctionnalités et correctifs de sécurité",
+            "5": "Tarification mensuelle prévisible, pas de coûts d'infrastructure surprises"
+          },
+          "timeline": "Déploiement typique : 2-4 semaines",
+          "tradeoff": "Vous partagez l'infrastructure (pas les données !) avec d'autres clients, ce qui maintient les coûts bas."
+        },
+        "singleTenant": {
+          "title": "SaaS Single-Tenant",
+          "description": "Votre propre infrastructure dédiée, gérée par nous. Pour les organisations ayant besoin d'isolation supplémentaire.",
+          "forYouIf": "Idéal pour : Les organisations avec des exigences de sécurité élevées ou des obligations réglementaires",
+          "features": {
+            "1": "Vos propres serveurs dédiés, pas partagés avec qui que ce soit",
+            "2": "Base de données et stockage séparés, isolation complète de l'infrastructure",
+            "3": "Bring Your Own Key (BYOK) : chiffrez vos données avec des clés que vous seul contrôlez",
+            "4": "Certifications d'audit plus faciles : l'infrastructure isolée simplifie la conformité",
+            "5": "Configuration personnalisée. Ajustez les paramètres à vos besoins spécifiques"
+          },
+          "timeline": "Déploiement typique : 4-8 semaines",
+          "tradeoff": "Coût plus élevé que le multi-tenant, mais isolation maximale sans gérer l'infrastructure vous-même."
+        },
+        "customerManaged": {
+          "title": "Géré par le Client",
+          "description": "Contrôle total : exécutez Volentis.ai dans votre propre centre de données ou cloud privé.",
+          "badge": "Bientôt disponible",
+          "forYouIf": "Idéal pour : Les organisations qui doivent exécuter tous les logiciels sur leur propre infrastructure",
+          "features": {
+            "1": "Contrôle complet. Exécutez-le exactement comme vous le souhaitez",
+            "2": "Option air-gapped : pas de connexion internet requise pour les environnements extra-sensibles",
+            "3": "Installation on-premise : fonctionne dans votre propre centre de données",
+            "4": "Souveraineté maximale des données. Les données ne touchent jamais d'infrastructure externe"
+          },
+          "timeline": "Contactez-nous pour le délai",
+          "tradeoff": "Nécessite votre propre infrastructure et équipe technique pour la maintenance."
+        }
+      },
+      "dataResidency": {
+        "title": "Vos données restent en Europe. Garanti.",
+        "description": "Pour les entreprises européennes, la résidence des données n'est pas optionnelle, elle est requise. Tous les déploiements Volentis.ai gardent vos données exclusivement dans l'UE.",
+        "whyItMatters": {
+          "title": "Pourquoi la résidence des données en UE compte",
+          "points": {
+            "1": "Le RGPD l'exige : Les données personnelles des citoyens de l'UE doivent rester dans la juridiction de l'UE",
+            "2": "Pas de risque CLOUD Act : Les entreprises américaines peuvent être contraintes de transmettre des données. Pas nous.",
+            "3": "Simplicité d'audit : Quand les régulateurs demandent où les données sont stockées, la réponse est simple : Europe."
+          }
+        },
+        "germany": {
+          "title": "Allemagne",
+          "description": "Centre de données principal à Francfort. La loi allemande sur la protection des données est parmi les plus strictes au monde."
+        },
+        "netherlands": {
+          "title": "Pays-Bas",
+          "description": "Centre de données secondaire à Amsterdam. Le basculement automatique assure que votre IA reste disponible."
+        },
+        "guarantees": {
+          "title": "Nos garanties contractuelles",
+          "1": "Toutes les données stockées dans les limites de l'UE, garanti contractuellement",
+          "2": "Pas de transferts vers des pays hors UE sans votre configuration explicite",
+          "3": "Documentation de conformité RGPD complète pour vos auditeurs",
+          "4": "Accord de Traitement des Données (DPA) standard inclus"
+        }
+      },
+      "implementation": {
+        "title": "Du contrat à la mise en production",
+        "description": "Nous l'avons fait de nombreuses fois. Voici ce qui se passe après votre signature :",
+        "steps": {
+          "1": {
+            "title": "Découverte (Semaine 1)",
+            "description": "Nous cartographions vos besoins ensemble. Quels documents ? Quelles intégrations ? Qui a besoin d'accès ?",
+            "outcome": "Vous obtenez : Un plan d'implémentation clair avec calendrier"
+          },
+          "2": {
+            "title": "Configuration (Semaine 2)",
+            "description": "Nous configurons votre environnement, connectons votre fournisseur d'identité et configurons les permissions.",
+            "outcome": "Vous obtenez : Une plateforme fonctionnelle prête pour vos documents"
+          },
+          "3": {
+            "title": "Chargement des connaissances (Semaine 2-3)",
+            "description": "Vos documents sont ingérés et indexés. Nous affinons la qualité de récupération avec votre équipe.",
+            "outcome": "Vous obtenez : Une IA qui connaît les politiques et procédures de votre entreprise"
+          },
+          "4": {
+            "title": "Mise en production (Semaine 3-4)",
+            "description": "Formation des utilisateurs, déploiement pilote avec des équipes sélectionnées, puis déploiement à l'échelle de l'entreprise.",
+            "outcome": "Vous obtenez : Des employés qui obtiennent des réponses instantanées à leurs questions"
+          }
+        }
+      },
+      "support": {
+        "title": "Support continu",
+        "description": "Vous n'êtes pas seul après la mise en production. Notre équipe reste engagée :",
+        "items": {
+          "1": "Success manager dédié pendant les 90 premiers jours",
+          "2": "Points réguliers pour optimiser la performance de l'IA",
+          "3": "Support prioritaire pour tout problème",
+          "4": "Revues d'affaires trimestrielles pour mesurer l'impact"
+        }
+      },
+      "cta": {
+        "title": "Quel déploiement vous convient ?",
+        "description": "Pas sûr quelle option convient à votre organisation ? Notre équipe peut vous présenter les options et vous aider à décider.",
+        "button": "Discuter de vos besoins"
+      }
+    },
+    "security": {
+      "metaTitle": "Sécurité & Conformité - Volentis.ai | Conforme RGPD & EU AI Act",
+      "metaDescription": "Sécurité enterprise : conforme RGPD, conforme EU AI Act, chiffrement TLS/AES-256, RBAC et audit trails complets.",
+      "badge": "Sécurité & Conformité",
+      "headline": "Sécurité enterprise conçue pour les réglementations européennes",
+      "subheadline": "Conforme RGPD, conforme EU AI Act, avec une architecture de sécurité enterprise conçue dès le départ.",
+      "badges": {
+        "euHosted": "Hébergé en UE",
+        "gdpr": "Conforme RGPD",
+        "euAiAct": "Conforme EU AI Act",
+        "encryption": "TLS & AES-256",
+        "noTraining": "Pas d'entraînement sur vos données"
+      },
+      "noTraining": {
+        "title": "Vos données ne sont jamais utilisées pour l'entraînement",
+        "description": "C'est un principe fondamental de Volentis.ai : pas une politique, mais une garantie architecturale.",
+        "points": {
+          "1": "Les interactions client sont explicitement exclues de tous les processus d'entraînement de modèles",
+          "2": "Vos documents et conversations restent 100% confidentiels",
+          "3": "Aucune donnée n'est jamais partagée avec des tiers à des fins d'entraînement",
+          "4": "Garanti contractuellement dans notre Accord de Traitement des Données"
+        },
+        "highlight": "Vos connaissances restent les vôtres. Point final."
+      },
+      "gdpr": {
+        "title": "Conformité RGPD",
+        "description": "Volentis.ai est conçu avec des principes de privacy-by-design et opère en tant que Sous-traitant au sens de l'Article 28 du RGPD.",
+        "dataProcessor": {
+          "title": "Rôle de Sous-traitant",
+          "description": "Nous agissons en tant que Sous-traitant pour le contenu client, avec des limites et responsabilités de traitement claires."
+        },
+        "dpa": {
+          "title": "Accord de Traitement des Données",
+          "description": "DPA complet intégrant les Clauses Contractuelles Types de l'UE disponible avec tous les contrats enterprise."
+        },
+        "dataSubjectRights": {
+          "title": "Droits des Personnes Concernées",
+          "description": "Support complet pour les demandes d'accès, rectification, effacement et portabilité."
+        },
+        "keyCommitments": {
+          "title": "Nos engagements RGPD",
+          "1": "Aucune donnée client utilisée pour l'entraînement de modèles, jamais",
+          "2": "Toutes les données stockées dans des centres de données UE (Allemagne/Pays-Bas)",
+          "3": "Pas de transferts de données hors UE sans consentement explicite",
+          "4": "Support complet des droits des personnes concernées",
+          "5": "Conservation par défaut de 12 mois avec politiques configurables"
+        }
+      },
+      "euAiAct": {
+        "title": "Conformité EU AI Act",
+        "description": "Volentis.ai est conçu pour se conformer à l'EU AI Act en tant que système à risque limité selon l'Article 52.",
+        "transparency": {
+          "title": "Exigences de Transparence",
+          "description": "Tout contenu généré par l'IA est clairement étiqueté avec des indicateurs de transparence obligatoires."
+        },
+        "disclosure": {
+          "title": "Divulgation IA",
+          "description": "Chaque réponse inclut une divulgation claire de l'interaction IA et une attribution des sources."
+        },
+        "humanOversight": {
+          "title": "Surveillance Humaine",
+          "description": "Pas d'actions autonomes d'agent sans points de validation humaine pour les décisions importantes."
+        },
+        "classification": {
+          "badge": "Risque Limité",
+          "title": "Classification Article 52",
+          "description": "Volentis.ai est classifié comme système IA à risque limité, nécessitant des mesures de transparence mais pas les exigences extensives des systèmes à risque élevé.",
+          "article": "Article 52",
+          "articleDescription": "Nécessite une divulgation claire de l'interaction IA et une attribution des sources"
+        }
+      },
+      "technical": {
+        "title": "Sécurité Technique",
+        "encryption": {
+          "title": "Chiffrement",
+          "description": "TLS 1.2+ pour les données en transit, AES-256 pour les données au repos. Toutes les communications et le stockage sont entièrement chiffrés.",
+          "benefit": "Mêmes standards de chiffrement que la banque en ligne. Vos données sont illisibles pour quiconque sans autorisation."
+        },
+        "authentication": {
+          "title": "Authentification",
+          "description": "SSO enterprise via SAML 2.0 et OpenID Connect. Authentification multi-facteurs supportée.",
+          "benefit": "Les employés se connectent avec leurs identifiants d'entreprise existants. Pas de nouveaux mots de passe à retenir ou gérer."
+        },
+        "rbac": {
+          "title": "Contrôle d'Accès Basé sur les Rôles (RBAC)",
+          "description": "Permissions granulaires au niveau workspace, document et fonctionnalité. Héritage basé sur département et rôle.",
+          "benefit": "Vous décidez exactement qui voit quoi. Cette politique salariale sensible ? RH uniquement. Cette procédure IT ? Équipe IT uniquement. Appliqué automatiquement."
+        },
+        "auditLogging": {
+          "title": "Journalisation d'Audit",
+          "description": "Journalisation complète de toutes les actions utilisateurs et administratives. Audit trails exportables pour la conformité.",
+          "benefit": "Chaque action enregistrée. Si quelque chose ne va pas, vous pouvez tracer exactement ce qui s'est passé, quand et par qui."
+        },
+        "tenantIsolation": {
+          "title": "Isolation des Tenants",
+          "description": "Séparation logique en multi-tenant, infrastructure dédiée en single-tenant.",
+          "benefit": "Vos données sont complètement séparées des autres clients. Pas de mélange, pas de fuites, pas d'accès par d'autres. Garanti."
+        },
+        "byok": {
+          "title": "BYOK (Bring Your Own Key)",
+          "description": "Chiffrement Bring Your Own Key disponible pour les déploiements single-tenant.",
+          "benefit": "Contrôle maximum : vous gérez les clés de chiffrement. Même Volentis ne peut pas accéder à vos données sans vos clés."
+        }
+      },
+      "safeguards": {
+        "title": "Garde-fous intégrés",
+        "description": "Volentis.ai inclut des limitations importantes par conception pour garantir une utilisation responsable de l'IA enterprise.",
+        "items": {
+          "noAutomatedDecisions": {
+            "title": "Pas de décisions RH automatisées",
+            "description": "Le système fournit des informations et des brouillons ; les humains prennent toutes les décisions d'emploi."
+          },
+          "specialCategoryData": {
+            "title": "Protection des données de catégorie spéciale",
+            "description": "Pas de traitement des informations de santé ou d'appartenance syndicale sans configuration explicite."
+          },
+          "humanInLoop": {
+            "title": "Humain dans la boucle",
+            "description": "Pas d'actions autonomes d'agent sans approbation humaine pour les décisions importantes."
+          },
+          "professionalAdvice": {
+            "title": "Avertissement conseil professionnel",
+            "description": "Ne remplace pas les conseils juridiques, médicaux ou financiers professionnels."
+          }
+        }
+      },
+      "certifications": {
+        "title": "Certifications & Standards",
+        "description": "Notre engagement envers les standards de sécurité reconnus par l'industrie.",
+        "iso27001": {
+          "title": "ISO 27001",
+          "status": "En cours",
+          "description": "Nous travaillons activement vers la certification ISO 27001 pour démontrer notre engagement envers la gestion de la sécurité de l'information."
+        },
+        "gdprArticle28": {
+          "title": "RGPD Article 28",
+          "status": "Conforme",
+          "description": "Opérant en tant que Sous-traitant certifié avec des Accords de Traitement des Données complets."
+        },
+        "euAiActArticle52": {
+          "title": "EU AI Act Article 52",
+          "status": "Conforme",
+          "description": "Classifié comme système à risque limité avec toutes les exigences de transparence implémentées."
+        }
+      },
+      "sectorCompliance": {
+        "title": "Support de conformité sectorielle",
+        "description": "Volentis.ai supporte les exigences de conformité dans les industries réglementées.",
+        "sectors": {
+          "financial": {
+            "title": "Services Financiers",
+            "regulations": "MiFID II, RGPD Article 22 (prise de décision automatisée)",
+            "description": "Dispositions spéciales pour la gestion des données des services financiers et restrictions de décisions automatisées."
+          },
+          "healthcare": {
+            "title": "Santé",
+            "regulations": "Données de catégorie spéciale RGPD, considérations de confidentialité médicale",
+            "description": "Protections renforcées pour les données liées à la santé avec exigences de consentement explicite."
+          },
+          "government": {
+            "title": "Gouvernement & Secteur Public",
+            "regulations": "Conformité secteur public, exigences de transparence",
+            "description": "Support pour les obligations de protection des données et de transparence spécifiques au gouvernement."
+          },
+          "crossBorder": {
+            "title": "Opérations transfrontalières",
+            "regulations": "RGPD multi-juridictionnel, implémentations locales",
+            "description": "Support complet pour les organisations opérant dans plusieurs États membres de l'UE."
+          }
+        }
+      },
+      "technicalSpecs": {
+        "title": "Spécifications Techniques",
+        "description": "Spécifications techniques détaillées pour votre revue de sécurité. Nous parlons aussi le langage de l'IT.",
+        "items": {
+          "sessionManagement": {
+            "label": "Gestion des Sessions",
+            "value": "Tokens JWT (signature RS256), expiration de token 1 heure, timeout de session 8 heures (configurable)",
+            "plainEnglish": "Déconnexion automatique après inactivité. Protection contre les laptops oubliés ouverts"
+          },
+          "dataRetention": {
+            "label": "Conservation des Données",
+            "value": "Politiques de conservation configurables, 12 mois par défaut pour les logs d'audit",
+            "plainEnglish": "Vous choisissez combien de temps les données sont gardées. Répondez aux exigences de votre industrie, pas de nettoyage manuel nécessaire"
+          },
+          "sharepointSync": {
+            "label": "Synchronisation SharePoint",
+            "value": "4 heures pour les métadonnées, 24 heures pour le rafraîchissement complet du contenu",
+            "plainEnglish": "Vous mettez à jour un document dans SharePoint ? L'IA le sait en quelques heures, automatiquement"
+          },
+          "encryptionStandards": {
+            "label": "Standards de Chiffrement",
+            "value": "TLS 1.2+ pour le transit, AES-256 pour le chiffrement au repos",
+            "plainEnglish": "Sécurité niveau bancaire pour toutes vos données, qu'elles soient envoyées ou stockées"
+          },
+          "apiSecurity": {
+            "label": "Sécurité API",
+            "value": "API REST avec OAuth 2.0, limitation de débit, journalisation complète",
+            "plainEnglish": "Créez des intégrations personnalisées avec des APIs sécurisées et bien documentées"
+          }
+        },
+        "browserSupport": {
+          "title": "Support des Navigateurs",
+          "description": "Navigateurs supportés pour une expérience optimale de la plateforme :",
+          "browsers": {
+            "chrome": "Chrome 90+",
+            "firefox": "Firefox 88+",
+            "safari": "Safari 14+",
+            "edge": "Edge 90+"
+          },
+          "requirements": "Nécessite JavaScript activé, TLS 1.2+, cookies pour la gestion de session"
+        }
+      },
+      "securityAssurance": {
+        "title": "Assurance sécurité",
+        "pentest": {
+          "title": "Évaluations de Sécurité Régulières",
+          "description": "Tests d'intrusion annuels par des sociétés de sécurité indépendantes. Scans de vulnérabilités effectués trimestriellement. Constats traités selon des SLAs basés sur la sévérité."
+        },
+        "contact": {
+          "title": "Contact Sécurité",
+          "description": "Signaler des vulnérabilités de sécurité ou des questions :",
+          "email": "security@volentis.ai"
+        }
+      },
+      "docRequest": {
+        "title": "Besoin de documentation de sécurité ?",
+        "description": "Les DPO et équipes de sécurité peuvent demander notre package complet de documentation de sécurité, incluant DPA, spécifications techniques et résumés de tests d'intrusion.",
+        "button": "Demander les docs sécurité",
+        "includes": "Inclus : DPA, Livre blanc sécurité, Vue d'ensemble de l'architecture, Résumé des pentests"
+      },
+      "cta": {
+        "title": "Prêt à discuter de vos exigences de sécurité ?",
+        "description": "Notre équipe peut fournir une documentation de sécurité détaillée et répondre à vos questions de conformité.",
+        "button": "Planifier une revue de sécurité"
+      }
+    }
+  },
+  "landingHR": {
+    "meta": {
+      "title": "HR Agent - Réduisez les tickets RH de 50-70% | Volentis.ai",
+      "description": "Libérez votre équipe RH des questions répétitives. Le Volentis HR Agent répond aux questions des employés 24h/24 depuis vos propres politiques. Conforme RGPD, pas d'hallucinations."
+    },
+    "hero": {
+      "badge": "Pour les équipes RH de 200+ employés",
+      "headline": "Votre équipe RH croule sous les questions répétitives",
+      "subheadline": "Rendez-leur leur temps avec un assistant IA qui résout 50-70% des tickets. 24h/24, depuis vos propres politiques, conforme RGPD.",
+      "cta": "Réserver votre démo",
+      "secondaryCta": "Voir comment ça marche",
+      "trustedBy": "Approuvé par les équipes RH à travers l'Europe",
+      "watchVideo": "Voir la démo de 2 min"
+    },
+    "stats": {
+      "tickets": { "value": "50-70%", "label": "de tickets RH en moins" },
+      "availability": { "value": "24h/24", "label": "self-service employés" },
+      "satisfaction": { "value": "+30%", "label": "satisfaction employés" },
+      "compliance": { "value": "100%", "label": "conforme RGPD" }
+    },
+    "problem": {
+      "title": "Ça vous parle ?",
+      "subtitle": "Ce sont les coûts cachés des questions RH répétitives",
+      "points": {
+        "1": {
+          "title": "Mêmes questions, chaque jour",
+          "description": "\"Combien de jours de congés ai-je ?\" \"Quelle est la politique de télétravail ?\" Votre équipe répond à celles-ci 10+ fois par jour."
+        },
+        "2": {
+          "title": "Les employés ne trouvent pas les réponses",
+          "description": "Votre manuel existe, mais personne ne le lit. Les employés envoient un email aux RH au lieu de chercher."
+        },
+        "3": {
+          "title": "Réponses incohérentes",
+          "description": "Différents membres de l'équipe RH donnent différentes interprétations. Cela crée de la frustration et des risques de conformité."
+        },
+        "4": {
+          "title": "Pas de temps pour le travail stratégique",
+          "description": "Vos professionnels RH veulent se concentrer sur la culture, le développement et la rétention. Pas répondre aux mêmes questions."
+        }
+      },
+      "statistic": {
+        "value": "40%",
+        "label": "du temps RH est passé à répondre aux questions de routine",
+        "source": "Recherche sectorielle"
+      }
+    },
+    "solution": {
+      "title": "Découvrez le HR Agent",
+      "subtitle": "Un assistant IA toujours disponible qui répond aux questions RH directement depuis vos documents approuvés",
+      "description": "Les employés posent des questions en langage naturel. Le HR Agent recherche dans vos conventions, manuels et politiques et répond avec des réponses vérifiées et des citations de sources.",
+      "capabilities": {
+        "1": {
+          "title": "Réponses instantanées",
+          "description": "Questions sur les congés, avantages, procédures : répondues en secondes, pas en heures"
+        },
+        "2": {
+          "title": "Citations des sources",
+          "description": "Chaque réponse inclut le document exact et le paragraphe. Les employés peuvent vérifier eux-mêmes."
+        },
+        "3": {
+          "title": "Pas d'hallucinations",
+          "description": "Ne peut répondre que depuis vos documents approuvés. S'il ne sait pas, il le dit."
+        },
+        "4": {
+          "title": "Toujours disponible",
+          "description": "Accès 24h/24 pour tous les employés. Équipe de nuit ? À distance ? Pas de problème."
+        }
+      }
+    },
+    "demo": {
+      "title": "Voyez-le en action",
+      "subtitle": "Vraies questions, vraies réponses depuis de vraies politiques RH",
+      "disclaimer": "Cette démo utilise des politiques RH d'exemple. Votre version utilise vos propres documents."
+    },
+    "results": {
+      "title": "Ce que les équipes RH obtiennent",
+      "subtitle": "Impact mesurable dès le premier jour",
+      "metrics": {
+        "1": {
+          "before": "100+",
+          "beforeLabel": "tickets RH par semaine",
+          "after": "30-50",
+          "afterLabel": "tickets RH par semaine",
+          "change": "50-70% de réduction"
+        },
+        "2": {
+          "before": "24-48h",
+          "beforeLabel": "temps de réponse moyen",
+          "after": "<30 sec",
+          "afterLabel": "temps de réponse moyen",
+          "change": "Réponses instantanées"
+        },
+        "3": {
+          "before": "40%",
+          "beforeLabel": "temps sur questions routine",
+          "after": "10%",
+          "afterLabel": "temps sur questions routine",
+          "change": "Plus de focus stratégique"
+        }
+      },
+      "quote": {
+        "text": "Nous sommes passés de 120 tickets RH par semaine à 45. Mon équipe a enfin du temps pour le travail qui compte vraiment.",
+        "author": "Directeur RH",
+        "company": "Entreprise européenne (2 500 employés)"
+      }
+    },
+    "topics": {
+      "title": "Sur quoi les employés peuvent poser des questions",
+      "subtitle": "Le HR Agent couvre toutes vos connaissances RH internes",
+      "categories": {
+        "leave": {
+          "title": "Congés & Absences",
+          "examples": ["Combien de jours de congés ai-je ?", "Comment demander un congé parental ?", "Quelle est la politique d'arrêt maladie ?"]
+        },
+        "benefits": {
+          "title": "Avantages & Rémunération",
+          "examples": ["Comment fonctionne le plan de retraite ?", "Quand est-ce que je reçois ma prime ?", "Quelle est la politique de frais ?"]
+        },
+        "policies": {
+          "title": "Politiques & Procédures",
+          "examples": ["Quelle est la politique de télétravail ?", "Comment signaler un harcèlement ?", "Quel est le code vestimentaire ?"]
+        },
+        "onboarding": {
+          "title": "Intégration & Développement",
+          "examples": ["Que dois-je faire ma première semaine ?", "Comment demander une formation ?", "Quel est le processus de promotion ?"]
+        }
+      }
+    },
+    "security": {
+      "title": "Conçu pour les entreprises européennes",
+      "subtitle": "Sécurité et conformité que vos équipes IT et juridiques approuveront",
+      "points": {
+        "1": {
+          "title": "Résidence des données en UE",
+          "description": "Vos données restent dans des centres de données UE (Allemagne et Pays-Bas). Ne quittent jamais l'Europe."
+        },
+        "2": {
+          "title": "Pas d'entraînement sur vos données",
+          "description": "Vos documents ne sont jamais utilisés pour entraîner des modèles IA. Vos données restent les vôtres."
+        },
+        "3": {
+          "title": "Conforme RGPD",
+          "description": "Sous-traitant au sens de l'Article 28. DPA complet avec Clauses Contractuelles Types."
+        },
+        "4": {
+          "title": "Conforme EU AI Act",
+          "description": "Classifié comme système à risque limité. Transparence totale et audit trails."
+        },
+        "5": {
+          "title": "Audit trail complet",
+          "description": "Chaque question et réponse est enregistrée. Parfait pour les audits de conformité."
+        },
+        "6": {
+          "title": "SSO Enterprise",
+          "description": "SAML 2.0, OpenID Connect, MFA. S'intègre à votre fournisseur d'identité."
+        }
+      },
+      "badges": {
+        "gdpr": "Conforme RGPD",
+        "euAiAct": "Conforme EU AI Act",
+        "euHosted": "Hébergé en UE",
+        "soc2": "SOC 2 Type II (en cours)"
+      }
+    },
+    "integration": {
+      "title": "Fonctionne avec vos systèmes existants",
+      "subtitle": "Connectez vos sources documentaires et systèmes RH",
+      "sources": {
+        "sharepoint": "SharePoint",
+        "teams": "Microsoft Teams",
+        "afas": "AFAS",
+        "sap": "SAP SuccessFactors",
+        "workday": "Workday",
+        "personio": "Personio"
+      },
+      "note": "Intégrations natives disponibles. Intégrations personnalisées via API."
+    },
+    "objections": {
+      "title": "Questions fréquentes",
+      "items": {
+        "1": {
+          "question": "Et si l'IA donne de mauvaises informations ?",
+          "answer": "Le HR Agent ne peut répondre que depuis vos documents approuvés. Chaque réponse inclut des citations de sources pour que les employés puissent vérifier. Si l'information n'est pas dans votre base de connaissances, il dit \"Je ne sais pas\" au lieu de deviner."
+        },
+        "2": {
+          "question": "Combien de temps prend l'implémentation ?",
+          "answer": "La plupart des clients sont opérationnels en 2-4 semaines. Nous gérons le traitement et l'indexation des documents. Votre équipe doit juste fournir l'accès à vos documents RH."
+        },
+        "3": {
+          "question": "Les données de nos employés sont-elles en sécurité ?",
+          "answer": "Vos données ne quittent jamais les centres de données de l'UE. Nous n'entraînons pas de modèles IA sur vos données. Conformité RGPD complète avec DPA inclus. Nous pouvons fournir la documentation de sécurité pour votre équipe IT."
+        },
+        "4": {
+          "question": "Est-ce que cela va remplacer notre équipe RH ?",
+          "answer": "Non. Le HR Agent gère les questions de routine pour que vos professionnels RH puissent se concentrer sur le travail stratégique : culture, développement, relations employés. C'est de l'augmentation, pas du remplacement."
+        },
+        "5": {
+          "question": "Et les questions complexes ou sensibles ?",
+          "answer": "Le système reconnaît quand les questions nécessitent une attention humaine et les route vers votre équipe RH. Il gère la routine 50-70%, votre équipe gère le reste."
+        }
+      }
+    },
+    "pricing": {
+      "title": "Tarification transparente",
+      "subtitle": "Pas de frais cachés. Pas de facturation par requête. Coût mensuel prévisible.",
+      "note": "Tarification basée sur le nombre d'employés. Contactez-nous pour un devis personnalisé.",
+      "includes": {
+        "title": "Chaque forfait inclut :",
+        "items": [
+          "Questions illimitées",
+          "Tous types de documents RH",
+          "Intégration SharePoint",
+          "Bot Teams",
+          "Support par email",
+          "Documentation de sécurité"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Prêt à libérer votre équipe RH ?",
+      "subtitle": "Réservez une démo de 30 minutes. Nous vous montrerons exactement comment le HR Agent fonctionne avec des politiques RH comme les vôtres.",
+      "booking": {
+        "title": "Choisissez un créneau",
+        "subtitle": "Sélectionnez un créneau et nous vous enverrons une invitation calendrier",
+        "loading": "Chargement du calendrier de réservation...",
+        "button": "Réserver votre démo",
+        "fallback": "Vous ne voyez pas le calendrier ? Envoyez-nous un email à",
+        "trust": {
+          "free": "Gratuit, sans obligation",
+          "duration": "30 minutes",
+          "noCommitment": "Sans engagement"
+        }
+      },
+      "benefits": {
+        "1": "Session concentrée de 30 minutes",
+        "2": "Voyez-le avec de vraies politiques RH",
+        "3": "Obtenez une estimation ROI personnalisée",
+        "4": "Aucun engagement requis"
+      },
+      "trust": {
+        "noCreditCard": "Pas de carte de crédit requise",
+        "liveInWeeks": "Opérationnel en 2-4 semaines",
+        "euHosted": "Données UE uniquement"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Volentis B.V. Tous droits réservés.",
+      "links": {
+        "privacy": "Politique de Confidentialité",
+        "terms": "Conditions Générales",
+        "security": "Sécurité"
+      }
+    },
+    "calculator": {
+      "title": "Calculez vos économies potentielles",
+      "employees": {
+        "label": "Nombre d'employés",
+        "placeholder": "ex. 500"
+      },
+      "tickets": {
+        "label": "Tickets RH par semaine (estimation)",
+        "placeholder": "ex. 100"
+      },
+      "results": {
+        "title": "Vos économies annuelles estimées",
+        "ticketReduction": "tickets résolus par l'IA par semaine",
+        "hoursSaved": "heures RH économisées par an",
+        "costSaved": "économies estimées par an"
+      },
+      "cta": "Obtenir une analyse ROI détaillée",
+      "disclaimer": "Estimations basées sur 50-70% de déflection de tickets et un coût moyen de 25€ par ticket. Les résultats réels peuvent varier."
+    }
+  }
+}

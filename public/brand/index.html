@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volentis Brand Assets - Download</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #0F2A38;
+      color: #fff;
+      padding: 40px;
+      min-height: 100vh;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #7DD3E8, #2AAAD9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    h2.section-title {
+      margin-top: 4rem;
+      margin-bottom: 0.5rem;
+      font-size: 1.75rem;
+      color: #fff;
+    }
+    .subtitle {
+      color: #94A3B8;
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+    .asset-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .signature-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+    }
+    @media (max-width: 1200px) {
+      .signature-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 1400px) {
+      .banner-grid-3 {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+    }
+    @media (max-width: 900px) {
+      .banner-grid-3 {
+        grid-template-columns: 1fr !important;
+      }
+    }
+    .asset-card {
+      background: rgba(27, 58, 75, 0.5);
+      border: 1px solid rgba(42, 170, 217, 0.2);
+      border-radius: 16px;
+      padding: 24px;
+    }
+    .asset-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    .asset-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+    .asset-meta {
+      color: #2AAAD9;
+      font-size: 0.875rem;
+    }
+    .asset-preview {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,0.1);
+      margin-bottom: 16px;
+    }
+    .btn-group {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 500;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #2AAAD9, #30A9D6);
+      color: white;
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 20px rgba(42, 170, 217, 0.4);
+    }
+    .btn-secondary {
+      background: rgba(255,255,255,0.1);
+      color: white;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.15);
+    }
+    .instructions {
+      margin-top: 2rem;
+      padding: 24px;
+      background: rgba(42, 170, 217, 0.1);
+      border-radius: 12px;
+      border: 1px solid rgba(42, 170, 217, 0.2);
+    }
+    .instructions h2 {
+      color: #2AAAD9;
+      margin-bottom: 16px;
+      font-size: 1.1rem;
+    }
+    .instructions ol {
+      margin-left: 20px;
+      color: #94A3B8;
+      line-height: 1.8;
+    }
+    .instructions code {
+      background: rgba(0,0,0,0.3);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.85em;
+    }
+    .signature-iframe {
+      width: 100%;
+      height: 220px;
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 8px;
+      background: #1B3A4B;
+    }
+    .color-swatch {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      background: rgba(0,0,0,0.2);
+      border-radius: 8px;
+      margin: 4px;
+    }
+    .color-box {
+      width: 32px;
+      height: 32px;
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    .color-info {
+      font-size: 12px;
+    }
+    .color-name {
+      font-weight: 600;
+      color: #fff;
+    }
+    .color-hex {
+      color: #94A3B8;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎨 Volentis Brand Assets</h1>
+  <p class="subtitle">Download de officiële brand assets voor Volentis</p>
+
+  <!-- Email Signatures Section -->
+  <h2 class="section-title" style="margin-top: 2rem;">✉️ Email Handtekeningen</h2>
+  <p class="subtitle">Twee versies per founder: Premium (nieuwe berichten) en Compact (reply)</p>
+  
+  <div class="signature-grid">
+    
+    <!-- Jeroen -->
+    <div class="asset-card">
+      <div class="asset-header">
+        <h3 class="asset-title" style="display: flex; align-items: center; gap: 12px;">
+          <img src="../team/matthijs.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;" onerror="this.style.display='none'">
+          Jeroen Matthijssen
+        </h3>
+      </div>
+      
+      <!-- New message signature -->
+      <p style="font-size: 11px; color: #2AAAD9; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Nieuwe berichten → <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">Volentis Jeroen.htm</code></p>
+      <iframe src="email-signatures/signature-jeroen.htm" class="signature-iframe"></iframe>
+      <div class="btn-group" style="margin-top: 8px; margin-bottom: 20px;">
+        <a href="email-signatures/signature-jeroen.htm" target="_blank" class="btn btn-primary" style="flex: 1; justify-content: center;">
+          💾 Opslaan (Ctrl+S)
+        </a>
+      </div>
+      
+      <!-- Reply signature -->
+      <p style="font-size: 11px; color: #94A3B8; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Antwoorden → <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">Volentis Jeroen Reply.htm</code></p>
+      <iframe src="email-signatures/signature-jeroen-reply.htm" class="signature-iframe" style="height: 120px;"></iframe>
+      <div class="btn-group" style="margin-top: 8px;">
+        <a href="email-signatures/signature-jeroen-reply.htm" target="_blank" class="btn btn-secondary" style="flex: 1; justify-content: center;">
+          💾 Opslaan (Ctrl+S)
+        </a>
+      </div>
+    </div>
+    
+    <!-- Henk -->
+    <div class="asset-card">
+      <div class="asset-header">
+        <h3 class="asset-title" style="display: flex; align-items: center; gap: 12px;">
+          <img src="../team/henk.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;" onerror="this.style.display='none'">
+          Henk Westdorp
+        </h3>
+      </div>
+      
+      <!-- New message signature -->
+      <p style="font-size: 11px; color: #2AAAD9; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Nieuwe berichten → <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">Volentis Henk.htm</code></p>
+      <iframe src="email-signatures/signature-henk.htm" class="signature-iframe"></iframe>
+      <div class="btn-group" style="margin-top: 8px; margin-bottom: 20px;">
+        <a href="email-signatures/signature-henk.htm" target="_blank" class="btn btn-primary" style="flex: 1; justify-content: center;">
+          💾 Opslaan (Ctrl+S)
+        </a>
+      </div>
+      
+      <!-- Reply signature -->
+      <p style="font-size: 11px; color: #94A3B8; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Antwoorden → <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">Volentis Henk Reply.htm</code></p>
+      <iframe src="email-signatures/signature-henk-reply.htm" class="signature-iframe" style="height: 120px;"></iframe>
+      <div class="btn-group" style="margin-top: 8px;">
+        <a href="email-signatures/signature-henk-reply.htm" target="_blank" class="btn btn-secondary" style="flex: 1; justify-content: center;">
+          💾 Opslaan (Ctrl+S)
+        </a>
+      </div>
+    </div>
+    
+    <!-- Ramon -->
+    <div class="asset-card">
+      <div class="asset-header">
+        <h3 class="asset-title" style="display: flex; align-items: center; gap: 12px;">
+          <img src="../team/ramon.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;" onerror="this.style.display='none'">
+          Ramon Spaan
+        </h3>
+      </div>
+      
+      <!-- New message signature -->
+      <p style="font-size: 11px; color: #2AAAD9; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Nieuwe berichten → <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">Volentis Ramon.htm</code></p>
+      <iframe src="email-signatures/signature-ramon.htm" class="signature-iframe"></iframe>
+      <div class="btn-group" style="margin-top: 8px; margin-bottom: 20px;">
+        <a href="email-signatures/signature-ramon.htm" target="_blank" class="btn btn-primary" style="flex: 1; justify-content: center;">
+          💾 Opslaan (Ctrl+S)
+        </a>
+      </div>
+      
+      <!-- Reply signature -->
+      <p style="font-size: 11px; color: #94A3B8; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Antwoorden → <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">Volentis Ramon Reply.htm</code></p>
+      <iframe src="email-signatures/signature-ramon-reply.htm" class="signature-iframe" style="height: 120px;"></iframe>
+      <div class="btn-group" style="margin-top: 8px;">
+        <a href="email-signatures/signature-ramon-reply.htm" target="_blank" class="btn btn-secondary" style="flex: 1; justify-content: center;">
+          💾 Opslaan (Ctrl+S)
+        </a>
+      </div>
+    </div>
+    
+    <!-- Geert -->
+    <div class="asset-card">
+      <div class="asset-header">
+        <h3 class="asset-title" style="display: flex; align-items: center; gap: 12px;">
+          <img src="../team/geert.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;" onerror="this.style.display='none'">
+          Geert Menting
+        </h3>
+      </div>
+      
+      <!-- New message signature -->
+      <p style="font-size: 11px; color: #2AAAD9; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Nieuwe berichten → <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">Volentis Geert.htm</code></p>
+      <iframe src="email-signatures/signature-geert.htm" class="signature-iframe"></iframe>
+      <div class="btn-group" style="margin-top: 8px; margin-bottom: 20px;">
+        <a href="email-signatures/signature-geert.htm" target="_blank" class="btn btn-primary" style="flex: 1; justify-content: center;">
+          💾 Opslaan (Ctrl+S)
+        </a>
+      </div>
+      
+      <!-- Reply signature -->
+      <p style="font-size: 11px; color: #94A3B8; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Antwoorden → <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">Volentis Geert Reply.htm</code></p>
+      <iframe src="email-signatures/signature-geert-reply.htm" class="signature-iframe" style="height: 120px;"></iframe>
+      <div class="btn-group" style="margin-top: 8px;">
+        <a href="email-signatures/signature-geert-reply.htm" target="_blank" class="btn btn-secondary" style="flex: 1; justify-content: center;">
+          💾 Opslaan (Ctrl+S)
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="instructions">
+    <h2>📧 Outlook Installatie</h2>
+    <ol>
+      <li>Klik op <strong>"💾 Opslaan (Ctrl+S)"</strong> - de pagina opent in een nieuw tabblad</li>
+      <li>Druk <strong>Ctrl+S</strong> om op te slaan</li>
+      <li>Sla op met de bestandsnaam die boven de preview staat (bijv. <code>Volentis Geert.htm</code>)</li>
+      <li>Open Windows Verkenner en plak in de adresbalk:<br>
+        <code style="display: inline-block; margin: 8px 0; padding: 8px 12px; background: rgba(0,0,0,0.4); border-radius: 6px;">%APPDATA%\Microsoft\Signatures\</code>
+      </li>
+      <li>Verplaats de .htm bestanden naar deze map</li>
+      <li><strong>Herstart Outlook</strong></li>
+      <li>Ga naar <strong>Bestand</strong> → <strong>Opties</strong> → <strong>E-mail</strong> → <strong>Handtekeningen</strong></li>
+      <li>Je signatures staan nu in de lijst! Selecteer ze als standaard.</li>
+    </ol>
+    <p style="margin-top: 16px; color: #7DD3E8; font-size: 13px;">
+      ✨ <strong>Tip:</strong> Door direct in de Signatures map te plaatsen blijft alle styling (gradient, kleuren, foto) behouden!
+    </p>
+  </div>
+
+  <!-- LinkedIn & Presentation Banners -->
+  <h2 class="section-title">🖼️ LinkedIn & Presentatie Achtergronden</h2>
+  <p class="subtitle">Download de officiële achtergronden in drie stijlen: Leeg, Gedecoreerd (met netwerk patroon), en Met tekst</p>
+  
+  <!-- LinkedIn Company Banners -->
+  <h3 style="color: #2AAAD9; margin: 2rem 0 1rem 0; font-size: 1.2rem;">LinkedIn Company Banner <span style="color: #94A3B8; font-weight: 400;">(1584 × 396 px)</span></h3>
+  <div class="asset-grid banner-grid-3" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Leeg</h2>
+        <span class="asset-meta">Alleen gradient</span>
+      </div>
+      <img src="banners/linkedin-company-empty.svg" alt="LinkedIn Company Banner - Empty" class="asset-preview"/>
+      <div class="btn-group">
+        <a href="banners/linkedin-company-empty.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/linkedin-company-empty.svg', 'volentis-linkedin-company-empty.png', 1584, 396)" class="btn btn-secondary">PNG</button>
+      </div>
+    </div>
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Gedecoreerd</h2>
+        <span class="asset-meta">Netwerk patroon</span>
+      </div>
+      <img src="banners/linkedin-company-decorated.svg" alt="LinkedIn Company Banner - Decorated" class="asset-preview"/>
+      <div class="btn-group">
+        <a href="banners/linkedin-company-decorated.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/linkedin-company-decorated.svg', 'volentis-linkedin-company-decorated.png', 1584, 396)" class="btn btn-secondary">PNG</button>
+      </div>
+    </div>
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Met Tekst</h2>
+        <span class="asset-meta">Enterprise AI you can trust.</span>
+      </div>
+      <img src="banners/linkedin-company-text.svg" alt="LinkedIn Company Banner - With Text" class="asset-preview"/>
+      <div class="btn-group">
+        <a href="banners/linkedin-company-text.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/linkedin-company-text.svg', 'volentis-linkedin-company-text.png', 1584, 396)" class="btn btn-secondary">PNG</button>
+      </div>
+    </div>
+    
+  </div>
+  
+  <!-- LinkedIn Personal Banners -->
+  <h3 style="color: #2AAAD9; margin: 2rem 0 1rem 0; font-size: 1.2rem;">LinkedIn Personal Banner <span style="color: #94A3B8; font-weight: 400;">(1584 × 396 px)</span></h3>
+  <div class="asset-grid banner-grid-3" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Leeg</h2>
+        <span class="asset-meta">Alleen gradient</span>
+      </div>
+      <img src="banners/linkedin-personal-empty.svg" alt="LinkedIn Personal Banner - Empty" class="asset-preview"/>
+      <div class="btn-group">
+        <a href="banners/linkedin-personal-empty.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/linkedin-personal-empty.svg', 'volentis-linkedin-personal-empty.png', 1584, 396)" class="btn btn-secondary">PNG</button>
+      </div>
+    </div>
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Gedecoreerd</h2>
+        <span class="asset-meta">Netwerk patroon</span>
+      </div>
+      <img src="banners/linkedin-personal-decorated.svg" alt="LinkedIn Personal Banner - Decorated" class="asset-preview"/>
+      <div class="btn-group">
+        <a href="banners/linkedin-personal-decorated.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/linkedin-personal-decorated.svg', 'volentis-linkedin-personal-decorated.png', 1584, 396)" class="btn btn-secondary">PNG</button>
+      </div>
+    </div>
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Met Tekst</h2>
+        <span class="asset-meta">Enterprise AI you can trust.</span>
+      </div>
+      <img src="banners/linkedin-personal-text.svg" alt="LinkedIn Personal Banner - With Text" class="asset-preview"/>
+      <div class="btn-group">
+        <a href="banners/linkedin-personal-text.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/linkedin-personal-text.svg', 'volentis-linkedin-personal-text.png', 1584, 396)" class="btn btn-secondary">PNG</button>
+      </div>
+    </div>
+    
+  </div>
+  
+  <!-- Presentation Slides -->
+  <h3 style="color: #2AAAD9; margin: 2rem 0 1rem 0; font-size: 1.2rem;">Presentatie Slide Achtergrond <span style="color: #94A3B8; font-weight: 400;">(1920 × 1080 px / 16:9)</span></h3>
+  <div class="asset-grid banner-grid-3" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Leeg</h2>
+        <span class="asset-meta">Alleen gradient</span>
+      </div>
+      <img src="banners/presentation-empty.svg" alt="Presentation - Empty" class="asset-preview"/>
+      <div class="btn-group">
+        <a href="banners/presentation-empty.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/presentation-empty.svg', 'volentis-presentation-empty.png', 1920, 1080)" class="btn btn-secondary">PNG</button>
+      </div>
+    </div>
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Gedecoreerd</h2>
+        <span class="asset-meta">Netwerk patroon</span>
+      </div>
+      <img src="banners/presentation-decorated.svg" alt="Presentation - Decorated" class="asset-preview"/>
+      <div class="btn-group">
+        <a href="banners/presentation-decorated.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/presentation-decorated.svg', 'volentis-presentation-decorated.png', 1920, 1080)" class="btn btn-secondary">PNG</button>
+      </div>
+    </div>
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Met Tekst</h2>
+        <span class="asset-meta">Titelslide</span>
+      </div>
+      <img src="banners/presentation-text.svg" alt="Presentation - With Text" class="asset-preview"/>
+      <div class="btn-group">
+        <a href="banners/presentation-text.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/presentation-text.svg', 'volentis-presentation-text.png', 1920, 1080)" class="btn btn-secondary">PNG</button>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="instructions">
+    <h2>💡 Hoe de banners te gebruiken</h2>
+    <ol>
+      <li><strong>LinkedIn:</strong> Upload de banner in je profiel instellingen onder "Achtergrondafbeelding"</li>
+      <li><strong>PowerPoint:</strong> Invoegen → Afbeelding → Kies de PNG → Rechtermuisklik → "Naar achtergrond verzenden"</li>
+      <li><strong>Keynote:</strong> Sleep de afbeelding naar je slide → Rangschik → Naar achteren</li>
+      <li><strong>Google Slides:</strong> Dia → Achtergrond wijzigen → Afbeelding kiezen</li>
+      <li><strong>Canva/Figma:</strong> Importeer de SVG voor bewerkbare vectoren</li>
+    </ol>
+  </div>
+
+  <!-- Logo Section -->
+  <h2 class="section-title">🏷️ Logo</h2>
+  <p class="subtitle">Het officiële Volentis logo</p>
+  
+  <div class="asset-grid banner-grid-3" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Lichte achtergrond</h2>
+        <span class="asset-meta">PNG</span>
+      </div>
+      <div style="background: #f8fafc; border-radius: 8px; padding: 24px; margin-bottom: 16px; display: flex; justify-content: center;">
+        <img src="../volentis_logo.png" alt="Volentis Logo" style="max-width: 200px; height: auto;"/>
+      </div>
+      <div class="btn-group">
+        <a href="../volentis_logo.png" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ Download PNG</a>
+      </div>
+    </div>
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Donkere achtergrond</h2>
+        <span class="asset-meta">PNG</span>
+      </div>
+      <div style="background: #0F2A38; border-radius: 8px; padding: 24px; margin-bottom: 16px; display: flex; justify-content: center;">
+        <img src="../volentis_logo.png" alt="Volentis Logo" style="max-width: 200px; height: auto;"/>
+      </div>
+      <div class="btn-group">
+        <a href="../volentis_logo.png" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ Download PNG</a>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Brand Colors Section -->
+  <h2 class="section-title">🎨 Brand Kleuren</h2>
+  <p class="subtitle">De officiële Volentis kleurencodes</p>
+  
+  <div class="asset-card" style="margin-top: 1rem;">
+    <h3 style="color: #2AAAD9; margin-bottom: 16px; font-size: 1.1rem;">Primaire Kleuren</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+      <div class="color-swatch">
+        <div class="color-box" style="background: #0F2A38;"></div>
+        <div class="color-info">
+          <div class="color-name">Navy Dark</div>
+          <div class="color-hex">#0F2A38</div>
+        </div>
+      </div>
+      <div class="color-swatch">
+        <div class="color-box" style="background: #1B3A4B;"></div>
+        <div class="color-info">
+          <div class="color-name">Navy</div>
+          <div class="color-hex">#1B3A4B</div>
+        </div>
+      </div>
+      <div class="color-swatch">
+        <div class="color-box" style="background: #2AAAD9;"></div>
+        <div class="color-info">
+          <div class="color-name">Cyan (Primary)</div>
+          <div class="color-hex">#2AAAD9</div>
+        </div>
+      </div>
+      <div class="color-swatch">
+        <div class="color-box" style="background: #7DD3E8;"></div>
+        <div class="color-info">
+          <div class="color-name">Cyan Light</div>
+          <div class="color-hex">#7DD3E8</div>
+        </div>
+      </div>
+      <div class="color-swatch">
+        <div class="color-box" style="background: #4ECDC4;"></div>
+        <div class="color-info">
+          <div class="color-name">Teal (Accent)</div>
+          <div class="color-hex">#4ECDC4</div>
+        </div>
+      </div>
+    </div>
+    
+    <h3 style="color: #2AAAD9; margin: 24px 0 16px 0; font-size: 1.1rem;">Tekst & Achtergrond</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+      <div class="color-swatch">
+        <div class="color-box" style="background: #FFFFFF; border-color: #ccc;"></div>
+        <div class="color-info">
+          <div class="color-name">White</div>
+          <div class="color-hex">#FFFFFF</div>
+        </div>
+      </div>
+      <div class="color-swatch">
+        <div class="color-box" style="background: #F8F9FB; border-color: #ccc;"></div>
+        <div class="color-info">
+          <div class="color-name">Background Light</div>
+          <div class="color-hex">#F8F9FB</div>
+        </div>
+      </div>
+      <div class="color-swatch">
+        <div class="color-box" style="background: #222222;"></div>
+        <div class="color-info">
+          <div class="color-name">Text Dark</div>
+          <div class="color-hex">#222222</div>
+        </div>
+      </div>
+      <div class="color-swatch">
+        <div class="color-box" style="background: #666666;"></div>
+        <div class="color-info">
+          <div class="color-name">Text Body</div>
+          <div class="color-hex">#666666</div>
+        </div>
+      </div>
+      <div class="color-swatch">
+        <div class="color-box" style="background: #94A3B8;"></div>
+        <div class="color-info">
+          <div class="color-name">Gray Light</div>
+          <div class="color-hex">#94A3B8</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="instructions" style="margin-top: 2rem;">
+    <h2>📐 Brand Richtlijnen</h2>
+    <ol>
+      <li><strong>Lichte achtergronden:</strong> Gebruik navy (#1B3A4B) voor koppen en cyan (#2AAAD9) voor accenten</li>
+      <li><strong>Donkere achtergronden:</strong> Gebruik wit voor tekst en cyan (#2AAAD9) voor accenten</li>
+      <li><strong>Gradient:</strong> Van navy dark (#0F2A38) naar navy (#1B3A4B) voor achtergronden</li>
+      <li><strong>Tagline:</strong> "Enterprise AI you can trust." of "Enterprise AI die je kunt vertrouwen."</li>
+      <li><strong>Website:</strong> volentis.ai</li>
+    </ol>
+  </div>
+
+  <script>
+    async function downloadAsPng(svgUrl, filename, width, height) {
+      const canvas = document.createElement('canvas');
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext('2d');
+      
+      const img = new Image();
+      img.onload = function() {
+        ctx.drawImage(img, 0, 0, width, height);
+        const link = document.createElement('a');
+        link.download = filename;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      };
+      img.src = svgUrl;
+    }
+  </script>
+</body>
+</html>
