@@ -3146,16 +3146,16 @@
       "description": "Word Volentis HR Partner en bied AI-gestuurde HR-ondersteuning aan uw klanten onder uw eigen merk. White-label ready, geen ontwikkelkosten, extra omzet."
     },
     "hero": {
-      "badge": "Partner Programma",
-      "headline": "Bied AI-gestuurde HR-ondersteuning aan uw klanten",
-      "subheadline": "Partner met Volentis en geef uw klanten 24/7 toegang tot een slimme HR-assistent. Onder uw eigen merk, zonder zelf AI te ontwikkelen.",
+      "badge": "Voor HR-dienstverleners",
+      "headline": "Schaal uw HR-dienstverlening met AI",
+      "subheadline": "Bied de medewerkers van uw klanten 24/7 antwoord op HR-vragen. Onder uw eigen merk, zonder extra personeel.",
       "cta": "Plan een partnergesprek",
-      "secondaryCta": "Bekijk partner voordelen",
+      "secondaryCta": "Bekijk hoe het werkt",
       "floatingBadge": "White-label ready",
       "trust": {
-        "whitelabel": "White-label ready",
+        "whitelabel": "Uw merk, uw klanten",
         "euHosted": "EU Hosted / GDPR",
-        "revenueShare": "Revenue share model"
+        "revenueShare": "Extra omzet per klant"
       }
     },
     "stats": {
@@ -3164,25 +3164,58 @@
       "revenue": { "value": "€2500+", "label": "Gem. MRR per partner" },
       "nps": { "value": "9.2", "label": "Partner NPS" }
     },
+    "problem": {
+      "title": "Herkenbaar als HR-dienstverlener?",
+      "subtitle": "U bent de HR-afdeling voor uw klanten. Maar hoe schaalt u zonder steeds meer personeel?",
+      "points": {
+        "1": {
+          "title": "Dezelfde vragen, van alle klanten",
+          "description": "Medewerkers van uw klanten bellen en mailen dezelfde vragen. \"Hoeveel vakantiedagen heb ik?\" \"Hoe declareer ik?\" Uw team beantwoordt dit honderden keren."
+        },
+        "2": {
+          "title": "Moeilijk schalen zonder meer personeel",
+          "description": "Meer klanten betekent meer vragen. Maar elke nieuwe HR-medewerker eten in uw marge."
+        },
+        "3": {
+          "title": "Klanten verwachten 24/7 service",
+          "description": "Medewerkers van uw klanten hebben ook 's avonds en in het weekend vragen. Maar uw kantoor is dan dicht."
+        },
+        "4": {
+          "title": "Concurrenten bieden AI aan",
+          "description": "Andere HR-dienstverleners beginnen AI te promoten. Uw klanten vragen wanneer u volgt."
+        }
+      },
+      "statistic": {
+        "value": "60%",
+        "label": "van HR-vragen is routinematig beantwoordbaar",
+        "source": "Potentiële capaciteitswinst"
+      }
+    },
+    "demo": {
+      "badge": "Probeer het zelf",
+      "title": "Dit biedt u de medewerkers van uw klanten",
+      "subtitle": "Een AI-assistent onder uw eigen merk die vragen beantwoordt uit de HR-documenten van elke klant. Medewerkers stellen hun vraag en krijgen direct antwoord - met bronvermelding, 24/7.",
+      "disclaimer": "Dit is een demo met voorbeeldantwoorden. In productie antwoordt de HR Agent uit de daadwerkelijke HR-documenten die u per klant configureert."
+    },
     "benefits": {
-      "title": "Waarom partners kiezen voor Volentis",
-      "subtitle": "Vergroot uw dienstenaanbod zonder ontwikkelkosten",
+      "title": "Waarom HR-dienstverleners kiezen voor Volentis",
+      "subtitle": "Schaal uw service, verhoog uw marge, onderscheid u van de concurrentie",
       "items": {
         "1": { 
-          "title": "Extra omzetkanaal", 
-          "description": "Verdien MRR per klant die u activeert. Gemiddeld €500-1500 per klant per maand." 
+          "title": "Schaal zonder meer personeel", 
+          "description": "Meer klanten bedienen zonder uw team uit te breiden. De AI handelt routinevragen af, uw experts focussen op complexe cases." 
         },
         "2": { 
-          "title": "Geen ontwikkelkosten", 
-          "description": "Wij bouwen en onderhouden de AI. U focust op klantrelaties en sales." 
+          "title": "Extra omzet per klant", 
+          "description": "Bied AI als premium dienst aan. Gemiddeld €500-1500 extra per klant per maand." 
         },
         "3": { 
-          "title": "White-label ready", 
-          "description": "Volledig onder uw eigen merk. Uw klanten weten niet dat het Volentis is." 
+          "title": "Volledig uw merk", 
+          "description": "Medewerkers van uw klanten zien uw naam, uw logo, uw kleuren. Volentis blijft onzichtbaar." 
         },
         "4": { 
-          "title": "Snelle go-to-market", 
-          "description": "Van pilot tot live in 2-4 weken. Geen maandenlange implementaties." 
+          "title": "Per klant geconfigureerd", 
+          "description": "Elke klant krijgt een eigen omgeving met eigen documenten. CAO's, regelingen, beleid - alles klant-specifiek." 
         }
       }
     },
@@ -3197,24 +3230,24 @@
       }
     },
     "useCases": {
-      "title": "Wat uw klanten krijgen",
-      "subtitle": "AI-gestuurde HR-ondersteuning die echte problemen oplost",
+      "title": "Wat u de medewerkers van uw klanten biedt",
+      "subtitle": "Directe antwoorden, 24/7, onder uw eigen merk",
       "items": {
         "1": {
-          "title": "Medewerker self-service",
-          "description": "Medewerkers krijgen direct antwoord op vragen over verlof, policies en CAO."
+          "title": "Direct antwoord op HR-vragen",
+          "description": "Medewerkers van uw klanten stellen hun vraag en krijgen direct antwoord. Verlof, declaraties, beleid - alles op één plek."
         },
         "2": {
-          "title": "HR-afdeling ontlasting",
-          "description": "50-70% minder repetitieve vragen, meer tijd voor strategisch HR-werk."
+          "title": "Uw team schaalt zonder kosten",
+          "description": "De AI handelt 50-70% van de vragen af. Uw HR-adviseurs focussen op complexe cases en klantrelaties."
         },
         "3": {
-          "title": "24/7 beschikbaarheid",
-          "description": "Altijd antwoord, ook buiten kantooruren en in het weekend."
+          "title": "Service buiten kantooruren",
+          "description": "Medewerkers krijgen ook 's avonds en in het weekend antwoord. Uw service wordt 24/7 - zonder nachtdiensten."
         },
         "4": {
-          "title": "Meertalig",
-          "description": "Perfect voor internationale klanten - ondersteunt meerdere talen."
+          "title": "Per klant geconfigureerd",
+          "description": "Elke klant heeft eigen documenten, eigen branding, eigen regels. Volledig gescheiden omgevingen."
         }
       }
     },

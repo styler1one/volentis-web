@@ -3146,16 +3146,16 @@
       "description": "Werden Sie Volentis HR-Partner und bieten Sie Ihren Kunden KI-gestützte HR-Unterstützung unter Ihrer eigenen Marke an. White-Label-fähig, keine Entwicklungskosten, zusätzliche Einnahmen."
     },
     "hero": {
-      "badge": "Partner-Programm",
-      "headline": "Bieten Sie Ihren Kunden KI-gestützte HR-Unterstützung an",
-      "subheadline": "Werden Sie Volentis-Partner und geben Sie Ihren Kunden 24/7 Zugang zu einem intelligenten HR-Assistenten. Unter Ihrer eigenen Marke, ohne selbst KI zu entwickeln.",
+      "badge": "Für HR-Dienstleister",
+      "headline": "Skalieren Sie Ihre HR-Dienstleistung mit KI",
+      "subheadline": "Bieten Sie den Mitarbeitern Ihrer Kunden 24/7 Antworten auf HR-Fragen. Unter Ihrer eigenen Marke, ohne zusätzliches Personal.",
       "cta": "Partnergespräch vereinbaren",
-      "secondaryCta": "Partner-Vorteile ansehen",
+      "secondaryCta": "Sehen Sie wie es funktioniert",
       "floatingBadge": "White-Label-fähig",
       "trust": {
-        "whitelabel": "White-Label-fähig",
+        "whitelabel": "Ihre Marke, Ihre Kunden",
         "euHosted": "EU-Hosting / DSGVO",
-        "revenueShare": "Umsatzbeteiligungsmodell"
+        "revenueShare": "Zusätzliche Einnahmen pro Kunde"
       }
     },
     "stats": {
@@ -3164,25 +3164,58 @@
       "revenue": { "value": "€2500+", "label": "Ø MRR pro Partner" },
       "nps": { "value": "9.2", "label": "Partner-NPS" }
     },
+    "problem": {
+      "title": "Kennen Sie das als HR-Dienstleister?",
+      "subtitle": "Sie sind die HR-Abteilung für Ihre Kunden. Aber wie skalieren Sie ohne ständig mehr Personal einzustellen?",
+      "points": {
+        "1": {
+          "title": "Dieselben Fragen, von allen Kunden",
+          "description": "Mitarbeiter Ihrer Kunden rufen an und schreiben dieselben Fragen. \"Wie viele Urlaubstage habe ich?\" \"Wie reiche ich Spesen ein?\" Ihr Team beantwortet das hundertfach."
+        },
+        "2": {
+          "title": "Schwer zu skalieren ohne mehr Personal",
+          "description": "Mehr Kunden bedeutet mehr Fragen. Aber jeder neue HR-Mitarbeiter frisst Ihre Marge."
+        },
+        "3": {
+          "title": "Kunden erwarten 24/7-Service",
+          "description": "Mitarbeiter Ihrer Kunden haben auch abends und am Wochenende Fragen. Aber Ihr Büro ist dann geschlossen."
+        },
+        "4": {
+          "title": "Konkurrenten bieten KI an",
+          "description": "Andere HR-Dienstleister beginnen KI zu bewerben. Ihre Kunden fragen, wann Sie folgen."
+        }
+      },
+      "statistic": {
+        "value": "60%",
+        "label": "der HR-Fragen können routinemäßig beantwortet werden",
+        "source": "Potenzielle Kapazitätsgewinne"
+      }
+    },
+    "demo": {
+      "badge": "Selbst ausprobieren",
+      "title": "Das bieten Sie den Mitarbeitern Ihrer Kunden",
+      "subtitle": "Ein KI-Assistent unter Ihrer eigenen Marke, der Fragen aus den HR-Dokumenten jedes Kunden beantwortet. Mitarbeiter stellen ihre Frage und bekommen sofort Antwort - mit Quellenangabe, 24/7.",
+      "disclaimer": "Dies ist eine Demo mit Beispielantworten. In der Produktion antwortet der HR Agent aus den tatsächlichen HR-Dokumenten, die Sie pro Kunde konfigurieren."
+    },
     "benefits": {
-      "title": "Warum Partner Volentis wählen",
-      "subtitle": "Erweitern Sie Ihr Dienstleistungsangebot ohne Entwicklungskosten",
+      "title": "Warum HR-Dienstleister Volentis wählen",
+      "subtitle": "Skalieren Sie Ihren Service, erhöhen Sie Ihre Marge, heben Sie sich vom Wettbewerb ab",
       "items": {
         "1": { 
-          "title": "Zusätzliche Einnahmequelle", 
-          "description": "Verdienen Sie MRR pro aktiviertem Kunden. Durchschnittlich €500-1500 pro Kunde pro Monat." 
+          "title": "Skalieren ohne mehr Personal", 
+          "description": "Bedienen Sie mehr Kunden ohne Ihr Team zu erweitern. KI bearbeitet Routinefragen, Ihre Experten konzentrieren sich auf komplexe Fälle." 
         },
         "2": { 
-          "title": "Keine Entwicklungskosten", 
-          "description": "Wir bauen und warten die KI. Sie konzentrieren sich auf Kundenbeziehungen und Vertrieb." 
+          "title": "Zusätzliche Einnahmen pro Kunde", 
+          "description": "Bieten Sie KI als Premium-Service an. Durchschnittlich €500-1500 extra pro Kunde pro Monat." 
         },
         "3": { 
-          "title": "White-Label-fähig", 
-          "description": "Vollständig unter Ihrer eigenen Marke. Ihre Kunden wissen nicht, dass es Volentis ist." 
+          "title": "Vollständig Ihre Marke", 
+          "description": "Mitarbeiter Ihrer Kunden sehen Ihren Namen, Ihr Logo, Ihre Farben. Volentis bleibt unsichtbar." 
         },
         "4": { 
-          "title": "Schnelle Markteinführung", 
-          "description": "Von Pilot bis Live in 2-4 Wochen. Keine monatelangen Implementierungen." 
+          "title": "Pro Kunde konfiguriert", 
+          "description": "Jeder Kunde bekommt eine eigene Umgebung mit eigenen Dokumenten. Richtlinien, Regelungen, Handbücher - alles kundenspezifisch." 
         }
       }
     },
@@ -3197,24 +3230,24 @@
       }
     },
     "useCases": {
-      "title": "Was Ihre Kunden bekommen",
-      "subtitle": "KI-gestützte HR-Unterstützung, die echte Probleme löst",
+      "title": "Das bieten Sie den Mitarbeitern Ihrer Kunden",
+      "subtitle": "Sofortige Antworten, 24/7, unter Ihrer eigenen Marke",
       "items": {
         "1": {
-          "title": "Mitarbeiter-Self-Service",
-          "description": "Mitarbeiter erhalten sofortige Antworten auf Fragen zu Urlaub, Richtlinien und Verträgen."
+          "title": "Sofortige Antworten auf HR-Fragen",
+          "description": "Mitarbeiter Ihrer Kunden stellen ihre Frage und bekommen sofort Antwort. Urlaub, Spesen, Richtlinien - alles an einem Ort."
         },
         "2": {
-          "title": "HR-Team-Entlastung",
-          "description": "50-70% weniger repetitive Fragen, mehr Zeit für strategische HR-Arbeit."
+          "title": "Ihr Team skaliert ohne Kosten",
+          "description": "KI bearbeitet 50-70% der Fragen. Ihre HR-Berater konzentrieren sich auf komplexe Fälle und Kundenbeziehungen."
         },
         "3": {
-          "title": "24/7-Verfügbarkeit",
-          "description": "Antwortet immer, auch außerhalb der Geschäftszeiten und am Wochenende."
+          "title": "Service außerhalb der Bürozeiten",
+          "description": "Mitarbeiter bekommen auch abends und am Wochenende Antworten. Ihr Service wird 24/7 - ohne Nachtschichten."
         },
         "4": {
-          "title": "Mehrsprachig",
-          "description": "Perfekt für internationale Kunden - unterstützt mehrere Sprachen."
+          "title": "Pro Kunde konfiguriert",
+          "description": "Jeder Kunde hat eigene Dokumente, eigenes Branding, eigene Regeln. Vollständig getrennte Umgebungen."
         }
       }
     },

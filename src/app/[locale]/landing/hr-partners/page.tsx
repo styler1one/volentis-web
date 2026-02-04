@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
 import AnimatedBackground from '@/components/ui/AnimatedBackground';
+import InteractiveDemo from '@/components/ui/InteractiveDemo';
 
 // Microsoft Bookings URL with UTM tracking
 const BOOKING_URL = 'https://outlook.office.com/bookwithme/user/e24fb78dcb5249b0ad5bdb243afdf606@bestpractice.company/meetingtype/yKbah1Aiw0-vtABEXfovSQ2?anonymous&ep=mlink&utm_source=website&utm_medium=landing_page&utm_campaign=hr-partners-lp';
@@ -228,6 +229,8 @@ export default function HRPartnersLandingPage() {
 
   // Animation refs
   const heroRef = useInView(0.2);
+  const problemRef = useInView(0.2);
+  const demoRef = useInView(0.2);
   const benefitsRef = useInView(0.2);
   const processRef = useInView(0.2);
   const useCasesRef = useInView(0.2);
@@ -341,6 +344,97 @@ export default function HRPartnersLandingPage() {
           <svg className="w-6 h-6 text-volentis-cyan" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
+        </div>
+      </section>
+
+      {/* Problem Section - Why clients need this */}
+      <section 
+        ref={problemRef.ref}
+        className={`py-20 md:py-32 bg-volentis-navy relative overflow-hidden transition-all duration-1000 ${
+          problemRef.isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+        }`}
+      >
+        <div className="absolute inset-0">
+          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-volentis-cyan/10 rounded-full blur-3xl" />
+        </div>
+        
+        <div className="section-container relative">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
+              {t('problem.title')}
+            </h2>
+            <p className="text-xl text-white/70 max-w-2xl mx-auto">
+              {t('problem.subtitle')}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-16">
+            {[1, 2, 3, 4].map((num) => (
+              <div 
+                key={num}
+                className="group p-6 bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 hover:bg-white/10 transition-all"
+              >
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 bg-red-500/20 rounded-full flex items-center justify-center flex-shrink-0">
+                    <span className="text-red-400">⚠️</span>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-white mb-2">
+                      {t(`problem.points.${num}.title`)}
+                    </h3>
+                    <p className="text-white/60 text-sm">
+                      {t(`problem.points.${num}.description`)}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Statistic highlight */}
+          <div className="max-w-2xl mx-auto text-center p-8 bg-gradient-to-r from-volentis-cyan/20 to-accent-light/20 rounded-2xl border border-volentis-cyan/30">
+            <p className="text-6xl md:text-7xl font-bold text-volentis-cyan mb-2">
+              {t('problem.statistic.value')}
+            </p>
+            <p className="text-xl text-white mb-1">
+              {t('problem.statistic.label')}
+            </p>
+            <p className="text-sm text-white/50">
+              {t('problem.statistic.source')}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Demo Section - What the HR Agent IS */}
+      <section 
+        id="demo"
+        ref={demoRef.ref}
+        className={`py-20 md:py-32 bg-bg-light transition-all duration-1000 ${
+          demoRef.isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+        }`}
+      >
+        <div className="section-container">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-volentis-cyan/10 border border-volentis-cyan/20 rounded-full text-sm font-medium text-volentis-cyan mb-6">
+              <span className="w-2 h-2 bg-volentis-cyan rounded-full animate-pulse" />
+              {t('demo.badge')}
+            </div>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-volentis-navy mb-4">
+              {t('demo.title')}
+            </h2>
+            <p className="text-xl text-text-body max-w-3xl mx-auto">
+              {t('demo.subtitle')}
+            </p>
+          </div>
+
+          <div className="max-w-4xl mx-auto mb-8">
+            <InteractiveDemo agent="hr" />
+          </div>
+
+          <p className="text-center text-sm text-text-muted italic max-w-2xl mx-auto">
+            {t('demo.disclaimer')}
+          </p>
         </div>
       </section>
 

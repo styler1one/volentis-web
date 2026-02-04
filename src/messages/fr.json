@@ -3146,16 +3146,16 @@
       "description": "Devenez partenaire Volentis et offrez à vos clients un support RH alimenté par l'IA sous votre propre marque. White-label prêt, sans coûts de développement, revenus supplémentaires."
     },
     "hero": {
-      "badge": "Programme Partenaire",
-      "headline": "Offrez à vos clients un support RH alimenté par l'IA",
-      "subheadline": "Devenez partenaire Volentis et donnez à vos clients un accès 24/7 à un assistant RH intelligent. Sous votre propre marque, sans développer l'IA vous-même.",
+      "badge": "Pour les prestataires RH",
+      "headline": "Faites évoluer vos services RH avec l'IA",
+      "subheadline": "Offrez aux employés de vos clients des réponses 24/7 aux questions RH. Sous votre propre marque, sans personnel supplémentaire.",
       "cta": "Planifier un appel partenaire",
-      "secondaryCta": "Voir les avantages partenaires",
+      "secondaryCta": "Voir comment ça marche",
       "floatingBadge": "White-label prêt",
       "trust": {
-        "whitelabel": "White-label prêt",
+        "whitelabel": "Votre marque, vos clients",
         "euHosted": "Hébergé UE / RGPD",
-        "revenueShare": "Modèle de partage de revenus"
+        "revenueShare": "Revenus supplémentaires par client"
       }
     },
     "stats": {
@@ -3164,25 +3164,58 @@
       "revenue": { "value": "€2500+", "label": "MRR moyen par partenaire" },
       "nps": { "value": "9.2", "label": "NPS Partenaire" }
     },
+    "problem": {
+      "title": "Vous reconnaissez-vous en tant que prestataire RH ?",
+      "subtitle": "Vous êtes le département RH de vos clients. Mais comment évoluer sans embaucher constamment plus de personnel ?",
+      "points": {
+        "1": {
+          "title": "Mêmes questions, de tous les clients",
+          "description": "Les employés de vos clients appellent et envoient les mêmes questions. \"Combien de jours de congés ai-je ?\" \"Comment soumettre mes notes de frais ?\" Votre équipe y répond des centaines de fois."
+        },
+        "2": {
+          "title": "Difficile d'évoluer sans plus de personnel",
+          "description": "Plus de clients signifie plus de questions. Mais chaque nouvel employé RH réduit vos marges."
+        },
+        "3": {
+          "title": "Les clients attendent un service 24/7",
+          "description": "Les employés de vos clients ont aussi des questions le soir et le week-end. Mais votre bureau est fermé."
+        },
+        "4": {
+          "title": "Les concurrents proposent l'IA",
+          "description": "D'autres prestataires RH commencent à promouvoir l'IA. Vos clients demandent quand vous suivrez."
+        }
+      },
+      "statistic": {
+        "value": "60%",
+        "label": "des questions RH peuvent être traitées de manière routinière",
+        "source": "Gain de capacité potentiel"
+      }
+    },
+    "demo": {
+      "badge": "Essayez vous-même",
+      "title": "Voici ce que vous offrez aux employés de vos clients",
+      "subtitle": "Un assistant IA sous votre propre marque qui répond aux questions à partir des documents RH de chaque client. Les employés posent leur question et obtiennent une réponse immédiate - avec citations des sources, 24/7.",
+      "disclaimer": "Ceci est une démo avec des réponses d'exemple. En production, le HR Agent répond à partir des documents RH réels que vous configurez par client."
+    },
     "benefits": {
-      "title": "Pourquoi les partenaires choisissent Volentis",
-      "subtitle": "Élargissez votre offre de services sans coûts de développement",
+      "title": "Pourquoi les prestataires RH choisissent Volentis",
+      "subtitle": "Faites évoluer votre service, augmentez vos marges, différenciez-vous de la concurrence",
       "items": {
         "1": { 
-          "title": "Source de revenus supplémentaire", 
-          "description": "Gagnez du MRR par client activé. En moyenne €500-1500 par client par mois." 
+          "title": "Évoluez sans plus de personnel", 
+          "description": "Servez plus de clients sans agrandir votre équipe. L'IA gère les questions routinières, vos experts se concentrent sur les cas complexes." 
         },
         "2": { 
-          "title": "Aucun coût de développement", 
-          "description": "Nous construisons et maintenons l'IA. Vous vous concentrez sur les relations clients et les ventes." 
+          "title": "Revenus supplémentaires par client", 
+          "description": "Proposez l'IA comme service premium. En moyenne €500-1500 supplémentaires par client par mois." 
         },
         "3": { 
-          "title": "White-label prêt", 
-          "description": "Entièrement sous votre propre marque. Vos clients ne savent pas que c'est Volentis." 
+          "title": "Entièrement votre marque", 
+          "description": "Les employés de vos clients voient votre nom, votre logo, vos couleurs. Volentis reste invisible." 
         },
         "4": { 
-          "title": "Mise sur le marché rapide", 
-          "description": "Du pilote au live en 2-4 semaines. Pas d'implémentations de plusieurs mois." 
+          "title": "Configuré par client", 
+          "description": "Chaque client a son propre environnement avec ses propres documents. Politiques, règlements, manuels - tout spécifique au client." 
         }
       }
     },
@@ -3197,24 +3230,24 @@
       }
     },
     "useCases": {
-      "title": "Ce que vos clients obtiennent",
-      "subtitle": "Support RH alimenté par l'IA qui résout de vrais problèmes",
+      "title": "Ce que vous offrez aux employés de vos clients",
+      "subtitle": "Réponses instantanées, 24/7, sous votre propre marque",
       "items": {
         "1": {
-          "title": "Self-service employés",
-          "description": "Les employés obtiennent des réponses instantanées sur les congés, les politiques et les contrats."
+          "title": "Réponses instantanées aux questions RH",
+          "description": "Les employés de vos clients posent leur question et obtiennent une réponse immédiate. Congés, frais, politiques - tout au même endroit."
         },
         "2": {
-          "title": "Soulagement de l'équipe RH",
-          "description": "50-70% de questions répétitives en moins, plus de temps pour le travail RH stratégique."
+          "title": "Votre équipe évolue sans coûts",
+          "description": "L'IA gère 50-70% des questions. Vos conseillers RH se concentrent sur les cas complexes et les relations clients."
         },
         "3": {
-          "title": "Disponibilité 24/7",
-          "description": "Répond toujours, même en dehors des heures de bureau et le week-end."
+          "title": "Service en dehors des heures de bureau",
+          "description": "Les employés obtiennent des réponses le soir et le week-end aussi. Votre service devient 24/7 - sans équipes de nuit."
         },
         "4": {
-          "title": "Multilingue",
-          "description": "Parfait pour les clients internationaux - supporte plusieurs langues."
+          "title": "Configuré par client",
+          "description": "Chaque client a ses propres documents, son propre branding, ses propres règles. Environnements complètement séparés."
         }
       }
     },

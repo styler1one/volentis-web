@@ -3146,16 +3146,16 @@
       "description": "Become a Volentis HR Partner and offer AI-powered HR support to your clients under your own brand. White-label ready, no development costs, additional revenue."
     },
     "hero": {
-      "badge": "Partner Program",
-      "headline": "Offer AI-powered HR support to your clients",
-      "subheadline": "Partner with Volentis and give your clients 24/7 access to a smart HR assistant. Under your own brand, without building AI yourself.",
+      "badge": "For HR Service Providers",
+      "headline": "Scale your HR services with AI",
+      "subheadline": "Offer your clients' employees 24/7 answers to HR questions. Under your own brand, without additional staff.",
       "cta": "Schedule a partner call",
-      "secondaryCta": "View partner benefits",
+      "secondaryCta": "See how it works",
       "floatingBadge": "White-label ready",
       "trust": {
-        "whitelabel": "White-label ready",
+        "whitelabel": "Your brand, your clients",
         "euHosted": "EU Hosted / GDPR",
-        "revenueShare": "Revenue share model"
+        "revenueShare": "Extra revenue per client"
       }
     },
     "stats": {
@@ -3164,25 +3164,58 @@
       "revenue": { "value": "€2500+", "label": "Avg. MRR per partner" },
       "nps": { "value": "9.2", "label": "Partner NPS" }
     },
+    "problem": {
+      "title": "Sound familiar as an HR service provider?",
+      "subtitle": "You are the HR department for your clients. But how do you scale without constantly hiring more staff?",
+      "points": {
+        "1": {
+          "title": "Same questions, from all clients",
+          "description": "Employees of your clients call and email the same questions. \"How many vacation days do I have?\" \"How do I submit expenses?\" Your team answers this hundreds of times."
+        },
+        "2": {
+          "title": "Hard to scale without more staff",
+          "description": "More clients means more questions. But every new HR employee eats into your margins."
+        },
+        "3": {
+          "title": "Clients expect 24/7 service",
+          "description": "Employees of your clients have questions evenings and weekends too. But your office is closed."
+        },
+        "4": {
+          "title": "Competitors are offering AI",
+          "description": "Other HR service providers are starting to promote AI. Your clients are asking when you'll follow."
+        }
+      },
+      "statistic": {
+        "value": "60%",
+        "label": "of HR questions can be answered routinely",
+        "source": "Potential capacity gain"
+      }
+    },
+    "demo": {
+      "badge": "Try it yourself",
+      "title": "This is what you offer your clients' employees",
+      "subtitle": "An AI assistant under your own brand that answers questions from each client's HR documents. Employees ask their question and get an immediate answer - with source citations, 24/7.",
+      "disclaimer": "This is a demo with sample answers. In production, the HR Agent answers from the actual HR documents you configure per client."
+    },
     "benefits": {
-      "title": "Why partners choose Volentis",
-      "subtitle": "Expand your service offering without development costs",
+      "title": "Why HR service providers choose Volentis",
+      "subtitle": "Scale your service, increase your margins, differentiate from competition",
       "items": {
         "1": { 
-          "title": "Additional revenue stream", 
-          "description": "Earn MRR per client you activate. Average €500-1500 per client per month." 
+          "title": "Scale without more staff", 
+          "description": "Serve more clients without expanding your team. AI handles routine questions, your experts focus on complex cases." 
         },
         "2": { 
-          "title": "No development costs", 
-          "description": "We build and maintain the AI. You focus on client relationships and sales." 
+          "title": "Extra revenue per client", 
+          "description": "Offer AI as a premium service. Average €500-1500 extra per client per month." 
         },
         "3": { 
-          "title": "White-label ready", 
-          "description": "Fully under your own brand. Your clients don't know it's Volentis." 
+          "title": "Fully your brand", 
+          "description": "Your clients' employees see your name, your logo, your colors. Volentis stays invisible." 
         },
         "4": { 
-          "title": "Fast go-to-market", 
-          "description": "From pilot to live in 2-4 weeks. No months-long implementations." 
+          "title": "Configured per client", 
+          "description": "Each client gets their own environment with their own documents. Policies, regulations, handbooks - all client-specific." 
         }
       }
     },
@@ -3197,24 +3230,24 @@
       }
     },
     "useCases": {
-      "title": "What your clients get",
-      "subtitle": "AI-powered HR support that solves real problems",
+      "title": "What you offer your clients' employees",
+      "subtitle": "Instant answers, 24/7, under your own brand",
       "items": {
         "1": {
-          "title": "Employee self-service",
-          "description": "Employees get instant answers to questions about leave, policies, and contracts."
+          "title": "Instant answers to HR questions",
+          "description": "Employees of your clients ask their question and get an immediate answer. Leave, expenses, policies - everything in one place."
         },
         "2": {
-          "title": "HR team relief",
-          "description": "50-70% fewer repetitive questions, more time for strategic HR work."
+          "title": "Your team scales without costs",
+          "description": "AI handles 50-70% of questions. Your HR advisors focus on complex cases and client relationships."
         },
         "3": {
-          "title": "24/7 availability",
-          "description": "Always answers, even outside office hours and on weekends."
+          "title": "Service outside office hours",
+          "description": "Employees get answers evenings and weekends too. Your service becomes 24/7 - without night shifts."
         },
         "4": {
-          "title": "Multilingual",
-          "description": "Perfect for international clients - supports multiple languages."
+          "title": "Configured per client",
+          "description": "Each client has their own documents, their own branding, their own rules. Completely separated environments."
         }
       }
     },
