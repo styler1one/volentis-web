@@ -3146,23 +3146,23 @@
       "description": "Word Volentis HR Partner en bied AI-gestuurde HR-ondersteuning aan uw klanten onder uw eigen merk. White-label ready, geen ontwikkelkosten, extra omzet."
     },
     "hero": {
-      "badge": "Voor HR-dienstverleners",
+      "badge": "Pilot Partners Gezocht",
       "headline": "Schaal uw HR-dienstverlening met AI",
       "subheadline": "Bied de medewerkers van uw klanten 24/7 antwoord op HR-vragen. Onder uw eigen merk, zonder extra personeel.",
-      "cta": "Plan een partnergesprek",
+      "cta": "Word pilot partner",
       "secondaryCta": "Bekijk hoe het werkt",
-      "floatingBadge": "White-label ready",
+      "floatingBadge": "Nu beschikbaar",
       "trust": {
-        "whitelabel": "Uw merk, uw klanten",
+        "whitelabel": "Volledig white-label",
         "euHosted": "EU Hosted / GDPR",
-        "revenueShare": "Extra omzet per klant"
+        "revenueShare": "Gratis pilot"
       }
     },
-    "stats": {
-      "partners": { "value": "15+", "label": "Actieve partners" },
-      "clients": { "value": "50+", "label": "Eindklanten" },
-      "revenue": { "value": "€2500+", "label": "Gem. MRR per partner" },
-      "nps": { "value": "9.2", "label": "Partner NPS" }
+    "valueProps": {
+      "implementation": { "value": "2-4", "label": "weken tot live" },
+      "automation": { "value": "50-70%", "label": "vragen geautomatiseerd" },
+      "availability": { "value": "24/7", "label": "beschikbaarheid" },
+      "compliance": { "value": "100%", "label": "GDPR compliant" }
     },
     "problem": {
       "title": "Herkenbaar als HR-dienstverlener?",
@@ -3198,24 +3198,24 @@
       "disclaimer": "Dit is een demo met voorbeeldantwoorden. In productie antwoordt de HR Agent uit de daadwerkelijke HR-documenten die u per klant configureert."
     },
     "benefits": {
-      "title": "Waarom HR-dienstverleners kiezen voor Volentis",
+      "title": "Wat dit voor uw bedrijf betekent",
       "subtitle": "Schaal uw service, verhoog uw marge, onderscheid u van de concurrentie",
       "items": {
         "1": { 
           "title": "Schaal zonder meer personeel", 
-          "description": "Meer klanten bedienen zonder uw team uit te breiden. De AI handelt routinevragen af, uw experts focussen op complexe cases." 
+          "description": "Uw team besteedt nu uren aan steeds dezelfde vragen. De AI neemt 50-70% over, uw experts focussen op waar ze goed in zijn." 
         },
         "2": { 
-          "title": "Extra omzet per klant", 
-          "description": "Bied AI als premium dienst aan. Gemiddeld €500-1500 extra per klant per maand." 
+          "title": "Nieuwe inkomstenbron", 
+          "description": "Reken de AI door aan uw klanten als premium service. U bepaalt de prijs, wij leveren de technologie." 
         },
         "3": { 
-          "title": "Volledig uw merk", 
-          "description": "Medewerkers van uw klanten zien uw naam, uw logo, uw kleuren. Volentis blijft onzichtbaar." 
+          "title": "Onzichtbare technologie", 
+          "description": "Medewerkers zien alleen uw merk. Uw logo, uw kleuren, uw naam. Volentis blijft volledig op de achtergrond." 
         },
         "4": { 
-          "title": "Per klant geconfigureerd", 
-          "description": "Elke klant krijgt een eigen omgeving met eigen documenten. CAO's, regelingen, beleid - alles klant-specifiek." 
+          "title": "Per klant gescheiden", 
+          "description": "Elke klant krijgt een eigen omgeving met eigen documenten. Volledige data-isolatie, geen kruisbestuiving." 
         }
       }
     },
@@ -3251,26 +3251,30 @@
         }
       }
     },
-    "tiers": {
-      "title": "Partner niveaus",
-      "subtitle": "Groei mee met uw succes - hoe meer klanten, hoe meer voordelen",
-      "silver": { 
-        "name": "Silver", 
-        "clients": "1+ klanten", 
-        "discount": "Standaard pricing", 
-        "support": "Email support" 
+    "howItWorks": {
+      "title": "Zo werkt het voor uw klanten",
+      "subtitle": "Een medewerker stelt een vraag, de AI zoekt het antwoord in de documenten van díe klant",
+      "steps": {
+        "employee": {
+          "title": "Medewerker vraagt",
+          "description": "Via chat, Teams of web"
+        },
+        "agent": {
+          "title": "Uw HR Agent",
+          "description": "Onder uw eigen merk"
+        },
+        "documents": {
+          "title": "Klant's documenten",
+          "description": "CAO, beleid, reglementen"
+        },
+        "answer": {
+          "title": "Direct antwoord",
+          "description": "Met bronvermelding"
+        }
       },
-      "gold": { 
-        "name": "Gold", 
-        "clients": "3+ klanten", 
-        "discount": "15% korting", 
-        "support": "Dedicated partner manager" 
-      },
-      "platinum": { 
-        "name": "Platinum", 
-        "clients": "10+ klanten", 
-        "discount": "25% korting", 
-        "support": "Premium support + co-marketing" 
+      "keyPoint": {
+        "emphasis": "Elke klant apart:",
+        "text": "Eigen documenten, eigen branding, eigen omgeving. Geen data-uitwisseling tussen klanten."
       }
     },
     "security": {
@@ -3302,18 +3306,18 @@
       }
     },
     "cta": {
-      "title": "Start uw partner pilot",
-      "subtitle": "Ontdek hoe Volentis uw dienstenaanbod kan versterken",
+      "title": "Word pilot partner",
+      "subtitle": "Wij zoeken HR-dienstverleners die samen met ons willen ontdekken hoe AI hun service kan versterken",
       "benefits": {
-        "1": "Gratis pilot bij 1 klant",
-        "2": "Geen commitment na pilot",
-        "3": "Evaluatie na 4 weken",
-        "4": "Dedicated onboarding support"
+        "1": "Gratis pilot met 1 van uw klanten",
+        "2": "Wij configureren alles voor u",
+        "3": "4 weken testen, dan samen evalueren",
+        "4": "Geen kosten, geen verplichtingen"
       },
       "booking": {
-        "title": "Plan een partnergesprek",
-        "subtitle": "30 minuten kennismaking met ons partner team",
-        "button": "Kies een tijdstip",
+        "title": "Kennismakingsgesprek",
+        "subtitle": "30 minuten om te bespreken of dit bij u past",
+        "button": "Plan een gesprek",
         "fallback": "Of mail direct naar",
         "trust": {
           "free": "Gratis",

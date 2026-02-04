@@ -3146,23 +3146,23 @@
       "description": "Devenez partenaire Volentis et offrez à vos clients un support RH alimenté par l'IA sous votre propre marque. White-label prêt, sans coûts de développement, revenus supplémentaires."
     },
     "hero": {
-      "badge": "Pour les prestataires RH",
+      "badge": "Partenaires Pilotes Recherchés",
       "headline": "Faites évoluer vos services RH avec l'IA",
       "subheadline": "Offrez aux employés de vos clients des réponses 24/7 aux questions RH. Sous votre propre marque, sans personnel supplémentaire.",
-      "cta": "Planifier un appel partenaire",
+      "cta": "Devenir partenaire pilote",
       "secondaryCta": "Voir comment ça marche",
-      "floatingBadge": "White-label prêt",
+      "floatingBadge": "Disponible maintenant",
       "trust": {
-        "whitelabel": "Votre marque, vos clients",
+        "whitelabel": "Entièrement white-label",
         "euHosted": "Hébergé UE / RGPD",
-        "revenueShare": "Revenus supplémentaires par client"
+        "revenueShare": "Pilote gratuit"
       }
     },
-    "stats": {
-      "partners": { "value": "15+", "label": "Partenaires actifs" },
-      "clients": { "value": "50+", "label": "Clients finaux" },
-      "revenue": { "value": "€2500+", "label": "MRR moyen par partenaire" },
-      "nps": { "value": "9.2", "label": "NPS Partenaire" }
+    "valueProps": {
+      "implementation": { "value": "2-4", "label": "semaines pour être live" },
+      "automation": { "value": "50-70%", "label": "questions automatisées" },
+      "availability": { "value": "24/7", "label": "disponibilité" },
+      "compliance": { "value": "100%", "label": "conforme RGPD" }
     },
     "problem": {
       "title": "Vous reconnaissez-vous en tant que prestataire RH ?",
@@ -3198,24 +3198,24 @@
       "disclaimer": "Ceci est une démo avec des réponses d'exemple. En production, le HR Agent répond à partir des documents RH réels que vous configurez par client."
     },
     "benefits": {
-      "title": "Pourquoi les prestataires RH choisissent Volentis",
+      "title": "Ce que cela signifie pour votre entreprise",
       "subtitle": "Faites évoluer votre service, augmentez vos marges, différenciez-vous de la concurrence",
       "items": {
         "1": { 
           "title": "Évoluez sans plus de personnel", 
-          "description": "Servez plus de clients sans agrandir votre équipe. L'IA gère les questions routinières, vos experts se concentrent sur les cas complexes." 
+          "description": "Votre équipe passe des heures sur les mêmes questions. L'IA gère 50-70%, vos experts se concentrent sur ce qu'ils font de mieux." 
         },
         "2": { 
-          "title": "Revenus supplémentaires par client", 
-          "description": "Proposez l'IA comme service premium. En moyenne €500-1500 supplémentaires par client par mois." 
+          "title": "Nouvelle source de revenus", 
+          "description": "Facturez l'IA à vos clients comme service premium. Vous fixez le prix, nous fournissons la technologie." 
         },
         "3": { 
-          "title": "Entièrement votre marque", 
-          "description": "Les employés de vos clients voient votre nom, votre logo, vos couleurs. Volentis reste invisible." 
+          "title": "Technologie invisible", 
+          "description": "Les employés ne voient que votre marque. Votre logo, vos couleurs, votre nom. Volentis reste complètement en arrière-plan." 
         },
         "4": { 
-          "title": "Configuré par client", 
-          "description": "Chaque client a son propre environnement avec ses propres documents. Politiques, règlements, manuels - tout spécifique au client." 
+          "title": "Séparé par client", 
+          "description": "Chaque client a son propre environnement avec ses propres documents. Isolation complète des données, pas de contamination croisée." 
         }
       }
     },
@@ -3251,26 +3251,30 @@
         }
       }
     },
-    "tiers": {
-      "title": "Niveaux partenaires",
-      "subtitle": "Grandissez avec votre succès - plus de clients, plus d'avantages",
-      "silver": { 
-        "name": "Silver", 
-        "clients": "1+ clients", 
-        "discount": "Tarification standard", 
-        "support": "Support par email" 
+    "howItWorks": {
+      "title": "Comment ça marche pour vos clients",
+      "subtitle": "Un employé pose une question, l'IA trouve la réponse dans les documents de ce client",
+      "steps": {
+        "employee": {
+          "title": "L'employé demande",
+          "description": "Par chat, Teams ou web"
+        },
+        "agent": {
+          "title": "Votre Agent RH",
+          "description": "Sous votre propre marque"
+        },
+        "documents": {
+          "title": "Documents du client",
+          "description": "Politiques, manuels, contrats"
+        },
+        "answer": {
+          "title": "Réponse instantanée",
+          "description": "Avec citation de source"
+        }
       },
-      "gold": { 
-        "name": "Gold", 
-        "clients": "3+ clients", 
-        "discount": "15% de réduction", 
-        "support": "Gestionnaire partenaire dédié" 
-      },
-      "platinum": { 
-        "name": "Platinum", 
-        "clients": "10+ clients", 
-        "discount": "25% de réduction", 
-        "support": "Support premium + co-marketing" 
+      "keyPoint": {
+        "emphasis": "Chaque client séparé :",
+        "text": "Propres documents, propre branding, propre environnement. Pas de partage de données entre clients."
       }
     },
     "security": {
@@ -3302,18 +3306,18 @@
       }
     },
     "cta": {
-      "title": "Démarrez votre pilote partenaire",
-      "subtitle": "Découvrez comment Volentis peut renforcer votre offre de services",
+      "title": "Devenir partenaire pilote",
+      "subtitle": "Nous recherchons des prestataires RH qui veulent explorer comment l'IA peut renforcer leur service",
       "benefits": {
-        "1": "Pilote gratuit avec 1 client",
-        "2": "Aucun engagement après le pilote",
-        "3": "Évaluation après 4 semaines",
-        "4": "Support d'intégration dédié"
+        "1": "Pilote gratuit avec un de vos clients",
+        "2": "Nous configurons tout pour vous",
+        "3": "4 semaines de test, puis évaluation ensemble",
+        "4": "Pas de coûts, pas d'obligations"
       },
       "booking": {
-        "title": "Planifier un appel partenaire",
-        "subtitle": "30 minutes d'introduction avec notre équipe partenaire",
-        "button": "Choisir un créneau",
+        "title": "Appel de découverte",
+        "subtitle": "30 minutes pour discuter si cela vous convient",
+        "button": "Planifier un appel",
         "fallback": "Ou envoyez un email directement à",
         "trust": {
           "free": "Gratuit",

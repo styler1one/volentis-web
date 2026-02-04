@@ -314,25 +314,25 @@ export default function HRPartnersLandingPage() {
               </div>
             </div>
 
-            {/* Right: Stats Cards */}
+            {/* Right: Value Props Cards */}
             <div className="relative">
               <div className="grid grid-cols-2 gap-4">
-                {['partners', 'clients', 'revenue', 'nps'].map((stat, index) => (
+                {['implementation', 'automation', 'availability', 'compliance'].map((prop, index) => (
                   <div 
-                    key={stat}
+                    key={prop}
                     className="p-6 bg-white rounded-2xl shadow-card border border-border-gray/10 hover:shadow-card-hover transition-all hover:-translate-y-1"
                     style={{ animationDelay: `${index * 100}ms` }}
                   >
                     <p className="text-3xl md:text-4xl font-bold text-volentis-cyan mb-1">
-                      <AnimatedCounter value={t(`stats.${stat}.value`)} />
+                      {t(`valueProps.${prop}.value`)}
                     </p>
-                    <p className="text-sm text-text-muted">{t(`stats.${stat}.label`)}</p>
+                    <p className="text-sm text-text-muted">{t(`valueProps.${prop}.label`)}</p>
                   </div>
                 ))}
               </div>
               
               {/* Floating badge */}
-              <div className="absolute -bottom-4 -right-4 px-4 py-2 bg-volentis-navy text-white text-sm font-medium rounded-full shadow-lg animate-bounce-slow">
+              <div className="absolute -bottom-4 -right-4 px-4 py-2 bg-accent-success text-white text-sm font-medium rounded-full shadow-lg animate-bounce-slow">
                 {t('hero.floatingBadge')}
               </div>
             </div>
@@ -582,7 +582,7 @@ export default function HRPartnersLandingPage() {
         </div>
       </section>
 
-      {/* Partner Tiers Section */}
+      {/* How It Works Visual Section */}
       <section 
         ref={tiersRef.ref}
         className={`py-20 md:py-32 bg-white transition-all duration-1000 ${
@@ -592,33 +592,90 @@ export default function HRPartnersLandingPage() {
         <div className="section-container">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-volentis-navy mb-4">
-              {t('tiers.title')}
+              {t('howItWorks.title')}
             </h2>
             <p className="text-xl text-text-body max-w-2xl mx-auto">
-              {t('tiers.subtitle')}
+              {t('howItWorks.subtitle')}
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto items-center">
-            <TierCard 
-              name={t('tiers.silver.name')}
-              clients={t('tiers.silver.clients')}
-              discount={t('tiers.silver.discount')}
-              support={t('tiers.silver.support')}
-            />
-            <TierCard 
-              name={t('tiers.gold.name')}
-              clients={t('tiers.gold.clients')}
-              discount={t('tiers.gold.discount')}
-              support={t('tiers.gold.support')}
-              featured={true}
-            />
-            <TierCard 
-              name={t('tiers.platinum.name')}
-              clients={t('tiers.platinum.clients')}
-              discount={t('tiers.platinum.discount')}
-              support={t('tiers.platinum.support')}
-            />
+          {/* Visual Flow Diagram */}
+          <div className="max-w-4xl mx-auto">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-2">
+              {/* Step 1: Employee */}
+              <div className="flex flex-col items-center text-center p-6 bg-bg-light rounded-2xl flex-1">
+                <div className="w-16 h-16 bg-volentis-cyan/10 rounded-2xl flex items-center justify-center mb-4">
+                  <span className="text-3xl">👤</span>
+                </div>
+                <h4 className="font-bold text-volentis-navy mb-1">{t('howItWorks.steps.employee.title')}</h4>
+                <p className="text-sm text-text-muted">{t('howItWorks.steps.employee.description')}</p>
+              </div>
+
+              {/* Arrow */}
+              <div className="text-volentis-cyan">
+                <svg className="w-8 h-8 hidden md:block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+                <svg className="w-8 h-8 md:hidden rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+
+              {/* Step 2: Your Branded Agent */}
+              <div className="flex flex-col items-center text-center p-6 bg-volentis-navy rounded-2xl flex-1 text-white">
+                <div className="w-16 h-16 bg-volentis-cyan rounded-2xl flex items-center justify-center mb-4 shadow-lg">
+                  <span className="text-3xl">🤖</span>
+                </div>
+                <h4 className="font-bold mb-1">{t('howItWorks.steps.agent.title')}</h4>
+                <p className="text-sm text-white/70">{t('howItWorks.steps.agent.description')}</p>
+              </div>
+
+              {/* Arrow */}
+              <div className="text-volentis-cyan">
+                <svg className="w-8 h-8 hidden md:block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+                <svg className="w-8 h-8 md:hidden rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+
+              {/* Step 3: Client's Documents */}
+              <div className="flex flex-col items-center text-center p-6 bg-bg-light rounded-2xl flex-1">
+                <div className="w-16 h-16 bg-volentis-cyan/10 rounded-2xl flex items-center justify-center mb-4">
+                  <span className="text-3xl">📄</span>
+                </div>
+                <h4 className="font-bold text-volentis-navy mb-1">{t('howItWorks.steps.documents.title')}</h4>
+                <p className="text-sm text-text-muted">{t('howItWorks.steps.documents.description')}</p>
+              </div>
+
+              {/* Arrow */}
+              <div className="text-volentis-cyan">
+                <svg className="w-8 h-8 hidden md:block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+                <svg className="w-8 h-8 md:hidden rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+
+              {/* Step 4: Answer */}
+              <div className="flex flex-col items-center text-center p-6 bg-accent-success/10 rounded-2xl flex-1">
+                <div className="w-16 h-16 bg-accent-success/20 rounded-2xl flex items-center justify-center mb-4">
+                  <span className="text-3xl">✅</span>
+                </div>
+                <h4 className="font-bold text-volentis-navy mb-1">{t('howItWorks.steps.answer.title')}</h4>
+                <p className="text-sm text-text-muted">{t('howItWorks.steps.answer.description')}</p>
+              </div>
+            </div>
+
+            {/* Key point */}
+            <div className="mt-12 text-center p-6 bg-volentis-cyan/5 rounded-2xl border border-volentis-cyan/20">
+              <p className="text-lg text-volentis-navy">
+                <span className="font-bold">{t('howItWorks.keyPoint.emphasis')}</span>{' '}
+                {t('howItWorks.keyPoint.text')}
+              </p>
+            </div>
           </div>
         </div>
       </section>

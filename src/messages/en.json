@@ -3146,23 +3146,23 @@
       "description": "Become a Volentis HR Partner and offer AI-powered HR support to your clients under your own brand. White-label ready, no development costs, additional revenue."
     },
     "hero": {
-      "badge": "For HR Service Providers",
+      "badge": "Pilot Partners Wanted",
       "headline": "Scale your HR services with AI",
       "subheadline": "Offer your clients' employees 24/7 answers to HR questions. Under your own brand, without additional staff.",
-      "cta": "Schedule a partner call",
+      "cta": "Become a pilot partner",
       "secondaryCta": "See how it works",
-      "floatingBadge": "White-label ready",
+      "floatingBadge": "Now available",
       "trust": {
-        "whitelabel": "Your brand, your clients",
+        "whitelabel": "Fully white-label",
         "euHosted": "EU Hosted / GDPR",
-        "revenueShare": "Extra revenue per client"
+        "revenueShare": "Free pilot"
       }
     },
-    "stats": {
-      "partners": { "value": "15+", "label": "Active partners" },
-      "clients": { "value": "50+", "label": "End clients" },
-      "revenue": { "value": "€2500+", "label": "Avg. MRR per partner" },
-      "nps": { "value": "9.2", "label": "Partner NPS" }
+    "valueProps": {
+      "implementation": { "value": "2-4", "label": "weeks to go live" },
+      "automation": { "value": "50-70%", "label": "questions automated" },
+      "availability": { "value": "24/7", "label": "availability" },
+      "compliance": { "value": "100%", "label": "GDPR compliant" }
     },
     "problem": {
       "title": "Sound familiar as an HR service provider?",
@@ -3198,24 +3198,24 @@
       "disclaimer": "This is a demo with sample answers. In production, the HR Agent answers from the actual HR documents you configure per client."
     },
     "benefits": {
-      "title": "Why HR service providers choose Volentis",
+      "title": "What this means for your business",
       "subtitle": "Scale your service, increase your margins, differentiate from competition",
       "items": {
         "1": { 
           "title": "Scale without more staff", 
-          "description": "Serve more clients without expanding your team. AI handles routine questions, your experts focus on complex cases." 
+          "description": "Your team spends hours on the same questions. AI handles 50-70%, your experts focus on what they do best." 
         },
         "2": { 
-          "title": "Extra revenue per client", 
-          "description": "Offer AI as a premium service. Average €500-1500 extra per client per month." 
+          "title": "New revenue stream", 
+          "description": "Charge your clients for AI as a premium service. You set the price, we provide the technology." 
         },
         "3": { 
-          "title": "Fully your brand", 
-          "description": "Your clients' employees see your name, your logo, your colors. Volentis stays invisible." 
+          "title": "Invisible technology", 
+          "description": "Employees only see your brand. Your logo, your colors, your name. Volentis stays completely in the background." 
         },
         "4": { 
-          "title": "Configured per client", 
-          "description": "Each client gets their own environment with their own documents. Policies, regulations, handbooks - all client-specific." 
+          "title": "Separated per client", 
+          "description": "Each client gets their own environment with their own documents. Complete data isolation, no cross-contamination." 
         }
       }
     },
@@ -3251,26 +3251,30 @@
         }
       }
     },
-    "tiers": {
-      "title": "Partner tiers",
-      "subtitle": "Grow with your success - more clients, more benefits",
-      "silver": { 
-        "name": "Silver", 
-        "clients": "1+ clients", 
-        "discount": "Standard pricing", 
-        "support": "Email support" 
+    "howItWorks": {
+      "title": "How it works for your clients",
+      "subtitle": "An employee asks a question, AI finds the answer in that client's documents",
+      "steps": {
+        "employee": {
+          "title": "Employee asks",
+          "description": "Via chat, Teams or web"
+        },
+        "agent": {
+          "title": "Your HR Agent",
+          "description": "Under your own brand"
+        },
+        "documents": {
+          "title": "Client's documents",
+          "description": "Policies, handbooks, contracts"
+        },
+        "answer": {
+          "title": "Instant answer",
+          "description": "With source citation"
+        }
       },
-      "gold": { 
-        "name": "Gold", 
-        "clients": "3+ clients", 
-        "discount": "15% discount", 
-        "support": "Dedicated partner manager" 
-      },
-      "platinum": { 
-        "name": "Platinum", 
-        "clients": "10+ clients", 
-        "discount": "25% discount", 
-        "support": "Premium support + co-marketing" 
+      "keyPoint": {
+        "emphasis": "Each client separate:",
+        "text": "Own documents, own branding, own environment. No data sharing between clients."
       }
     },
     "security": {
@@ -3302,18 +3306,18 @@
       }
     },
     "cta": {
-      "title": "Start your partner pilot",
-      "subtitle": "Discover how Volentis can strengthen your service offering",
+      "title": "Become a pilot partner",
+      "subtitle": "We're looking for HR service providers who want to explore how AI can strengthen their service",
       "benefits": {
-        "1": "Free pilot with 1 client",
-        "2": "No commitment after pilot",
-        "3": "Evaluation after 4 weeks",
-        "4": "Dedicated onboarding support"
+        "1": "Free pilot with 1 of your clients",
+        "2": "We configure everything for you",
+        "3": "4 weeks testing, then evaluate together",
+        "4": "No costs, no obligations"
       },
       "booking": {
-        "title": "Schedule a partner call",
-        "subtitle": "30 minutes introduction with our partner team",
-        "button": "Choose a time",
+        "title": "Introduction call",
+        "subtitle": "30 minutes to discuss if this fits you",
+        "button": "Schedule a call",
         "fallback": "Or email directly to",
         "trust": {
           "free": "Free",

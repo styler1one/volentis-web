@@ -3146,23 +3146,23 @@
       "description": "Werden Sie Volentis HR-Partner und bieten Sie Ihren Kunden KI-gestützte HR-Unterstützung unter Ihrer eigenen Marke an. White-Label-fähig, keine Entwicklungskosten, zusätzliche Einnahmen."
     },
     "hero": {
-      "badge": "Für HR-Dienstleister",
+      "badge": "Pilot-Partner gesucht",
       "headline": "Skalieren Sie Ihre HR-Dienstleistung mit KI",
       "subheadline": "Bieten Sie den Mitarbeitern Ihrer Kunden 24/7 Antworten auf HR-Fragen. Unter Ihrer eigenen Marke, ohne zusätzliches Personal.",
-      "cta": "Partnergespräch vereinbaren",
+      "cta": "Pilot-Partner werden",
       "secondaryCta": "Sehen Sie wie es funktioniert",
-      "floatingBadge": "White-Label-fähig",
+      "floatingBadge": "Jetzt verfügbar",
       "trust": {
-        "whitelabel": "Ihre Marke, Ihre Kunden",
+        "whitelabel": "Vollständig White-Label",
         "euHosted": "EU-Hosting / DSGVO",
-        "revenueShare": "Zusätzliche Einnahmen pro Kunde"
+        "revenueShare": "Kostenloser Pilot"
       }
     },
-    "stats": {
-      "partners": { "value": "15+", "label": "Aktive Partner" },
-      "clients": { "value": "50+", "label": "Endkunden" },
-      "revenue": { "value": "€2500+", "label": "Ø MRR pro Partner" },
-      "nps": { "value": "9.2", "label": "Partner-NPS" }
+    "valueProps": {
+      "implementation": { "value": "2-4", "label": "Wochen bis live" },
+      "automation": { "value": "50-70%", "label": "Fragen automatisiert" },
+      "availability": { "value": "24/7", "label": "Verfügbarkeit" },
+      "compliance": { "value": "100%", "label": "DSGVO-konform" }
     },
     "problem": {
       "title": "Kennen Sie das als HR-Dienstleister?",
@@ -3198,24 +3198,24 @@
       "disclaimer": "Dies ist eine Demo mit Beispielantworten. In der Produktion antwortet der HR Agent aus den tatsächlichen HR-Dokumenten, die Sie pro Kunde konfigurieren."
     },
     "benefits": {
-      "title": "Warum HR-Dienstleister Volentis wählen",
+      "title": "Was das für Ihr Unternehmen bedeutet",
       "subtitle": "Skalieren Sie Ihren Service, erhöhen Sie Ihre Marge, heben Sie sich vom Wettbewerb ab",
       "items": {
         "1": { 
           "title": "Skalieren ohne mehr Personal", 
-          "description": "Bedienen Sie mehr Kunden ohne Ihr Team zu erweitern. KI bearbeitet Routinefragen, Ihre Experten konzentrieren sich auf komplexe Fälle." 
+          "description": "Ihr Team verbringt Stunden mit denselben Fragen. KI übernimmt 50-70%, Ihre Experten konzentrieren sich auf das, was sie am besten können." 
         },
         "2": { 
-          "title": "Zusätzliche Einnahmen pro Kunde", 
-          "description": "Bieten Sie KI als Premium-Service an. Durchschnittlich €500-1500 extra pro Kunde pro Monat." 
+          "title": "Neue Einnahmequelle", 
+          "description": "Berechnen Sie Ihren Kunden KI als Premium-Service. Sie bestimmen den Preis, wir liefern die Technologie." 
         },
         "3": { 
-          "title": "Vollständig Ihre Marke", 
-          "description": "Mitarbeiter Ihrer Kunden sehen Ihren Namen, Ihr Logo, Ihre Farben. Volentis bleibt unsichtbar." 
+          "title": "Unsichtbare Technologie", 
+          "description": "Mitarbeiter sehen nur Ihre Marke. Ihr Logo, Ihre Farben, Ihr Name. Volentis bleibt komplett im Hintergrund." 
         },
         "4": { 
-          "title": "Pro Kunde konfiguriert", 
-          "description": "Jeder Kunde bekommt eine eigene Umgebung mit eigenen Dokumenten. Richtlinien, Regelungen, Handbücher - alles kundenspezifisch." 
+          "title": "Pro Kunde getrennt", 
+          "description": "Jeder Kunde bekommt eine eigene Umgebung mit eigenen Dokumenten. Vollständige Datenisolation, keine Kreuzkontamination." 
         }
       }
     },
@@ -3251,26 +3251,30 @@
         }
       }
     },
-    "tiers": {
-      "title": "Partner-Stufen",
-      "subtitle": "Wachsen Sie mit Ihrem Erfolg - mehr Kunden, mehr Vorteile",
-      "silver": { 
-        "name": "Silver", 
-        "clients": "1+ Kunden", 
-        "discount": "Standardpreise", 
-        "support": "E-Mail-Support" 
+    "howItWorks": {
+      "title": "So funktioniert es für Ihre Kunden",
+      "subtitle": "Ein Mitarbeiter stellt eine Frage, die KI findet die Antwort in den Dokumenten dieses Kunden",
+      "steps": {
+        "employee": {
+          "title": "Mitarbeiter fragt",
+          "description": "Per Chat, Teams oder Web"
+        },
+        "agent": {
+          "title": "Ihr HR Agent",
+          "description": "Unter Ihrer eigenen Marke"
+        },
+        "documents": {
+          "title": "Kundendokumente",
+          "description": "Richtlinien, Handbücher, Verträge"
+        },
+        "answer": {
+          "title": "Sofortige Antwort",
+          "description": "Mit Quellenangabe"
+        }
       },
-      "gold": { 
-        "name": "Gold", 
-        "clients": "3+ Kunden", 
-        "discount": "15% Rabatt", 
-        "support": "Dedizierter Partner-Manager" 
-      },
-      "platinum": { 
-        "name": "Platinum", 
-        "clients": "10+ Kunden", 
-        "discount": "25% Rabatt", 
-        "support": "Premium-Support + Co-Marketing" 
+      "keyPoint": {
+        "emphasis": "Jeder Kunde separat:",
+        "text": "Eigene Dokumente, eigenes Branding, eigene Umgebung. Kein Datenaustausch zwischen Kunden."
       }
     },
     "security": {
@@ -3302,18 +3306,18 @@
       }
     },
     "cta": {
-      "title": "Starten Sie Ihren Partner-Pilot",
-      "subtitle": "Entdecken Sie, wie Volentis Ihr Dienstleistungsangebot stärken kann",
+      "title": "Pilot-Partner werden",
+      "subtitle": "Wir suchen HR-Dienstleister, die mit uns erkunden möchten, wie KI ihren Service stärken kann",
       "benefits": {
-        "1": "Kostenloser Pilot mit 1 Kunden",
-        "2": "Keine Verpflichtung nach dem Pilot",
-        "3": "Auswertung nach 4 Wochen",
-        "4": "Dedizierter Onboarding-Support"
+        "1": "Kostenloser Pilot mit einem Ihrer Kunden",
+        "2": "Wir konfigurieren alles für Sie",
+        "3": "4 Wochen testen, dann gemeinsam auswerten",
+        "4": "Keine Kosten, keine Verpflichtungen"
       },
       "booking": {
-        "title": "Partnergespräch vereinbaren",
-        "subtitle": "30 Minuten Vorstellung mit unserem Partner-Team",
-        "button": "Termin wählen",
+        "title": "Kennenlerngespräch",
+        "subtitle": "30 Minuten um zu besprechen, ob das zu Ihnen passt",
+        "button": "Gespräch planen",
         "fallback": "Oder direkt per E-Mail an",
         "trust": {
           "free": "Kostenlos",
