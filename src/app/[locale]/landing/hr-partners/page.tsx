@@ -818,33 +818,6 @@ export default function HRPartnersLandingPage() {
         </div>
       </section>
 
-      {/* Minimal Footer */}
-      <footer className="py-8 bg-volentis-navy border-t border-white/10">
-        <div className="section-container">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-2">
-              <Image
-                src="/volentis_logo.png"
-                alt="Volentis.ai"
-                width={24}
-                height={24}
-              />
-              <span className="text-white/60 text-sm">{t('footer.copyright')}</span>
-            </div>
-            <div className="flex items-center gap-6 text-sm">
-              <Link href="/privacy" className="text-white/60 hover:text-white transition-colors">
-                {t('footer.links.privacy')}
-              </Link>
-              <Link href="/terms" className="text-white/60 hover:text-white transition-colors">
-                {t('footer.links.terms')}
-              </Link>
-              <Link href="/product/security" className="text-white/60 hover:text-white transition-colors">
-                {t('footer.links.security')}
-              </Link>
-            </div>
-          </div>
-        </div>
-      </footer>
     </>
   );
 }
