@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
 import AnimatedBackground from '@/components/ui/AnimatedBackground';
-import InteractiveDemo from '@/components/ui/InteractiveDemo';
+import ChatDemo from '@/components/ui/ChatDemo';
 
 // Microsoft Bookings URL with UTM tracking
 const BOOKING_URL = 'https://outlook.office.com/bookwithme/user/e24fb78dcb5249b0ad5bdb243afdf606@bestpractice.company/meetingtype/yKbah1Aiw0-vtABEXfovSQ2?anonymous&ep=mlink&utm_source=website&utm_medium=landing_page&utm_campaign=hr-partners-lp';
@@ -428,8 +428,8 @@ export default function HRPartnersLandingPage() {
             </p>
           </div>
 
-          <div className="max-w-4xl mx-auto mb-8">
-            <InteractiveDemo agent="hr" />
+          <div className="max-w-2xl mx-auto mb-8">
+            <ChatDemo />
           </div>
 
           <p className="text-center text-sm text-text-muted italic max-w-2xl mx-auto">
