@@ -3139,5 +3139,163 @@
       "cta": "Krijg een gedetailleerde ROI-analyse",
       "disclaimer": "Schattingen gebaseerd op 50-70% ticket deflection en €25 gemiddelde kosten per ticket. Werkelijke resultaten kunnen variëren."
     }
+  },
+  "landingHRPartners": {
+    "meta": {
+      "title": "HR Partner Programma - Bied AI HR-ondersteuning aan uw klanten | Volentis.ai",
+      "description": "Word Volentis HR Partner en bied AI-gestuurde HR-ondersteuning aan uw klanten onder uw eigen merk. White-label ready, geen ontwikkelkosten, extra omzet."
+    },
+    "hero": {
+      "badge": "Partner Programma",
+      "headline": "Bied AI-gestuurde HR-ondersteuning aan uw klanten",
+      "subheadline": "Partner met Volentis en geef uw klanten 24/7 toegang tot een slimme HR-assistent. Onder uw eigen merk, zonder zelf AI te ontwikkelen.",
+      "cta": "Plan een partnergesprek",
+      "secondaryCta": "Bekijk partner voordelen",
+      "floatingBadge": "White-label ready",
+      "trust": {
+        "whitelabel": "White-label ready",
+        "euHosted": "EU Hosted / GDPR",
+        "revenueShare": "Revenue share model"
+      }
+    },
+    "stats": {
+      "partners": { "value": "15+", "label": "Actieve partners" },
+      "clients": { "value": "50+", "label": "Eindklanten" },
+      "revenue": { "value": "€2500+", "label": "Gem. MRR per partner" },
+      "nps": { "value": "9.2", "label": "Partner NPS" }
+    },
+    "benefits": {
+      "title": "Waarom partners kiezen voor Volentis",
+      "subtitle": "Vergroot uw dienstenaanbod zonder ontwikkelkosten",
+      "items": {
+        "1": { 
+          "title": "Extra omzetkanaal", 
+          "description": "Verdien MRR per klant die u activeert. Gemiddeld €500-1500 per klant per maand." 
+        },
+        "2": { 
+          "title": "Geen ontwikkelkosten", 
+          "description": "Wij bouwen en onderhouden de AI. U focust op klantrelaties en sales." 
+        },
+        "3": { 
+          "title": "White-label ready", 
+          "description": "Volledig onder uw eigen merk. Uw klanten weten niet dat het Volentis is." 
+        },
+        "4": { 
+          "title": "Snelle go-to-market", 
+          "description": "Van pilot tot live in 2-4 weken. Geen maandenlange implementaties." 
+        }
+      }
+    },
+    "process": {
+      "title": "Hoe werkt het partnerschap",
+      "subtitle": "In vier stappen van kennismaking naar succesvolle uitrol",
+      "steps": {
+        "1": { "title": "Kennismakingsgesprek", "description": "30 minuten om uw situatie te bespreken" },
+        "2": { "title": "Pilot opzetten", "description": "Start met 1 klant om de fit te testen" },
+        "3": { "title": "Evaluatie", "description": "Na 4 weken samen bekijken wat werkt" },
+        "4": { "title": "Uitrol", "description": "Succesvol? Activeer meer klanten" }
+      }
+    },
+    "useCases": {
+      "title": "Wat uw klanten krijgen",
+      "subtitle": "AI-gestuurde HR-ondersteuning die echte problemen oplost",
+      "items": {
+        "1": {
+          "title": "Medewerker self-service",
+          "description": "Medewerkers krijgen direct antwoord op vragen over verlof, policies en CAO."
+        },
+        "2": {
+          "title": "HR-afdeling ontlasting",
+          "description": "50-70% minder repetitieve vragen, meer tijd voor strategisch HR-werk."
+        },
+        "3": {
+          "title": "24/7 beschikbaarheid",
+          "description": "Altijd antwoord, ook buiten kantooruren en in het weekend."
+        },
+        "4": {
+          "title": "Meertalig",
+          "description": "Perfect voor internationale klanten - ondersteunt meerdere talen."
+        }
+      }
+    },
+    "tiers": {
+      "title": "Partner niveaus",
+      "subtitle": "Groei mee met uw succes - hoe meer klanten, hoe meer voordelen",
+      "silver": { 
+        "name": "Silver", 
+        "clients": "1+ klanten", 
+        "discount": "Standaard pricing", 
+        "support": "Email support" 
+      },
+      "gold": { 
+        "name": "Gold", 
+        "clients": "3+ klanten", 
+        "discount": "15% korting", 
+        "support": "Dedicated partner manager" 
+      },
+      "platinum": { 
+        "name": "Platinum", 
+        "clients": "10+ klanten", 
+        "discount": "25% korting", 
+        "support": "Premium support + co-marketing" 
+      }
+    },
+    "security": {
+      "title": "Veiligheid voor uw klanten",
+      "subtitle": "Enterprise-grade security zodat u met vertrouwen kunt verkopen",
+      "points": {
+        "1": { 
+          "title": "Data isolatie", 
+          "description": "Elke klant heeft een eigen omgeving. Geen data delen tussen klanten." 
+        },
+        "2": { 
+          "title": "GDPR compliant", 
+          "description": "Volledig compliant met Europese privacywetgeving." 
+        },
+        "3": { 
+          "title": "EU AI Act ready", 
+          "description": "Voorbereid op de nieuwe Europese AI-regelgeving." 
+        },
+        "4": { 
+          "title": "EU hosting", 
+          "description": "Alle data opgeslagen in EU datacenters." 
+        }
+      },
+      "badges": {
+        "gdpr": "GDPR Compliant",
+        "euAiAct": "EU AI Act Ready",
+        "euHosted": "EU Hosted",
+        "dataIsolation": "Data Isolatie"
+      }
+    },
+    "cta": {
+      "title": "Start uw partner pilot",
+      "subtitle": "Ontdek hoe Volentis uw dienstenaanbod kan versterken",
+      "benefits": {
+        "1": "Gratis pilot bij 1 klant",
+        "2": "Geen commitment na pilot",
+        "3": "Evaluatie na 4 weken",
+        "4": "Dedicated onboarding support"
+      },
+      "booking": {
+        "title": "Plan een partnergesprek",
+        "subtitle": "30 minuten kennismaking met ons partner team",
+        "button": "Kies een tijdstip",
+        "fallback": "Of mail direct naar",
+        "trust": {
+          "free": "Gratis",
+          "duration": "30 minuten",
+          "noCommitment": "Vrijblijvend"
+        }
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Volentis B.V. Alle rechten voorbehouden.",
+      "links": {
+        "privacy": "Privacybeleid",
+        "terms": "Algemene Voorwaarden",
+        "security": "Security"
+      }
+    }
   }
 }

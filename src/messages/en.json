@@ -3139,5 +3139,163 @@
       "cta": "Get a detailed ROI analysis",
       "disclaimer": "Estimates based on 50-70% ticket deflection and €25 average cost per ticket. Actual results may vary."
     }
+  },
+  "landingHRPartners": {
+    "meta": {
+      "title": "HR Partner Program - Offer AI HR Support to Your Clients | Volentis.ai",
+      "description": "Become a Volentis HR Partner and offer AI-powered HR support to your clients under your own brand. White-label ready, no development costs, additional revenue."
+    },
+    "hero": {
+      "badge": "Partner Program",
+      "headline": "Offer AI-powered HR support to your clients",
+      "subheadline": "Partner with Volentis and give your clients 24/7 access to a smart HR assistant. Under your own brand, without building AI yourself.",
+      "cta": "Schedule a partner call",
+      "secondaryCta": "View partner benefits",
+      "floatingBadge": "White-label ready",
+      "trust": {
+        "whitelabel": "White-label ready",
+        "euHosted": "EU Hosted / GDPR",
+        "revenueShare": "Revenue share model"
+      }
+    },
+    "stats": {
+      "partners": { "value": "15+", "label": "Active partners" },
+      "clients": { "value": "50+", "label": "End clients" },
+      "revenue": { "value": "€2500+", "label": "Avg. MRR per partner" },
+      "nps": { "value": "9.2", "label": "Partner NPS" }
+    },
+    "benefits": {
+      "title": "Why partners choose Volentis",
+      "subtitle": "Expand your service offering without development costs",
+      "items": {
+        "1": { 
+          "title": "Additional revenue stream", 
+          "description": "Earn MRR per client you activate. Average €500-1500 per client per month." 
+        },
+        "2": { 
+          "title": "No development costs", 
+          "description": "We build and maintain the AI. You focus on client relationships and sales." 
+        },
+        "3": { 
+          "title": "White-label ready", 
+          "description": "Fully under your own brand. Your clients don't know it's Volentis." 
+        },
+        "4": { 
+          "title": "Fast go-to-market", 
+          "description": "From pilot to live in 2-4 weeks. No months-long implementations." 
+        }
+      }
+    },
+    "process": {
+      "title": "How the partnership works",
+      "subtitle": "From introduction to successful rollout in four steps",
+      "steps": {
+        "1": { "title": "Discovery call", "description": "30 minutes to discuss your situation" },
+        "2": { "title": "Set up pilot", "description": "Start with 1 client to test the fit" },
+        "3": { "title": "Evaluation", "description": "After 4 weeks, review what works" },
+        "4": { "title": "Rollout", "description": "Successful? Activate more clients" }
+      }
+    },
+    "useCases": {
+      "title": "What your clients get",
+      "subtitle": "AI-powered HR support that solves real problems",
+      "items": {
+        "1": {
+          "title": "Employee self-service",
+          "description": "Employees get instant answers to questions about leave, policies, and contracts."
+        },
+        "2": {
+          "title": "HR team relief",
+          "description": "50-70% fewer repetitive questions, more time for strategic HR work."
+        },
+        "3": {
+          "title": "24/7 availability",
+          "description": "Always answers, even outside office hours and on weekends."
+        },
+        "4": {
+          "title": "Multilingual",
+          "description": "Perfect for international clients - supports multiple languages."
+        }
+      }
+    },
+    "tiers": {
+      "title": "Partner tiers",
+      "subtitle": "Grow with your success - more clients, more benefits",
+      "silver": { 
+        "name": "Silver", 
+        "clients": "1+ clients", 
+        "discount": "Standard pricing", 
+        "support": "Email support" 
+      },
+      "gold": { 
+        "name": "Gold", 
+        "clients": "3+ clients", 
+        "discount": "15% discount", 
+        "support": "Dedicated partner manager" 
+      },
+      "platinum": { 
+        "name": "Platinum", 
+        "clients": "10+ clients", 
+        "discount": "25% discount", 
+        "support": "Premium support + co-marketing" 
+      }
+    },
+    "security": {
+      "title": "Security for your clients",
+      "subtitle": "Enterprise-grade security so you can sell with confidence",
+      "points": {
+        "1": { 
+          "title": "Data isolation", 
+          "description": "Each client has their own environment. No data sharing between clients." 
+        },
+        "2": { 
+          "title": "GDPR compliant", 
+          "description": "Fully compliant with European privacy legislation." 
+        },
+        "3": { 
+          "title": "EU AI Act ready", 
+          "description": "Prepared for the new European AI regulations." 
+        },
+        "4": { 
+          "title": "EU hosting", 
+          "description": "All data stored in EU data centers." 
+        }
+      },
+      "badges": {
+        "gdpr": "GDPR Compliant",
+        "euAiAct": "EU AI Act Ready",
+        "euHosted": "EU Hosted",
+        "dataIsolation": "Data Isolation"
+      }
+    },
+    "cta": {
+      "title": "Start your partner pilot",
+      "subtitle": "Discover how Volentis can strengthen your service offering",
+      "benefits": {
+        "1": "Free pilot with 1 client",
+        "2": "No commitment after pilot",
+        "3": "Evaluation after 4 weeks",
+        "4": "Dedicated onboarding support"
+      },
+      "booking": {
+        "title": "Schedule a partner call",
+        "subtitle": "30 minutes introduction with our partner team",
+        "button": "Choose a time",
+        "fallback": "Or email directly to",
+        "trust": {
+          "free": "Free",
+          "duration": "30 minutes",
+          "noCommitment": "No obligation"
+        }
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Volentis B.V. All rights reserved.",
+      "links": {
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "security": "Security"
+      }
+    }
   }
 }

@@ -3139,5 +3139,163 @@
       "cta": "Get a detailed ROI analysis",
       "disclaimer": "Estimates based on 50-70% ticket deflection and €25 average cost per ticket. Actual results may vary."
     }
+  },
+  "landingHRPartners": {
+    "meta": {
+      "title": "HR Partner-Programm - Bieten Sie Ihren Kunden KI-HR-Unterstützung an | Volentis.ai",
+      "description": "Werden Sie Volentis HR-Partner und bieten Sie Ihren Kunden KI-gestützte HR-Unterstützung unter Ihrer eigenen Marke an. White-Label-fähig, keine Entwicklungskosten, zusätzliche Einnahmen."
+    },
+    "hero": {
+      "badge": "Partner-Programm",
+      "headline": "Bieten Sie Ihren Kunden KI-gestützte HR-Unterstützung an",
+      "subheadline": "Werden Sie Volentis-Partner und geben Sie Ihren Kunden 24/7 Zugang zu einem intelligenten HR-Assistenten. Unter Ihrer eigenen Marke, ohne selbst KI zu entwickeln.",
+      "cta": "Partnergespräch vereinbaren",
+      "secondaryCta": "Partner-Vorteile ansehen",
+      "floatingBadge": "White-Label-fähig",
+      "trust": {
+        "whitelabel": "White-Label-fähig",
+        "euHosted": "EU-Hosting / DSGVO",
+        "revenueShare": "Umsatzbeteiligungsmodell"
+      }
+    },
+    "stats": {
+      "partners": { "value": "15+", "label": "Aktive Partner" },
+      "clients": { "value": "50+", "label": "Endkunden" },
+      "revenue": { "value": "€2500+", "label": "Ø MRR pro Partner" },
+      "nps": { "value": "9.2", "label": "Partner-NPS" }
+    },
+    "benefits": {
+      "title": "Warum Partner Volentis wählen",
+      "subtitle": "Erweitern Sie Ihr Dienstleistungsangebot ohne Entwicklungskosten",
+      "items": {
+        "1": { 
+          "title": "Zusätzliche Einnahmequelle", 
+          "description": "Verdienen Sie MRR pro aktiviertem Kunden. Durchschnittlich €500-1500 pro Kunde pro Monat." 
+        },
+        "2": { 
+          "title": "Keine Entwicklungskosten", 
+          "description": "Wir bauen und warten die KI. Sie konzentrieren sich auf Kundenbeziehungen und Vertrieb." 
+        },
+        "3": { 
+          "title": "White-Label-fähig", 
+          "description": "Vollständig unter Ihrer eigenen Marke. Ihre Kunden wissen nicht, dass es Volentis ist." 
+        },
+        "4": { 
+          "title": "Schnelle Markteinführung", 
+          "description": "Von Pilot bis Live in 2-4 Wochen. Keine monatelangen Implementierungen." 
+        }
+      }
+    },
+    "process": {
+      "title": "So funktioniert die Partnerschaft",
+      "subtitle": "In vier Schritten von der Vorstellung zur erfolgreichen Einführung",
+      "steps": {
+        "1": { "title": "Kennenlerngespräch", "description": "30 Minuten, um Ihre Situation zu besprechen" },
+        "2": { "title": "Pilot einrichten", "description": "Starten Sie mit 1 Kunden, um die Passform zu testen" },
+        "3": { "title": "Auswertung", "description": "Nach 4 Wochen gemeinsam prüfen, was funktioniert" },
+        "4": { "title": "Rollout", "description": "Erfolgreich? Mehr Kunden aktivieren" }
+      }
+    },
+    "useCases": {
+      "title": "Was Ihre Kunden bekommen",
+      "subtitle": "KI-gestützte HR-Unterstützung, die echte Probleme löst",
+      "items": {
+        "1": {
+          "title": "Mitarbeiter-Self-Service",
+          "description": "Mitarbeiter erhalten sofortige Antworten auf Fragen zu Urlaub, Richtlinien und Verträgen."
+        },
+        "2": {
+          "title": "HR-Team-Entlastung",
+          "description": "50-70% weniger repetitive Fragen, mehr Zeit für strategische HR-Arbeit."
+        },
+        "3": {
+          "title": "24/7-Verfügbarkeit",
+          "description": "Antwortet immer, auch außerhalb der Geschäftszeiten und am Wochenende."
+        },
+        "4": {
+          "title": "Mehrsprachig",
+          "description": "Perfekt für internationale Kunden - unterstützt mehrere Sprachen."
+        }
+      }
+    },
+    "tiers": {
+      "title": "Partner-Stufen",
+      "subtitle": "Wachsen Sie mit Ihrem Erfolg - mehr Kunden, mehr Vorteile",
+      "silver": { 
+        "name": "Silver", 
+        "clients": "1+ Kunden", 
+        "discount": "Standardpreise", 
+        "support": "E-Mail-Support" 
+      },
+      "gold": { 
+        "name": "Gold", 
+        "clients": "3+ Kunden", 
+        "discount": "15% Rabatt", 
+        "support": "Dedizierter Partner-Manager" 
+      },
+      "platinum": { 
+        "name": "Platinum", 
+        "clients": "10+ Kunden", 
+        "discount": "25% Rabatt", 
+        "support": "Premium-Support + Co-Marketing" 
+      }
+    },
+    "security": {
+      "title": "Sicherheit für Ihre Kunden",
+      "subtitle": "Enterprise-Grade-Sicherheit, damit Sie mit Vertrauen verkaufen können",
+      "points": {
+        "1": { 
+          "title": "Datenisolation", 
+          "description": "Jeder Kunde hat seine eigene Umgebung. Keine Datenfreigabe zwischen Kunden." 
+        },
+        "2": { 
+          "title": "DSGVO-konform", 
+          "description": "Vollständig konform mit europäischen Datenschutzgesetzen." 
+        },
+        "3": { 
+          "title": "EU AI Act bereit", 
+          "description": "Vorbereitet auf die neue europäische KI-Verordnung." 
+        },
+        "4": { 
+          "title": "EU-Hosting", 
+          "description": "Alle Daten in EU-Rechenzentren gespeichert." 
+        }
+      },
+      "badges": {
+        "gdpr": "DSGVO-konform",
+        "euAiAct": "EU AI Act bereit",
+        "euHosted": "EU-Hosting",
+        "dataIsolation": "Datenisolation"
+      }
+    },
+    "cta": {
+      "title": "Starten Sie Ihren Partner-Pilot",
+      "subtitle": "Entdecken Sie, wie Volentis Ihr Dienstleistungsangebot stärken kann",
+      "benefits": {
+        "1": "Kostenloser Pilot mit 1 Kunden",
+        "2": "Keine Verpflichtung nach dem Pilot",
+        "3": "Auswertung nach 4 Wochen",
+        "4": "Dedizierter Onboarding-Support"
+      },
+      "booking": {
+        "title": "Partnergespräch vereinbaren",
+        "subtitle": "30 Minuten Vorstellung mit unserem Partner-Team",
+        "button": "Termin wählen",
+        "fallback": "Oder direkt per E-Mail an",
+        "trust": {
+          "free": "Kostenlos",
+          "duration": "30 Minuten",
+          "noCommitment": "Unverbindlich"
+        }
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Volentis B.V. Alle Rechte vorbehalten.",
+      "links": {
+        "privacy": "Datenschutz",
+        "terms": "AGB",
+        "security": "Sicherheit"
+      }
+    }
   }
 }

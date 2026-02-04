@@ -3139,5 +3139,163 @@
       "cta": "Obtenir une analyse ROI détaillée",
       "disclaimer": "Estimations basées sur 50-70% de déflection de tickets et un coût moyen de 25€ par ticket. Les résultats réels peuvent varier."
     }
+  },
+  "landingHRPartners": {
+    "meta": {
+      "title": "Programme Partenaire RH - Offrez à vos clients un support RH IA | Volentis.ai",
+      "description": "Devenez partenaire Volentis et offrez à vos clients un support RH alimenté par l'IA sous votre propre marque. White-label prêt, sans coûts de développement, revenus supplémentaires."
+    },
+    "hero": {
+      "badge": "Programme Partenaire",
+      "headline": "Offrez à vos clients un support RH alimenté par l'IA",
+      "subheadline": "Devenez partenaire Volentis et donnez à vos clients un accès 24/7 à un assistant RH intelligent. Sous votre propre marque, sans développer l'IA vous-même.",
+      "cta": "Planifier un appel partenaire",
+      "secondaryCta": "Voir les avantages partenaires",
+      "floatingBadge": "White-label prêt",
+      "trust": {
+        "whitelabel": "White-label prêt",
+        "euHosted": "Hébergé UE / RGPD",
+        "revenueShare": "Modèle de partage de revenus"
+      }
+    },
+    "stats": {
+      "partners": { "value": "15+", "label": "Partenaires actifs" },
+      "clients": { "value": "50+", "label": "Clients finaux" },
+      "revenue": { "value": "€2500+", "label": "MRR moyen par partenaire" },
+      "nps": { "value": "9.2", "label": "NPS Partenaire" }
+    },
+    "benefits": {
+      "title": "Pourquoi les partenaires choisissent Volentis",
+      "subtitle": "Élargissez votre offre de services sans coûts de développement",
+      "items": {
+        "1": { 
+          "title": "Source de revenus supplémentaire", 
+          "description": "Gagnez du MRR par client activé. En moyenne €500-1500 par client par mois." 
+        },
+        "2": { 
+          "title": "Aucun coût de développement", 
+          "description": "Nous construisons et maintenons l'IA. Vous vous concentrez sur les relations clients et les ventes." 
+        },
+        "3": { 
+          "title": "White-label prêt", 
+          "description": "Entièrement sous votre propre marque. Vos clients ne savent pas que c'est Volentis." 
+        },
+        "4": { 
+          "title": "Mise sur le marché rapide", 
+          "description": "Du pilote au live en 2-4 semaines. Pas d'implémentations de plusieurs mois." 
+        }
+      }
+    },
+    "process": {
+      "title": "Comment fonctionne le partenariat",
+      "subtitle": "De l'introduction au déploiement réussi en quatre étapes",
+      "steps": {
+        "1": { "title": "Appel découverte", "description": "30 minutes pour discuter de votre situation" },
+        "2": { "title": "Configurer le pilote", "description": "Commencez avec 1 client pour tester l'adéquation" },
+        "3": { "title": "Évaluation", "description": "Après 4 semaines, examiner ce qui fonctionne" },
+        "4": { "title": "Déploiement", "description": "Réussi ? Activez plus de clients" }
+      }
+    },
+    "useCases": {
+      "title": "Ce que vos clients obtiennent",
+      "subtitle": "Support RH alimenté par l'IA qui résout de vrais problèmes",
+      "items": {
+        "1": {
+          "title": "Self-service employés",
+          "description": "Les employés obtiennent des réponses instantanées sur les congés, les politiques et les contrats."
+        },
+        "2": {
+          "title": "Soulagement de l'équipe RH",
+          "description": "50-70% de questions répétitives en moins, plus de temps pour le travail RH stratégique."
+        },
+        "3": {
+          "title": "Disponibilité 24/7",
+          "description": "Répond toujours, même en dehors des heures de bureau et le week-end."
+        },
+        "4": {
+          "title": "Multilingue",
+          "description": "Parfait pour les clients internationaux - supporte plusieurs langues."
+        }
+      }
+    },
+    "tiers": {
+      "title": "Niveaux partenaires",
+      "subtitle": "Grandissez avec votre succès - plus de clients, plus d'avantages",
+      "silver": { 
+        "name": "Silver", 
+        "clients": "1+ clients", 
+        "discount": "Tarification standard", 
+        "support": "Support par email" 
+      },
+      "gold": { 
+        "name": "Gold", 
+        "clients": "3+ clients", 
+        "discount": "15% de réduction", 
+        "support": "Gestionnaire partenaire dédié" 
+      },
+      "platinum": { 
+        "name": "Platinum", 
+        "clients": "10+ clients", 
+        "discount": "25% de réduction", 
+        "support": "Support premium + co-marketing" 
+      }
+    },
+    "security": {
+      "title": "Sécurité pour vos clients",
+      "subtitle": "Sécurité de niveau entreprise pour vendre en toute confiance",
+      "points": {
+        "1": { 
+          "title": "Isolation des données", 
+          "description": "Chaque client a son propre environnement. Pas de partage de données entre clients." 
+        },
+        "2": { 
+          "title": "Conforme au RGPD", 
+          "description": "Entièrement conforme à la législation européenne sur la vie privée." 
+        },
+        "3": { 
+          "title": "Prêt pour l'EU AI Act", 
+          "description": "Préparé pour les nouvelles réglementations européennes sur l'IA." 
+        },
+        "4": { 
+          "title": "Hébergement UE", 
+          "description": "Toutes les données stockées dans des centres de données UE." 
+        }
+      },
+      "badges": {
+        "gdpr": "Conforme RGPD",
+        "euAiAct": "Prêt EU AI Act",
+        "euHosted": "Hébergé UE",
+        "dataIsolation": "Isolation des données"
+      }
+    },
+    "cta": {
+      "title": "Démarrez votre pilote partenaire",
+      "subtitle": "Découvrez comment Volentis peut renforcer votre offre de services",
+      "benefits": {
+        "1": "Pilote gratuit avec 1 client",
+        "2": "Aucun engagement après le pilote",
+        "3": "Évaluation après 4 semaines",
+        "4": "Support d'intégration dédié"
+      },
+      "booking": {
+        "title": "Planifier un appel partenaire",
+        "subtitle": "30 minutes d'introduction avec notre équipe partenaire",
+        "button": "Choisir un créneau",
+        "fallback": "Ou envoyez un email directement à",
+        "trust": {
+          "free": "Gratuit",
+          "duration": "30 minutes",
+          "noCommitment": "Sans engagement"
+        }
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Volentis B.V. Tous droits réservés.",
+      "links": {
+        "privacy": "Politique de Confidentialité",
+        "terms": "Conditions Générales",
+        "security": "Sécurité"
+      }
+    }
   }
 }
