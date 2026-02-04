@@ -283,7 +283,7 @@ export default function HRPartnersLandingPage() {
                   </svg>
                 </a>
                 <a
-                  href="#benefits"
+                  href="#how-it-works"
                   className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-volentis-navy/20 text-volentis-navy text-lg font-semibold rounded-xl hover:border-volentis-cyan hover:text-volentis-cyan transition-all"
                 >
                   {t('hero.secondaryCta')}
@@ -584,6 +584,7 @@ export default function HRPartnersLandingPage() {
 
       {/* How It Works Visual Section */}
       <section 
+        id="how-it-works"
         ref={tiersRef.ref}
         className={`py-20 md:py-32 bg-white transition-all duration-1000 ${
           tiersRef.isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
