@@ -7,7 +7,7 @@ import Image from 'next/image';
 import AnimatedBackground from '@/components/ui/AnimatedBackground';
 
 // Microsoft Bookings URL with UTM tracking
-const BOOKING_URL = 'https://outlook.office.com/bookwithme/user/e24fb78dcb5249b0ad5bdb243afdf606@bestpractice.consulting/meetingtype/zZR0QjjmwEKPKHbKSh0MdA2?anonymous&ep=mlink&utm_source=website&utm_medium=landing_page&utm_campaign=hr-partners-lp';
+const BOOKING_URL = 'https://outlook.office.com/bookwithme/user/e24fb78dcb5249b0ad5bdb243afdf606@bestpractice.company/meetingtype/yKbah1Aiw0-vtABEXfovSQ2?anonymous&ep=mlink&utm_source=website&utm_medium=landing_page&utm_campaign=hr-partners-lp';
 
 // Animation hook for scroll-triggered animations
 function useInView(threshold = 0.1) {
