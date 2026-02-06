@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
 import Button from '@/components/ui/Button';
+import { getAlternates } from '@/lib/seo';
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -13,6 +14,7 @@ export async function generateMetadata({ params }: PageProps) {
   return {
     title: t('metaTitle'),
     description: t('metaDescription'),
+    alternates: getAlternates('/product/deployment', locale),
   };
 }
 
